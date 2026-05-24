@@ -66,4 +66,7 @@ jobs:
     name: Publish to npm
     needs: release
     uses: ./.github/workflows/publish.yml
+    permissions:
+      contents: read
+      id-token: write
     secrets: inherit
