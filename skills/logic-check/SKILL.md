@@ -39,16 +39,17 @@ Does the reasoning hold? Give a verdict and name the specific weaknesses if it d
 
 ## Human Check-in
 
-Before proceeding, ask the user:
+Before proceeding, use the `AskUserQuestion` tool:
 
-**How do you want to run this?**
+- **Question:** "How do you want to run this?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Premises only** — Surface what's being taken as given and classify each, skip inference and fallacy sections
+  - **Refine the framing** — Adjust what we're analyzing before starting
 
-- **A) Full analysis** — complete all steps, reasoning shown throughout
-- **B) Key findings only** — bottom-line output, skip step-by-step detail
-- **C) Premises only** — surface what's being taken as given and classify each, skip inference and fallacy sections
-- **D) Refine the framing** — adjust what we're analyzing before starting
-
-Proceed based on their choice.
+Proceed based on their selection.
 
 ## Output Format
 

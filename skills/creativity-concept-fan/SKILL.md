@@ -49,16 +49,17 @@ After mapping the fan, identify: which concepts or sub-concepts did the user pro
 
 ## Human Check-in
 
-Before proceeding, ask the user:
+Before proceeding, use the `AskUserQuestion` tool:
 
-**How do you want to run this?**
+- **Question:** "How do you want to run this?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Concept level only** — Middle tier of the fan (concepts that serve the purpose), skip both immediate tactics and strategic alternatives
+  - **Refine the framing** — Adjust what we're analyzing before starting
 
-- **A) Full analysis** — complete all steps, reasoning shown throughout
-- **B) Key findings only** — bottom-line output, skip step-by-step detail
-- **C) Concept level only** — middle tier of the fan (concepts that serve the purpose), skip both immediate tactics and strategic alternatives
-- **D) Refine the framing** — adjust what we're analyzing before starting
-
-Proceed based on their choice.
+Proceed based on their selection.
 
 ## Output format
 

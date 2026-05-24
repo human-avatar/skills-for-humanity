@@ -51,16 +51,17 @@ Name 1–2 new directions that open up when each key assumption is questioned.
 
 ## Human Check-in
 
-Before proceeding, ask the user:
+Before proceeding, use the `AskUserQuestion` tool:
 
-**How do you want to run this?**
+- **Question:** "How do you want to run this?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Load-bearing assumptions only** — The ones that most change the problem if they turn out to be wrong
+  - **Refine the framing** — Adjust what we're analyzing before starting
 
-- **A) Full analysis** — complete all steps, reasoning shown throughout
-- **B) Key findings only** — bottom-line output, skip step-by-step detail
-- **C) Load-bearing assumptions only** — the ones that most change the problem if they turn out to be wrong
-- **D) Refine the framing** — adjust what we're analyzing before starting
-
-Proceed based on their choice.
+Proceed based on their selection.
 
 ## Output format
 

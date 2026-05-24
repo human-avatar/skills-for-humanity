@@ -33,16 +33,17 @@ Is any outcome bad enough that it would be unacceptable regardless of its probab
 
 ## Human Check-in
 
-Before proceeding, ask the user:
+Before proceeding, use the `AskUserQuestion` tool:
 
-**How do you want to run this?**
+- **Question:** "How do you want to run this?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **EV comparison table only** — Final expected values per option, skip the step-by-step breakdown
+  - **Refine the framing** — Adjust what we're analyzing before starting
 
-- **A) Full analysis** — complete all steps, reasoning shown throughout
-- **B) Key findings only** — bottom-line output, skip step-by-step detail
-- **C) EV comparison table only** — final expected values per option, skip the step-by-step breakdown
-- **D) Refine the framing** — adjust what we're analyzing before starting
-
-Proceed based on their choice.
+Proceed based on their selection.
 
 ## Output Format
 

@@ -45,16 +45,17 @@ workarounds are too costly, the right answer may be to re-examine the goal.
 
 ## Human Check-in
 
-Before proceeding, ask the user:
+Before proceeding, use the `AskUserQuestion` tool:
 
-**How do you want to run this?**
+- **Question:** "How do you want to run this?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Two best workarounds only** — Highest-feasibility paths around the constraint
+  - **Refine the framing** — Adjust what we're analyzing before starting
 
-- **A) Full analysis** — complete all steps, reasoning shown throughout
-- **B) Key findings only** — bottom-line output, skip step-by-step detail
-- **C) Two best workarounds only** — highest-feasibility paths around the constraint
-- **D) Refine the framing** — adjust what we're analyzing before starting
-
-Proceed based on their choice.
+Proceed based on their selection.
 
 ## Output Format
 

@@ -28,16 +28,17 @@ Applies aesthetic reasoning to any artifact — design, writing, code, product, 
 
 ## Confirm Direction
 
-After diagnosing which tool fits, present the recommendation before executing:
+After diagnosing which tool fits, use the `AskUserQuestion` tool to confirm direction. Construct the question dynamically to include your diagnosis:
 
-> My read: **[diagnosed tool]** — one sentence on why it fits.
+- **Question:** "My read: **[diagnosed tool]** — [one sentence on why it fits]. How would you like to proceed?"
+- **Header:** "Direction"
+- **Options:**
+  - **Yes, run that tool** — Execute the diagnosed skill immediately using the context already provided
+  - **Show all options** — List every skill in this category with one-line descriptions
+  - **Quick version** — Run a lighter-weight alternative if one exists for this situation
+  - **Re-diagnose** — Revisit the situation description for a different read
 
-- **A) Yes, run that tool**
-- **B) Show me all options** — list every skill in this category with one-line descriptions
-- **C) Quick version** — lighter-weight alternative for this situation, if one exists
-- **D) Re-diagnose** — describe the situation differently for a second read
-
-Wait for their selection before proceeding.
+Proceed based on their selection.
 
 ---
 

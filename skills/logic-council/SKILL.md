@@ -47,16 +47,17 @@ If the subject is vague, ask one clarifying question before proceeding.
 
 ### Human Check-in
 
-After framing the question, ask the user:
+After framing the question, use the `AskUserQuestion` tool:
 
-**How do you want to run the council?**
+- **Question:** "How do you want to run the council?"
+- **Header:** "Council scope"
+- **Options:**
+  - **Full council** — All 5 advisors + peer review + chair synthesis + saved transcript
+  - **Chair synthesis only** — Skip advisor outputs, deliver the verdict directly
+  - **Strongest objection only** — Skip all advisors and peer review, identify the single most devastating challenge to this reasoning
+  - **Adjust the framing** — Revisit the question before convening
 
-- **A) Full council** — all 5 advisors + peer review + chair synthesis + saved transcript
-- **B) Chair synthesis only** — skip advisor outputs, deliver the verdict directly
-- **C) Strongest objection only** — skip all advisors and peer review, identify the single most devastating challenge to this reasoning
-- **D) Adjust the framing** — revisit the question before convening
-
-Proceed based on their choice.
+Proceed based on their selection.
 
 ---
 

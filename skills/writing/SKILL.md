@@ -59,24 +59,24 @@ Prioritize skills that match the **type of output** the user needs:
 
 ### Step 4: Present Options
 
-Present the diagnosis and options clearly:
+Use the `AskUserQuestion` tool to present your diagnosis. Construct options dynamically based on the 2–3 best-fit skills you identified:
 
-> Here's what I think you need. Which fits your situation best?
->
-> **A) [Skill name]** — [one sentence on why this fits and what it produces]
-> **B) [Skill name]** — [one sentence on why this fits and what it produces]
-> **C) [Skill name]** — [one sentence on why this fits and what it produces]
-> **D) Show me more options** — list all skills in the Writing category
+- **Question:** "Here's what I think you need. Which fits your situation best?"
+- **Header:** "Skill"
+- **Options:** (build dynamically — 2–3 skill options plus a fallback)
+  - Label: [skill command name], Description: [one sentence on why this fits and what it produces]
+  - (repeat for each diagnosed skill, up to 3)
+  - Label: "More options", Description: "Show all skills in the Writing category"
 
-Wait for their selection.
+Proceed based on their selection.
 
 ---
 
 ### Step 5: Execute
 
 When the user picks an option:
-- **A, B, or C:** Run the selected skill immediately. Do not ask them to type another command. Use the context already gathered as the input.
-- **D:** Show the full skill table for the Writing category. Let them pick from the complete list, then execute.
+- **A selected skill:** Run it immediately. Do not ask them to type another command. Use the context already gathered as the input.
+- **More options:** Show the full skill table for the Writing category. Let them pick from the complete list, then execute.
 
 ---
 
