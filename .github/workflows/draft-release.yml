@@ -1,0 +1,56 @@
+name: Update draft release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  draft:
+    name: Update draft release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh draft release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Remove existing draft (recreating gives fresh auto-generated notes)
+          DRAFT_TAG=$(gh release list --json isDraft,tagName \
+            --jq '[.[] | select(.isDraft)] | first | .tagName' 2>/dev/null)
+
+          if [ -n "$DRAFT_TAG" ] && [ "$DRAFT_TAG" != "null" ]; then
+            gh release delete "$DRAFT_TAG" --yes --cleanup-tag 2>/dev/null || true
+          fi
+
+          # Suggest next patch version based on the latest published release
+          LATEST=$(gh release list --json tagName,isDraft \
+            --jq '[.[] | select(.isDraft | not)] | first | .tagName' 2>/dev/null)
+
+          if [ -n "$LATEST" ] && [ "$LATEST" != "null" ]; then
+            V="${LATEST#v}"
+            MAJOR=$(echo "$V" | cut -d. -f1)
+            MINOR=$(echo "$V" | cut -d. -f2)
+            PATCH=$(echo "$V" | cut -d. -f3)
+            NEXT="v$MAJOR.$MINOR.$((PATCH + 1))"
+          else
+            # Fall back to package.json version if no release exists yet
+            NEXT="v$(node -p "require('./package.json').version")"
+          fi
+
+          gh release create "$NEXT" \
+            --draft \
+            --generate-notes \
+            --title "$NEXT"
+
+          echo "Draft release $NEXT is ready"

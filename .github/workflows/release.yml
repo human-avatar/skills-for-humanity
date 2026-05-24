@@ -44,6 +44,16 @@ jobs:
           git commit -m "chore: release v${{ github.event.inputs.version }}"
           git push origin main
 
+      - name: Delete draft release if present
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DRAFT_TAG=$(gh release list --json isDraft,tagName \
+            --jq '[.[] | select(.isDraft)] | first | .tagName' 2>/dev/null)
+          if [ -n "$DRAFT_TAG" ] && [ "$DRAFT_TAG" != "null" ]; then
+            gh release delete "$DRAFT_TAG" --yes --cleanup-tag 2>/dev/null || true
+          fi
+
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
