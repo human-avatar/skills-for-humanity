@@ -43,6 +43,19 @@ one-way. Identify these explicitly.
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Reversibility verdict only** — is this reversible or not, and what that means for how much deliberation it deserves
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Decision:** [Statement — including the underlying commitment]

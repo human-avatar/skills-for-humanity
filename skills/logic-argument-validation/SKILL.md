@@ -50,6 +50,19 @@ Scan for common fallacies. Name them specifically if found:
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Validity test only** — skip premise truth assessment, test whether the conclusion follows from what's given
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Argument:**

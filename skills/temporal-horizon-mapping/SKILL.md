@@ -31,6 +31,19 @@ At which horizon do the most significant consequences actually land? Is that the
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Long-term consequences only** — what emerges beyond the obvious timeframe, skip near-term
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Horizon Table**

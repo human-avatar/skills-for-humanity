@@ -31,6 +31,19 @@ If the character test points in a different direction from the proposed decision
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Character verdict only** — what a person of genuine integrity would do, without elaboration
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 ### Situation and Decision

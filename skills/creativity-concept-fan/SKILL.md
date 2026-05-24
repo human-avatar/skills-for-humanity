@@ -47,6 +47,19 @@ For the most interesting sub-concepts, suggest 2–3 concrete implementations �
 **Step 5: Highlight the overlooked**
 After mapping the fan, identify: which concepts or sub-concepts did the user probably not consider before this exercise? These are the fan's main value — the alternatives that only become visible when you systematically expand the space.
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Concept level only** — middle tier of the fan (concepts that serve the purpose), skip both immediate tactics and strategic alternatives
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Goal:** [Immediate goal]

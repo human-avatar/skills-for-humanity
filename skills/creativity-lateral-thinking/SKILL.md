@@ -41,6 +41,19 @@ Aim for 5–7 lateral moves total. Quality over quantity: each one should repres
 
 After listing the moves, identify 1–2 that open the most interesting new territory. Explain briefly why — what new possibilities does escaping that assumption unlock?
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Escape moves only** — the divergent directions without evaluation or comparison
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 Structure your response as:

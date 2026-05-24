@@ -49,6 +49,19 @@ or high emotional weight), add a secondary: e.g., meeting followed by written su
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Channel recommendation only** — which medium and why, skip the full analysis
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Message assessment:**

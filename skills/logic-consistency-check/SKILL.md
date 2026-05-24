@@ -50,6 +50,19 @@ Implicit assumptions are the most dangerous source of inconsistency — stated n
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Contradictions list only** — flag the specific inconsistencies without full analysis
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Subject:** [what was checked]

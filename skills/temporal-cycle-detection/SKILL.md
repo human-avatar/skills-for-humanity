@@ -37,6 +37,19 @@ Where does this situation differ from the typical cycle? These divergences — n
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Current position only** — where in the cycle we are right now, skip the full cycle description
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Cycle Match:** [cycle name] — [why it fits]

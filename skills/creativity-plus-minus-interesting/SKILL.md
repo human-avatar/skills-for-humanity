@@ -37,6 +37,19 @@ What is surprising, unexpected, or thought-provoking about this? What questions 
 **Step 3: Overall assessment**
 After all three columns are complete, offer a brief overall assessment. This is not a verdict — it is an observation about what the PMI reveals. Which column is most heavily loaded? What is the key tension? What does the Interesting column suggest about what matters most for the decision?
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Minus list only** — what's genuinely problematic about this idea, skip plus and interesting
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Subject:** [What is being evaluated]

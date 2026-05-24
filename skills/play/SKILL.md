@@ -26,6 +26,21 @@ Applies playful, unconventional thinking to break fixed patterns and generate un
 
 ---
 
+## Confirm Direction
+
+After diagnosing which tool fits, present the recommendation before executing:
+
+> My read: **[diagnosed tool]** — one sentence on why it fits.
+
+- **A) Yes, run that tool**
+- **B) Show me all options** — list every skill in this category with one-line descriptions
+- **C) Quick version** — lighter-weight alternative for this situation, if one exists
+- **D) Re-diagnose** — describe the situation differently for a second read
+
+Wait for their selection before proceeding.
+
+---
+
 ## Constraint Inversion
 
 *Removes or inverts the main constraint to see what becomes possible.*

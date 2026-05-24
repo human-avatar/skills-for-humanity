@@ -30,6 +30,19 @@ Before selecting methods, diagnose what kind of thinking challenge this is:
 **Does the situation need a provocation to break it open?**
 → Use `po` for a deliberate jolt into non-obvious territory.
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Two methods only** — most relevant pair of tools applied at full depth, skip synthesis across more
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Session structure
 
 ### Opening: Diagnose the challenge

@@ -55,6 +55,19 @@ better (the approach is right but it's not landing).
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Opposing view only** — fully inhabit the opposite position, skip the reflection and re-integration
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Opposing Perspective:** [who + their vantage point and information set, stated

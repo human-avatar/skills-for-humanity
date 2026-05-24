@@ -59,6 +59,19 @@ for it to work? What is the testable version?
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Three connections only** — strongest forced connections between the stimulus and the problem
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Stuck Problem:** [description of the problem and what the stuck groove looks like]

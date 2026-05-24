@@ -28,6 +28,19 @@ Combine the base rate with adjustments to produce a final probability range, not
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Base rate only** — identify the historical rate without Bayesian adjustment
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Prediction:** [the specific outcome + current intuitive estimate]

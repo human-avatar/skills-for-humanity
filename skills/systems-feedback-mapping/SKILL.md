@@ -31,6 +31,19 @@ Which loop is currently driving system behavior? The dominant loop changes as co
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Reinforcing loops only** — what's accelerating in this system, skip balancing loops
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **System Boundary:** [scope + time horizon + behavior to explain]

@@ -1,0 +1,41 @@
+{
+  "name": "@human-avatar/skills-for-humanity",
+  "version": "1.0.0",
+  "description": "93 structured thinking tools for Claude Code — logic, ethics, creativity, decision-making, systems thinking, and more.",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "thinking-tools",
+    "mental-models",
+    "reasoning",
+    "decision-making",
+    "cognitive-frameworks",
+    "problem-solving",
+    "systems-thinking",
+    "ethics",
+    "creativity",
+    "ai-tools"
+  ],
+  "homepage": "https://github.com/human-avatar/skills-for-humanity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/human-avatar/skills-for-humanity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/human-avatar/skills-for-humanity/issues"
+  },
+  "license": "MIT",
+  "author": "Finn Fitzsimons <fitzsimons.finn@gmail.com>",
+  "bin": {
+    "skills-for-humanity": "./bin/install.js"
+  },
+  "files": [
+    "skills/",
+    "bin/",
+    "README.md",
+    ".claude-plugin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

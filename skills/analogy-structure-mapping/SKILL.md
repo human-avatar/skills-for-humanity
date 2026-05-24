@@ -45,6 +45,19 @@ predicts and what it cannot be relied upon to predict.
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Structural differences only** — where the two situations diverge, not where they align
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Situation A structure:** [actors / relationships / dynamics / constraints / goals]

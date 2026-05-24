@@ -67,6 +67,21 @@ If the question is too vague ("is our product ethical?"), ask one clarifying que
 
 ---
 
+### Human Check-in
+
+After framing the question, ask the user:
+
+**How do you want to run the council?**
+
+- **A) Full council** — all 5 advisors + peer review + chair synthesis + saved HTML report
+- **B) Chair synthesis only** — skip advisor outputs, deliver the verdict directly
+- **C) Two frameworks in conflict** — pick the two most relevant frameworks and show where they diverge
+- **D) Adjust the framing** — revisit the question before convening
+
+Proceed based on their choice.
+
+---
+
 ### Step 2: Convene the Council (5 subagents in parallel)
 
 Spawn all 5 framework advisors **simultaneously**. Each gets their framework identity and the framed question.

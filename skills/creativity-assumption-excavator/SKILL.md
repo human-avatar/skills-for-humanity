@@ -49,6 +49,19 @@ For each challenged assumption, what becomes possible when it is relaxed or inve
 
 Name 1–2 new directions that open up when each key assumption is questioned.
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Load-bearing assumptions only** — the ones that most change the problem if they turn out to be wrong
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Problem as framed:** [restated in user's language]

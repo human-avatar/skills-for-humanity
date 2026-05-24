@@ -46,6 +46,7 @@ The nearest neighbor: [Identity](../identity/) — which tests whether something
 | [`/ethics-consent-review`](ethics-consent-review.md) | Reviews UX flows for genuine (not checkbox) consent | Checkout flows, onboarding, notification settings, permissions, dark patterns |
 | [`/ethics-impact-scan`](ethics-impact-scan.md) | Quick pre-ship impact assessment | About to ship; want to surface obvious ethical problems before they're embedded |
 | [`/ethics-vendor-review`](ethics-vendor-review.md) | Evaluates vendors and partners against ethical standards | Evaluating a new supplier, SaaS tool, API, or partnership |
+| [`/ethics-empathy-circle`](ethics-empathy-circle.md) | Applies Lanier's Circle of Empathy to determine which entities deserve moral consideration | AI personhood; "does this system deserve rights?"; human downgrading; category errors |
 
 **Not sure which tool?** → Invoke `/ethics` — it diagnoses your situation and picks the right skill.
 

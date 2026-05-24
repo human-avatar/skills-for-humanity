@@ -36,6 +36,19 @@ Each archetype has a known high-leverage response. State it for this situation s
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Archetype identification only** — name the recurring system pattern, skip full dynamics analysis
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Archetype Match:** [archetype name] (secondary: [if any])

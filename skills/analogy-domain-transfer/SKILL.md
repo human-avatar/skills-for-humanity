@@ -41,6 +41,19 @@ it stop working? The break points tell you where to be careful and where the ins
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) One domain transfer** — the single most structurally similar domain, fully developed
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Problem (abstracted — no domain vocabulary):**

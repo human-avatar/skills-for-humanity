@@ -59,6 +59,19 @@ playing out differently, or that the cycle identification needs revision.
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Pattern match only** — the specific historical cycle this most resembles
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Cycle Match:** [cycle type + one-sentence rationale for why this is the right match]

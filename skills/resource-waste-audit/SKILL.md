@@ -42,6 +42,19 @@ Which waste removal would free the most resource? Prioritise the top three and p
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Biggest waste items only** — top 3 losses by magnitude, skip smaller inefficiencies
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 ### Waste Inventory

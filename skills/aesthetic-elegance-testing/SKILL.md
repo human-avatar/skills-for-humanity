@@ -51,6 +51,19 @@ element serves a secondary purpose worth naming. Distinguish them explicitly.
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Accidental complexity only** — what could be removed without losing anything that matters
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Core Job:** [one sentence — what the solution must accomplish to succeed]

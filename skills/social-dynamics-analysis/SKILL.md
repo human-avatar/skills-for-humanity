@@ -35,6 +35,19 @@ Which single dynamic is most affecting decision quality right now? That is where
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Dominant dynamic only** — the group pattern that most shapes this situation
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 ### Groupthink Signals

@@ -50,6 +50,19 @@ If they were in the room, what would they say? What objections would they raise?
 **Step 3: What does the full picture reveal?**
 After working through all perspectives, step back. What does the map of perspectives show? Where are the conflicts? Where is there more alignment than expected? What factor keeps appearing across multiple perspectives? What does this suggest about what needs attention?
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) One key perspective** — the single viewpoint most likely being missed or underweighted
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Situation:** [What is being decided or done]

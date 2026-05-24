@@ -35,6 +35,19 @@ Adjust the confidence level to reflect the evidence quality, gaps, and failure m
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Miscalibrations only** — flag where confidence exceeds evidence, skip well-calibrated claims
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Claim:** [specific, falsifiable statement]

@@ -22,6 +22,19 @@ Applies identity and values reasoning to decisions and directions. Diagnoses wha
 - **Want to know what your decisions actually reveal about your values** → values-clarification
 - **Unclear** → values-clarification; understanding actual values informs both mission alignment and character testing
 
+## Confirm Direction
+
+After diagnosing which tool fits, present the recommendation before executing:
+
+> My read: **[diagnosed tool]** — one sentence on why it fits.
+
+- **A) Yes, run that tool**
+- **B) Show me all options** — list every skill in this category with one-line descriptions
+- **C) Quick version** — lighter-weight alternative for this situation, if one exists
+- **D) Re-diagnose** — describe the situation differently for a second read
+
+Wait for their selection before proceeding.
+
 ---
 
 ## Character Testing

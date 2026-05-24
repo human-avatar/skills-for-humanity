@@ -24,6 +24,19 @@ Applies narrative and storytelling thinking to communication, strategy, and mean
 - **Communication is flat, forgettable, or not engaging** → tension-mapping
 - **Unclear** → structure-mapping; most communication problems are structural
 
+## Confirm Direction
+
+After diagnosing which tool fits, present the recommendation before executing:
+
+> My read: **[diagnosed tool]** — one sentence on why it fits.
+
+- **A) Yes, run that tool**
+- **B) Show me all options** — list every skill in this category with one-line descriptions
+- **C) Quick version** — lighter-weight alternative for this situation, if one exists
+- **D) Re-diagnose** — describe the situation differently for a second read
+
+Wait for their selection before proceeding.
+
 ---
 
 ## Audience Modeling

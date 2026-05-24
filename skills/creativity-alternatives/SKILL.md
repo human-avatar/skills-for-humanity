@@ -50,6 +50,19 @@ Only after the full list is complete, evaluate. For each option: briefly note wh
 **Step 5: Highlight the options worth developing**
 Identify 2–4 options that deserve further thinking. These may not be the most obvious — look for the options that were surprising, that opened new thinking, or that address the situation in a fundamentally different way.
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Generation only** — produce the alternatives without the comparison or evaluation phase
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Situation:** [What is being decided or planned]

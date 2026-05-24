@@ -24,6 +24,19 @@ Applies constraint reasoning to any situation where limits are shaping (or block
 - **Constraint is genuinely fixed and you need to route around it** → workaround-mapping
 - **Unclear** → hardness-testing first; most "constraints" dissolve under scrutiny
 
+## Confirm Direction
+
+After diagnosing which tool fits, present the recommendation before executing:
+
+> My read: **[diagnosed tool]** — one sentence on why it fits.
+
+- **A) Yes, run that tool**
+- **B) Show me all options** — list every skill in this category with one-line descriptions
+- **C) Quick version** — lighter-weight alternative for this situation, if one exists
+- **D) Re-diagnose** — describe the situation differently for a second read
+
+Wait for their selection before proceeding.
+
 ---
 
 ## Hardness Testing

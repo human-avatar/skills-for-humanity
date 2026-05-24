@@ -49,6 +49,19 @@ After mapping everything, identify the 3–5 factors that deserve the most atten
 **Step 4: Identify what's missing**
 What information would you need to properly assess this situation? What factors exist that you don't currently know enough about?
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Overlooked factors only** — factors most likely being ignored in this specific situation
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Decision/Action:** [What is being considered]

@@ -44,6 +44,19 @@ For each selected provocation, work through it using these movement methods. You
 **Step 4: Land somewhere real**
 From the movement above, identify 1–3 candidate ideas — genuinely new directions suggested by following the provocation. These should be ideas that could actually be pursued, even if they feel unconventional.
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Real-world ideas only** — skip the provocation mechanics, deliver the actionable directions the provocation unlocks
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Provocations**

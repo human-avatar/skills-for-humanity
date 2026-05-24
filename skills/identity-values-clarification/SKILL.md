@@ -30,6 +30,19 @@ Based on the evidence from Steps 2–4: what are the actual, operative values �
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Operative values only** — values actually revealed by decisions, not stated ones
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 ### Values Analysis

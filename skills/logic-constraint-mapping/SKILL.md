@@ -61,6 +61,19 @@ What's genuinely open? After removing hard and near-hard constraints, what remai
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Hard constraints only** — identify which limits are truly non-negotiable, skip soft and assumed
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Context:** [what decision or plan this constraint map is for]

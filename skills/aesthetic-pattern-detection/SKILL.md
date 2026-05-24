@@ -52,6 +52,19 @@ tension) or accidental (incoherence)?
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Pattern name only** — identify and name the underlying structure, skip full analysis
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Formal Patterns Present:** [list each pattern with one sentence on how it manifests]

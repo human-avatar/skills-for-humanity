@@ -40,6 +40,19 @@ After following several flows from the starting point, step back and describe th
 **Step 4: Identify the valuable pools**
 In river systems, pools form where water slows and collects. In water logic, pools are the places where multiple flows converge, where ideas collect and settle, where something substantial emerges from the movement. Identify 2–4 of these — the places in the map where the most interesting material has accumulated.
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Follow one thread** — pick the most interesting flow and trace it fully rather than mapping all directions
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 **Starting point:** [concept, idea, or question]

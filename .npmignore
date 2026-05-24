@@ -1,0 +1,12 @@
+# Dev / CI
+.github/
+.git/
+.gitignore
+.claude/
+_bmad/
+_bmad-output/
+hooks/
+CLAUDE.md
+
+# Docs (not needed at runtime — users can read them on GitHub)
+docs/

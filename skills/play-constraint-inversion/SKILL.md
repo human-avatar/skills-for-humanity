@@ -54,6 +54,19 @@ not obviously. Assumed constraints are the most valuable finding.
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) One inversion only** — the strongest constraint removal and what it makes possible
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Constraint:** [the specific, concrete real constraint]

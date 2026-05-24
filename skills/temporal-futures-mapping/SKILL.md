@@ -28,6 +28,19 @@ For each scenario: does the current plan work? Does it fail? Does it create new 
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Most probable future only** — skip possible and preferable variants, focus on what's likely
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Key Uncertainties:** [the 2–3 variables driving divergence, with their plausible ranges]

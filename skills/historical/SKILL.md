@@ -24,6 +24,19 @@ Applies historical reasoning to current situations. Diagnoses what kind of histo
 - **Making a decision and want to know what history says** → precedent-analysis
 - **Unclear** → precedent-analysis; finding the analogous situation usually reveals cycles, lessons, and failure modes together
 
+## Confirm Direction
+
+After diagnosing which tool fits, present the recommendation before executing:
+
+> My read: **[diagnosed tool]** — one sentence on why it fits.
+
+- **A) Yes, run that tool**
+- **B) Show me all options** — list every skill in this category with one-line descriptions
+- **C) Quick version** — lighter-weight alternative for this situation, if one exists
+- **D) Re-diagnose** — describe the situation differently for a second read
+
+Wait for their selection before proceeding.
+
 ---
 
 ## Cycle Detection

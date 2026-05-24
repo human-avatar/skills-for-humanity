@@ -47,6 +47,19 @@ yourself is more credible than responding to it when challenged.
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Top 3 objections only** — most likely showstoppers, skip the full map
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Proposal:** [Summary — what is being asked and what is being proposed]

@@ -44,6 +44,19 @@ For each hat:
 
 **Blue Hat close:** After the other five hats, the Blue Hat synthesis should answer: What does the full map tell us? What stands out? What deserves most attention? What is the recommended next step, if any?
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Black and yellow hats only** — critical risks and genuine benefits, skip the other four hats
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output format
 
 ## 🎩 White Hat — Facts

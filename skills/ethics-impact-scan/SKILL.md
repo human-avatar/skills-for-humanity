@@ -47,6 +47,19 @@ Produce a short list of ethical flags — things that warrant attention before s
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Go/no-go verdict only** — recommendation and top conditions, skip the benefit/harm map
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Subject:** [what is being scanned]

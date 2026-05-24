@@ -45,6 +45,21 @@ If the subject is vague, ask one clarifying question before proceeding.
 
 ---
 
+### Human Check-in
+
+After framing the question, ask the user:
+
+**How do you want to run the council?**
+
+- **A) Full council** — all 5 advisors + peer review + chair synthesis + saved transcript
+- **B) Chair synthesis only** — skip advisor outputs, deliver the verdict directly
+- **C) Strongest objection only** — skip all advisors and peer review, identify the single most devastating challenge to this reasoning
+- **D) Adjust the framing** — revisit the question before convening
+
+Proceed based on their choice.
+
+---
+
 ### Step 2: Convene the Council (5 subagents in parallel)
 
 Spawn all 5 framework advisors simultaneously.

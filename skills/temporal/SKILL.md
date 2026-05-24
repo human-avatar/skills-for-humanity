@@ -24,6 +24,19 @@ Applies temporal reasoning to timing, horizons, cycles, and futures. Diagnoses w
 - **Wondering whether to act now or wait** → timing-analysis
 - **Unclear** → horizon-mapping; mapping consequences across time scales usually surfaces timing questions, cycles, and futures simultaneously
 
+## Confirm Direction
+
+After diagnosing which tool fits, present the recommendation before executing:
+
+> My read: **[diagnosed tool]** — one sentence on why it fits.
+
+- **A) Yes, run that tool**
+- **B) Show me all options** — list every skill in this category with one-line descriptions
+- **C) Quick version** — lighter-weight alternative for this situation, if one exists
+- **D) Re-diagnose** — describe the situation differently for a second read
+
+Wait for their selection before proceeding.
+
 ---
 
 ## Cycle Detection

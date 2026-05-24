@@ -67,6 +67,19 @@ Test a causal claim by reasoning about the counterfactual world.
 
 ---
 
+## Human Check-in
+
+Before proceeding, ask the user:
+
+**How do you want to run this?**
+
+- **A) Full analysis** — complete all steps, reasoning shown throughout
+- **B) Key findings only** — bottom-line output, skip step-by-step detail
+- **C) Direct causes only** — map first-order causal links, skip downstream consequences
+- **D) Refine the framing** — adjust what we're analyzing before starting
+
+Proceed based on their choice.
+
 ## Output Format
 
 **Mode:** [Root Cause / Impact Mapping / Dependency Mapping / Counterfactual]
