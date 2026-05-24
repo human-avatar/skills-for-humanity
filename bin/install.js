@@ -28,14 +28,12 @@ const SCOPES = {
   user: {
     label: 'User',
     description: 'available in all projects',
-    pluginsDir: path.join(os.homedir(), '.claude', 'plugins', 'skills-for-humanity'),
-    settingsPath: path.join(os.homedir(), '.claude', 'settings.json'),
+    skillsDir: path.join(os.homedir(), '.claude', 'skills'),
   },
   project: {
     label: 'Project',
     description: `this project only  ${dim}(${process.cwd()})${reset}`,
-    pluginsDir: path.join(process.cwd(), '.claude', 'plugins', 'skills-for-humanity'),
-    settingsPath: path.join(process.cwd(), '.claude', 'settings.json'),
+    skillsDir: path.join(process.cwd(), '.claude', 'skills'),
   },
 };
 
@@ -49,17 +47,16 @@ const args = process.argv.slice(2);
 
 if (args.includes('--help') || args.includes('-h')) {
   log(`
-${bold}skills-for-humanity${reset} — 93 structured thinking tools for Claude Code
+${bold}skills-for-humanity${reset} — 131 structured thinking tools for Claude Code
 
 ${bold}Usage:${reset}
   npx @human-avatar/skills-for-humanity [options]
 
 ${bold}Options:${reset}
   ${cyan}--scope user|project${reset}  Install scope (prompted if omitted)
-                        ${dim}user:    ~/.claude/  — all projects${reset}
-                        ${dim}project: ./.claude/  — this project only${reset}
-  ${cyan}--dir <path>${reset}          Install to a custom directory (skips scope prompt)
-  ${cyan}--uninstall${reset}           Remove skills and clean up settings.json
+                        ${dim}user:    ~/.claude/skills/  — all projects${reset}
+                        ${dim}project: ./.claude/skills/  — this project only${reset}
+  ${cyan}--uninstall${reset}           Remove installed skills
   ${cyan}--help${reset}                Show this help message
 
 ${bold}After install:${reset}
@@ -86,20 +83,10 @@ function removeDir(dir) {
   if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
 }
 
-function readSettings(settingsPath) {
-  if (!fs.existsSync(settingsPath)) return {};
-  try { return JSON.parse(fs.readFileSync(settingsPath, 'utf8')); }
-  catch { return {}; }
-}
-
-function writeSettings(settingsPath, settings) {
-  fs.mkdirSync(path.dirname(settingsPath), { recursive: true });
-  fs.writeFileSync(settingsPath, JSON.stringify(settings, null, 2) + '\n');
-}
-
-function countDirs(dir) {
-  try { return fs.readdirSync(dir, { withFileTypes: true }).filter((e) => e.isDirectory()).length; }
-  catch { return '?'; }
+function ourSkillNames() {
+  return fs.readdirSync(SKILLS_SRC, { withFileTypes: true })
+    .filter((e) => e.isDirectory())
+    .map((e) => e.name);
 }
 
 function prompt(question) {
@@ -112,8 +99,8 @@ function prompt(question) {
 async function askScope() {
   log(`${bold}Where should the skills be installed?${reset}`);
   log();
-  log(`  ${cyan}1) User${reset}    — available in all projects  ${dim}(~/.claude/)${reset}`);
-  log(`  ${cyan}2) Project${reset} — this project only           ${dim}(./.claude/)${reset}`);
+  log(`  ${cyan}1) User${reset}    — available in all projects  ${dim}(~/.claude/skills/)${reset}`);
+  log(`  ${cyan}2) Project${reset} — this project only           ${dim}(./.claude/skills/)${reset}`);
   log();
 
   while (true) {
@@ -129,16 +116,6 @@ async function askScope() {
 // ---------------------------------------------------------------------------
 
 async function resolveTarget() {
-  // --dir takes precedence, skips scope prompt entirely
-  const dirFlag = args.indexOf('--dir');
-  if (dirFlag !== -1 && args[dirFlag + 1]) {
-    const custom = path.resolve(args[dirFlag + 1]);
-    // For custom dirs, write settings next to the dir's .claude parent if it exists,
-    // otherwise fall back to user settings.
-    const customSettings = path.join(path.dirname(custom), 'settings.json');
-    return { pluginsDir: custom, settingsPath: customSettings };
-  }
-
   // --scope flag skips the interactive prompt
   const scopeFlag = args.indexOf('--scope');
   if (scopeFlag !== -1 && args[scopeFlag + 1]) {
@@ -160,6 +137,26 @@ async function resolveTarget() {
 }
 
 // ---------------------------------------------------------------------------
+// Migrate: remove legacy pluginDirectories entry if present
+// ---------------------------------------------------------------------------
+
+function cleanLegacySettings(settingsPath, legacyDir) {
+  if (!fs.existsSync(settingsPath)) return;
+  try {
+    const settings = JSON.parse(fs.readFileSync(settingsPath, 'utf8'));
+    if (!Array.isArray(settings.pluginDirectories)) return;
+    const before = settings.pluginDirectories.length;
+    settings.pluginDirectories = settings.pluginDirectories.filter(
+      (d) => !path.resolve(d).includes('skills-for-humanity')
+    );
+    if (settings.pluginDirectories.length < before) {
+      fs.writeFileSync(settingsPath, JSON.stringify(settings, null, 2) + '\n');
+      log(`${dim}→ Removed legacy pluginDirectories entry from ${settingsPath}${reset}`);
+    }
+  } catch { /* ignore */ }
+}
+
+// ---------------------------------------------------------------------------
 // Uninstall
 // ---------------------------------------------------------------------------
 
@@ -169,27 +166,23 @@ async function uninstall() {
   log();
 
   const target = await resolveTarget();
+  const { skillsDir } = target;
 
-  removeDir(target.pluginsDir);
-  log(`${green}✓${reset} Removed ${dim}${target.pluginsDir}${reset}`);
-
-  try {
-    const settings = readSettings(target.settingsPath);
-    if (Array.isArray(settings.pluginDirectories)) {
-      const before = settings.pluginDirectories.length;
-      settings.pluginDirectories = settings.pluginDirectories.filter(
-        (d) => path.resolve(d) !== path.resolve(target.pluginsDir)
-      );
-      if (settings.pluginDirectories.length < before) {
-        writeSettings(target.settingsPath, settings);
-        log(`${green}✓${reset} Removed from ${dim}${target.settingsPath}${reset}`);
-      } else {
-        log(`${dim}→ Not found in settings — nothing to remove${reset}`);
-      }
+  const names = ourSkillNames();
+  let removed = 0;
+  for (const name of names) {
+    const dest = path.join(skillsDir, name);
+    if (fs.existsSync(dest)) {
+      removeDir(dest);
+      removed++;
     }
-  } catch (e) {
-    warn(`Could not update settings.json: ${e.message}`);
   }
+
+  log(`${green}✓${reset} Removed ${removed} skills from ${dim}${skillsDir}${reset}`);
+
+  // Clean up legacy pluginDirectories entry if present
+  const settingsPath = path.join(path.dirname(skillsDir), 'settings.json');
+  cleanLegacySettings(settingsPath, skillsDir);
 
   log();
   log(`${dim}Uninstall complete.${reset}`);
@@ -203,51 +196,35 @@ async function uninstall() {
 async function install() {
   log();
   log(`${bold}${cyan}skills-for-humanity${reset}`);
-  log(`${dim}93 structured thinking tools for Claude Code${reset}`);
+  log(`${dim}131 structured thinking tools for Claude Code${reset}`);
   log();
 
   const target = await resolveTarget();
-  const { pluginsDir, settingsPath } = target;
+  const { skillsDir } = target;
 
-  // 1. Copy skills
-  const isUpdate = fs.existsSync(pluginsDir);
-  log(`${isUpdate ? 'Updating' : 'Installing'} skills to ${yellow}${pluginsDir}${reset}…`);
+  // Copy each skill into the skills directory
+  const names = ourSkillNames();
+  const isUpdate = names.some((n) => fs.existsSync(path.join(skillsDir, n)));
+  log(`${isUpdate ? 'Updating' : 'Installing'} ${names.length} skills to ${yellow}${skillsDir}${reset}…`);
 
   try {
-    copyDir(SKILLS_SRC, pluginsDir);
-    log(`${green}✓${reset} Skills ${isUpdate ? 'updated' : 'installed'} (${countDirs(pluginsDir)} skills)`);
+    for (const name of names) {
+      copyDir(path.join(SKILLS_SRC, name), path.join(skillsDir, name));
+    }
+    log(`${green}✓${reset} ${names.length} skills ${isUpdate ? 'updated' : 'installed'}`);
   } catch (e) {
     err(`Could not copy skills: ${e.message}`);
     process.exit(1);
   }
 
-  // 2. Register in settings.json
-  try {
-    const settings = readSettings(settingsPath);
-    if (!Array.isArray(settings.pluginDirectories)) settings.pluginDirectories = [];
+  // Clean up legacy pluginDirectories entry if present
+  const settingsPath = path.join(path.dirname(skillsDir), 'settings.json');
+  cleanLegacySettings(settingsPath, skillsDir);
 
-    const already = settings.pluginDirectories.some(
-      (d) => path.resolve(d) === path.resolve(pluginsDir)
-    );
-
-    if (!already) {
-      settings.pluginDirectories.push(pluginsDir);
-      writeSettings(settingsPath, settings);
-      log(`${green}✓${reset} Registered in ${dim}${settingsPath}${reset}`);
-    } else {
-      log(`${dim}→ Already registered in ${settingsPath}${reset}`);
-    }
-  } catch (e) {
-    warn(`Could not update settings.json: ${e.message}`);
-    log();
-    log(`Add this to ${yellow}${settingsPath}${reset} manually:`);
-    log(`  ${dim}{ "pluginDirectories": ["${pluginsDir}"] }${reset}`);
-  }
-
-  // 3. Done
+  // Done
   log();
   log(`${bold}Done.${reset} Restart Claude Code, then:`);
-  log(`  ${cyan}/human${reset}      ${dim}— route to the right skill from all 93${reset}`);
+  log(`  ${cyan}/human${reset}      ${dim}— route to the right skill from all 131${reset}`);
   log(`  ${cyan}/ethics${reset}     ${dim}— ethical analysis${reset}`);
   log(`  ${cyan}/logic${reset}      ${dim}— validate and pressure-test reasoning${reset}`);
   log(`  ${cyan}/creativity${reset} ${dim}— de Bono suite + brainstorm${reset}`);
