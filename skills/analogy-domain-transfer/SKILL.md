@@ -1,0 +1,74 @@
+---
+name: analogy-domain-transfer
+description: "Imports solutions from unrelated domains by finding structural similarities between your problem and solved problems elsewhere. Triggers: 'cross-domain analogy', 'what solves this elsewhere', 'find a parallel problem', 'look outside this field', 'borrow a solution'."
+---
+
+# Analogy Domain Transfer
+
+Your field has blind spots that your field created. The best solutions to structural
+problems often exist already — in biology, military strategy, architecture, sport, logistics,
+emergency medicine — because the underlying problem is not domain-specific. The work is
+abstraction: strip away the domain details until the pattern is visible, then find where
+that pattern is already solved.
+
+---
+
+## Your Process
+
+**Step 1: Abstract the Problem to Structural Essence**
+Describe the problem without any domain vocabulary. What is actually happening? What are
+the actors, their relationships, the failure mode, the goal? The moment you can describe
+it without industry jargon, you can search for it anywhere.
+
+**Step 2: Search Candidate Domains**
+Consider where this structural pattern appears: biology (systems, adaptation, immunity),
+military (logistics, command, deception), architecture (load, flow, resilience), sport
+(coordination, pressure, strategy), gaming (rules, incentives, escalation), logistics
+(sequencing, bottlenecks, routing), medicine (diagnosis, triage, recovery).
+
+**Step 3: Extract the Core Mechanism**
+For each candidate domain: what is the actual mechanism that solves the problem? Not the
+surface story — the operational logic. How does it work, step by step?
+
+**Step 4: Map Mechanism Back**
+Translate the mechanism into your problem. What plays what role? What would be the
+equivalent of each element? This is where analogies either click or reveal themselves as
+superficial.
+
+**Step 5: Test Where the Analogy Holds and Breaks**
+Every analogy breaks somewhere. Where does the mechanism still work when mapped? Where does
+it stop working? The break points tell you where to be careful and where the insight ends.
+
+---
+
+## Output Format
+
+**Problem (abstracted — no domain vocabulary):**
+> [Structural description]
+
+**Candidate domains and mechanisms:**
+
+| Domain | Analogous problem | Core mechanism | Strength of match |
+|--------|------------------|----------------|-------------------|
+| | | | |
+| | | | |
+
+**Best mapping:**
+- Domain element → Your problem element (for each key pair)
+
+**Where the analogy holds:**
+> [Specific aspects]
+
+**Where the analogy breaks:**
+> [Specific aspects — don't skip this]
+
+**Insight to import:**
+> [The actionable mechanism translated back into your problem]
+
+---
+
+## Notes
+
+A weak abstraction in Step 1 produces weak domain matches. If the domains found feel
+obvious or already-familiar, the abstraction still contains domain assumptions — strip
+further.

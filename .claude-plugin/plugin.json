@@ -1,0 +1,22 @@
+{
+  "name": "skills-for-humanity",
+  "description": "A structured toolkit of thinking skills for Claude Code — covering logic, ethics, creativity, decision-making, systems thinking, communication, and more. Each skill is an invokable command that applies a specific reasoning framework to any situation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Finn Fitzsimons",
+    "email": "fitzsimons.finn@gmail.com"
+  },
+  "repository": "https://github.com/human-avatar/skills-for-humanity",
+  "license": "MIT",
+  "keywords": [
+    "thinking-tools",
+    "mental-models",
+    "reasoning",
+    "decision-making",
+    "cognitive-frameworks",
+    "problem-solving",
+    "systems-thinking",
+    "ethics",
+    "creativity"
+  ]
+}

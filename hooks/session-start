@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# SessionStart hook for finnskill plugin
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PLUGIN_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+escape_for_json() {
+    local s="$1"
+    s="${s//\\/\\\\}"
+    s="${s//\"/\\\"}"
+    s="${s//$'\n'/\\n}"
+    s="${s//$'\r'/\\r}"
+    s="${s//$'\t'/\\t}"
+    printf '%s' "$s"
+}
+
+skills_list=$(ls "${PLUGIN_ROOT}/skills/" 2>/dev/null | tr '\n' ' ' || echo "")
+skills_escaped=$(escape_for_json "$skills_list")
+
+session_context="<context>You have finnskill loaded. Available skills: ${skills_escaped}Use the Skill tool to invoke any skill by name.</context>"
+
+if [ -n "${CLAUDE_PLUGIN_ROOT:-}" ] && [ -z "${COPILOT_CLI:-}" ]; then
+    printf '{\n  "hookSpecificOutput": {\n    "hookEventName": "SessionStart",\n    "additionalContext": "%s"\n  }\n}\n' "$session_context"
+else
+    printf '{\n  "additionalContext": "%s"\n}\n' "$session_context"
+fi
+
+exit 0
