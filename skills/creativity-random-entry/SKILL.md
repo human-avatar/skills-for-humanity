@@ -73,3 +73,17 @@ Proceed based on their selection.
 The test of a good Random Entry session: did it produce at least one idea that the user genuinely didn't see coming? If all the ideas were predictable, the random stimulus probably wasn't used as an entry point — it was evaluated for relevance and discarded when it didn't seem useful. Force the connections. The seemingly absurd ones are often the most valuable.
 
 Resist the urge to choose a "good" random word. Randomness is the mechanism. Trust it.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Random entry applied. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-lateral-thinking` — Use the forced connections as lateral move inputs
+  - `/creativity-alternatives` — Generate alternatives from the most interesting connections
+  - `/creativity-assumption-excavator` — Use the random entry to surface hidden assumptions
+  - **Done** — Wrap up and synthesise what we have so far

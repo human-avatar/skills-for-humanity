@@ -95,3 +95,17 @@ classify it first — then respond to the actual type. Treating emotional resist
 as intellectual (presenting more data) is a common and costly mistake. Treating
 political resistance as emotional (offering reassurance) is equally ineffective.
 Classification is the work.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Resistance diagnosed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/emotional-trust-audit` — Assess whether trust issues are fuelling the resistance
+  - `/communication-objection-mapping` — Map objections rooted in the resistance
+  - `/strategy-alliance` — Build alliances to reduce or bypass the resistance
+  - **Done** — Wrap up and synthesise what we have so far

@@ -91,3 +91,17 @@ Coherence is not uniformity — contrast and tension can serve a unified vision.
 question is whether every element is working toward the same intended identity, even
 if they take different forms to do it. The most common source of incoherence is not
 bad judgment but absent shared vision — people optimised locally for different things.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Coherence checked. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/aesthetic-elegance-testing` — Test the elegance of the coherent elements
+  - `/writing-restructure` — Restructure incoherent elements
+  - `/logic-consistency-check` — Check logical consistency alongside aesthetic coherence
+  - **Done** — Wrap up and synthesise what we have so far

@@ -65,3 +65,17 @@ For each alliance being proposed: is it based on genuine shared interest, or on 
 ## Notes
 
 Alliances multiply effective force — pair with `/strategy-force-economy` when the question is how to achieve an objective against a stronger opponent. Knowing what parties actually want requires intelligence work — pair with `/strategy-intelligence` when the party map is uncertain. Use `/strategy-terrain` to understand which parties hold positions of structural advantage that would make them particularly valuable allies or particularly dangerous opponents.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Alliance strategy mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/game-theory-coalition` — Analyse the coalition game dynamics of the alliance
+  - `/social-coalition-mapping` — Map social dynamics within the alliance
+  - `/strategy-positioning` — Position to benefit from the alliance
+  - **Done** — Wrap up and synthesise what we have so far

@@ -63,3 +63,17 @@ The internal change enabled by the dark night allows the external problem to res
 - Pairs with `/writing-arc-design` — the internal arc must mirror the external structure; structural diagnosis and arc design must happen together for the fix to hold.
 - Pairs with `/writing-restructure` when the beats exist but are in the wrong sequence or proportion — restructure addresses arrangement, not the beats themselves.
 - Pairs with `/writing-scene-construction` when the structural beats are present but individual scenes within them are not delivering what the structure requires.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Plot structured. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-arc-design` — Design the arc within the plot structure
+  - `/writing-character-development` — Develop characters in service of the plot
+  - `/narrative-tension-mapping` — Map tension across the plot structure
+  - **Done** — Wrap up and synthesise what we have so far

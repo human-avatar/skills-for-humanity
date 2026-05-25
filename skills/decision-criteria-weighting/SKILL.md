@@ -87,3 +87,17 @@ Proceed based on their selection.
 The value of this exercise is in the weighting step, not the scoring. Most decision
 disagreements are disagreements about what matters, not about how options perform.
 Making weights explicit moves the conversation to the right place.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Criteria weighted and options ranked. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-premortem-analysis` — Stress-test the winning option before committing
+  - `/decision-reversibility-analysis` — Assess how reversible the top option is
+  - `/ethics-check` — Check whether the top option is ethically sound
+  - **Done** — Wrap up and synthesise what we have so far

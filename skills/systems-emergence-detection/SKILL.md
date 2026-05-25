@@ -64,3 +64,17 @@ Proceed based on their selection.
 ## Notes
 
 Removing a component to fix an emergent property rarely works — the interaction pattern will reproduce the property with whatever components remain. Target the interaction, not the part.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Emergent properties detected. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/systems-leverage-analysis` — Find leverage in the emergent properties
+  - `/systems-feedback-mapping` — Map feedback loops creating the emergence
+  - `/strategy-positioning` — Position relative to the emergent dynamics
+  - **Done** — Wrap up and synthesise what we have so far

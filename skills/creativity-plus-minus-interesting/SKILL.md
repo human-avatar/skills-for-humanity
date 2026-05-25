@@ -79,3 +79,17 @@ Proceed based on their selection.
 ## The discipline
 
 The quality of a PMI depends entirely on the honesty of each column. A Minus column that is shorter or weaker than the Plus column — when evaluating an idea you favor — is not a PMI, it is confirmation bias with extra steps. Apply equal scrutiny to both directions. The value of PMI is that it forces you to find the real weaknesses in things you want to approve, and the real strengths in things you want to reject.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "PMI complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Weight criteria based on what the Plus and Minus revealed
+  - `/decision-premortem-analysis` — Run a premortem on the Plus — what if it fails anyway?
+  - `/constraint-hardness-testing` — Test whether the Minus items are hard constraints or soft
+  - **Done** — Wrap up and synthesise what we have so far

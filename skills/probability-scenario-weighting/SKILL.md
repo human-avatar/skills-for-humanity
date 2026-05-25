@@ -65,3 +65,17 @@ Proceed based on their selection.
 ## Notes
 
 Resist collapsing scenarios into "optimistic / realistic / pessimistic" — this framing anchors on the most optimistic outcome and treats the middle case as truth. Build scenarios around key uncertainties, not emotional valence.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Scenarios weighted. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-premortem-analysis` — Run a premortem on the worst weighted scenarios
+  - `/decision-criteria-weighting` — Weight decision criteria against scenario probabilities
+  - `/temporal-horizon-mapping` — Map the weighted scenarios across time horizons
+  - **Done** — Wrap up and synthesise what we have so far

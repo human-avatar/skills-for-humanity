@@ -87,3 +87,17 @@ Proceed based on their selection.
 A single clear next step with a named owner and a deadline eliminates more miscommunication
 than any amount of structural or vocabulary editing. If the ask is ambiguous, fix that
 before anything else.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Clarity audited. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-line-editing` — Fix the clarity issues the audit identified
+  - `/communication-objection-mapping` — Address the objections hiding behind confusing points
+  - `/writing-restructure` — Restructure if the clarity issues are structural
+  - **Done** — Wrap up and synthesise what we have so far

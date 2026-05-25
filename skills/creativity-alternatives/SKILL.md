@@ -83,3 +83,17 @@ Proceed based on their selection.
 ## The discipline
 
 The hardest part of APC is not generating options — it's suspending evaluation while generating. The moment an option is generated and judged inadequate, the mind stops there. Maintain the suspension. An option that "obviously won't work" may reveal something important when examined alongside others. Complete the list first. Always.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Alternatives generated. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Evaluate the alternatives against weighted criteria
+  - `/creativity-plus-minus-interesting` — Assess the strongest alternatives fairly before choosing
+  - `/constraint-hardness-testing` — Test which constraints rule out options and which don't
+  - **Done** — Wrap up and synthesise what we have so far

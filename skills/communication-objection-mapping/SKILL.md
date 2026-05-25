@@ -86,3 +86,17 @@ The classification in Step 4 requires honesty. The temptation is to classify all
 objections as unfounded — that they reflect misunderstanding rather than legitimate
 concern. If an objection is legitimate and you dismiss it, you lose credibility on
 everything else.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Objections mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-argument` — Build arguments that directly address each mapped objection
+  - `/communication-clarity-audit` — Check that responses to objections are clear
+  - `/logic-argument-validation` — Validate the arguments you'll use to address key objections
+  - **Done** — Wrap up and synthesise what we have so far

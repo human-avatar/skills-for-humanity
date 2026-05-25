@@ -73,3 +73,17 @@ What would someone fully committed to this mission do? Does the proposal fit?
 ## Notes
 
 "Adjacent" and "Mission-Expanding" are not the same thing — adjacent means close but not serving the mission, while mission-expanding means the mission is genuinely growing. Be precise about which applies.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Mission alignment assessed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/identity-values-clarification` — Clarify the values behind the mission
+  - `/decision-criteria-weighting` — Weight decisions against mission alignment
+  - `/strategy-positioning` — Position strategy to serve the mission
+  - **Done** — Wrap up and synthesise what we have so far

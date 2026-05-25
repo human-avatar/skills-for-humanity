@@ -77,3 +77,17 @@ If the scene serves only one function, it is at risk. Consider whether it can be
 - Pairs with `/writing-dialogue` for scene-specific dialogue repair.
 - Pairs with `/writing-inconsistency-audit` for scene-level continuity errors (character knows something they shouldn't, objects change location, etc.).
 - Pairs with `/writing-plot-structure` when diagnosing whether a scene is failing because the structural beat it belongs to is itself failing.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Scene constructed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-dialogue` — Add dialogue to the scene
+  - `/writing-prose-elevation` — Elevate the scene's prose
+  - `/aesthetic-coherence-check` — Check the scene coheres with the whole
+  - **Done** — Wrap up and synthesise what we have so far

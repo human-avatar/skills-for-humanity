@@ -82,3 +82,17 @@ For the rules governing how a coalition is formed and how players reveal their c
 For analysis of the strategic (non-cooperative) interactions happening inside the coalition — after it forms — use `/game-theory-equilibrium` or `/game-theory-iterated`.
 
 Pairs with: `/strategy-alliance` (strategic and contextual dimension of partnership decisions), `/social-coalition-mapping` (the social and power dynamics of alliance building), `/game-theory-mechanism-design` (designing the process for fair coalition formation).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Coalition dynamics analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/social-coalition-mapping` — Map social dynamics within the coalition in practice
+  - `/game-theory-mechanism-design` — Design rules to stabilise the coalition
+  - `/strategy-alliance` — Turn coalition analysis into concrete alliance strategy
+  - **Done** — Wrap up and synthesise what we have so far

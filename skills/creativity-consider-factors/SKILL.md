@@ -86,3 +86,17 @@ Proceed based on their selection.
 ## Notes
 
 CAF is most valuable when it surfaces factors the user didn't think to include. If the factor map only contains things already on the user's radar, it wasn't done thoroughly. Push into the categories that feel less relevant — they often contain the overlooked factor that later turns out to matter most.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "All factors mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-premortem-analysis` — Stress-test the plan now that all factors are in view
+  - `/resource-allocation-analysis` — Allocate resources across the factors identified
+  - `/ethics-impact-scan` — Scan for ethical impact in the factors surfaced
+  - **Done** — Wrap up and synthesise what we have so far

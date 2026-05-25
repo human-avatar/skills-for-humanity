@@ -100,3 +100,17 @@ The random stimulus works not because it contains the answer but because connect
 to it forces abandonment of the stuck groove. A connection that seems absurd at first
 may open a direction that a rational search would never find. Resist the urge to
 discard connections quickly — the most useful ones often require a second look.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Stimuli generated. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-lateral-thinking` — Use the stimuli as lateral move inputs
+  - `/creativity-random-entry` — Build further on the generated stimuli
+  - `/creativity-assumption-excavator` — Use the stimuli to surface hidden assumptions
+  - **Done** — Wrap up and synthesise what we have so far

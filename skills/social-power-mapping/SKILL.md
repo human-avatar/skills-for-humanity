@@ -66,3 +66,17 @@ Describe the key influence flows: who shapes whom, where deference occurs, and w
 ## Notes
 
 Update the power map when the situation changes significantly — power is not static. The most important finding is usually the gap between the org chart and actual influence.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Power mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-positioning` — Position relative to the power dynamics
+  - `/social-coalition-mapping` — Build coalitions around power concentrations
+  - `/social-incentive-analysis` — Analyse what incentives map to each power centre
+  - **Done** — Wrap up and synthesise what we have so far

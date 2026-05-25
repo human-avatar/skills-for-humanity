@@ -85,3 +85,17 @@ Proceed based on their selection.
 ## Notes
 
 Use ethics-council when the situation requires deeper deliberation, peer challenge between frameworks, or a formal report. Use ethics-impact-scan for a lighter first pass. This skill sits between — a complete, fast, single-pass assessment.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Ethics checked. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/ethics-council` — Run adversarial ethical peer review for deeper scrutiny
+  - `/ethics-impact-scan` — Scan for affected parties the check may have missed
+  - `/decision-premortem-analysis` — Stress-test the ethically-checked plan
+  - **Done** — Wrap up and synthesise what we have so far

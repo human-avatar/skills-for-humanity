@@ -101,3 +101,17 @@ The session's value depends on the depth of each method application, not the num
 The synthesis is the hardest and most important part. Most sessions produce insights in the individual method sections. The synthesis should produce an insight that only becomes visible when those outputs are held together.
 
 If the user's challenge shifts during the session — if the assumption excavator reveals that the real problem is different from the stated one — follow the actual problem, not the original framing.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Brainstorm complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Evaluate the brainstorm output against weighted criteria
+  - `/creativity-plus-minus-interesting` — Assess the top ideas fairly before committing
+  - `/constraint-hardness-testing` — Test which ideas are actually feasible
+  - **Done** — Wrap up and synthesise what we have so far

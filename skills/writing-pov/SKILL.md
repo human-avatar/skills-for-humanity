@@ -70,3 +70,17 @@ Does the chosen POV serve the story's core effect? Consider:
 - The hardest violations to catch in close third: the narrator describing what the POV character's own face looks like (characters don't see their own faces), and the narration accessing physical sensations the POV character has gone numb to (because the author needs the reader to feel them).
 - Pairs with `/writing-voice-consistency` — POV and voice are linked; a close-third narration that suddenly takes on the author's philosophical voice rather than the character's is both a POV violation and a voice inconsistency.
 - Pairs with `/writing-inconsistency-audit` — POV violations are logged there as a category; this skill provides the deeper analysis when they're numerous or the POV choice itself is the problem.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "POV established. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-voice-consistency` — Ensure POV is voice-consistent throughout
+  - `/writing-scene-construction` — Construct scenes from the established POV
+  - `/writing-character-development` — Develop the character whose POV this is
+  - **Done** — Wrap up and synthesise what we have so far

@@ -69,3 +69,17 @@ Paragraph summary: how does the specific picture differ from the abstract one? W
 ## Notes
 
 This skill is most useful immediately before a decision, a diagnosis, or a design choice — the moment when abstractions are about to drive action. Getting specific at that point can prevent expensive errors.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Details mined. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/sensory-signal-detection` — Detect signals in the mined details
+  - `/writing-scene-construction` — Use the mined details in scene construction
+  - `/aesthetic-pattern-detection` — Detect aesthetic patterns in the details
+  - **Done** — Wrap up and synthesise what we have so far

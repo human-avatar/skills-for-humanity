@@ -88,3 +88,17 @@ Proceed based on their selection.
 The most common error is defaulting to async written (Slack, email) for messages with
 high emotional weight, because it feels faster and less confrontational. The short-term
 comfort always costs more in trust and rework than the difficult conversation would have.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Medium selected. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Model the audience for the selected medium
+  - `/writing-audience-calibration` — Calibrate the writing for the chosen medium
+  - `/communication-clarity-audit` — Audit clarity for the selected medium
+  - **Done** — Wrap up and synthesise what we have so far

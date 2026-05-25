@@ -112,3 +112,17 @@ Triage identifies what you're obligated to do. Whether you do it is a leadership
 Where the triage surfaces a significant ethical dimension that wasn't being weighed in the response — name it explicitly. The value of this skill in a crisis is not reassurance; it is surfacing the thing that would later be described as "what we should have done."
 
 For complex incidents with significant ongoing consequences, follow triage with a full `ethics-council` session once the immediate crisis is stabilised.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Crisis triaged. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-premortem-analysis` — Stress-test the crisis response plan
+  - `/communication-audience-modeling` — Model how affected parties will receive the response
+  - `/ethics-empathy-circle` — Apply structured empathy to those affected by the crisis
+  - **Done** — Wrap up and synthesise what we have so far

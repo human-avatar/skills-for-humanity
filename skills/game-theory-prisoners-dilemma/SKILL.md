@@ -79,3 +79,17 @@ If the structure is right but the rules are wrong — you want to change the gam
 For analysis of the stable outcome of the one-shot version (and confirmation that defection is indeed the Nash equilibrium), use `/game-theory-equilibrium`.
 
 Pairs with: `/social-incentive-analysis` (the social and power dynamics around the same incentive problem), `/strategy-alliance` (the strategic logic of forming cooperative relationships).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Dilemma analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/game-theory-mechanism-design` — Design away from mutual defection
+  - `/social-incentive-analysis` — Align incentives to encourage cooperation
+  - `/game-theory-iterated` — Test whether cooperation emerges with repeated interaction
+  - **Done** — Wrap up and synthesise what we have so far

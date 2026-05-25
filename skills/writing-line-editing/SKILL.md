@@ -85,3 +85,17 @@ For each: quote the throat-clearing opener + write the sentence as it should sta
 - The zombie noun pattern is the single highest-return edit pass: nominalisations are extremely common in professional and academic writing, and every conversion strengthens the sentence.
 - Pairs with `/writing-prose-elevation` — these two skills work in sequence: line editing removes the clutter, prose elevation raises the quality.
 - Pairs with `/writing-tone-alignment` — many tone corrections are sentence-level changes; the two passes can often be combined.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Line editing complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-voice-consistency` — Check voice is consistent after editing
+  - `/writing-tone-alignment` — Check tone after editing
+  - `/writing-prose-elevation` — Elevate the edited prose
+  - **Done** — Wrap up and synthesise what we have so far

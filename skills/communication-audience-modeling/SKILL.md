@@ -81,3 +81,17 @@ Proceed based on their selection.
 The threshold condition in Step 6 is the most commonly skipped and most valuable element.
 A message that tries to make its main point before meeting the threshold condition will be
 filtered out before it arrives.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Audience modelled. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-objection-mapping` — Map the objections this audience will raise
+  - `/communication-clarity-audit` — Audit whether the message is clear to this specific audience
+  - `/writing-tone-alignment` — Align tone to the audience model
+  - **Done** — Wrap up and synthesise what we have so far

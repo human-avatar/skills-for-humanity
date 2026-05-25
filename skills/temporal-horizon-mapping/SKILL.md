@@ -64,3 +64,17 @@ Proceed based on their selection.
 ## Notes
 
 Short-term and long-term are not automatically in conflict — some decisions improve all horizons. Identify those as high-confidence choices; the real analysis is needed where horizons diverge.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Horizons mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/temporal-futures-mapping` — Map futures at each horizon
+  - `/temporal-timing-analysis` — Time actions across the horizons
+  - `/strategy-timing` — Align strategy with the horizon structure
+  - **Done** — Wrap up and synthesise what we have so far

@@ -91,3 +91,17 @@ Proceed based on their selection.
 ## Notes
 
 Use logic-council when the situation requires adversarial peer challenge between logical positions. Use logic-argument-validation for a single, focused argument. This skill covers complete reasoning chains — plans, proposals, analyses — in a single pass.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Reasoning assessed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-fixer` — Fix the specific problems the check identified
+  - `/constraint-hardness-testing` — Test whether the flaws are hard constraints or soft assumptions
+  - `/decision-premortem-analysis` — Stress-test the plan the reasoning supports
+  - **Done** — Wrap up and synthesise what we have so far

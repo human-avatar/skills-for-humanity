@@ -89,3 +89,17 @@ Proceed based on their selection.
 The most useful output is the safe scope statement — a positive claim about where the
 analogy is reliable. Discarding an analogy entirely because it has limits wastes the
 genuine insight it contains.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Analogy boundaries tested. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/analogy-domain-transfer` — Now that boundaries are clear, execute the transfer carefully
+  - `/logic-check` — Check whether conclusions crossed a boundary they shouldn't have
+  - `/constraint-hardness-testing` — Are the boundary differences hard constraints or soft?
+  - **Done** — Wrap up and synthesise what we have so far

@@ -66,3 +66,17 @@ Proceed based on their selection.
 ## Notes
 
 If both costs (waiting and acting early) are high, the situation requires a staged approach — begin preparation now, commit fully at the trigger. Identify what preparation can happen safely before the trigger is reached.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Timing analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-timing` — Translate timing analysis into strategy
+  - `/decision-reversibility-analysis` — Assess reversibility given timing constraints
+  - `/resource-allocation-analysis` — Allocate resources by timing priority
+  - **Done** — Wrap up and synthesise what we have so far

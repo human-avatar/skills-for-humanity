@@ -70,3 +70,17 @@ For each flagged section: what specific changes bring it into alignment? This ma
 - Pairs with `/writing-voice-consistency` — voice is the who speaking; tone is the how. They are related but distinct. Voice consistency asks "does this sound like the same person?"; tone alignment asks "is that person speaking in a consistent register?"
 - Pairs with `/writing-audience-calibration` — tone is part of calibration; a piece can be tonally consistent but calibrated to the wrong audience entirely.
 - Pairs with `/writing-line-editing` — many tone corrections happen at the sentence level (word choice, sentence structure), so the two tools often work together.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Tone aligned. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-voice-consistency` — Check voice consistency after tone alignment
+  - `/writing-line-editing` — Edit for the aligned tone
+  - `/writing-audience-calibration` — Verify tone serves the audience
+  - **Done** — Wrap up and synthesise what we have so far

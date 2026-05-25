@@ -70,3 +70,17 @@ Does this allocation serve the most important outcomes? Where does it diverge fr
 ## Notes
 
 The most useful output is the trade-off column — if the trade-offs can't be written clearly, the allocation hasn't been thought through. Force each trade-off to be named before the allocation is finalised.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Allocation analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/resource-bottleneck-analysis` — Find bottlenecks in the current allocation
+  - `/decision-criteria-weighting` — Weight criteria by resource constraints
+  - `/resource-waste-audit` — Audit for waste in the current allocation
+  - **Done** — Wrap up and synthesise what we have so far

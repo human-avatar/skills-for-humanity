@@ -87,3 +87,17 @@ Proceed based on their selection.
 The map is only useful if the constraint boundary in Step 2 is drawn accurately. People
 regularly assume constraints block more than they do — which is why checking what a
 constraint does NOT prevent is as important as what it does.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Workarounds mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-option-mapping` — Map decision options using the available workarounds
+  - `/logic-check` — Validate the logic of the proposed workarounds
+  - `/decision-premortem-analysis` — Stress-test each workaround before committing
+  - **Done** — Wrap up and synthesise what we have so far

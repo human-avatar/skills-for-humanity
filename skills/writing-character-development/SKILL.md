@@ -70,3 +70,17 @@ Every compelling character holds two things in tension simultaneously — not on
 - Pairs with `/writing-arc-design` when you need to map how this character's internal change aligns with the plot's external structure.
 - Pairs with `/writing-inconsistency-audit` when a character is behaving in ways that violate their established psychology — often visible as "they would never do that" moments.
 - Pairs with `/writing-dialogue` because voice flows from character: the wound and defence determine how a character speaks, evades, and misrepresents.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Character developed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-dialogue` — Write dialogue that brings the character to life
+  - `/writing-arc-design` — Fit the character's development into the arc
+  - `/narrative-tension-mapping` — Map tensions the character creates or resolves
+  - **Done** — Wrap up and synthesise what we have so far

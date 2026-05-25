@@ -79,3 +79,17 @@ Describe who dominates, who defers, and where status overrides expertise.
 ## Notes
 
 Run this before a high-stakes decision or after a meeting that felt wrong but hard to name. The intervention should be structural where possible — changing the process, not asking people to behave differently.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Social dynamics analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/social-power-mapping` — Map power relationships within the dynamics
+  - `/social-incentive-analysis` — Analyse what's driving the dynamics
+  - `/strategy-positioning` — Position relative to the social dynamics
+  - **Done** — Wrap up and synthesise what we have so far

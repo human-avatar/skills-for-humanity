@@ -74,3 +74,17 @@ Proceed based on their selection.
 ## Notes
 
 If no cycle fits well, that is itself a finding — either the situation is genuinely novel or it requires a composite of two cycles. Name the mismatch explicitly rather than forcing a fit.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Cycles detected. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/historical-cycle-detection` — Look for historical evidence that confirms the cycles
+  - `/temporal-timing-analysis` — Time actions to the detected cycles
+  - `/strategy-timing` — Align strategy with the cycle timing
+  - **Done** — Wrap up and synthesise what we have so far

@@ -63,3 +63,17 @@ Can a time-pressed reader find what they need without reading everything? Check:
 - Pairs with `/writing-executive-summary` — for reports requiring a one-page brief above the full document.
 - Pairs with `/writing-audience-calibration` — the reader profile shapes every structural decision; the report format for a technical team and for a board are different documents.
 - Pairs with `/writing-restructure` when the report's problems are primarily structural — the findings are buried not in the prose but in the architecture.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Report written. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-executive-summary` — Add an executive summary to the report
+  - `/writing-audience-calibration` — Calibrate the report for its specific audience
+  - `/communication-clarity-audit` — Audit report clarity throughout
+  - **Done** — Wrap up and synthesise what we have so far

@@ -101,3 +101,17 @@ Cycle identification is a frame, not a forecast. The most valuable output is the
 divergences section — where this situation doesn't fit the expected pattern is where
 the most asymmetric insight lives. If there are no divergences, the analysis isn't
 done.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Historical cycles detected. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/temporal-cycle-detection` — Map the cycles forward into the future
+  - `/systems-archetype-matching` — Match the current situation to historical archetypes
+  - `/strategy-timing` — Align strategy with the detected cycles
+  - **Done** — Wrap up and synthesise what we have so far

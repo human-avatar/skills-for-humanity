@@ -62,3 +62,17 @@ How will you know when you've won? What observable condition tells you to stop? 
 ## Notes
 
 Run this before any other strategy skill when the objective is unclear — all other skills operate in service of a defined objective, and without one, they produce well-structured answers to the wrong question. Pairs tightly with `/strategy-force-economy`: knowing minimum and maximum victory conditions shapes how much force to deploy, and when the minimum has been achieved. When the pyrrhic check suggests the cost of maximum victory is unacceptable, use `/strategy-alliance` and `/strategy-positioning` to understand whether the cost can be reduced before the contest begins.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Victory conditions defined. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-positioning` — Position to achieve the victory conditions
+  - `/decision-premortem-analysis` — Stress-test the victory definition
+  - `/strategy-timing` — Time moves toward victory
+  - **Done** — Wrap up and synthesise what we have so far

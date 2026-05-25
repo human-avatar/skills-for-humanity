@@ -83,3 +83,17 @@ Proceed based on their selection.
 The exercise fails if the "outside" perspectives are just your own reasoning relabelled.
 Each field's observations should surprise you. If they don't, you haven't actually left
 your frame — you've just dressed it in different vocabulary.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Perspectives shifted. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Model the audience through each shifted perspective
+  - `/creativity-alternatives` — Generate alternatives from each perspective
+  - `/emotional-motivation-mapping` — Map motivations visible from each perspective
+  - **Done** — Wrap up and synthesise what we have so far

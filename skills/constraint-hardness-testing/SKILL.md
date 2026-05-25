@@ -93,3 +93,17 @@ Proceed based on their selection.
 The most dangerous class is Assumed, because it looks like Hard. Before accepting any
 constraint that cannot be sourced precisely, treat it as Assumed and test it — the cost of
 testing is almost always lower than the cost of a permanent workaround.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Constraints tested. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/constraint-workaround-mapping` — Route around the hard constraints
+  - `/constraint-scope-reduction` — Reduce scope to avoid constraints that can't be bypassed
+  - `/decision-option-mapping` — See what options remain given hard and soft constraints
+  - **Done** — Wrap up and synthesise what we have so far

@@ -218,3 +218,17 @@ Clean design: white background, subtle borders, readable system font, soft accen
 - **Anonymize for peer review.** Reviewers should evaluate reasoning quality, not defer to a framework they recognize.
 - **The chair can dissent from the majority.** If 4 of 5 frameworks endorse an action but the dissenter's reasoning is most compelling, the chair should side with the dissenter and explain why.
 - **The conflict is the finding.** When frameworks diverge, that is not a failure of the council — it is the council working correctly. The divergence names a genuine value trade-off that the decision-maker must own.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Council verdict in. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/ethics-check` — Verify the council verdict against a baseline check
+  - `/decision-criteria-weighting` — Weight decision criteria based on the council's findings
+  - `/logic-fixer` — Address logical flaws the council identified
+  - **Done** — Wrap up and synthesise what we have so far

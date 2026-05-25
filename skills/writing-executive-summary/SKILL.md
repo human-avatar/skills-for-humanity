@@ -66,3 +66,17 @@ Every sentence must earn its place. The test for each sentence: does a reader wi
 - Pairs with `/writing-report` — the executive summary sits above the full report. The report is for the reader who needs the detail; the summary is for the reader who needs the decision.
 - Pairs with `/writing-audience-calibration` — the executive's specific role, decision context, and prior knowledge shape every word of the summary; what an investor needs is different from what a CEO needs.
 - Pairs with `/writing-restructure` — if the source document is poorly structured, finding the three most important findings requires first identifying what the document actually says (which may require restructuring it).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Executive summary written. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-clarity-audit` — Audit summary clarity for the executive audience
+  - `/writing-audience-calibration` — Calibrate further for the executive reader
+  - `/writing-restructure` — Restructure if the summary doesn't flow
+  - **Done** — Wrap up and synthesise what we have so far

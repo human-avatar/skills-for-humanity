@@ -88,3 +88,17 @@ Is the rhetoric honest and proportionate to the argument? This is the key evalua
 - Pairs with `/writing-argument` — argument analysis evaluates whether the logic is sound; rhetoric analysis evaluates how it is being made. They are complementary, not redundant.
 - Pairs with `logic-argument-validation` (in the logic category) — for formal logical structure analysis when the rhetoric analysis reveals argument problems that need rigorous logical audit.
 - Pairs with `/writing-audience-calibration` when the rhetorical analysis reveals that the text is calibrated not for its stated audience but for a different one — a common finding in political and institutional writing.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Rhetoric applied. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-argument` — Strengthen the underlying argument with the rhetoric
+  - `/communication-objection-mapping` — Map objections the rhetoric must address
+  - `/writing-line-editing` — Polish the rhetorical prose
+  - **Done** — Wrap up and synthesise what we have so far

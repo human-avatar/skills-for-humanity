@@ -92,3 +92,17 @@ Proceed based on their selection.
 The most commonly missed option is deferral. "Decide now" is itself a choice with costs —
 urgency is often assumed rather than real, and deferral with a defined review point is
 frequently the most rational option on the table.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Options mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Evaluate the options you've mapped against weighted criteria
+  - `/decision-premortem-analysis` — Stress-test the leading option before committing
+  - `/probability-scenario-weighting` — Weight options by their probability of success
+  - **Done** — Wrap up and synthesise what we have so far

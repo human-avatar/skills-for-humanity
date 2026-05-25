@@ -66,3 +66,17 @@ Proceed based on their selection.
 ## Notes
 
 Loops are not permanent — the dominant loop shifts as variables hit limits or thresholds. Map the transition condition that would shift dominance from one loop to another.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Feedback loops mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/systems-leverage-analysis` — Find leverage points within the feedback loops
+  - `/temporal-cycle-detection` — Detect cycles the feedback loops create
+  - `/strategy-positioning` — Position to exploit or break the key feedback loops
+  - **Done** — Wrap up and synthesise what we have so far

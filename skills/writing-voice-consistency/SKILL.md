@@ -72,3 +72,17 @@ For documents that will have multiple contributors or ongoing updates, translate
 - Pairs with `/writing-tone-alignment` — tone is one dimension of voice. Voice consistency addresses the full identity of the speaker; tone alignment addresses one specific dimension (register).
 - Pairs with `/writing-audience-calibration` — voice must be calibrated to the audience; a perfectly consistent voice that is calibrated to the wrong reader is still failing.
 - Pairs with `/writing-prose-elevation` — elevation must stay in voice; an elevated passage that sounds like a different writer has traded one problem for another.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Voice consistency checked. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-line-editing` — Edit for consistent voice throughout
+  - `/writing-tone-alignment` — Align tone with the voice
+  - `/writing-prose-elevation` — Elevate the consistent voice
+  - **Done** — Wrap up and synthesise what we have so far

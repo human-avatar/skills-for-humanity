@@ -92,3 +92,17 @@ Not every successful thing follows a single pattern cleanly — most operate wit
 several simultaneously. Identify the dominant pattern first; note secondary patterns
 separately. The test of a good pattern name is whether it generates new options
 rather than just describing what's already there.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Patterns detected. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/aesthetic-coherence-check` — Check that detected patterns cohere
+  - `/systems-archetype-matching` — Match aesthetic patterns to systemic archetypes
+  - `/aesthetic-elegance-testing` — Test the elegance of the patterns
+  - **Done** — Wrap up and synthesise what we have so far

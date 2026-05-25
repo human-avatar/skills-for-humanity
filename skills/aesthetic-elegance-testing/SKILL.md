@@ -95,3 +95,17 @@ The question is not "can we defend every element" but "does every element earn i
 place." Elements that can be defended are not the same as elements that are necessary
 — hold the higher bar. Elegance is achieved not when there is nothing left to add,
 but when there is nothing left to remove.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Elegance tested. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/aesthetic-simplicity-analysis` — Simplify what elegance testing flagged as complex
+  - `/writing-prose-elevation` — Elevate prose flagged as inelegant
+  - `/aesthetic-coherence-check` — Verify that elegance is coherent with the whole
+  - **Done** — Wrap up and synthesise what we have so far

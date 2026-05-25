@@ -64,3 +64,17 @@ Proceed based on their selection.
 ## Notes
 
 High-leverage points are often counterintuitive — pushing harder in the obvious direction can make things worse. Identify any points where the intuitive intervention is actually negative leverage.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Leverage points identified. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-positioning` — Use leverage points for strategic positioning
+  - `/resource-allocation-analysis` — Allocate resources to the highest-leverage points
+  - `/decision-premortem-analysis` — Stress-test the assumptions behind leverage estimates
+  - **Done** — Wrap up and synthesise what we have so far

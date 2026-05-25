@@ -87,3 +87,17 @@ Proceed based on their selection.
 Genuine structural correspondence requires that the relationship between elements matches —
 not just that individual elements can be paired. Two things can share every node and differ
 entirely on the edges that connect them.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Structure mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-check` — Validate that the structural mapping holds
+  - `/analogy-domain-transfer` — Use the structure map to guide a domain transfer
+  - `/systems-feedback-mapping` — Check if the structure reveals feedback dynamics
+  - **Done** — Wrap up and synthesise what we have so far

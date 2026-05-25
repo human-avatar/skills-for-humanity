@@ -107,3 +107,17 @@ This framework is most powerful when applied to AI and technology decisions, but
 Lanier does not argue that machines cannot be impressive, useful, or complex. He argues that confusing impressive and complex with deserving moral consideration is an error — and one that consistently disadvantages the humans the technology is supposed to serve.
 
 The framework pairs well with `/ethics-check` when the broader ethical question involves both who deserves consideration and what the right action is. It pairs with `/ethics-bias-check` when the entity in question is an algorithm making decisions about humans — where the circle analysis clarifies that the algorithm is outside the circle, but the humans it affects are firmly inside it.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Empathy circle complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Model communication based on each circle member's view
+  - `/emotional-motivation-mapping` — Map motivations surfaced by the empathy exercise
+  - `/ethics-impact-scan` — Scan for broader impact beyond those in the circle
+  - **Done** — Wrap up and synthesise what we have so far

@@ -62,3 +62,17 @@ Proceed based on their selection.
 ## Notes
 
 Scenarios are not predictions — they are structured hypotheses. The goal is not to determine which will occur but to identify which actions are robust regardless of which occurs.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Futures mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/temporal-horizon-mapping` — Set time horizons within the futures map
+  - `/decision-premortem-analysis` — Run a premortem on the most likely futures
+  - `/probability-scenario-weighting` — Weight the futures by probability
+  - **Done** — Wrap up and synthesise what we have so far

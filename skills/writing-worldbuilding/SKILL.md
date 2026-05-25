@@ -57,3 +57,17 @@ Does the world's structure create the story's conflict, or is the world irreleva
 - Pairs with `/writing-inconsistency-audit` for world-rule violations throughout the manuscript — worldbuilding establishes the rules; the audit finds where they're broken.
 - Pairs with `/writing-character-development` because characters are produced by their world: their wound, defence, and want are shaped by the economy, history, and social rules they grew up inside.
 - Pairs with `/writing-scene-construction` for deploying world texture at the scene level — what sensory details make this specific location feel inhabited.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "World built. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-scene-construction` — Construct scenes in the world
+  - `/narrative-structure-mapping` — Map the narrative structure of the world
+  - `/writing-character-development` — Develop characters native to the world
+  - **Done** — Wrap up and synthesise what we have so far

@@ -83,3 +83,17 @@ For analysis of the equilibrium your mechanism produces (confirming it actually 
 For the related problem of getting players to cooperate over time (rather than getting a static mechanism right), use `/game-theory-iterated`.
 
 Pairs with: `/social-incentive-analysis` (the social and political dimensions of the same incentive problem), `/game-theory-equilibrium` (verifying the mechanism's equilibrium), `/game-theory-auction` (specialised mechanism design for competitive bidding).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Mechanism designed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-check` — Validate the mechanism's internal logic
+  - `/game-theory-equilibrium` — Model what equilibrium the mechanism produces
+  - `/decision-premortem-analysis` — Stress-test the mechanism for failure modes
+  - **Done** — Wrap up and synthesise what we have so far

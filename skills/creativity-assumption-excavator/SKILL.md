@@ -94,3 +94,17 @@ Proceed based on their selection.
 ## The insight this tool exists to deliver
 
 Most intractable problems are intractable because of the frame, not the content. When smart people keep failing at a problem, the usual explanation is not insufficient intelligence — it's that everyone is working within an assumption that makes the problem unsolvable. The assumption excavator's job is to find that assumption and name it. Once named, it can be changed.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Assumptions surfaced. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-lateral-thinking` — Use the exposed assumptions as springboards for lateral moves
+  - `/decision-option-mapping` — Map new options now that assumptions are cleared
+  - `/constraint-hardness-testing` — Test whether the assumptions were actually hard constraints
+  - **Done** — Wrap up and synthesise what we have so far

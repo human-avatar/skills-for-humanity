@@ -79,3 +79,17 @@ Proceed based on their selection.
 ## Notes
 
 Rework and duplication are usually the most expensive wastes in knowledge work, but waiting is often the most demoralising. Address the highest-cost waste first, but don't ignore the one most affecting morale.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Waste audited. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/resource-allocation-analysis` — Reallocate resources freed by eliminating waste
+  - `/resource-leverage-mapping` — Reinvest freed capacity into high-leverage areas
+  - `/decision-criteria-weighting` — Weight decisions after waste is removed from the picture
+  - **Done** — Wrap up and synthesise what we have so far

@@ -68,3 +68,17 @@ Proceed based on their selection.
 ## Notes
 
 EV assumes outcomes are fungible and the decision will be made many times — neither is always true. For one-shot decisions with irreversible outcomes, weight catastrophic downside beyond what probability × value captures.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Expected values calculated. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Use expected values in the decision matrix
+  - `/resource-allocation-analysis` — Allocate resources proportional to expected value
+  - `/decision-premortem-analysis` — Stress-test the highest-EV option
+  - **Done** — Wrap up and synthesise what we have so far

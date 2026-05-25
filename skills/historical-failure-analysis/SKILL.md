@@ -95,3 +95,17 @@ The goal is not exhaustive risk listing — a long list produces paralysis, not
 prevention. Identify the 2-3 failure modes most likely to be fatal to this specific
 endeavour and act on them now. The ones not in the top 3 are worth monitoring but
 not worth significant pre-emptive effort.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Historical failures analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-premortem-analysis` — Apply historical failure patterns to the current decision
+  - `/constraint-hardness-testing` — Test which historical failure causes are still hard constraints today
+  - `/strategy-positioning` — Position to avoid repeating historical failure modes
+  - **Done** — Wrap up and synthesise what we have so far

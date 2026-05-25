@@ -92,3 +92,17 @@ Flag: each contradiction with the original description, the contradicting descri
 - Pairs with `/writing-character-development` for the character logic baseline — you need to know what was established before you can audit violations of it.
 - Pairs with `/writing-worldbuilding` for the world-rules baseline — the audit can only flag violations if the rules are clearly stated.
 - Pairs with `/writing-pov` because POV violations are a form of character logic inconsistency (the narration accesses knowledge the POV character doesn't have).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Inconsistencies found. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-voice-consistency` — Fix the voice inconsistencies
+  - `/writing-restructure` — Restructure to resolve the structural inconsistencies
+  - `/logic-consistency-check` — Validate logical consistency alongside writing consistency
+  - **Done** — Wrap up and synthesise what we have so far

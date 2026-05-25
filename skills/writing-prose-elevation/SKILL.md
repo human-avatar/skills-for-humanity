@@ -80,3 +80,17 @@ What is the prose's single main weakness across all three categories? Name it pr
 - The hardest part of abstraction replacement: finding the specific image that captures the abstract truth exactly — neither overstating nor understating it. "She felt alone" is abstract; "no one texted back" is specific; "she checked her phone and put it face-down on the table" is specific and also says something about the character.
 - Pairs with `/writing-line-editing` — these two tools work in sequence. Line editing first (remove problems), then prose elevation (raise quality).
 - Pairs with `/writing-voice-consistency` — elevation must stay in the voice. If the elevated passages sound like a different writer, the elevation has overshot.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Prose elevated. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-voice-consistency` — Check voice after elevation
+  - `/writing-line-editing` — Refine the elevated prose further
+  - `/aesthetic-elegance-testing` — Test the elegance of the elevated prose
+  - **Done** — Wrap up and synthesise what we have so far

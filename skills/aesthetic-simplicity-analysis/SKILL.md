@@ -96,3 +96,17 @@ The goal is not the shortest version but the clearest. A long thing can be simpl
 every part serves the essence. A short thing can be incoherent if it's just been cut
 without finding the core first. Simplicity is achieved when adding anything would be
 wrong, and removing anything would be a loss.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Simplicity analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/aesthetic-elegance-testing` — Test the elegance of the simplified version
+  - `/writing-line-editing` — Edit for the simplicity findings
+  - `/aesthetic-coherence-check` — Check the simplified version still coheres
+  - **Done** — Wrap up and synthesise what we have so far

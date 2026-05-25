@@ -92,3 +92,17 @@ Identify non-obvious steps — steps where the correct action or its output is n
 - Pairs with `/writing-audience-calibration` — audience profile is the anchor for every other decision; the calibration audit belongs here.
 - Pairs with `/writing-restructure` — documentation structure often needs reordering, particularly moving prerequisites before the steps that need them.
 - Pairs with `/writing-line-editing` — technical writing often suffers from passive voice and nominalisation; line editing is often the final pass.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Technical writing complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-audience-calibration` — Calibrate technical level for the audience
+  - `/communication-clarity-audit` — Audit technical clarity throughout
+  - `/writing-restructure` — Restructure technical content for clearer flow
+  - **Done** — Wrap up and synthesise what we have so far

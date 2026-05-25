@@ -65,3 +65,17 @@ Proceed based on their selection.
 ## Notes
 
 Only adjust from the base rate when you have specific, verifiable reasons — not because the situation feels different. The inside view always feels justified; the outside view is the corrective.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Base rates anchored. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/probability-scenario-weighting` — Weight scenarios against the established base rate
+  - `/probability-confidence-calibration` — Calibrate confidence given what the base rates revealed
+  - `/decision-criteria-weighting` — Feed adjusted probabilities into the decision criteria
+  - **Done** — Wrap up and synthesise what we have so far

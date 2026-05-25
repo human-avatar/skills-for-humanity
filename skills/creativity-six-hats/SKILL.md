@@ -83,3 +83,17 @@ Proceed based on their selection.
 Each hat should feel distinct. If the Black Hat section sounds like the Yellow Hat section with hedges, or if the Green Hat section is just a refined version of the existing plan — the hats aren't being worn properly. Each hat requires temporarily setting aside the others. A strong Black Hat session means genuinely looking for failure modes, not softening them. A strong Yellow Hat session means genuinely looking for value, not dismissing it.
 
 The power of Six Hats is that *all six get to be right* — within their own domain. There is no winner.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Six hats complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Weight decision criteria from Black and Yellow hat findings
+  - `/decision-premortem-analysis` — Run a premortem on the risks the Black hat identified
+  - `/communication-audience-modeling` — Use Red hat findings to model how others will react
+  - **Done** — Wrap up and synthesise what we have so far

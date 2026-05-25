@@ -94,3 +94,17 @@ The winner's curse is not irrational behaviour corrected by experience alone. It
 Auction analysis is a specialised application of mechanism design. For the general framework of designing rules to produce desired behaviour from self-interested players, use `/game-theory-mechanism-design`. For the equilibrium analysis of the auction (confirming which strategy is actually optimal for each player), use `/game-theory-equilibrium`.
 
 Pairs with: `/game-theory-mechanism-design` (the general framework for auction design), `/game-theory-equilibrium` (equilibrium analysis of specific auction formats), `/decision-expected-value` (when the bidding decision is primarily about expected value under uncertainty, not strategic interaction).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Auction analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/game-theory-mechanism-design` — Refine the auction mechanism based on findings
+  - `/probability-expected-value-calculation` — Calculate expected value of different bidding strategies
+  - `/strategy-intelligence` — Gather information to improve bidding position
+  - **Done** — Wrap up and synthesise what we have so far

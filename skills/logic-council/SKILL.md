@@ -157,3 +157,17 @@ Save the full transcript as `logic-council-transcript-[timestamp].md`. Optionall
 - **The chair can dissent.** If four frameworks find no flaw but the fifth's objection is devastating, the chair should say so.
 - **Agreement across frameworks is the strongest signal.** When five different reasoning approaches all flag the same problem, that problem is real.
 - For reasoning that fails the council, consider using `logic-fixer` to produce a corrected version.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Council verdict in. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-fixer` — Act on the council's identified flaws
+  - `/decision-criteria-weighting` — Weight decision criteria using the council's findings
+  - `/ethics-council` — Add adversarial ethical peer review alongside the logical one
+  - **Done** — Wrap up and synthesise what we have so far

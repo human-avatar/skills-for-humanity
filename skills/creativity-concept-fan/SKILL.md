@@ -92,3 +92,17 @@ Proceed based on their selection.
 The fan's value is in the breadth of the second-ring concepts, not in the depth of any one branch. Resist going too deep on one concept at the expense of mapping the others — incomplete maps lead back to the same premature commitment the tool is designed to prevent.
 
 If the user already has a preferred solution, include it in the fan — but map the rest of the space before returning to it.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Concept fan expanded. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Evaluate options across all three levels of the fan
+  - `/decision-option-mapping` — Expand the option map using the concept fan's levels
+  - `/strategy-positioning` — Use the fan's levels to identify the right strategic position
+  - **Done** — Wrap up and synthesise what we have so far

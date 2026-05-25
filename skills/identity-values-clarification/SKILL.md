@@ -67,3 +67,17 @@ State what the organisation or person actually values, based on decisions — no
 ## Notes
 
 The most productive use of this analysis is not to criticise but to surface hidden commitments — values that are being lived without being named, and values that are named without being lived.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Values clarified. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/identity-mission-alignment` — Connect the clarified values to mission
+  - `/decision-criteria-weighting` — Weight decision criteria by values
+  - `/ethics-check` — Check whether values are applied consistently
+  - **Done** — Wrap up and synthesise what we have so far

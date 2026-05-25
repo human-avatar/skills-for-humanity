@@ -77,3 +77,17 @@ These are not automatically illegitimate — emotion and authority are genuine p
 - Pairs with `/writing-rhetoric` — rhetoric analysis examines how the argument is being made (its framing, its appeals, its assumptions); argument analysis examines whether the argument is sound.
 - Pairs with `/writing-restructure` — many argument problems are structural: the claim comes too late, the counterargument is buried, the warrant appears at the end when it needs to anchor the whole.
 - Pairs with `/writing-audience-calibration` — the warrant that works for one audience may not work for another; calibration includes choosing which assumptions to surface and argue for.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Argument written. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-rhetoric` — Strengthen the argument with rhetorical technique
+  - `/logic-argument-validation` — Validate the argument's logical structure
+  - `/communication-objection-mapping` — Address objections the argument will face
+  - **Done** — Wrap up and synthesise what we have so far

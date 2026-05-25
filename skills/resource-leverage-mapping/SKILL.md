@@ -68,3 +68,17 @@ State the highest-leverage deployment with rationale. Make the trade-offs explic
 ## Notes
 
 Run this before a planning cycle or before committing significant resources to a course of action. The most common finding is that a relationship or an existing asset is being underused relative to its potential leverage.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Leverage mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/resource-allocation-analysis` — Reallocate resources to the leverage points
+  - `/strategy-force-economy` — Deploy effort economically via the leverage found
+  - `/systems-leverage-analysis` — Combine resource leverage with systems leverage
+  - **Done** — Wrap up and synthesise what we have so far

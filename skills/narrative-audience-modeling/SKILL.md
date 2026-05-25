@@ -64,3 +64,17 @@ Proceed based on their selection.
 ## Notes
 
 If the threshold condition is not met first, nothing else lands. Sequence matters as much as content. Address the threshold before making your argument.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Narrative audience modelled. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Translate the narrative audience model into a communication plan
+  - `/writing-tone-alignment` — Align tone to what the narrative audience model revealed
+  - `/narrative-tension-mapping` — Map the tension points for this audience
+  - **Done** — Wrap up and synthesise what we have so far

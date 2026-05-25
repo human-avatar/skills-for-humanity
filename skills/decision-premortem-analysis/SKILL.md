@@ -85,3 +85,17 @@ Proceed based on their selection.
 Assumption failures are the most dangerous category because they are invisible until
 something breaks. The pre-mortem's most durable output is often the assumption inventory —
 which assumptions, if wrong, would make the entire direction invalid?
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Failure modes mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/constraint-workaround-mapping` — Address the top failure modes with concrete workarounds
+  - `/decision-criteria-weighting` — Revise decision criteria based on failure mode findings
+  - `/strategy-positioning` — Adapt strategy to reduce the probability of the worst failures
+  - **Done** — Wrap up and synthesise what we have so far

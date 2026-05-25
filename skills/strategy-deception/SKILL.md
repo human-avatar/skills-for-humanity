@@ -58,3 +58,17 @@ What might your opponent be concealing or signaling falsely? What are they tryin
 ## Notes
 
 Deception requires accurate intelligence to work — you cannot manage an opponent's beliefs without knowing what they currently believe. Pair with `/strategy-intelligence` before running this analysis. For the signals component, game-theory's signaling analysis provides a more formal framework for credible commitment signals when the context warrants it. Pair with `/strategy-positioning` to understand whether the position you're protecting is strong enough to be worth protecting — concealing a weak position buys time but does not change the underlying situation.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Deception strategy mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/game-theory-signaling` — Design signals that enable or counter the deception
+  - `/strategy-intelligence` — Gather intelligence to calibrate deception approach
+  - `/strategy-positioning` — Position to benefit from the deception
+  - **Done** — Wrap up and synthesise what we have so far

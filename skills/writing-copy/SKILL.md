@@ -81,3 +81,17 @@ State the copy's single most significant failure. Rewrite the headline based on 
 - Pairs with `/writing-audience-calibration` — copy must speak to the specific reader; generic copy that speaks to everyone reaches no one.
 - Pairs with `/writing-argument` for long-form copy (sales pages, long emails) where the copy is structured as an argument that needs to be logically sound as well as emotionally resonant.
 - Pairs with `/writing-tone-alignment` when copy spans multiple formats (headline, body, email sequence) and the tone needs to be consistent across them.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Copy written. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-tone-alignment` — Align copy tone to the audience
+  - `/writing-audience-calibration` — Calibrate the copy for the specific audience
+  - `/communication-objection-mapping` — Address objections the copy must overcome
+  - **Done** — Wrap up and synthesise what we have so far

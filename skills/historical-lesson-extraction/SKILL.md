@@ -96,3 +96,17 @@ The principle is wrong if it only describes the original case. Test it against t
 other cases in different domains — if it doesn't transfer, it's a description, not a
 principle. Keep abstracting until it does. The mechanism is the hardest and most
 important element: a principle without a mechanism is an observation, not a lesson.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Lessons extracted. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Weight decision criteria by the historical lessons
+  - `/strategy-positioning` — Position to apply what history teaches
+  - `/systems-leverage-analysis` — Find leverage points the historical lessons reveal
+  - **Done** — Wrap up and synthesise what we have so far

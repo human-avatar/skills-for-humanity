@@ -67,3 +67,17 @@ Proceed based on their selection.
 ## Notes
 
 When in doubt, classify as "unclear" rather than forcing a label — the act of flagging uncertainty is itself useful. Run this when a situation feels overwhelming or when a team is arguing about what matters.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Signals detected. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/sensory-structured-observation` — Observe in depth around the detected signals
+  - `/aesthetic-pattern-detection` — Find patterns in the signals
+  - `/systems-feedback-mapping` — Map feedback systems the signals reveal
+  - **Done** — Wrap up and synthesise what we have so far

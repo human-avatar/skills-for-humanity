@@ -75,3 +75,17 @@ Proceed based on their selection.
 ## Notes
 
 The bottleneck moves after you fix it — the next constraint becomes the new bottleneck. Repeat the analysis after each intervention rather than assuming the system is now optimised.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Bottlenecks identified. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/resource-leverage-mapping` — Find leverage at the bottlenecks
+  - `/constraint-workaround-mapping` — Work around the bottlenecks that can't be removed
+  - `/strategy-force-economy` — Apply force economy principles at the bottlenecks
+  - **Done** — Wrap up and synthesise what we have so far

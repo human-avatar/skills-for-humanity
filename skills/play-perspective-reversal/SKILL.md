@@ -100,3 +100,17 @@ genuine inhabitation. The test is whether you find something that makes you
 uncomfortable — something you would prefer not to be true. If everything from the
 opposing perspective turns out to be wrong or irrelevant, you didn't actually inhabit
 it.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Perspective reversed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-other-perspectives` — Apply structured other-perspectives to the reversed view
+  - `/communication-audience-modeling` — Model how the reversed view changes communication
+  - `/emotional-motivation-mapping` — Map motivations from the reversed perspective
+  - **Done** — Wrap up and synthesise what we have so far

@@ -72,3 +72,17 @@ Proceed based on their selection.
 ## Notes
 
 A well-calibrated person is not one who is always uncertain — they are confident when evidence is strong and uncertain when it is weak. The goal is accuracy of confidence, not uniformly lower confidence.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Confidence calibrated. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/probability-scenario-weighting` — Weight scenarios with calibrated confidence levels
+  - `/decision-premortem-analysis` — Stress-test with calibrated risk estimates
+  - `/decision-reversibility-analysis` — Assess how reversibility changes given this uncertainty level
+  - **Done** — Wrap up and synthesise what we have so far

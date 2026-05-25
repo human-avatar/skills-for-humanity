@@ -93,3 +93,17 @@ Proceed based on their selection.
 Sometimes a broken argument can't be fixed because the conclusion isn't supportable — the premises, even repaired, don't get you there. In those cases, the honest output is: "This conclusion cannot be established with the evidence available. Here is what the available evidence *does* support." That is more useful than a technically valid argument for a weaker claim dressed up to look like the original.
 
 The fixer's job is sound reasoning, not salvaging a predetermined conclusion.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Reasoning repaired. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-check` — Verify the fix holds under full scrutiny
+  - `/decision-premortem-analysis` — Stress-test the corrected plan
+  - `/communication-clarity-audit` — Check the corrected reasoning is communicated clearly
+  - **Done** — Wrap up and synthesise what we have so far

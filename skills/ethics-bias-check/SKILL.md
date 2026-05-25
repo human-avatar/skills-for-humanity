@@ -89,3 +89,17 @@ Proceed based on their selection.
 A clean bias check is not a guarantee of fairness — it is evidence of serious effort. Bias is often subtle and emerges at scale. Where this check surfaces concerns, treat them as decisions to be made consciously, not problems to be explained away.
 
 For systems with high-stakes outputs (credit, hiring, healthcare, content moderation), this check is a minimum. Consider ongoing monitoring post-deployment, not just a pre-ship audit.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Biases identified. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/ethics-check` — Run a full ethical assessment of the bias-affected reasoning
+  - `/logic-fixer` — Correct bias-induced logic errors
+  - `/decision-criteria-weighting` — Re-weight decision criteria after removing bias
+  - **Done** — Wrap up and synthesise what we have so far

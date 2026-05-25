@@ -61,3 +61,17 @@ Proceed based on their selection.
 ## Notes
 
 Tension is not negativity. Stating what is at risk is not pessimistic — it is the precondition for the audience to care about your resolution. A solution without a stated problem is just noise.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Tensions mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-arc-design` — Design the arc to resolve the mapped tensions
+  - `/writing-plot-structure` — Structure the plot around the tension points
+  - `/decision-premortem-analysis` — Stress-test whether the tensions actually resolve
+  - **Done** — Wrap up and synthesise what we have so far

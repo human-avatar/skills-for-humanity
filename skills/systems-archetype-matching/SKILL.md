@@ -71,3 +71,17 @@ Proceed based on their selection.
 ## Notes
 
 If two archetypes both fit, that is meaningful — overlapping archetypes indicate a more entrenched structure. Apply the higher-leverage archetype's intervention first.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Archetype matched. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/systems-leverage-analysis` — Find leverage points within the matched archetype
+  - `/systems-feedback-mapping` — Map feedback loops specific to the archetype
+  - `/historical-precedent-analysis` — Find historical precedents for this archetype
+  - **Done** — Wrap up and synthesise what we have so far

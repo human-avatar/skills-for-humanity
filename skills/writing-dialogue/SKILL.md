@@ -84,3 +84,17 @@ Does the dialogue advance the scene, or does it stall it? Diagnose the rate at w
 - Pairs with `/writing-scene-construction` for diagnosing the dialogue within its scene context — dialogue problems are often scene-construction problems.
 - Pairs with `/writing-character-development` because voice flows from character: the wound and defence determine how a character speaks, evades, and what they're incapable of saying directly.
 - Pairs with `/writing-voice-consistency` when the issue is that a character's voice is inconsistent across the manuscript rather than within a single scene.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Dialogue written. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-voice-consistency` — Ensure dialogue is voice-consistent throughout
+  - `/writing-character-development` — Use dialogue to deepen character
+  - `/writing-scene-construction` — Embed the dialogue in its scene
+  - **Done** — Wrap up and synthesise what we have so far

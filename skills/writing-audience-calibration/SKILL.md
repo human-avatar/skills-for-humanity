@@ -70,3 +70,17 @@ Same substance, different framing. For technical content going to a non-technica
 - Pairs with `/writing-executive-summary` for executive calibration — the executive summary format is a specific calibration for senior decision-makers.
 - Pairs with `/writing-technical` for technical audience calibration — when the content is documentation and the calibration question is which technical level to write for.
 - Pairs with `/writing-voice-consistency` — calibration adjustments must stay within the established voice; a recalibrated piece that sounds like a different writer has traded one problem for another.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Writing calibrated for audience. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-tone-alignment` — Align tone to the calibrated audience
+  - `/communication-audience-modeling` — Deepen the audience model further
+  - `/writing-voice-consistency` — Ensure voice serves the audience throughout
+  - **Done** — Wrap up and synthesise what we have so far

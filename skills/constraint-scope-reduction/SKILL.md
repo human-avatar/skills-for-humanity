@@ -83,3 +83,17 @@ Proceed based on their selection.
 The most common mistake is reclassifying wants as musts when pressure is applied. Challenge
 every must: "if we launched without this, what actually breaks?" The answer is usually
 "nothing breaks, someone would be annoyed."
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Scope reduced. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-criteria-weighting` — Evaluate options within the reduced scope
+  - `/resource-allocation-analysis` — Reallocate for the new scope
+  - `/decision-premortem-analysis` — Stress-test the reduced scope plan
+  - **Done** — Wrap up and synthesise what we have so far

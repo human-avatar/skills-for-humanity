@@ -61,3 +61,17 @@ Can the objective be achieved without direct competition at all? Options: go aro
 ## Notes
 
 Good position reduces force required — pair with `/strategy-positioning` to understand whether investment in positioning now reduces force cost later. Alliances multiply effective force — pair with `/strategy-alliance` when the leverage point involves bringing others in. Force economy analysis is most powerful when the objective is clear; if it isn't, run `/strategy-victory` first to establish what you're actually trying to achieve.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Force economy mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/resource-leverage-mapping` — Find leverage that amplifies force economy
+  - `/strategy-positioning` — Position to maximise force economy
+  - `/resource-allocation-analysis` — Allocate to the areas of greatest force economy
+  - **Done** — Wrap up and synthesise what we have so far

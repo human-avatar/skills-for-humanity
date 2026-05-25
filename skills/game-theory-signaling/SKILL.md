@@ -70,3 +70,17 @@ Signaling analysis has two sides. This skill focuses on the sender's problem: ho
 Signaling games have their own equilibrium structure. A *separating equilibrium* is one where different types choose different signals and can be distinguished — this is usually the desirable outcome. A *pooling equilibrium* is one where all types choose the same signal — no information is transmitted, and the signal is uninformative. Check which equilibrium your proposed signal actually produces.
 
 Pairs with: `/game-theory-equilibrium` (the full equilibrium analysis of signaling games), `/strategy-deception` (the counter-perspective: managing what others believe about you and anticipating their signals), `/game-theory-mechanism-design` (when the goal is to design a system that elicits honest revelation rather than crafting a one-off signal).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Signals analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/game-theory-equilibrium` — Model how the signaling changes the equilibrium
+  - `/communication-audience-modeling` — Model who reads each signal and how they interpret it
+  - `/social-incentive-analysis` — Analyse what incentives shape how signals are read
+  - **Done** — Wrap up and synthesise what we have so far

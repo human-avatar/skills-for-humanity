@@ -62,3 +62,17 @@ What is the cost of acting too early? What is the cost of acting too late? Which
 ## Notes
 
 Timing decisions depend heavily on intelligence quality — pair with `/strategy-intelligence` when your picture of the opponent's current state is uncertain. Timing and position interact: sometimes the right timing is simply "when your position is ready" — pair with `/strategy-positioning` when that's the case. For flowing situations with closing windows, force economy becomes critical — pair with `/strategy-force-economy` to identify the minimum effective action before the window closes.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Timing mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-positioning` — Execute the position at the right time
+  - `/decision-premortem-analysis` — Stress-test the timing assumptions
+  - `/temporal-timing-analysis` — Validate the timing with temporal analysis
+  - **Done** — Wrap up and synthesise what we have so far

@@ -94,3 +94,17 @@ Look for the misalignment first; don't assume the solution is to change the pers
 The most common failure is designing incentive systems around extrinsic motivators
 while the dominant motivator is intrinsic — the system pulls in the wrong direction
 and produces compliance without commitment.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Motivations mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Model communication strategy based on motivations
+  - `/social-incentive-analysis` — Connect motivations to incentive structures
+  - `/emotional-resistance-diagnosis` — Identify where motivations create resistance
+  - **Done** — Wrap up and synthesise what we have so far

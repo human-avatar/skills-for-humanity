@@ -60,3 +60,17 @@ Would a rational, well-resourced opponent, looking at your fully-built position,
 ## Notes
 
 Terrain analysis identifies which positions are available — run `/strategy-terrain` first when you're not yet sure which positions exist worth holding. Better positioning reduces force required to defend: pair with `/strategy-force-economy` to understand how position investment pays back in reduced ongoing cost. For the specific timing of when to build vs. when to contest now, pair with `/strategy-timing`.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Position mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-timing` — Time the position move
+  - `/strategy-alliance` — Build alliances to strengthen the position
+  - `/decision-premortem-analysis` — Stress-test the position before committing
+  - **Done** — Wrap up and synthesise what we have so far

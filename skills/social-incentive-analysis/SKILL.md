@@ -75,3 +75,17 @@ Proceed based on their selection.
 ## Notes
 
 Incentive analysis is most powerful when it reveals that a problem is not one of attitude or effort but of structure. Change the structure — not the people.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Incentives analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/social-coalition-mapping` — Align coalition building around the shared incentives
+  - `/game-theory-mechanism-design` — Design mechanisms to shift incentive structures
+  - `/communication-audience-modeling` — Model how incentives shape audience behaviour
+  - **Done** — Wrap up and synthesise what we have so far

@@ -66,3 +66,17 @@ What does the story argue about the world? Not a message or a moral — an argum
 - Pairs with `/writing-plot-structure` — the external structure is the mechanism that generates the pressure points; if the plot structure is broken, the arc cannot be earned.
 - Pairs with `/writing-character-development` — the arc endpoint must flow from the wound and defence; you cannot design the arc without the character profile.
 - Pairs with `/writing-scene-construction` when individual scenes are failing to deliver the pressure points — the architecture is right but the scenes aren't performing their function.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Arc designed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-plot-structure` — Structure the plot within the arc
+  - `/writing-character-development` — Develop characters to serve the arc
+  - `/narrative-tension-mapping` — Map tensions the arc must resolve
+  - **Done** — Wrap up and synthesise what we have so far

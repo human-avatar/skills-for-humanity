@@ -91,3 +91,17 @@ Proceed based on their selection.
 ## Notes
 
 A broken argument isn't necessarily a wrong conclusion. The conclusion might be correct while the reasoning that supports it is flawed. Flag both: the structural problem *and* whether the conclusion still seems defensible by other means.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Argument validated. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-fixer` — Repair the invalid inferences found
+  - `/ethics-check` — Check whether a valid argument is also ethically sound
+  - `/communication-objection-mapping` — Map how others will challenge this argument
+  - **Done** — Wrap up and synthesise what we have so far

@@ -86,3 +86,17 @@ Proceed based on their selection.
 This audit does not replace legal review. It supplements it. A practice can pass this audit and still require legal sign-off. A practice that fails this audit should not be excused by legal compliance.
 
 If the audit turns up significant concerns, consider escalating to `ethics-council` for a full multi-framework analysis.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Data practices audited. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/ethics-consent-review` — Review consent for data practices found in the audit
+  - `/ethics-impact-scan` — Scan broader impact of the data practices
+  - `/logic-check` — Validate the reasoning about data use
+  - **Done** — Wrap up and synthesise what we have so far

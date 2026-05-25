@@ -96,3 +96,17 @@ the underlying goals they expose — goals that were invisible while the constra
 was accepted as fixed. Those goals are the real design brief. Once visible, they
 often turn out to be achievable within the actual constraints through routes that
 the constrained framing had ruled out prematurely.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Constraints inverted. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-lateral-thinking` — Use the inverted constraints as lateral move springboards
+  - `/decision-option-mapping` — Map options that become available in the inverted world
+  - `/constraint-hardness-testing` — Test which inverted constraints are actually achievable
+  - **Done** — Wrap up and synthesise what we have so far

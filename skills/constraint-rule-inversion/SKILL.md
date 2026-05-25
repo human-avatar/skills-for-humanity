@@ -76,3 +76,17 @@ Proceed based on their selection.
 Every analogy breaks somewhere — so does every inversion. If the inverted form produces
 solutions that would work equally well without the constraint, the inversion wasn't deep
 enough. Go back to Step 2.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Rules inverted. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-lateral-thinking` — Use the inverted rules as springboards for lateral moves
+  - `/decision-option-mapping` — Map new decision options the inversions open up
+  - `/constraint-hardness-testing` — Test whether the inverted rules reveal softer constraints
+  - **Done** — Wrap up and synthesise what we have so far

@@ -69,3 +69,17 @@ Proceed based on their selection.
 ## Notes
 
 The most common failure is leading with resolution — announcing the answer before the audience has felt the tension. Make them need the answer before you give it.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Narrative structure mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-restructure` — Restructure based on what the structure mapping found
+  - `/narrative-tension-mapping` — Map tension points within the structure
+  - `/writing-arc-design` — Design the arc from the structure map
+  - **Done** — Wrap up and synthesise what we have so far

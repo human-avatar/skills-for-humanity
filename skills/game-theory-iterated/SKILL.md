@@ -81,3 +81,17 @@ The iterated analysis is the temporal complement to the one-shot prisoners' dile
 The shadow of the future is the mechanism, not the effect. Future cooperation is only valuable if players believe the relationship will continue. Actions that reduce confidence in continuation — signalling you might exit, visibly shortening your time horizon, threatening to end the relationship — also reduce the incentive for today's cooperation. Handle with care.
 
 Pairs with: `/game-theory-prisoners-dilemma` (the one-shot structure this analysis builds on), `/game-theory-signaling` (in long-run relationships, reputation is a signal — how to maintain and repair it), `/strategy-timing` (when to cooperate, when to test, and when to act on defection).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Iterated game analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/game-theory-equilibrium` — Identify the equilibrium that emerges over iterations
+  - `/social-incentive-analysis` — Map how incentives shift over repeated interactions
+  - `/strategy-timing` — Determine when to cooperate and when to defect
+  - **Done** — Wrap up and synthesise what we have so far

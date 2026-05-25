@@ -63,3 +63,17 @@ For each current assumption in the opponent audit: rate the risk if that assumpt
 ## Notes
 
 Pairs with `/strategy-terrain` — intelligence informs the terrain map, and an inaccurate terrain map comes from treating assumptions as facts. Pairs with `/strategy-deception` — once you know what your opponent currently believes about you, you can manage that belief deliberately. Use `/strategy-timing` to determine whether gathering more intelligence before acting is worth the delay.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Intelligence gathered. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-positioning` — Use the intelligence for strategic positioning
+  - `/strategy-deception` — Use intelligence to detect or plan deception
+  - `/game-theory-signaling` — Interpret signals with the intelligence gathered
+  - **Done** — Wrap up and synthesise what we have so far

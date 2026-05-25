@@ -69,3 +69,17 @@ Given the above, what is the optimal sequence? State the new structure as a sequ
 - Pairs with `/writing-executive-summary` when the restructured piece needs a front-loaded brief for an audience that won't read the full document.
 - Pairs with `/writing-argument` when the structural problem is an argument-structure problem — the claim, warrant, and evidence are in the wrong order or the warrant is missing.
 - Pairs with `/writing-line-editing` after restructuring is complete — once the order is right, the sentences can be cleaned.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Restructuring complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/writing-line-editing` — Edit after restructuring
+  - `/writing-tone-alignment` — Realign tone after the restructure
+  - `/writing-voice-consistency` — Check voice is consistent after restructure
+  - **Done** — Wrap up and synthesise what we have so far

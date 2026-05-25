@@ -75,3 +75,17 @@ Looking back in five years: proud / uncomfortable / regretful — and why?
 ## Notes
 
 This test is most valuable when the calculation says one thing and something else says no. The discomfort is information — it deserves analysis rather than suppression.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Character tested. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/identity-values-clarification` — Clarify values that the character test revealed tensions in
+  - `/ethics-check` — Check whether character under pressure met ethical standards
+  - `/decision-premortem-analysis` — Stress-test decisions for consistency with character
+  - **Done** — Wrap up and synthesise what we have so far

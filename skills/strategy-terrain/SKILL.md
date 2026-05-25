@@ -62,3 +62,17 @@ Based on the above: which positions are worth fighting for, which require waitin
 Run terrain analysis before any other strategy skill — it establishes the competitive context that all other choices operate within. An accurate terrain map requires honest intelligence; pair with `/strategy-intelligence` when your knowledge of the landscape is uncertain or you suspect your assumptions about competitor positions are wrong.
 
 For moving to favorable ground once identified, use `/strategy-positioning`. For understanding what opponents hold in contested positions, use `/strategy-intelligence`. For deciding whether the overall objective is worth the terrain cost, use `/strategy-victory` first.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Terrain mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-positioning` — Position on the most favourable terrain
+  - `/strategy-timing` — Time moves to terrain conditions
+  - `/strategy-force-economy` — Deploy force economically given the terrain
+  - **Done** — Wrap up and synthesise what we have so far

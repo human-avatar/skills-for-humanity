@@ -97,3 +97,17 @@ terrain. Work on the terrain. Conflict zones that can't be resolved through alig
 require explicit trade-off decisions — don't paper over them with language that
 pretends everyone wins when they don't. The face-saving explanation step is often
 what makes agreement stick in practice even after it's been reached in principle.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Stakes mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-premortem-analysis` — Stress-test with highest-stakes outcomes in mind
+  - `/ethics-empathy-circle` — Apply structured empathy to the highest-stakes people
+  - `/communication-audience-modeling` — Model the audience through their stakes
+  - **Done** — Wrap up and synthesise what we have so far

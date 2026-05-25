@@ -90,3 +90,17 @@ Proceed based on their selection.
 ## The discipline
 
 An OPS session fails if every perspective ends up agreeing with your own position. Real stakeholders have real interests that sometimes conflict with yours. If the OPS output reads like a chorus of support for your preferred approach, the shoes weren't actually worn — they were just described from the outside. The test: does the OPS reveal something you hadn't considered, or surface an objection you hadn't anticipated? If not, go deeper.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Other perspectives applied. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Model how to communicate to each perspective
+  - `/emotional-motivation-mapping` — Map the motivations revealed by each perspective
+  - `/ethics-empathy-circle` — Extend the perspective analysis with structured empathy
+  - **Done** — Wrap up and synthesise what we have so far

@@ -78,3 +78,17 @@ Proceed based on their selection.
 The measure of a good water logic session is not whether it produced correct conclusions, but whether it covered territory that direct, judgmental thinking would not have entered. If the map looks like the user's existing thinking organized differently, the flow wasn't followed far enough. Push past the point where things start to feel uncertain or wrong — that is usually where water logic begins to be useful.
 
 Water logic is a tool for exploration, not for decision-making. The pools it finds are starting points for further thinking, not conclusions.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Territory mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-alternatives` — Generate alternatives from the territory water logic revealed
+  - `/systems-feedback-mapping` — Map the flows found as feedback loops
+  - `/narrative-frame-analysis` — Frame the territory as a narrative to communicate it
+  - **Done** — Wrap up and synthesise what we have so far

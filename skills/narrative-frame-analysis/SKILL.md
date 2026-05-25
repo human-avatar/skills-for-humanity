@@ -65,3 +65,17 @@ Proceed based on their selection.
 ## Notes
 
 Reframing surfaces different truths, not false ones. If an alternative frame requires ignoring real evidence, it is spin — a useful frame must be defensible against the facts.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Frame analysed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/narrative-structure-mapping` — Map the structure of the dominant frame
+  - `/communication-objection-mapping` — Map objections rooted in alternative frames
+  - `/writing-argument` — Build an argument that works within the frame
+  - **Done** — Wrap up and synthesise what we have so far

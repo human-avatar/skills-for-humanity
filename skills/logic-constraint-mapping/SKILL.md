@@ -104,3 +104,17 @@ Proceed based on their selection.
 ## Notes
 
 The value of this map is not finding solutions — it's establishing ground truth about what's actually fixed before committing to an approach. A constraint map produced before design prevents the common failure mode: a clever solution that satisfies stated requirements while violating an unstated one that everyone assumed was obvious.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Constraints mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/constraint-hardness-testing` — Test which mapped constraints are real vs assumed
+  - `/constraint-workaround-mapping` — Find routes around the binding constraints
+  - `/decision-option-mapping` — See what decision options remain given the constraints
+  - **Done** — Wrap up and synthesise what we have so far

@@ -96,3 +96,17 @@ Proceed based on their selection.
 This vetting is based on available information — it is not a guarantee. For high-value or high-trust integrations (e.g. a vendor receiving sensitive user data), request their SOC 2 report, data processing agreement, and subprocessor list before proceeding.
 
 Where concerns are found but the business case is strong, name the trade-off explicitly rather than explaining it away. A conscious decision to proceed despite an ethical concern is better than a decision where the concern was never surfaced.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Vendor reviewed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/ethics-check` — Run a full ethical check of the vendor relationship
+  - `/decision-criteria-weighting` — Weight vendor decision criteria on the ethical findings
+  - `/ethics-data-audit` — Audit the vendor's data practices
+  - **Done** — Wrap up and synthesise what we have so far

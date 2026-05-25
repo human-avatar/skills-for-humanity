@@ -93,3 +93,17 @@ The uncomfortable entries in the worst-possible list are the most valuable — t
 surface real tensions that politeness has kept invisible. If every item on your list
 feels obvious and safe, you haven't gone far enough. Push into the territory where
 naming it feels a little risky.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Worst cases reversed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/decision-premortem-analysis` — Formalise the worst case as a structured premortem
+  - `/constraint-workaround-mapping` — Address the worst cases with concrete workarounds
+  - `/creativity-alternatives` — Generate alternatives that avoid the worst cases
+  - **Done** — Wrap up and synthesise what we have so far

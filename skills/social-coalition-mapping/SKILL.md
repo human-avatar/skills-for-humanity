@@ -73,3 +73,17 @@ Name the core set and explain why their alignment is sufficient for success.
 ## Notes
 
 The engagement sequence matters as much as the coalition map — the order in which you build support shapes whether the coalition holds or fragments under pressure.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Coalition mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/strategy-alliance` — Build strategy to expand or strengthen the coalition
+  - `/game-theory-coalition` — Analyse the game dynamics within the coalition
+  - `/social-incentive-analysis` — Align incentives to hold the coalition together
+  - **Done** — Wrap up and synthesise what we have so far

@@ -95,3 +95,17 @@ Proceed based on their selection.
 ## Notes
 
 Not every inconsistency is equally urgent. Flag severity: a contradiction in core requirements is a blocker; an ambiguity in an edge case may just need a decision logged. The goal is to make implicit conflicts explicit so they can be resolved consciously rather than discovered in production.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Consistency checked. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-fixer` — Resolve the inconsistencies found
+  - `/aesthetic-coherence-check` — Check conceptual and aesthetic coherence alongside logical consistency
+  - `/identity-values-clarification` — Resolve any values conflicts underlying the inconsistencies
+  - **Done** — Wrap up and synthesise what we have so far

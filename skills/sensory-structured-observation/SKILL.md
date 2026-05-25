@@ -72,3 +72,17 @@ State it as a prediction: "If [interpretation] is correct, then [specific observ
 ## Notes
 
 Run this before diagnosis, analysis, or decision. The discipline has most value when you feel you already understand the situation — that feeling is usually a sign that interpretation has already overtaken observation.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Observation complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/sensory-detail-mining` — Mine details from what structured observation revealed
+  - `/sensory-signal-detection` — Detect signals in the observed
+  - `/aesthetic-coherence-check` — Check coherence of what was observed
+  - **Done** — Wrap up and synthesise what we have so far

@@ -120,3 +120,17 @@ For Counterfactual:
 ## Notes
 
 Causal reasoning is always provisional — it produces the best available model given current evidence, not a proof. State explicitly what evidence would change the analysis. In complex systems, multiple causal chains often contribute to a single effect; resist the urge to stop at the first plausible explanation.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Causal chain mapped. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/systems-feedback-mapping` — Turn the causal map into a feedback loop analysis
+  - `/historical-precedent-analysis` — Check whether this causal chain has played out before
+  - `/constraint-hardness-testing` — Test which causal link is the weakest and most brittle
+  - **Done** — Wrap up and synthesise what we have so far

@@ -89,3 +89,17 @@ Proceed based on their selection.
 The scan is designed to be fast. It is not a substitute for the ethics-council on high-stakes decisions — it is the filter that tells you whether you need one. A clean scan means you've thought clearly about impact. A flagged scan means you have a specific thing to address or escalate.
 
 Do not use the scan to *justify* a decision you've already made. Run it before you've committed.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Impact scanned. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/ethics-empathy-circle` — Apply structured empathy to the highest-impact groups
+  - `/decision-premortem-analysis` — Run a premortem with impact findings in mind
+  - `/ethics-check` — Check overall ethical soundness given what the scan found
+  - **Done** — Wrap up and synthesise what we have so far

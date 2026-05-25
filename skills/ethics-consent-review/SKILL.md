@@ -103,3 +103,17 @@ Dark patterns detected:
 The standard is not "legally defensible consent." It is "consent a reasonable person would consider genuine." Those are not the same standard, and in the long run, the second one matters more for user trust.
 
 Where dark patterns are found, name them specifically. Vague concerns are easy to dismiss; named patterns with clear examples are not.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Consent reviewed. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/ethics-empathy-circle` — Apply empathy to those whose consent is in question
+  - `/communication-audience-modeling` — Model how to communicate consent requirements
+  - `/ethics-impact-scan` — Scan for impact on those whose consent was not obtained
+  - **Done** — Wrap up and synthesise what we have so far

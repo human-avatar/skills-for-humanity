@@ -78,3 +78,17 @@ Po: [statement]
 ## The thing to remember
 
 The value of Po is not in the provocation itself — it's in the movement it forces. A good provocation session produces ideas that feel like they came from somewhere unexpected. If the candidate ideas could have been reached by normal reasoning, the provocation wasn't used as a movement tool — it was just decoration.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Provocation applied. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-lateral-thinking` — Use the provocation's directions as lateral move inputs
+  - `/decision-option-mapping` — Map which real-world options the provocation suggested
+  - `/creativity-alternatives` — Generate alternatives from the provocation's direction
+  - **Done** — Wrap up and synthesise what we have so far

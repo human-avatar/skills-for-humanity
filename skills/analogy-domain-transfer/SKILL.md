@@ -86,3 +86,17 @@ Proceed based on their selection.
 A weak abstraction in Step 1 produces weak domain matches. If the domains found feel
 obvious or already-familiar, the abstraction still contains domain assumptions — strip
 further.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Domain transfer complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-check` — Validate that the transfer holds and conclusions follow
+  - `/analogy-boundary-testing` — Test where the analogy breaks down
+  - `/creativity-alternatives` — Use the transferred ideas to generate new alternatives
+  - **Done** — Wrap up and synthesise what we have so far

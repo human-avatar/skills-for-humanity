@@ -71,3 +71,17 @@ The most common equilibrium failure is the prisoners' dilemma structure: dominan
 When players interact repeatedly, the equilibrium changes: future consequences make cooperation rational even when it isn't in the one-shot game. See `/game-theory-iterated` for repeated game analysis.
 
 Pairs with: `/strategy-positioning` (acting effectively given the equilibrium you've identified), `/game-theory-mechanism-design` (changing the game so the equilibrium is efficient), `/decision-criteria-weighting` (when the strategic dimension is secondary and this is primarily a personal choice).
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Equilibrium found. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/game-theory-signaling` — Identify what signals could shift the equilibrium
+  - `/game-theory-mechanism-design` — Design rules or incentives to produce a better equilibrium
+  - `/strategy-positioning` — Position to exploit the current equilibrium
+  - **Done** — Wrap up and synthesise what we have so far

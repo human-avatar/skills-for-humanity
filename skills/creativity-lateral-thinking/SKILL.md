@@ -76,3 +76,17 @@ Structure your response as:
 Do not list variations on the dominant idea and call them lateral moves. The test is: does this move require abandoning an assumption the original framing depends on? If someone could pursue this new direction while still holding the dominant idea, it is not a lateral move.
 
 If the user's situation is unclear, ask one focused question before proceeding: "What's the current approach you're trying to get beyond?"
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Lateral moves generated. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/creativity-alternatives` — Generate alternatives from the lateral moves
+  - `/decision-option-mapping` — Map the new directions as concrete decision options
+  - `/constraint-hardness-testing` — Test whether lateral moves actually bypass the constraints
+  - **Done** — Wrap up and synthesise what we have so far

@@ -95,3 +95,17 @@ Trust is rebuilt through consistent small acts, not dramatic gestures. The actio
 recommended here is a first step, not a solution — sustainable repair requires
 sustained consistency. The behaviour-to-stop is non-negotiable and must precede
 everything else; repair while erosion continues is wasted effort.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Trust audited. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Model communication based on the trust level found
+  - `/strategy-alliance` — Build trust as a concrete alliance strategy
+  - `/social-incentive-analysis` — Align incentives to build trust over time
+  - **Done** — Wrap up and synthesise what we have so far
