@@ -5,22 +5,36 @@
 
 <br>
 
-**The greatest thinking tools ever developed, available in seconds.**
+**Structured reasoning methodologies from history's most rigorous thinkers, packaged as Claude Code skills.**
 
 <br>
 
 [![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/171_skills-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/27_categories-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)
 
 <br>
+
+<table>
+<tr>
+<td align="center" valign="top"><b>Think Sharper</b><br><br><code>/logic</code> &nbsp; <code>/probability</code> &nbsp; <code>/decision</code> &nbsp; <code>/constraint</code> &nbsp; <code>/game-theory</code> &nbsp; <code>/epistemology</code> &nbsp; <code>/investigation</code></td>
+<td align="center" valign="top"><b>Think Differently</b><br><br><code>/creativity</code> &nbsp; <code>/analogy</code> &nbsp; <code>/play</code></td>
+</tr>
+<tr>
+<td align="center" valign="top"><b>Think About People</b><br><br><code>/communication</code> &nbsp; <code>/social</code> &nbsp; <code>/emotional</code> &nbsp; <code>/ethics</code> &nbsp; <code>/identity</code> &nbsp; <code>/narrative</code> &nbsp; <code>/psychology</code> &nbsp; <code>/mindset</code> &nbsp; <code>/writing</code></td>
+<td align="center" valign="top"><b>Think in Time & Systems</b><br><br><code>/systems</code> &nbsp; <code>/temporal</code> &nbsp; <code>/historical</code> &nbsp; <code>/resource</code> &nbsp; <code>/strategy</code></td>
+</tr>
+<tr>
+<td align="center" valign="top" colspan="2"><b>See More Clearly</b><br><br><code>/aesthetic</code> &nbsp; <code>/sensory</code></td>
+</tr>
+</table>
+
+<br>
 </div>
 
 ---
 
-Not a prompt library.
+Each skill is a complete procedure: a defined problem type, a sequence of moves, a structured output. Not a concept to apply — a method to run.
 
-Each skill encodes a complete reasoning methodology — not just what to think, but *how*. A prompt asks Claude to respond. A skill tells Claude how to think. The difference is the same as asking a doctor "what's wrong?" versus handing them a full diagnostic protocol.
-
-**Lineage:** de Bono · Meadows · Altshuller · Minto · Goldratt · Tetlock · Klein · Mill · Kant · Aristotle · Noddings · Rawls · Sun Tzu · Clausewitz · Musashi · Nash · Axelrod · Vickrey · Shapley · Spence
+**Lineage:** [de Bono](https://en.wikipedia.org/wiki/Edward_de_Bono) · [Meadows](https://en.wikipedia.org/wiki/Donella_Meadows) · [Altshuller](https://en.wikipedia.org/wiki/Genrich_Altshuller) · [Minto](https://en.wikipedia.org/wiki/Barbara_Minto) · [Goldratt](https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt) · [Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) · [Klein](https://en.wikipedia.org/wiki/Gary_Klein) · [Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill) · [Kant](https://en.wikipedia.org/wiki/Immanuel_Kant) · [Aristotle](https://en.wikipedia.org/wiki/Aristotle) · [Noddings](https://en.wikipedia.org/wiki/Nel_Noddings) · [Rawls](https://en.wikipedia.org/wiki/John_Rawls) · [Sun Tzu](https://en.wikipedia.org/wiki/Sun_Tzu) · [Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz) · [Musashi](https://en.wikipedia.org/wiki/Miyamoto_Musashi) · [Nash](https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.) · [Axelrod](https://en.wikipedia.org/wiki/Robert_Axelrod) · [Vickrey](https://en.wikipedia.org/wiki/William_Vickrey) · [Shapley](https://en.wikipedia.org/wiki/Lloyd_Shapley) · [Spence](https://en.wikipedia.org/wiki/Michael_Spence)
 
 ---
 
@@ -41,16 +55,6 @@ Run again to update. Restart Claude Code when done.
 ```
 
 Describe your situation. Routes to the right methodology automatically. You don't need to know which skill fits — that's the point.
-
-Or invoke any category directly:
-
-```
-/logic  /probability  /decision  /constraint  /game-theory  /epistemology  /investigation
-/creativity  /analogy  /play
-/communication  /social  /emotional  /ethics  /identity  /narrative  /psychology  /mindset  /writing
-/systems  /temporal  /historical  /resource  /strategy
-/aesthetic  /sensory
-```
 
 Every skill pauses before running and asks how deep you want to go.
 
