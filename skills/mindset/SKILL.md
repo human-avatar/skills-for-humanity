@@ -79,3 +79,17 @@ Based on CBT cognitive restructuring. The cognitive triangle: thoughts → feeli
 *Diagnose why flow isn't occurring and redesign the conditions for optimal experience.*
 
 Based on Csikszentmihalyi's flow framework. Flow requires: clear goals, immediate feedback, and challenge/skill balance. Process: identify the target activity → audit what's blocking flow (wrong challenge/skill ratio? absent feedback? unclear goals? interruptions?) → redesign the conditions → enter the flow channel.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Mindset work complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/identity-values-clarification` — Connect the mindset shift to your underlying values
+  - `/emotional-motivation-mapping` — Map the motivations connected to the mindset patterns
+  - `/decision-premortem-analysis` — Stress-test decisions with the new mindset applied
+  - **Done** — Wrap up and synthesise what we have so far

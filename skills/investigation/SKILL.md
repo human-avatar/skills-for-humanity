@@ -89,3 +89,17 @@ Take a claim and systematically generate rival explanations that fit the availab
 Collect candidate sources for a claim. Classify them by independence — many sources that all trace back to the same original aren't independent, they're amplification. Assess whether truly independent sources converge (claim is more reliable) or diverge (claim is contested or uncertain). Issue a triangulation verdict.
 
 **Output:** Source list, independence classification, convergence/divergence assessment, and a reliability verdict based on the triangulation.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Investigation complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/logic-check` — Validate that conclusions drawn from the investigation hold
+  - `/probability-confidence-calibration` — Calibrate confidence given what the investigation found
+  - `/epistemology-limits` — Map the limits of what investigation can establish here
+  - **Done** — Wrap up and synthesise what we have so far

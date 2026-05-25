@@ -93,3 +93,17 @@ Identify what you're trying to change (belief, attitude, behavior, decision). Se
 Identify the behavior to change. Classify what's maintaining it: habit loop (cue → routine → reward), motivation deficit, capability gap, friction, or identity conflict. Select the right intervention: habit redesign, implementation intentions, friction reduction, motivation amplification, or identity reframing. Design the concrete implementation.
 
 **Output:** Maintenance diagnosis, intervention type, and specific implementation design.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Psychology analysis complete. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/communication-audience-modeling` — Apply the psychological insights to communication strategy
+  - `/social-incentive-analysis` — Connect psychological analysis to social incentives
+  - `/emotional-motivation-mapping` — Deepen with emotional motivation analysis
+  - **Done** — Wrap up and synthesise what we have so far

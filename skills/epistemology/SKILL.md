@@ -79,3 +79,17 @@ Inventory all claims in a domain → assign each an epistemic status (known, rea
 Identify what you're trying to know → classify the type of limit if one exists (fundamental: Gödel-style, underdetermination, observer effects; practical: evidence unavailable, destroyed, or counterfactual; conceptual: the question may be malformed) → clarify what *can* be established within those limits → reframe the question into the answerable part. The point is not to conclude "we can't know" — it's to be precise about what kind of knowing is and isn't available.
 
 **Output:** Limit classification, what remains establishable, and a reframed question targeting the knowable.
+
+---
+
+## What's Next
+
+After delivering this output, use `AskUserQuestion` to offer the next move:
+
+- **Question:** "Epistemology applied. What's next?"
+- **Header:** "Next"
+- **Options:**
+  - `/investigation` — Apply practical investigation methods to what epistemology clarified
+  - `/probability-confidence-calibration` — Calibrate your confidence given the epistemic analysis
+  - `/logic-check` — Validate reasoning built on the epistemic foundations
+  - **Done** — Wrap up and synthesise what we have so far
