@@ -12,23 +12,15 @@
 [![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/171_skills-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/27_categories-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)
 
 <br>
-
-<table>
-<tr>
-<td align="center" valign="top"><b>Think Sharper</b><br><br><code>/logic</code> &nbsp; <code>/probability</code> &nbsp; <code>/decision</code> &nbsp; <code>/constraint</code> &nbsp; <code>/game-theory</code> &nbsp; <code>/epistemology</code> &nbsp; <code>/investigation</code></td>
-<td align="center" valign="top"><b>Think Differently</b><br><br><code>/creativity</code> &nbsp; <code>/analogy</code> &nbsp; <code>/play</code></td>
-</tr>
-<tr>
-<td align="center" valign="top"><b>Think About People</b><br><br><code>/communication</code> &nbsp; <code>/social</code> &nbsp; <code>/emotional</code> &nbsp; <code>/ethics</code> &nbsp; <code>/identity</code> &nbsp; <code>/narrative</code> &nbsp; <code>/psychology</code> &nbsp; <code>/mindset</code> &nbsp; <code>/writing</code></td>
-<td align="center" valign="top"><b>Think in Time & Systems</b><br><br><code>/systems</code> &nbsp; <code>/temporal</code> &nbsp; <code>/historical</code> &nbsp; <code>/resource</code> &nbsp; <code>/strategy</code></td>
-</tr>
-<tr>
-<td align="center" valign="top" colspan="2"><b>See More Clearly</b><br><br><code>/aesthetic</code> &nbsp; <code>/sensory</code></td>
-</tr>
-</table>
-
-<br>
 </div>
+
+| | Skills |
+|---|---|
+| **Think Sharper** | `/logic` · `/probability` · `/decision` · `/constraint` · `/game-theory` · `/epistemology` · `/investigation` |
+| **Think Differently** | `/creativity` · `/analogy` · `/play` |
+| **Think About People** | `/communication` · `/social` · `/emotional` · `/ethics` · `/identity` · `/narrative` · `/psychology` · `/mindset` · `/writing` |
+| **Think in Time & Systems** | `/systems` · `/temporal` · `/historical` · `/resource` · `/strategy` |
+| **See More Clearly** | `/aesthetic` · `/sensory` |
 
 ---
 
