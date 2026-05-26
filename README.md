@@ -310,3 +310,85 @@ Every skill pauses before running and asks how deep you want to go.
 - [`/sensory-detail-mining`](docs/sensory/detail-mining.md) — Finds specific details being overlooked — the most important information is often present but not being registered.
 - [`/sensory-signal-detection`](docs/sensory/signal-detection.md) — Separates meaningful signal from background noise — finding what actually matters among everything present.
 - [`/sensory-structured-observation`](docs/sensory/structured-observation.md) — Applies disciplined observation to a situation — suspending interpretation to see what's actually there before deciding what it means.
+
+---
+
+## Examples
+
+#### `/logic`
+You believe working from home makes you more productive because you get more done on those days. `/logic-check` finds the flaw: you only work from home when you have focused work scheduled anyway — the variable you think is causing the effect is just correlated with it.
+
+#### `/probability`
+A doctor tells you a test for a rare disease is 99% accurate and you tested positive. `/probability-base-rate-anchoring` shows why you're probably still fine: when the disease affects 1 in 10,000 people, even a highly accurate test produces mostly false positives.
+
+#### `/decision`
+You've been offered a chance to move abroad for a year. It feels like a binary yes/no. `/decision-option-mapping` surfaces four options you weren't considering: go for six months, negotiate remote work, defer by a year, or go with a return clause.
+
+#### `/constraint`
+You want to write a novel but insist you have no time. `/constraint-hardness-testing` asks whether the constraint is real — and finds it's a habit dressed as a fact. The actual constraint is that you haven't protected a 45-minute slot.
+
+#### `/game-theory`
+You and a housemate both hate cleaning the kitchen but neither wants to go first. `/game-theory-prisoners-dilemma` shows why this equilibrium is stable and what actually breaks it: not goodwill, but a credible commitment mechanism.
+
+#### `/epistemology`
+Everyone in your social circle agrees on a contested topic and it feels like obvious truth. `/epistemology-epistemic-status` maps how much of your belief rests on actual evidence versus social contagion — and which parts would survive if your environment were different.
+
+#### `/investigation`
+You've heard that people only use 10% of their brain. `/investigation-source-trace` traces the claim back to its supposed origin and finds no credible scientific source — it appears to have emerged from a misquote and spread through repetition.
+
+#### `/creativity`
+You've been writing the same kind of music for three years and everything sounds the same. `/creativity-lateral-thinking` forces you to approach the next track as if you were scoring a silent film — and the constraint breaks the pattern.
+
+#### `/analogy`
+You're struggling to explain how machine learning works to someone with no technical background. `/analogy-domain-transfer` imports the structure of learning to ride a bike: you don't study the physics, you fall, adjust, and eventually your body just knows.
+
+#### `/play`
+Your short story feels predictable but you can't see where. `/play-worst-case-reversal` asks you to design the most boring possible version of the story — and the list of failure modes reveals exactly what the current draft is doing.
+
+#### `/communication`
+You sent a message that was meant to be supportive and the other person felt criticised. `/communication-clarity-audit` finds the two sentences that read as judgement to the receiver even though they weren't written that way.
+
+#### `/social`
+A group project has stalled and nobody can explain why. `/social-dynamics-analysis` identifies that one person holds informal veto power over decisions and everyone else is routing around them without naming it.
+
+#### `/emotional`
+A close friend keeps cancelling plans at the last minute. `/emotional-resistance-diagnosis` maps what might be underneath the behaviour — not flakiness, but something they're avoiding that the plans surface.
+
+#### `/ethics`
+You found someone's wallet containing a significant amount of cash and no ID. `/ethics-council` walks through five ethical frameworks and finds they mostly converge — with one genuinely dissenting position that's worth taking seriously.
+
+#### `/identity`
+You keep agreeing to commitments that make you miserable. `/identity-values-clarification` surfaces the gap between what you say you value and what your decisions actually reveal — and names the value that's been running your choices without your endorsement.
+
+#### `/narrative`
+You're giving a speech that matters to you but it keeps landing flat in rehearsal. `/narrative-tension-mapping` finds that you've removed all the stakes in an attempt to sound measured — and that's exactly what's killing it.
+
+#### `/psychology`
+You've tried to quit a habit five times and it keeps returning. `/psychology-behavior-change` diagnoses what's maintaining it: not lack of willpower, but a specific trigger-routine-reward loop that none of your previous attempts addressed.
+
+#### `/mindset`
+You've been dreading a difficult conversation for three weeks and it's getting worse. `/mindset-stoic` separates what's in your control from what isn't — and finds the avoidance is costing more than the conversation would.
+
+#### `/writing`
+Your essay makes a strong argument but readers say it doesn't land. `/writing-rhetoric` reveals the structure leads with the conclusion before earning it — the reader hasn't been brought along, so the argument feels asserted rather than demonstrated.
+
+#### `/systems`
+Every time your team fixes one problem, two more appear. `/systems-feedback-mapping` finds the reinforcing loop: the fixes are creating conditions that generate the next set of problems faster than the team can resolve them.
+
+#### `/temporal`
+You're deciding whether to go back to study and the short-term cost feels prohibitive. `/temporal-horizon-mapping` maps the decision at one year, five years, and twenty — and shows that the framing that makes it look impossible only holds at the shortest horizon.
+
+#### `/historical`
+You're starting an ambitious creative project and feel pressure to have a breakthrough immediately. `/historical-failure-analysis` maps how most significant creative works actually developed: slowly, with long unproductive stretches that looked like failure until they weren't.
+
+#### `/resource`
+You have three hours to prepare for an important conversation and you're trying to prepare for everything. `/resource-bottleneck-analysis` finds the real constraint: there are two specific questions you can't answer and everything else is already solid.
+
+#### `/strategy`
+You want to win a local chess tournament. `/strategy-positioning` shows that the decisive work happens before the match: in the openings you prepare, the players you study, and the psychological state you arrive in.
+
+#### `/aesthetic`
+Your apartment feels wrong but you can't articulate why. `/aesthetic-coherence-check` finds that three incompatible design eras are competing in the same room — and the feeling of wrongness is the parts refusing to form a whole.
+
+#### `/sensory`
+You've read the same paragraph four times and nothing is sticking. `/sensory-signal-detection` asks what's actually present in your environment right now that you've stopped registering — and finds three things competing for the same attention channel.
