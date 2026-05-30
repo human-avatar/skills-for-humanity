@@ -28,6 +28,14 @@ The five failure modes in technical writing:
 **Step 1: Audience Profile**
 Who is the reader? What do they already know? What do they not know? What is their goal — and what is the fastest path from their current knowledge to task completion? Is the documentation calibrated to this profile, or to a different one (a more advanced user, or a more novice one)?
 
+**Framing check:** Confirm the specific document and audience before continuing. State what you've identified — the actual document being audited, its subject matter, and the assumed reader profile — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the document and its intended audience]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Completeness Audit**
 Read the documentation as if you are the assumed reader and have only their assumed knowledge. Walk through each task:
 - Are all prerequisites stated before they are needed?
@@ -55,6 +63,22 @@ Identify non-obvious steps — steps where the correct action or its output is n
 - Is there an example showing correct usage?
 - Is there an example showing what the correct output looks like?
 - For API documentation: are there example requests and responses?
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

@@ -24,6 +24,14 @@ All three failures have the same cause: the structure was not designed for the r
 **Step 1: Central Argument or Effect**
 What is the piece trying to do? State it in one sentence. If this can't be done in one sentence, the piece may not have a clear central claim — which is itself a structural problem. A piece that doesn't know what it's arguing cannot be structured around its argument.
 
+**Framing check:** Confirm the specific piece and its structural situation before continuing. State what you've identified — the actual document being analyzed, its apparent central claim (if one exists), and the structural failure type most visible — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the piece, its central claim, and the primary structural problem]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Map the Actual Structure**
 What comes first, second, third? Summarise each major section in one sentence. Note: not what the writer intended each section to do — what it actually does, from a reader's perspective. Often these are different.
 
@@ -38,6 +46,22 @@ List each major section with an approximate word count or proportional weight. A
 
 **Step 6: Reorder Recommendation**
 Given the above, what is the optimal sequence? State the new structure as a sequence of sections with rationale for the order.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

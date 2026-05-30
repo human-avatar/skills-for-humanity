@@ -43,6 +43,14 @@ State what is being evaluated — an argument, a plan's logic, a reasoning chain
 
 If the subject is vague, ask one clarifying question before proceeding.
 
+**Framing check:** Confirm the argument being examined before continuing. State what you've identified — the specific claim or conclusion and the key premises supporting it — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the argument — the conclusion and its key premises]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different argument than read; incorporate the correction before proceeding
+
 ---
 
 ### Human Check-in
@@ -95,6 +103,14 @@ Each reviewer answers:
 3. What do *all* the responses agree on? (High-confidence signal — if five different frameworks find the same problem, it's real.)
 
 ---
+
+**Before synthesising:** State what each framework surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each framework found: [one bullet per framework — e.g. Formal Logic: ..., Systems Thinking: ..., Bayesian Reasoning: ..., First Principles: ..., Adversarial Logic: ...]. Before I synthesise, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — frameworks covered the ground
+  - **Weight [direction]** — user will name which thread to emphasise
+  - **Add a missing angle** — user will name a dimension not yet covered
 
 ### Step 4: Chair Synthesis
 

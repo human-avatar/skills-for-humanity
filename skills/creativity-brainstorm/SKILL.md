@@ -32,29 +32,55 @@ Before selecting methods, diagnose what kind of thinking challenge this is:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Two methods only** — Most relevant pair of tools applied at full depth, skip synthesis across more
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Session structure
 
 ### Opening: Diagnose the challenge
 Briefly state your read of the situation: what kind of thinking challenge is this, and why? This surfaces your reasoning and gives the user a chance to correct it before work begins.
 
+**Framing check:** Confirm the specific challenge before continuing. State what you've identified — the actual problem being explored and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific challenge and what's at stake]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ### Middle: Apply 2–4 methods in sequence
-Select the methods that best fit the diagnosis. Apply each one fully — do not abbreviate to get through more methods. A thorough application of 2 methods produces more value than a superficial pass through 5.
+Select the methods that best fit the diagnosis.
+
+**Before narrowing:** Show the full set of candidate methods to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] methods that fit this challenge: [list them with one-line rationale each]. Before I select the most relevant 2–4, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific method to include
+  - **Add a missing one** — user will describe it
+
+Apply each selected method fully — do not abbreviate to get through more methods. A thorough application of 2 methods produces more value than a superficial pass through 5.
 
 **Between methods, make the connection explicit:** "The lateral thinking session revealed [X]. Now the concept fan will explore [Y] by treating [X] as the starting point." Methods should build on each other, not run in parallel.
 
 ### Close: Synthesize
+**Before synthesising:** State what each method surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each method found: [one bullet per method]. Before I synthesise, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — methods covered the ground
+  - **Weight [direction]** — user will name which thread to emphasise
+  - **Add a missing angle** — user will name a dimension not yet covered
+
 After the methods are complete, synthesize across the outputs. This is not a summary — it is an integration. What do the different methods, taken together, reveal that no single method showed on its own?
 
 The synthesis should answer:

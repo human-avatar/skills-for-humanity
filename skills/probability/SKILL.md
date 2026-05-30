@@ -24,6 +24,14 @@ Applies probabilistic thinking to estimates, decisions, and uncertainty. Diagnos
 - **Multiple plausible futures and need to think through each** → scenario-weighting
 - **Unclear** → confidence-calibration; establishing what confidence is warranted usually determines what other analysis is needed
 
+**Framing check:** Confirm the specific situation and the type of uncertainty being reasoned about before routing. State what you've identified — the actual subject being estimated or decided, and the core uncertainty — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation and the uncertainty at stake]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ## Confirm Direction
 
 After diagnosing which tool fits, use the `AskUserQuestion` tool to confirm direction. Construct the question dynamically to include your diagnosis:

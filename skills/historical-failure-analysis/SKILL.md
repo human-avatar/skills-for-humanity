@@ -22,6 +22,14 @@ technology implementation, a partnership negotiation, a strategic pivot, a scali
 operation. Describe it in type terms — this determines which failure mode library
 to draw from.
 
+**Framing check:** Confirm the specific endeavour before continuing. State what you've identified — the type of endeavour and its key parameters (scale, stage, domain) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the endeavour type and context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Identify Common Failure Modes for This Type**
 What do post-mortems and retrospectives reveal about this category? Draw from known
 patterns:
@@ -47,6 +55,14 @@ early warning signs that would indicate it is activating? Be concrete — not
 isn't visible right now.
 
 **Step 4: Rank by Probability Times Impact**
+**Before narrowing:** Show the complete set of failure modes identified in Step 3 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] failure modes present in current conditions. Before I select the highest priority, are there any you'd flag as especially critical, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific failure mode to include in the top tier
+  - **Add a missing one** — user will describe a pattern not yet identified
+
 Which failure modes pose the greatest risk given both their likelihood in this
 specific situation and their consequence if they occur? Use H/M/L ratings for each
 dimension. Priority is the product — a medium-probability, high-impact failure mode
@@ -60,17 +76,17 @@ failure mode activates — would reduce its probability or limit its damage?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Recurring failure modes only** — Patterns that appear across multiple historical cases
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

@@ -23,6 +23,14 @@ Before checking for consistency, inventory what the document asserts:
 
 This map is what gets checked for internal coherence — not whether any claim is *true*, but whether the claims are consistent with each other.
 
+**Framing check:** Confirm the specific document or set of claims before continuing. State what you've identified — the actual object being analyzed and its key parameters (document type, scope, primary claims in tension) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific document or claim set being checked]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Check goal-constraint conflicts**
 Do the stated goals require violating stated constraints? Common patterns:
 - A performance goal that requires more resources than the budget allows
@@ -52,17 +60,17 @@ Implicit assumptions are the most dangerous source of inconsistency — stated n
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Contradictions list only** — Flag the specific inconsistencies without full analysis
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

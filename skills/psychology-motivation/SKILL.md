@@ -14,6 +14,14 @@ Surface explanations for behavior are almost always incomplete. When someone say
 **Step 1: Observe the Behavior**
 Describe the actual behavior, not the interpretation. "Keeps missing deadlines" rather than "doesn't care about quality." "Pushes back on every new initiative" rather than "resistant to change." The behavior is the data; the motivation is the hypothesis.
 
+**Framing check:** Confirm the specific person or group and the behavior being analyzed before continuing. State what you've identified — the actual subject, the behavior observed, and the context — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of who is doing what, in what context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Name the Surface Motivation**
 What's the stated reason, or the most obvious explanation? This is the first layer — what the person says they want, or what seems to be driving them at face value. Surface motivations are real, but they're rarely the full picture. Capture them clearly before going deeper.
 
@@ -41,9 +49,9 @@ What's the specific thing that addresses the root motivation? Not "make them fee
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full diagnostic** — All steps, reasoning shown throughout
@@ -51,7 +59,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Lever only** — I already have the diagnosis; what's the specific lever?
   - **Refine the behavior** — Clarify what behavior we're analyzing before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

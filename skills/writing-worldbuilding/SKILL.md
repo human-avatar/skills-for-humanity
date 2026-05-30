@@ -18,6 +18,14 @@ The second test: specificity of texture. The world must feel inhabited not throu
 **Step 1: Rules**
 Map the world's governing systems: physical, social, technological, magical, or political. What are the rules that cannot be broken? Are they internally consistent — does the magic system create loopholes the story conveniently exploits? Does the technology appear and disappear based on plot convenience? Rules only function as worldbuilding if they constrain the story.
 
+**Framing check:** Confirm the specific world being audited before continuing. State what you've identified — the fictional world, its genre/setting, and the story context it operates within — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the world, its genre, and the core story context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: History**
 What happened before the story? How does it shape present conditions? The world's history should be visible in the present: in architecture, language, prejudice, ritual, scar tissue. If the history is not visible in the present, it has no function — it's backstory for the author, not texture for the world.
 
@@ -29,6 +37,22 @@ Specific details that make the world inhabited — not the large-scale facts, bu
 
 **Step 5: Constraint-Story Alignment**
 Does the world's structure create the story's conflict, or is the world irrelevant to the plot? This is the integration test. Map the connection: world rule → social consequence → character situation → story problem. If the chain breaks at any point, the world is decorative rather than load-bearing.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

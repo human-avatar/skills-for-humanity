@@ -18,6 +18,14 @@ State the constraint in a single, unambiguous sentence. Vague constraints produc
 inversions. "We have no budget" is too loose. "We have $0 for external tooling for Q3" is
 something you can work with.
 
+**Framing check:** Confirm the specific constraint before continuing. State what you've identified — the actual constraint and the goal it is blocking — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the constraint and the goal it blocks]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Ask What the Constraint Forces**
 What does this constraint make you do that you'd otherwise avoid? What comfortable defaults
 does it eliminate? The constraint is doing work — what work?
@@ -31,6 +39,14 @@ Produce 3-5 solutions that are impossible or inferior without the constraint. Th
 workarounds — they are solutions the constraint made visible.
 
 **Step 5: Select for Unexpected Value**
+**Before narrowing:** Show the complete generated set to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] solutions that only work because of the constraint. Before I select the most promising, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific solution to include
+  - **Add a missing one** — user will describe it
+
 Pick the solution where the constraint creates the most unexpected advantage — the one that
 would not have been found without the limit.
 
@@ -38,17 +54,17 @@ would not have been found without the limit.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **One inversion only** — The single most powerful constraint flip
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

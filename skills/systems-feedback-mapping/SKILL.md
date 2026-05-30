@@ -14,8 +14,24 @@ Most system failures come from unrecognized feedback loops — especially delaye
 **Step 1: Define System Boundary**
 State what is inside the system and what is outside it. Name the time horizon and the key behavior to explain (growth, oscillation, collapse, stagnation).
 
+**Framing check:** Confirm the specific system and the feedback relationship in focus before continuing. State what you've identified — the actual system being analyzed, its time horizon, and the behavior you're mapping — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the system, time horizon, and behavior to explain]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: List Key Variables**
 Identify 5–10 variables that change over time and drive the behavior in question. These are stocks (levels that accumulate) or flows (rates of change). Be specific — "customer trust" not "sentiment".
+
+**Before narrowing:** Show the complete generated set of candidate variables to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] candidate variables. Before I narrow to the 5–10 most relevant for mapping feedback loops, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific variable to include
+  - **Add a missing one** — user will describe it
 
 **Step 3: Map Causal Links**
 For each variable pair where a relationship exists: does A increasing cause B to increase (same direction, +) or decrease (opposite direction, −)? Mark the polarity of each link.
@@ -33,17 +49,17 @@ Which loop is currently driving system behavior? The dominant loop changes as co
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Reinforcing loops only** — What's accelerating in this system, skip balancing loops
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

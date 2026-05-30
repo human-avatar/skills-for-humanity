@@ -13,7 +13,15 @@ Your best move depends on what they'll do — and their best move depends on wha
 
 **Step 1: Diagnose the interaction type**
 
-Read the situation and identify which of the following patterns applies:
+Read the situation and identify which of the following patterns applies.
+
+**Framing check:** Confirm the specific strategic situation before continuing. State what you've identified — the actual interaction, who the players are, and what decision is at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the strategic situation and the players involved]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
 
 - **One-shot strategic choice** — players make a single decision simultaneously or sequentially, and payoffs depend on the combination of choices. You need to identify the stable outcome (equilibrium) and whether it's efficient.
   → Use `/game-theory-equilibrium`
@@ -38,11 +46,15 @@ Read the situation and identify which of the following patterns applies:
 
 **Step 2: Confirm and route**
 
-Present the diagnosis clearly — what kind of interaction this is and which skill fits — then ask:
+Present the diagnosis clearly — what kind of interaction this is and which skill fits — then use `AskUserQuestion`:
+- **Question:** "My read: this is a [interaction type] situation — [one sentence explaining why, e.g. which payoff structure or strategic feature makes it so]. Run `/[sub-skill]`?"
+- **Header:** "Direction"
+- **Options:**
+  - **Yes — run `/[sub-skill]`** — diagnosis is correct
+  - **Show all options** — list the available sub-skills with one-line descriptions
+  - **Different angle** — describe which aspect of the situation is most pressing
 
-> *I've read this as [interaction type]. Does that match your situation, or is there a different aspect you'd like to focus on?*
-
-If confirmed, invoke the appropriate skill. If the situation spans multiple types (e.g., a cooperation problem inside a long-run relationship), note both and ask which dimension is most pressing.
+If the situation spans multiple types (e.g., a cooperation problem inside a long-run relationship), note both in the question and ask which dimension is most pressing before routing.
 
 ---
 

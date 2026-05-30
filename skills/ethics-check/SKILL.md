@@ -14,6 +14,14 @@ Five ethical frameworks consistently applied produce a more complete picture tha
 **Step 1: State the Decision or Action Clearly**
 Before analysis: name exactly what is being evaluated. A vague subject produces vague ethics. Include who does what, to whom, under what conditions.
 
+**Framing check:** Confirm the ethical situation before continuing. State the specific decision or action being evaluated and the key parties affected in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the decision or action, who is involved, and who is affected]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Run Each Framework in Sequence**
 
 **Utilitarian** — Net effect on wellbeing across all affected parties. Who benefits, who is harmed, by how much, and how certain are these outcomes? Does the action produce the greatest good for the greatest number? What are the second-order effects?
@@ -26,6 +34,14 @@ Before analysis: name exactly what is being evaluated. A vague subject produces 
 
 **Justice/Fairness** — Distribution and procedure. Is the distribution of benefits and burdens fair? Were affected parties included in the process? Would this decision be defensible behind a veil of ignorance — not knowing which party you would be?
 
+**Before synthesising:** State what each framework surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each framework found: [one bullet per framework — Utilitarian, Deontological, Virtue Ethics, Care Ethics, Justice/Fairness]. Before I synthesise, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — frameworks covered the ground
+  - **Weight a direction** — user will name which framework or value thread to emphasise
+  - **Add a missing angle** — user will name a dimension not yet covered
+
 **Step 3: Synthesise**
 Where do the frameworks agree? That agreement is strong ethical signal. Where do they conflict? Name the specific values in tension.
 
@@ -36,17 +52,17 @@ Given the synthesis: what should happen, and what conditions or safeguards matte
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Framework conflicts only** — Where the five frameworks disagree, not where they agree
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

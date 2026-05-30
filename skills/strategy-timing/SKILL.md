@@ -18,6 +18,14 @@ Both Musashi and Sun Tzu agree on one further principle: the opponent's timing i
 **Step 1: Conditions favoring action now**
 What is true right now that will not be true later? What windows are closing — competitor moves, decision-maker availability, market conditions, relationships, information advantages that decay? What cost do you pay for each week of delay?
 
+**Framing check:** Confirm the specific timing situation before continuing. State what you've identified — the action being considered, the actor, the opponent or environment creating pressure, and the core temporal tension — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the timing situation — the action, who is acting, what is creating the window or pressure, and what the core timing trade-off is]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Conditions favoring waiting**
 What conditions are improving with time on your side? What intelligence is still missing that would increase your confidence? What resources are still being built? What opponent conditions are approaching that would favor you (an opponent is about to be overextended, a regulatory decision is pending, a key hire is coming)?
 
@@ -32,6 +40,22 @@ Musashi's "interval": where is your opponent in their cycle? Are they overextend
 
 **Step 5: Cost asymmetry**
 What is the cost of acting too early? What is the cost of acting too late? Which error is more recoverable? In most situations, one error is reversible and one is not — name which, and let that asymmetry weight the timing decision.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

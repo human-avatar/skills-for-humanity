@@ -18,6 +18,14 @@ Sun Tzu's corollary: "The supreme art of war is to subdue the enemy without figh
 **Step 1: Stated objective**
 What are you trying to achieve? Name it as it is currently framed.
 
+**Framing check:** Confirm the specific contest and objective before continuing. State what you've identified — the actual situation being analyzed and what winning is currently defined as — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific contest and its stated objective]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Real objective**
 What would you actually have if you achieved the stated objective? What is the objective behind the stated one — the political end, in Clausewitz's terms? Why does the stated objective matter? Sometimes the stated objective is the real one; often it is a proxy for something deeper, and winning the proxy while losing the underlying goal is precisely the pyrrhic trap.
 
@@ -32,6 +40,22 @@ What does winning cost at maximum force? At minimum force? At the likely cost, i
 
 **Step 6: Victory recognition**
 How will you know when you've won? What observable condition tells you to stop? This is the step most often skipped — and its absence produces contests that continue past their objective, consuming additional resources toward a goal already achieved or already unachievable.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

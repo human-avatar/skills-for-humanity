@@ -18,6 +18,14 @@ This is not a consolation prize. It is a recognition that the things in your con
 **Step 1: Identify the Situation**
 State clearly what is causing distress, worry, or friction. Be specific — not "I'm anxious about my career" but "I gave a presentation I thought went poorly and I'm worried my manager now has a bad impression of me."
 
+**Framing check:** Confirm the specific situation before continuing. State what you've identified — the actual source of distress and its core tension — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation — what's happening, what's causing the distress, and what remains outside the person's control]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Apply the Dichotomy of Control**
 Divide the situation into two columns:
 
@@ -37,6 +45,14 @@ Divide the situation into two columns:
 This is not a trick — many things we feel should be in our control (our reputation, how we are perceived, whether we succeed) genuinely are not. The question is not whether we want them but whether we govern them.
 
 **Step 3: Identify Which Stoic Practice Applies**
+
+**Before narrowing:** Show all four practices to the user with a one-sentence description of how each fits the situation. Use `AskUserQuestion`:
+- **Question:** "I've identified four practices that could apply. Before I select the most fitting one, are there any you'd flag as especially relevant, or any direction you'd like to explore?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the fit looks right
+  - **Flag one** — user will name a specific practice to apply
+  - **Combine two** — user will identify which practices to run together
 
 *Negative Visualization (Premeditatio Malorum):*
 When you are fearful about something that might go wrong. Deliberately imagine the worst outcome in full detail. Not to wallow — but to discover that you can bear it, and to reduce the power fear has over present action. Seneca: *"Let us prepare our minds as if we had come to the very end of life. Let us postpone nothing."* The Stoics found that imagining the loss of something (a relationship, a job, health) produces gratitude for what you currently have and reduces the grip of anxiety about losing it.

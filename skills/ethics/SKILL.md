@@ -22,6 +22,14 @@ Applies ethical reasoning to decisions, designs, policies, and practices. Diagno
 
 ## Routing Decision
 
+**Framing check:** Confirm the ethical situation and the parties affected before routing. State what you've identified — the actual situation being analyzed, who is affected, and what ethical tension is at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the ethical situation, who is affected, and what is at stake]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **High-stakes decision affecting many stakeholders, wants thorough pressure-testing** → ethics-council (full council with peer review, HTML report)
 - **Needs a complete ethical assessment quickly** → ethics-check (all 5 frameworks, no peer review overhead)
 - **Something has already gone wrong — active incident** → ethics-crisis-triage

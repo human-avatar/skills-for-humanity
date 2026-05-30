@@ -17,6 +17,14 @@ For brand and organisational writing, this extracted voice fingerprint becomes t
 
 **Step 1: Extract Defining Characteristics**
 From the strongest existing passages — the sections that feel most alive, most like the brand or the writer's best work — identify 5–7 defining characteristics. These should be specific enough to be testable. Not "clear and friendly" but:
+
+**Framing check:** Confirm the specific voice and document before continuing. State what you've identified — the actual text being analyzed, whether this is a single-author or multi-author document, and the primary goal (audit, repair, or guide creation) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the document, its authorship context, and the goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
 - Sentence length: typically 12–20 words; occasional short declaratives for emphasis (under 8 words)
 - Vocabulary: specific and concrete; avoids jargon; uses domain terms but never without context
 - Formality: conversational but not casual; writes to a peer, not down to a student
@@ -24,6 +32,14 @@ From the strongest existing passages — the sections that feel most alive, most
 - Metaphor: uses one extended metaphor per piece; ground-level comparisons not elevated ones
 - Rhythm: often ends sections with a short sentence that lands a point
 - Attitude to reader: assumes reader is intelligent and pressed for time; doesn't repeat
+
+**Before narrowing:** Show the complete generated set of characteristics to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] voice characteristics. Before I select the 5–7 most defining ones, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific characteristic to include
+  - **Add a missing one** — user will describe a characteristic not yet captured
 
 **Step 2: Create a Voice Fingerprint**
 Write a representative passage (or select the strongest existing one) that exemplifies all 5–7 characteristics simultaneously. This is the voice fingerprint — the reference point that any subsequent section can be held against. It should feel unmistakably like the voice.
@@ -40,6 +56,22 @@ For documents that will have multiple contributors or ongoing updates, translate
 - 5–7 DO / DON'T pairs with examples
 - The representative fingerprint passage as the reference sample
 - The 3 most common departures to watch for, with before/after examples
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

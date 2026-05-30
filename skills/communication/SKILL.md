@@ -18,6 +18,14 @@ Applies communication thinking to any message, proposal, or delivery decision. D
 
 ## Routing Decision
 
+**Framing check:** Confirm the message, the audience, and the goal before continuing. State what you've identified — the actual communication situation being addressed — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the message, who it's going to, and what success looks like]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Don't know your audience well or why they're not getting it** → audience-modeling
 - **Have a draft and want to find where it breaks** → clarity-audit
 - **Unsure whether to email, meet, async, sync, document** → medium-selection

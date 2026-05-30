@@ -24,6 +24,14 @@ Applies historical reasoning to current situations. Diagnoses what kind of histo
 - **Making a decision and want to know what history says** → precedent-analysis
 - **Unclear** → precedent-analysis; finding the analogous situation usually reveals cycles, lessons, and failure modes together
 
+**Framing check:** Confirm the specific historical situation before routing. State what you've identified — the actual situation being examined, what time pressure or decision is attached, and the historical angle being sought — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation and what historical lens fits]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ## Confirm Direction
 
 After diagnosing which tool fits, use the `AskUserQuestion` tool to confirm direction. Construct the question dynamically to include your diagnosis:

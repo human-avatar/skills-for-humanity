@@ -33,12 +33,28 @@ State the user's goal at two levels:
 
 The purpose level is important because it sometimes reveals entirely different solution families that address the real need without solving the stated problem.
 
+**Framing check:** Confirm the specific challenge before continuing. State what you've identified — the actual goal being pursued and the purpose level behind it — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the goal and its underlying purpose]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Generate broad concepts (first ring)**
 At the concept level, ask: "What are all the fundamentally different approaches to achieving this goal?" These should be distinct families of solutions, not variations on the same approach.
 
 Aim for 4–7 broad concepts. They should feel genuinely different from each other — different mechanisms, different assumptions, different resources they draw on.
 
 **Step 3: Expand each concept (second ring)**
+**Before narrowing:** Show the complete set of broad concepts generated in Step 2 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] broad concepts. Before I select the most promising to expand, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific concept to prioritise for expansion
+  - **Add a missing one** — user will describe a concept family not yet on the list
+
 For 2–3 of the most promising broad concepts, generate 3–4 sub-concepts — more specific versions that show the range within that approach family.
 
 **Step 4: Generate specific implementations (outer ring)**
@@ -49,17 +65,17 @@ After mapping the fan, identify: which concepts or sub-concepts did the user pro
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Concept level only** — Middle tier of the fan (concepts that serve the purpose), skip both immediate tactics and strategic alternatives
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

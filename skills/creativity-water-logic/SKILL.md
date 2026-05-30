@@ -20,6 +20,14 @@ Water logic sessions feel different from normal analysis. The discipline is to f
 **Step 1: Establish the starting point**
 What is the user starting from? A concept, an idea, a problem, a question, a provocation. State it clearly. This is the source — where the water starts.
 
+**Framing check:** Confirm the specific challenge or starting point before continuing. State what you've identified — the actual concept or situation being explored and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the starting point]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Follow the flow**
 From the starting point, trace outward. The question at each step is not "is this true?" but "where does this lead?"
 
@@ -38,21 +46,31 @@ Do not evaluate. Do not categorize. Do not stop because a direction seems wrong 
 After following several flows from the starting point, step back and describe the landscape that has emerged. What territory has been covered? What are the main streams? Where do things converge? Where do they diverge? What unexpected territory appeared?
 
 **Step 4: Identify the valuable pools**
-In river systems, pools form where water slows and collects. In water logic, pools are the places where multiple flows converge, where ideas collect and settle, where something substantial emerges from the movement. Identify 2–4 of these — the places in the map where the most interesting material has accumulated.
+In river systems, pools form where water slows and collects. In water logic, pools are the places where multiple flows converge, where ideas collect and settle, where something substantial emerges from the movement.
+
+**Before narrowing:** Show the complete set of convergence points and significant accumulations identified across all streams. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] places where flows converge or material accumulates. Before I select the most significant pools, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific convergence point to include
+  - **Add a missing one** — user will describe it
+
+Identify 2–4 of these — the places in the map where the most interesting material has accumulated.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Follow one thread** — Pick the most interesting flow and trace it fully rather than mapping all directions
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

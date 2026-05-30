@@ -20,6 +20,14 @@ What is the specific thought that is generating distress? Not "I feel anxious ab
 
 The automatic thought has a specific structure: it is a *claim about reality* (including about the future, about others' minds, about patterns across time). It is the claim that needs to be examined.
 
+**Framing check:** Confirm the specific thought and emotional context before continuing. State what you've identified — the actual automatic thought being examined and the situation generating it — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific automatic thought and its triggering situation]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different thought or situation than read; incorporate the correction before proceeding
+
 **Step 2: Record the Distress**
 Rate the intensity of the emotion the thought produces (0–10). This baseline matters because the goal of cognitive restructuring is not to eliminate the emotion — it is to calibrate it accurately. Some distress about real problems is appropriate. A rating of 9 about a situation that warrants a 3 is the target of intervention.
 

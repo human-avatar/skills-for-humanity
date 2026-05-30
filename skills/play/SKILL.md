@@ -24,6 +24,14 @@ Applies playful, unconventional thinking to break fixed patterns and generate un
 - **Polite brainstorming keeps producing safe ideas** → worst-case-reversal
 - **Unclear** → perspective-reversal; inhabiting another view unblocks most stuck situations
 
+**Framing check:** Confirm the specific challenge before routing. State what you've identified — the actual situation and what kind of stuck the user is in — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the challenge and what's blocking progress]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ---
 
 ## Confirm Direction

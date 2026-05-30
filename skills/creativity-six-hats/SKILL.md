@@ -42,21 +42,29 @@ For each hat:
 - Apply it fully to the user's situation — don't just define it, actually do the thinking
 - Be honest within each hat's discipline. Black Hat should be genuinely cautionary. Yellow Hat should find real value, not forced positivity.
 
+**Before synthesising:** State what each hat surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each hat found: [one bullet per hat — e.g. White: the key data gaps; Red: the dominant emotional signal; Black: the sharpest risk; Yellow: the strongest value case; Green: the most promising alternative]. Before I run the Blue Hat synthesis, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — the hats covered the ground
+  - **Weight [direction]** — user will name which hat's thread to emphasise
+  - **Add a missing angle** — user will name a dimension not yet covered
+
 **Blue Hat close:** After the other five hats, the Blue Hat synthesis should answer: What does the full map tell us? What stands out? What deserves most attention? What is the recommended next step, if any?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Black and yellow hats only** — Critical risks and genuine benefits, skip the other four hats
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

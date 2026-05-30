@@ -16,6 +16,14 @@ The key diagnostic is the want/need split. The want is what the character consci
 **Step 1: State the Core Want vs. Core Need**
 Name what the character consciously wants (their goal as they understand it) and what they actually need (what would genuinely fulfil or redeem them). These should differ — the want is typically external, visible, and achievable; the need is internal, invisible to the character, and requires change. If want and need are identical, the character has no arc.
 
+**Framing check:** Confirm the specific character before continuing. State what you've identified — the character's name or role, the story context, and the central tension as you've read it — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the character and their situation]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different character or situation than read; incorporate the correction before proceeding
+
 **Step 2: Map the Wound**
 Identify the formative experience that created their worldview and defences. The wound is not a backstory fact — it's the event or pattern that taught them something about the world that now governs how they move through it. Name the belief the wound installed: "People leave if you show need," "Strength is the only thing others respect," "I am not enough." This belief is the character's operating system.
 
@@ -41,6 +49,22 @@ Every compelling character holds two things in tension simultaneously — not on
 
 ---
 
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
+
+---
+
 ## Output Format
 
 ### Character Profile
@@ -58,6 +82,14 @@ Every compelling character holds two things in tension simultaneously — not on
 **Arc Endpoint:** [What must internally change for resolution]
 
 **Defining Contradiction:** [The tension they hold simultaneously — one sentence]
+
+**Before narrowing:** Show the complete set of candidate behavioural tells to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] candidate behavioural tells. Before I select the most scene-ready ones, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific tell to include
+  - **Add a missing one** — user will describe it
 
 **Behavioural Tells:** [3–5 specific, observable behaviours that express the above — concrete enough to write on the page]
 

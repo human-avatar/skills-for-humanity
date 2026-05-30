@@ -14,6 +14,14 @@ Communication fails at the receiver, not the sender. The most common communicati
 **Step 1: Name Specific People**
 Resist generic categories. Not "senior leadership" but "the CFO and CTO who approved last quarter's roadmap". The more specific the audience, the more useful the model.
 
+**Framing check:** Confirm the specific audience and communication context before continuing. State what you've identified — the actual people being modeled and the communication situation — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific audience and the communication they need to receive]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Current Belief**
 What do they already think about this topic? Include their current confidence level. This is the starting point — you are moving them from here, not from zero.
 
@@ -33,17 +41,17 @@ What must they hear or believe first, before they can receive anything else? If 
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Threshold conditions only** — What would make this audience act or change their view
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

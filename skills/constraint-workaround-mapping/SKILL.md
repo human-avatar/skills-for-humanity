@@ -19,6 +19,14 @@ Write the constraint. Then confirm: is this actually fixed? A truly hard constra
 concrete source — law, technical impossibility, signed contract. If the source is unclear,
 use constraint-hardness-testing first.
 
+**Framing check:** Confirm the specific constraint and the goal it is blocking before continuing. State what you've identified — the actual constraint and the outcome the user is trying to reach — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the constraint and the goal it is blocking]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Map the Exact Boundary**
 What does this constraint specifically prevent? What does it explicitly not prevent? Most
 constraints are narrower than they appear. Mapping the boundary precisely reveals the space
@@ -34,6 +42,14 @@ the constraint? Adjacent means achieving the same underlying outcome through a d
 mechanism — not a lesser outcome through the same mechanism.
 
 **Step 5: Generate 3-5 Workarounds with Cost**
+**Before narrowing:** Show the complete set of adjacent paths identified in Step 4 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] adjacent paths. Before I select the most feasible workarounds, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific path to include
+  - **Add a missing one** — user will describe it
+
 For each viable adjacent path, state the cost relative to the direct approach: additional
 time, complexity, dependency, quality reduction, or reversibility loss.
 
@@ -45,17 +61,17 @@ workarounds are too costly, the right answer may be to re-examine the goal.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Two best workarounds only** — Highest-feasibility paths around the constraint
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

@@ -23,13 +23,30 @@ goals but divergent interests trying to coordinate; a technology displacing a
 profession whose members control the adoption decision. State the situation in these
 structural terms — this is what you'll search for in history.
 
+**Framing check:** Confirm the specific situation before continuing. State what you've identified — the actual situation being analyzed and its core structural pattern — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence structural framing of the situation]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Search for Structural Precedents**
 Deliberately look outside the obvious domain. The most obvious precedent (same
 industry, earlier decade) usually has the most surface similarity and the least
 structural insight — the surface differences are visible but the structural
 similarities are already assumed. Search across industries, eras, and scales for
-situations with the same underlying dynamics. Find 2-3 with the strongest structural
-match.
+situations with the same underlying dynamics.
+
+**Before narrowing:** Show the complete generated set to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] candidate precedents. Before I select the most structurally similar, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific precedent to include
+  - **Add a missing one** — user will describe it
+
+Then find 2-3 with the strongest structural match.
 
 **Step 3: Describe Each Precedent**
 For each: what was the specific situation, what approaches were tried, what was the
@@ -53,17 +70,17 @@ outcome if it had been different?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Closest precedent only** — The single most structurally similar historical case, fully developed
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

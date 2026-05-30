@@ -9,24 +9,24 @@
 
 <br>
 
-[![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/171_skills-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/27_categories-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)
+[![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/216_skills-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/35_categories-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)
 
 <br>
 </div>
 
 | | Skills |
 |---|---|
-| **Think Sharper** | `/logic` · `/probability` · `/decision` · `/constraint` · `/game-theory` · `/epistemology` · `/investigation` |
-| **Think Differently** | `/creativity` · `/analogy` · `/play` |
-| **Think About People** | `/communication` · `/social` · `/emotional` · `/ethics` · `/identity` · `/narrative` · `/psychology` · `/mindset` · `/writing` |
-| **Think in Time & Systems** | `/systems` · `/temporal` · `/historical` · `/resource` · `/strategy` |
+| **Think Sharper** | `/logic` · `/probability` · `/decision` · `/constraint` · `/game-theory` · `/epistemology` · `/investigation` · `/economics` · `/information` · `/cognition` |
+| **Think Differently** | `/creativity` · `/analogy` · `/play` · `/evolution` · `/design` |
+| **Think About People** | `/communication` · `/social` · `/emotional` · `/ethics` · `/identity` · `/narrative` · `/psychology` · `/mindset` · `/writing` · `/linguistics` |
+| **Think in Time & Systems** | `/systems` · `/temporal` · `/historical` · `/resource` · `/strategy` · `/network` · `/ecology` |
 | **See More Clearly** | `/aesthetic` · `/sensory` |
 
 ---
 
 Each skill is a complete procedure: a defined problem type, a sequence of moves, a structured output. Not a concept to apply — a method to run.
 
-**Lineage:** [de Bono](https://en.wikipedia.org/wiki/Edward_de_Bono) · [Meadows](https://en.wikipedia.org/wiki/Donella_Meadows) · [Altshuller](https://en.wikipedia.org/wiki/Genrich_Altshuller) · [Minto](https://en.wikipedia.org/wiki/Barbara_Minto) · [Goldratt](https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt) · [Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) · [Klein](https://en.wikipedia.org/wiki/Gary_Klein) · [Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill) · [Kant](https://en.wikipedia.org/wiki/Immanuel_Kant) · [Aristotle](https://en.wikipedia.org/wiki/Aristotle) · [Noddings](https://en.wikipedia.org/wiki/Nel_Noddings) · [Rawls](https://en.wikipedia.org/wiki/John_Rawls) · [Sun Tzu](https://en.wikipedia.org/wiki/Sun_Tzu) · [Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz) · [Musashi](https://en.wikipedia.org/wiki/Miyamoto_Musashi) · [Nash](https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.) · [Axelrod](https://en.wikipedia.org/wiki/Robert_Axelrod) · [Vickrey](https://en.wikipedia.org/wiki/William_Vickrey) · [Shapley](https://en.wikipedia.org/wiki/Lloyd_Shapley) · [Spence](https://en.wikipedia.org/wiki/Michael_Spence)
+**Lineage:** [de Bono](https://en.wikipedia.org/wiki/Edward_de_Bono) · [Meadows](https://en.wikipedia.org/wiki/Donella_Meadows) · [Altshuller](https://en.wikipedia.org/wiki/Genrich_Altshuller) · [Minto](https://en.wikipedia.org/wiki/Barbara_Minto) · [Goldratt](https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt) · [Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) · [Klein](https://en.wikipedia.org/wiki/Gary_Klein) · [Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill) · [Kant](https://en.wikipedia.org/wiki/Immanuel_Kant) · [Aristotle](https://en.wikipedia.org/wiki/Aristotle) · [Noddings](https://en.wikipedia.org/wiki/Nel_Noddings) · [Rawls](https://en.wikipedia.org/wiki/John_Rawls) · [Sun Tzu](https://en.wikipedia.org/wiki/Sun_Tzu) · [Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz) · [Musashi](https://en.wikipedia.org/wiki/Miyamoto_Musashi) · [Nash](https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.) · [Axelrod](https://en.wikipedia.org/wiki/Robert_Axelrod) · [Vickrey](https://en.wikipedia.org/wiki/William_Vickrey) · [Shapley](https://en.wikipedia.org/wiki/Lloyd_Shapley) · [Spence](https://en.wikipedia.org/wiki/Michael_Spence) · [Marshall](https://en.wikipedia.org/wiki/Alfred_Marshall) · [Coase](https://en.wikipedia.org/wiki/Ronald_Coase) · [Ostrom](https://en.wikipedia.org/wiki/Elinor_Ostrom) · [Granovetter](https://en.wikipedia.org/wiki/Mark_Granovetter) · [Barab%C3%A1si](https://en.wikipedia.org/wiki/Albert-L%C3%A1szl%C3%B3_Barab%C3%A1si) · [Shannon](https://en.wikipedia.org/wiki/Claude_Shannon) · [Norman](https://en.wikipedia.org/wiki/Don_Norman) · [Lakoff](https://en.wikipedia.org/wiki/George_Lakoff) · [Grice](https://en.wikipedia.org/wiki/Paul_Grice) · [Kahneman](https://en.wikipedia.org/wiki/Daniel_Kahneman) · [Tansley](https://en.wikipedia.org/wiki/Arthur_Tansley) · [Dawkins](https://en.wikipedia.org/wiki/Richard_Dawkins)
 
 ---
 
@@ -48,11 +48,28 @@ Run again to update. Restart Claude Code when done.
 
 Describe your situation. Routes to the right methodology automatically. You don't need to know which skill fits — that's the point.
 
-Every skill pauses before running and asks how deep you want to go.
+Every skill pauses before running: states its read, confirms what it's actually analysing, and asks how deep to go. Correct the framing at any point — the analysis follows the corrected read, not the original one.
 
 ---
 
-## Skills reference
+## Use cases
+
+**Decisions** — `/decision` for structure, `/decision-premortem-analysis` to stress-test before committing, `/constraint-hardness-testing` to separate real obstacles from assumed ones.
+
+**Complex situations** — `/systems` to map why something keeps producing the same outcome, `/game-theory` for the incentive structure underneath, `/historical` for the pattern it's an instance of.
+
+**Creative work** — `/creativity-brainstorm` for multi-method exploration, `/constraint-rule-inversion` to make limits generative, `/aesthetic-elegance-testing` to find what's unnecessary.
+
+**Communication** — `/communication-objection-mapping` to anticipate resistance, `/narrative-tension-mapping` to find what earns attention, `/writing-rhetoric` to audit what a piece is actually doing.
+
+**Ethics** — `/ethics-check` for a fast multi-framework scan, `/ethics-council` for adversarial analysis, `/identity-values-clarification` to test against what you actually value.
+
+**Investigation** — `/investigation-triangulation` for independent corroboration, `/investigation-source-trace` to trace a claim to its origin, `/investigation-counter-hypothesis` to pressure-test your explanation.
+
+---
+
+<details>
+<summary><strong>Skills reference</strong> — 216 skills across 35 categories</summary>
 
 ### Think Sharper
 
@@ -118,6 +135,31 @@ Every skill pauses before running and asks how deep you want to go.
 - [`/investigation-source-trace`](docs/investigation/source-trace.md) — Traces a claim back to its origin: who first made it, what evidence it rested on, and how it has been distorted in transmission.
 - [`/investigation-triangulation`](docs/investigation/triangulation.md) — Verifies a claim across genuinely independent sources, distinguishing amplification from true corroboration.
 
+#### `/economics`
+
+- [`/economics`](docs/economics/README.md) — Entry point for the economics toolkit.
+- [`/economics-opportunity-cost`](docs/economics/opportunity-cost.md) — Maps what you give up by choosing X — because every choice forecloses alternatives, and the invisible cost is often the decisive one.
+- [`/economics-incentive-mapping`](docs/economics/incentive-mapping.md) — Maps who benefits, who pays, and what behaviors the incentive structure produces.
+- [`/economics-externalities`](docs/economics/externalities.md) — Identifies costs and benefits not borne by the actor — and whether they should be internalized.
+- [`/economics-margin`](docs/economics/margin.md) — Applies marginal thinking: the relevant decision is always the next unit, not the average, and sunk costs are irrelevant.
+- [`/economics-coordination`](docs/economics/coordination.md) — Diagnoses collective action failures and public goods problems — why individually rational behavior produces collectively irrational outcomes.
+
+#### `/information`
+
+- [`/information`](docs/information/README.md) — Entry point for the information toolkit.
+- [`/information-signal-noise`](docs/information/signal-noise.md) — Separates meaningful signal from irrelevant noise in any dataset, communication, or situation — identifying what carries actual information and what is static.
+- [`/information-compression`](docs/information/compression.md) — Finds the shortest lossless representation of a message or model — the minimum description that preserves what matters.
+- [`/information-redundancy`](docs/information/redundancy.md) — Identifies where redundancy is protective versus wasteful — and whether removing it creates brittleness or just bloat.
+- [`/information-entropy`](docs/information/entropy.md) — Measures how much genuine uncertainty or surprise is in a source — and what that implies for decisions that depend on it.
+
+#### `/cognition`
+
+- [`/cognition`](docs/cognition/README.md) — Entry point for the cognition toolkit.
+- [`/cognition-attention`](docs/cognition/attention.md) — Maps what is and isn't receiving cognitive attention in a situation — and whether the right things are being prioritised.
+- [`/cognition-mental-models`](docs/cognition/mental-models.md) — Surfaces the mental models driving a decision or interpretation — and tests whether they fit the actual situation.
+- [`/cognition-metacognition`](docs/cognition/metacognition.md) — Examines how you are thinking, not just what you are thinking — catching reasoning errors before they compound.
+- [`/cognition-cognitive-load`](docs/cognition/cognitive-load.md) — Identifies where cognitive load is exceeding capacity — and redesigns the task, environment, or communication to work within limits.
+
 ### Think Differently
 
 #### `/creativity`
@@ -151,6 +193,22 @@ Every skill pauses before running and asks how deep you want to go.
 - [`/play-perspective-reversal`](docs/play/perspective-reversal.md) — Fully inhabits the opposing perspective — competitor, critic, user, or adversary — to find what is invisible from your own position.
 - [`/play-stimulus-generation`](docs/play/stimulus-generation.md) — Introduces a random, unrelated element to break mental fixation — forcing new associations that bypass the groove of familiar thinking.
 - [`/play-worst-case-reversal`](docs/play/worst-case-reversal.md) — Deliberately designs the worst possible version — then reverses each failure mode into a design principle.
+
+#### `/evolution`
+
+- [`/evolution`](docs/evolution/README.md) — Entry point for the evolution toolkit.
+- [`/evolution-variation-selection`](docs/evolution/variation-selection.md) — Applies the variation-selection framework to any adaptive system — identifying what is varying, what selects, and what survives to replicate.
+- [`/evolution-niche`](docs/evolution/niche.md) — Maps the niche a strategy, product, or organism occupies — and whether that niche is shrinking, shifting, or contested.
+- [`/evolution-fitness-landscape`](docs/evolution/fitness-landscape.md) — Models the fitness landscape for a strategy or design — mapping peaks, valleys, and the paths between them to find whether local optima are trapping progress.
+- [`/evolution-arms-race`](docs/evolution/arms-race.md) — Diagnoses co-evolutionary escalation dynamics — where two parties keep adapting to each other in a cycle with no stable end.
+
+#### `/design`
+
+- [`/design`](docs/design/README.md) — Entry point for the design toolkit.
+- [`/design-user-needs`](docs/design/user-needs.md) — Surfaces what users actually need as distinct from what they ask for — the gap between stated preference and revealed behavior is where design fails.
+- [`/design-constraints`](docs/design/design-constraints.md) — Maps the full constraint space for a design problem — material, technical, human, contextual — and finds where constraints are generative rather than limiting.
+- [`/design-iteration`](docs/design/iteration.md) — Structures a rapid iteration cycle — hypothesis, prototype, test, learn — to get to better solutions faster by failing informatively rather than expensively.
+- [`/design-simplicity`](docs/design/simplicity.md) — Finds the simplest version of a design that fully solves the problem — removing everything that doesn't earn its place without losing what makes it work.
 
 ### Think About People
 
@@ -248,6 +306,14 @@ Every skill pauses before running and asks how deep you want to go.
 - [`/writing-voice-consistency`](docs/writing/voice-consistency.md) — Extracts a voice fingerprint from strong existing passages and uses it to audit and repair voice departures.
 - [`/writing-worldbuilding`](docs/writing/worldbuilding.md) — Audits a fictional world for internal consistency, texture, economy, and constraint-story alignment.
 
+#### `/linguistics`
+
+- [`/linguistics`](docs/linguistics/README.md) — Entry point for the linguistics toolkit.
+- [`/linguistics-framing`](docs/linguistics/framing.md) — Identifies the frame embedded in a word, phrase, or question — and how that frame pre-loads the answer before reasoning begins.
+- [`/linguistics-connotation`](docs/linguistics/connotation.md) — Maps the emotional and associative load of word choices — the difference between what a word denotes and what it implies.
+- [`/linguistics-pragmatics`](docs/linguistics/pragmatics.md) — Analyses what is being communicated beyond the literal meaning — implicature, speech acts, and the gap between what is said and what is meant.
+- [`/linguistics-semantic-drift`](docs/linguistics/semantic-drift.md) — Tracks how a word or concept has shifted meaning over time or across communities — and whether the current argument depends on conflating distinct meanings.
+
 ### Think in Time & Systems
 
 #### `/systems`
@@ -294,6 +360,22 @@ Every skill pauses before running and asks how deep you want to go.
 - [`/strategy-timing`](docs/strategy/timing.md) — Analyzes whether to act now or wait, reads your opponent's rhythm, and identifies trigger conditions for the right moment.
 - [`/strategy-victory`](docs/strategy/victory.md) — Defines what winning actually means before the contest begins — prevents the pyrrhic trap of winning in ways that lose the larger goal.
 
+#### `/network`
+
+- [`/network`](docs/network/README.md) — Entry point for the network thinking toolkit.
+- [`/network-centrality`](docs/network/centrality.md) — Identifies the most influential nodes in a network — the people, ideas, or components whose removal or activation disproportionately affects the whole.
+- [`/network-contagion`](docs/network/contagion.md) — Models how things spread through a network — ideas, behaviors, failures, diseases — and where to intervene to accelerate or arrest spread.
+- [`/network-weak-ties`](docs/network/weak-ties.md) — Maps the weak ties in a network and identifies where they provide access to information, opportunities, or bridges unavailable through strong ties alone.
+- [`/network-effects`](docs/network/network-effects.md) — Diagnoses whether a product, platform, or system exhibits network effects — and what type — to assess whether value compounds with scale or saturates.
+
+#### `/ecology`
+
+- [`/ecology`](docs/ecology/README.md) — Entry point for the ecology toolkit.
+- [`/ecology-carrying-capacity`](docs/ecology/carrying-capacity.md) — Maps the limits a system can sustain — identifying where growth will hit a ceiling and what determines that ceiling.
+- [`/ecology-keystone-species`](docs/ecology/keystone-species.md) — Identifies the keystone element in a system — the component whose removal triggers disproportionate collapse across the whole.
+- [`/ecology-interdependence`](docs/ecology/interdependence.md) — Maps the web of mutual dependencies in a system — finding the hidden relationships that make apparently independent elements fragile when separated.
+- [`/ecology-succession`](docs/ecology/succession.md) — Maps the succession dynamics in a system — how it moves through stages of development, what triggers each transition, and what a mature stable state looks like.
+
 ### See More Clearly
 
 #### `/aesthetic`
@@ -311,9 +393,53 @@ Every skill pauses before running and asks how deep you want to go.
 - [`/sensory-signal-detection`](docs/sensory/signal-detection.md) — Separates meaningful signal from background noise — finding what actually matters among everything present.
 - [`/sensory-structured-observation`](docs/sensory/structured-observation.md) — Applies disciplined observation to a situation — suspending interpretation to see what's actually there before deciding what it means.
 
+
+</details>
+
 ---
 
 ## Examples
+
+#### The political landscape through game theory
+The current political climate feels like everyone is acting against their own interests. `/game-theory-iterated` maps the repeated-game structure: parties face short-term defection incentives even when cooperation would benefit everyone long-run, and a shrinking shadow of the future (declining expected gains from future cooperation) explains why moderation keeps losing even when most people say they want it. The equilibrium is stable — not because of irrationality, but because of it.
+
+#### Why social media makes discourse worse despite everyone wanting better
+Platforms want healthier discourse. Users say they want it. It keeps getting worse. `/systems-feedback-mapping` finds the reinforcing loop: engagement-optimised feeds reward content that provokes reaction, which selects for users who engage with provocation, which trains the algorithm to serve more of it. The stated goal and the actual incentive structure point in opposite directions. No individual decision made it this way — the system produced it.
+
+#### The ethics and game theory of automating 40 jobs
+Your company is considering automating a function that currently employs 40 people. `/ethics-council` runs five frameworks and surfaces a genuine conflict: utilitarian logic favours the automation, Kantian reasoning flags that treating displaced workers as means rather than ends requires more than an efficiency argument. `/game-theory-mechanism-design` then helps design a transition that aligns incentives — rather than announcing a decision and managing the fallout.
+
+#### Whether the current wave of nationalism is unprecedented
+The political nationalism of the 2020s feels like something new. `/historical-cycle-detection` finds four structural analogues — late-19th-century nativist movements, 1930s economic retrenchment, post-colonial identity politics, 1970s stagflation politics — and maps where the current situation matches the pattern and where it doesn't. More useful than "this has happened before" or "this time is different."
+
+#### A career pivot with a closing window
+You're considering leaving a stable senior role for an early-stage company. The question feels like yes or no. `/strategy-positioning` maps how your options change if you wait two years versus going now. `/decision-reversibility-analysis` finds the move is partially reversible in the medium term — but with a specific window that closes as you get further from hands-on execution. The pairing surfaces a time constraint neither skill would have found alone.
+
+#### Why a new pricing model keeps failing despite making economic sense
+The economics look clear: the new pricing model captures more value, aligns incentives, and is objectively fairer. It keeps getting rejected. `/economics-incentive-mapping` finds the problem: the people who must approve it face short-term losses even though the organisation wins long-term. `/economics-coordination` then diagnoses the collective action failure — each approver is waiting for someone else to absorb the transition cost first.
+
+#### What a startup's fundraising pitch is actually communicating
+A founder's pitch deck is clear and well-structured. Investors keep passing without giving substantive reasons. `/linguistics-framing` finds the issue: the deck frames the company as solving a problem investors already think is solved, which pre-loads skepticism before a single number is scrutinised. The facts haven't changed — the frame has been working against the argument the whole time.
+
+#### Why a platform grows explosively then stalls at the same threshold
+A consumer app hit 100,000 users fast, then plateaued. Growth tactics aren't working. `/network-effects` diagnoses the type of network effect at play — local, not global — which means the platform reaches saturation within clusters long before it reaches market saturation. `/network-weak-ties` then identifies the bridge connections that could carry growth across cluster boundaries.
+
+#### Whether a dominant tech company's position is actually durable
+The company looks unassailable: massive market share, capital, talent. `/ecology-keystone-species` maps the dependencies — which other players rely on it and which the platform itself relies on — and finds two suppliers with quietly disproportionate leverage. `/ecology-succession` then models what the ecosystem looks like in the next developmental stage, and whether the current dominant player is positioned for it or optimised for conditions that are already passing.
+
+#### Why a product keeps winning technically and losing commercially
+Engineers ship a product that outperforms competitors on every measurable dimension. It keeps underperforming in the market. `/design-user-needs` finds the gap: the features being optimised are the ones engineers care about, not the ones that determine adoption decisions. `/cognition-mental-models` then surfaces the mental model users bring to the product — and shows the product is being built against a different model than the one users actually hold.
+
+#### How a species analogy reveals the flaw in a market entry strategy
+A company plans to enter a mature market by doing what the market leader does, but cheaper. `/evolution-fitness-landscape` maps the landscape: the incumbent occupies a local optimum that is genuinely hard to displace incrementally — competing on the same dimensions means fighting on the incumbent's terms. The analysis points toward a different peak entirely: a niche the incumbent has structurally abandoned.
+
+#### The hidden cost in every information-rich environment
+A team drowns in data but keeps making the same avoidable mistakes. `/information-signal-noise` finds that the most decision-relevant signals are buried in low-frequency, low-urgency reports that nobody reads — while high-frequency, high-urgency signals (email, Slack, dashboards) carry almost no information about the actual problem. The team isn't uninformed; it's overloaded with noise while the signal sits unread.
+
+---
+
+<details>
+<summary>Quick examples — one per skill</summary>
 
 #### `/logic`
 You believe working from home makes you more productive because you get more done on those days. `/logic-check` finds the flaw: you only work from home when you have focused work scheduled anyway — the variable you think is causing the effect is just correlated with it.
@@ -336,6 +462,15 @@ Everyone in your social circle agrees on a contested topic and it feels like obv
 #### `/investigation`
 You've heard that people only use 10% of their brain. `/investigation-source-trace` traces the claim back to its supposed origin and finds no credible scientific source — it appears to have emerged from a misquote and spread through repetition.
 
+#### `/economics`
+Your company is subsidising a service that everyone uses but nobody values. `/economics-opportunity-cost` maps what that budget forecloses — and finds the invisible cost is three times larger than the visible one.
+
+#### `/information`
+Your team produces weekly status reports that nobody reads. `/information-entropy` measures how much genuine new information each report contains — and finds it's near zero, because everything in the report was already known by the people receiving it.
+
+#### `/cognition`
+A senior engineer keeps making the same class of architecture mistake across different projects. `/cognition-mental-models` surfaces the model driving the decisions — and finds it's a model built for a context that no longer applies.
+
 #### `/creativity`
 You've been writing the same kind of music for three years and everything sounds the same. `/creativity-lateral-thinking` forces you to approach the next track as if you were scoring a silent film — and the constraint breaks the pattern.
 
@@ -344,6 +479,12 @@ You're struggling to explain how machine learning works to someone with no techn
 
 #### `/play`
 Your short story feels predictable but you can't see where. `/play-worst-case-reversal` asks you to design the most boring possible version of the story — and the list of failure modes reveals exactly what the current draft is doing.
+
+#### `/evolution`
+A competitor keeps copying your product features and you keep losing the advantage. `/evolution-arms-race` maps the escalation dynamic — and finds you're both locked into a cycle neither side can exit unilaterally, optimising for a dimension that neither side actually wants to compete on.
+
+#### `/design`
+You've shipped five versions of a feature and users still find it confusing. `/design-user-needs` separates what users asked for from what they actually need — and finds the confusion is downstream of a mismatch between the feature's mental model and the user's.
 
 #### `/communication`
 You sent a message that was meant to be supportive and the other person felt criticised. `/communication-clarity-audit` finds the two sentences that read as judgement to the receiver even though they weren't written that way.
@@ -372,6 +513,9 @@ You've been dreading a difficult conversation for three weeks and it's getting w
 #### `/writing`
 Your essay makes a strong argument but readers say it doesn't land. `/writing-rhetoric` reveals the structure leads with the conclusion before earning it — the reader hasn't been brought along, so the argument feels asserted rather than demonstrated.
 
+#### `/linguistics`
+Your policy proposal keeps getting mischaracterised in discussion. `/linguistics-framing` finds the word you chose to describe the mechanism carries a connotation that pre-loads opposition — a different word, identical in denotation, removes the friction.
+
 #### `/systems`
 Every time your team fixes one problem, two more appear. `/systems-feedback-mapping` finds the reinforcing loop: the fixes are creating conditions that generate the next set of problems faster than the team can resolve them.
 
@@ -387,8 +531,16 @@ You have three hours to prepare for an important conversation and you're trying 
 #### `/strategy`
 You want to win a local chess tournament. `/strategy-positioning` shows that the decisive work happens before the match: in the openings you prepare, the players you study, and the psychological state you arrive in.
 
+#### `/network`
+You've been trying to break into a new industry for a year with no traction. `/network-weak-ties` maps your current network and finds it's dense but homogeneous — everyone you know already knows everyone else. The entry point is a single weak tie to a different cluster, not another strong tie in your existing one.
+
+#### `/ecology`
+Your product's ecosystem of integrations looks healthy until two partners quietly announce they're building competing features. `/ecology-interdependence` maps the dependency web and finds three other integrations that were implicitly relying on those two partners — a cascade that wasn't visible until the dependencies were drawn out.
+
 #### `/aesthetic`
 Your apartment feels wrong but you can't articulate why. `/aesthetic-coherence-check` finds that three incompatible design eras are competing in the same room — and the feeling of wrongness is the parts refusing to form a whole.
 
 #### `/sensory`
 You've read the same paragraph four times and nothing is sticking. `/sensory-signal-detection` asks what's actually present in your environment right now that you've stopped registering — and finds three things competing for the same attention channel.
+
+</details>

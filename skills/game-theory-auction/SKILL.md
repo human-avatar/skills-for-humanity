@@ -25,6 +25,14 @@ Identify the auction format:
 - *Descending (Dutch)*: price falls from a high start until the first bidder claims the item at the current price
 - *Other*: procurement reverse auctions, combinatorial auctions, multi-round formats
 
+**Framing check:** Confirm the auction situation before continuing. State what you've identified — the auction format, whether the user is a bidder or designer, and the key parameters (item, number of competitors, value structure if apparent) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the auction situation, role, and key parameters]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Private vs. common value**
 Determine the value structure:
 - *Private value*: each bidder has their own subjective valuation, independent of others. What the item is worth to you doesn't depend on what it's worth to others. Most art auctions, personal property sales.
@@ -58,6 +66,22 @@ Apply the following principles:
 - *Revenue equivalence*: under standard conditions, first-price and second-price formats generate equal expected revenue. Choose based on other considerations: second-price is simpler to reason about (dominant strategy bidding); first-price gives more price certainty upfront
 - *Efficiency vs. revenue*: second-price with no reserve is most efficient (item goes to highest-value bidder); adding a reserve or using a first-price format trades some efficiency for revenue
 - *Multi-unit and combinatorial*: when multiple items are sold and bidders value combinations, use a format that handles complementarities — the Vickrey-Clarke-Groves mechanism generalises the Vickrey auction to multi-item settings
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

@@ -24,6 +24,14 @@ Applies temporal reasoning to timing, horizons, cycles, and futures. Diagnoses w
 - **Wondering whether to act now or wait** → timing-analysis
 - **Unclear** → horizon-mapping; mapping consequences across time scales usually surfaces timing questions, cycles, and futures simultaneously
 
+**Framing check:** Confirm the temporal situation before routing. State what you've identified — the specific situation, the time dimension in focus, and the decision or question at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the temporal situation and what kind of time-based analysis is needed]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ## Confirm Direction
 
 After diagnosing which tool fits, use the `AskUserQuestion` tool to confirm direction. Construct the question dynamically to include your diagnosis:

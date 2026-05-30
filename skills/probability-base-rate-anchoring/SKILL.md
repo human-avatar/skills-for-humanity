@@ -14,6 +14,14 @@ The most common forecasting error is treating every situation as unique and igno
 **Step 1: State the Prediction or Estimate**
 Name the specific outcome being predicted and the current estimate or intuition. What is being forecast and at what implied probability?
 
+**Framing check:** Confirm the specific prediction before continuing. State what you've identified — the outcome being forecast, the current intuitive estimate, and the time horizon — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the prediction and implied probability]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Find the Reference Class**
 What category of similar situations does this belong to? This is the most important and contested step. The reference class should be: (a) large enough to have stable base rates, (b) genuinely similar in the ways that matter, (c) not cherry-picked to flatter the prediction. If multiple reference classes apply, note them all.
 
@@ -30,17 +38,17 @@ Combine the base rate with adjustments to produce a final probability range, not
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Base rate only** — Identify the historical rate without Bayesian adjustment
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

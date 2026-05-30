@@ -18,6 +18,14 @@ Applies systems thinking to complex, dynamic situations. Diagnoses what kind of 
 
 ## Routing Decision
 
+**Framing check:** Confirm the system and the feedback relationship in focus before routing. State what you've identified — the actual system being analyzed and the behavior or dynamic at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the system and the dynamic in focus]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Situation has a familiar-feeling dynamic — want to name the archetype** → archetype-matching
 - **System is producing results no one intended or expected** → emergence-detection
 - **Need to understand what's reinforcing the current behavior** → feedback-mapping

@@ -14,6 +14,14 @@ Fast thinking is not sloppy thinking — it's compressed expertise. Pattern reco
 **Step 1: Identify the Heuristic at Work**
 Name what fast thinking is doing here. Common heuristics:
 
+**Framing check:** Confirm the specific judgment or decision before continuing. State what you've identified — the actual situation where fast thinking is being used and what is at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific situation and the heuristic potentially at work]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Representativeness** — Judging probability by how much something resembles the prototype of a category. "This startup's pitch sounds like every successful startup I've seen." Fast and often right within familiar patterns; fails when base rates matter (most startups fail regardless of how compelling the pitch sounds).
 - **Availability** — Judging frequency or likelihood by how easily examples come to mind. Recent, vivid, or emotionally charged examples feel more probable. Fails when the most available examples are systematically unrepresentative (media coverage, personal experience).
 - **Affect heuristic** — If you feel good about something, you perceive it as lower risk and higher benefit; if you feel bad, higher risk and lower benefit. Fast integration of complex information; fails when the feeling is a response to something unrelated to the actual decision.
@@ -57,9 +65,9 @@ Is there a predictable direction in which this heuristic, in this context, is li
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full assessment** — All steps, reasoning shown throughout
@@ -67,7 +75,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Identify the heuristic** — I just want to know what fast-thinking pattern is at work
   - **Refine the situation** — Clarify what's being decided before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

@@ -17,6 +17,14 @@ Voice differentiation is the second major failure point. Every character has a d
 
 **Step 1: Speaker Goals — Surface vs. Subtext**
 For each speaker in the exchange, identify:
+
+**Framing check:** Confirm the specific dialogue before continuing. State what you've identified — the exchange being analysed, the speakers involved, and the apparent dramatic situation — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the dialogue, its speakers, and the situation it takes place in]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
 - **Surface goal:** What they appear to be talking about
 - **Subtext goal:** What they actually want from this exchange (what they won't say directly)
 
@@ -48,6 +56,22 @@ If the dialogue serves no discernible function — if it is simply exchange — 
 
 **Step 5: Forward Momentum**
 Does the dialogue advance the scene, or does it stall it? Diagnose the rate at which the scene's situation changes through the dialogue. If the first and last lines of the dialogue exchange are in the same state as each other, the dialogue is stalling.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

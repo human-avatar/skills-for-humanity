@@ -14,6 +14,14 @@ Decisions that look good now often look very different at 1, 3, or 10 years. The
 **Step 1: State the Decision**
 Name the decision being evaluated and the current context in which it is being made. Clarity here prevents analysis drifting to adjacent decisions.
 
+**Framing check:** Confirm the specific decision before continuing. State what you've identified — the actual decision being evaluated and the context in which it is being made — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific decision and its context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Map Immediate Consequences (0–3 months)**
 What is the likely state immediately after acting? What resources are committed or freed? Who is affected and how? What has this enabled or closed off in the near term?
 
@@ -27,23 +35,31 @@ What has the decision made likely or unlikely at scale and over time? What is th
 Identify decisions that look positive short-term but create long-term problems — and the reverse. These reversals are the highest-value output of this analysis.
 
 **Step 6: Identify the Governing Horizon**
+**Before narrowing:** Show the consequences mapped across all three horizons to the user first. Use `AskUserQuestion`:
+- **Question:** "I've mapped consequences across all three horizons. Before I identify the governing horizon, are there any consequences you'd flag as especially significant, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the mapped consequences look right
+  - **Flag one** — user will name a specific consequence to weight more heavily
+  - **Add a missing one** — user will describe a consequence not yet captured
+
 At which horizon do the most significant consequences actually land? Is that the horizon currently being used to evaluate this decision? Mismatched horizons are the primary source of poor long-term decisions made in good faith.
 
 ---
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Long-term consequences only** — What emerges beyond the obvious timeframe, skip near-term
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

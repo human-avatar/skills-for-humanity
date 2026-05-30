@@ -18,6 +18,14 @@ Thomas Schelling added a critical extension: when multiple equilibria exist, pla
 **Step 1: Map the players and strategies**
 Identify every player in the interaction. For each player, list their available strategies — the distinct actions they can choose. Keep the strategy set realistic: exhaustive but not so granular it becomes unmanageable.
 
+**Framing check:** Confirm the specific game before continuing. State what you've identified — the players, their available strategies, and the core tension — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific game — who the players are, what strategies are available, and what each is trying to achieve]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Build the payoff matrix**
 Construct a matrix showing each player's payoff for every combination of strategies. Fill in all cells. If payoffs are uncertain, use expected values. If precise payoffs aren't available, use ordinal rankings (best, good, neutral, bad, worst) — the analysis still holds.
 
@@ -32,6 +40,22 @@ Evaluate the equilibrium outcome(s): is this collectively good, or is there a be
 
 **Step 6: Multiple equilibria and coordination**
 If more than one Nash equilibrium exists, analyse: what determines which one is reached? Consider focal points (salience, cultural convention, historical precedent), communication (can players talk before choosing?), and coordination mechanisms (common knowledge, public commitments, third-party arbitration).
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

@@ -28,6 +28,14 @@ Every consent decision must pass three tests:
 **Step 1: Map the consent moment**
 What specifically is the user being asked to consent to? When in the flow does this happen? What is the default? What happens if they decline?
 
+**Framing check:** Confirm the ethical situation and the parties affected before continuing. State what you've identified — the specific consent moment, the UX or data practice under review, and who is giving consent — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific consent moment and context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Apply the Informed test**
 - Is the language plain enough for a non-expert to understand?
 - Is the material information prominent, or buried in fine print?
@@ -55,17 +63,17 @@ Is this a context where users have genuine alternatives? Can they use a competin
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Dark patterns only** — Flag manipulative design elements specifically
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

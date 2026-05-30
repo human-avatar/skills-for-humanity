@@ -14,6 +14,14 @@ Evidence is not a binary: there or not there. A study can exist and be worthless
 **Step 1: State the Claim and Evidence Inventory**
 Write out the claim you're evaluating. List all evidence currently offered in support — each study, data point, expert opinion, case, or example. Do not filter yet: capture the full inventory.
 
+**Framing check:** Confirm the specific claim and evidence set before continuing. State what you've identified — the precise claim being evaluated and the body of evidence offered in its support — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the claim and its evidence]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Classify by Evidence Type**
 Place each piece of evidence on the evidence hierarchy. Higher tiers provide stronger warrant for causal claims:
 
@@ -73,9 +81,9 @@ Synthesize to an overall assessment:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full audit** — All steps: inventory, classify, quality check, conflicts of interest, absences, fit assessment, verdict
@@ -83,7 +91,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **What's missing** — Focus specifically on what evidence should exist but doesn't
   - **Refine the claim** — Clarify what claim we're auditing evidence for before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

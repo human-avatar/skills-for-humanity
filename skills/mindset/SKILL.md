@@ -19,6 +19,14 @@ Applies deep philosophy-grade thinking orientations to life, work, and challenge
 
 ## Routing Decision
 
+**Framing check:** Confirm the specific situation before diagnosing. State what you've identified — the actual mindset challenge and its emotional or behavioural context — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific mindset challenge and context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **"I keep worrying about outcomes / things I can't control"** → mindset-stoic (the dichotomy of control is the entry point)
 - **"I'm not thriving / I want more wellbeing / something feels missing"** → mindset-positive (PERMA diagnosis)
 - **"I keep treating failure like it means something about me"** / **"I hate not being good at things yet"** → mindset-growth (fixed-mindset trigger identification)

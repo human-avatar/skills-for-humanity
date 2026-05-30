@@ -16,6 +16,14 @@ The key word is *genuinely* random. A stimulus chosen because it seems relevant 
 **Step 1: Establish the problem or situation**
 If the user hasn't provided one, ask: "What situation or challenge would you like to approach with a random stimulus?"
 
+**Framing check:** Confirm the specific challenge before continuing. State what you've identified — the actual problem or situation and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the challenge and its context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Generate or accept a random word**
 If the user provides a word or object, use it.
 
@@ -35,23 +43,33 @@ Now, systematically connect each attribute from Step 3 to the user's situation. 
 Some connections will be weak. Some will feel forced. Keep going — the goal is to surface every possible bridge. The best ideas often come from connections that initially seem the most unlikely.
 
 **Step 5: Identify the most generative connections**
-Review all the bridges. Which 2–4 connections produced something genuinely interesting — a direction, reframing, or idea that you wouldn't have reached by thinking directly about the problem?
+Review all the bridges.
+
+**Before narrowing:** Show the complete set of bridges to the user first. Use `AskUserQuestion`:
+- **Question:** "I've built connections for all [N] attributes. Before I select the most generative, are there any bridges you'd flag as especially interesting, or any angle I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific bridge to include
+  - **Add a missing one** — user will describe an angle to explore
+
+Which 2–4 connections produced something genuinely interesting — a direction, reframing, or idea that you wouldn't have reached by thinking directly about the problem?
 
 Develop these briefly: what is the idea, and why is it worth exploring?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Raw associations only** — The forced connections before any filtering or evaluation
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

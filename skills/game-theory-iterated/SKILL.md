@@ -18,6 +18,14 @@ The folk theorem establishes the theoretical foundation: in infinitely (or indef
 **Step 1: Stage game**
 Describe the single-period interaction — what are the two players' choices in any given round, and what are the payoffs? Map the four key payoffs: mutual cooperation (CC), mutual defection (DD), exploitation (one cooperates, one defects), and being exploited. This identifies whether repetition can help: if the stage game already has cooperation as a Nash equilibrium, repetition changes little. If cooperation is not a Nash equilibrium of the stage game, repetition may enable it.
 
+**Framing check:** Confirm the repeated interaction before continuing. State what you've identified — the two parties involved, the recurring choice or tension, and the relationship context — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific repeated interaction, the parties, and what cooperation/defection looks like in this context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Is cooperation a stage-game equilibrium?**
 Check whether cooperation would be chosen in a one-shot interaction. If yes, the repeated game is not necessary to explain or enable it. If no (cooperation requires an ongoing relationship to be rational), proceed with the shadow-of-the-future analysis.
 
@@ -37,11 +45,35 @@ Assess whether the conditions for sustained cooperation are met:
 **Step 5: Strategy recommendation**
 Based on the discount factor and relationship context, recommend the best strategy from the following:
 
+**Before narrowing:** Show all candidate strategies to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified the following strategies as applicable given the discount factor and relationship context: [list all candidate strategies by name]. Before I select the best fit, are there any you'd flag as especially important given constraints I may have missed, or any I've overlooked?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the candidate set looks right
+  - **Flag one** — user will name a specific strategy to prioritise
+  - **Add a missing one** — user will describe a constraint or dynamic not yet captured
+
 - **Tit for Tat**: cooperate first, then mirror the opponent's last move. Best for stable, ongoing relationships where misunderstandings are rare.
 - **Generous Tit for Tat**: like Tit for Tat but occasionally cooperates even after a defection (with low probability). Better when there is noise — accidental defections or miscommunications — that could trigger unnecessary retaliation spirals.
 - **Grim Trigger**: cooperate until the opponent defects once, then defect forever. Maximum punishment credibility; best when the relationship is asymmetric and one defection is catastrophic. Risk: one mistake ends everything.
 - **Win-Stay, Lose-Shift**: if last round's outcome was good (for you), repeat your choice; if it was bad, switch. Simpler to execute, surprisingly robust in noisy environments.
 - **Unconditional cooperation**: only rational if you have strong external enforcement, the discount factor is extremely high, or you are trying to unilaterally rebuild a relationship.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

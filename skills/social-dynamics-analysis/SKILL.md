@@ -14,6 +14,14 @@ Groups develop collective behaviours that are invisible from inside them. Premat
 **Step 1: Observe or Recall Group Behaviour**
 Work from specific, concrete instances of how the group acts — not general impressions. What actually happened in the last meeting or decision? What was said? What was not said?
 
+**Framing check:** Confirm the specific group and context before continuing. State what you've identified — the actual group being analyzed and the situation or event in focus — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the group and the situation or event in focus]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Check for Groupthink Signals**
 - Premature consensus — agreement reached without exploring disagreement
 - Self-censorship — individuals privately disagree but don't speak
@@ -31,23 +39,31 @@ Do people raise concerns, admit uncertainty, and challenge ideas — or do they 
 Are subgroups forming? Are decisions being pre-made outside formal meetings? Are there recurring alliances or persistent tensions?
 
 **Step 6: Name the Dominant Dynamic**
+**Before narrowing:** Show all dynamics surfaced across the previous steps. Use `AskUserQuestion`:
+- **Question:** "I've identified the following dynamics: [list each dynamic observed — groupthink signals, status patterns, safety level, coalition patterns]. Before I select the one most affecting decision quality, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific dynamic to prioritise
+  - **Add a missing one** — user will describe it
+
 Which single dynamic is most affecting decision quality right now? That is where intervention has the highest leverage.
 
 ---
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Dominant dynamic only** — The group pattern that most shapes this situation
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

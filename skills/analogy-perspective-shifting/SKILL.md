@@ -19,6 +19,14 @@ have never heard of your problem's usual framing.
 Describe the problem as you currently understand it. This is the insider framing — it will
 contain the assumptions you're trying to surface.
 
+**Framing check:** Confirm the specific problem before continuing. State what you've identified — the actual situation being examined and its domain — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the problem and its domain]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Choose 2-3 Genuinely Different Fields**
 Select fields with fundamentally different training, tools, and instincts. For software
 problems: film production, archaeology, emergency medicine, urban planning. For
@@ -45,17 +53,17 @@ multiple angles, not an artefact of one framing.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Shifted perspective only** — The view from the new field, skip the formal structural mapping
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

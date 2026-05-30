@@ -17,8 +17,26 @@ Write out the claim or explanation you are currently working with:
 - What does the hypothesis assert is causing, driving, or explaining it?
 - What evidence is currently cited in support?
 
+**Framing check:** Confirm the specific hypothesis before continuing. State what you've identified — the claim being tested, what it purports to explain, and what evidence is cited for it — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the hypothesis, the observations it explains, and the key evidence]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Generate Rival Hypotheses**
-Generate 3-5 alternative explanations that could account for the same observations. Each rival hypothesis should:
+Generate rival alternative explanations that could account for the same observations using all the strategies below. Then show the complete generated set to the user before narrowing.
+
+**Before narrowing:** Show all generated rivals to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] rival hypotheses. Before I select the most significant 3–5 to develop fully, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific rival to include
+  - **Add a missing one** — user will describe it
+
+Then narrow to 3–5 rivals. Each developed rival hypothesis should:
 - Be internally coherent (not obviously impossible)
 - Account for at least the core observations
 - Be genuinely different — not just the original hypothesis with a small tweak
@@ -63,17 +81,17 @@ Given all available evidence — including evidence for rivals — how does each
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — All steps: state hypothesis, generate rivals, assess evidence fit, identify discriminating evidence, decisive test, credibility ranking
   - **Generate rivals only** — List alternative explanations with brief evidence fit; skip discriminating evidence analysis
   - **Decisive test focus** — Identify what test would most clearly discriminate between the main hypothesis and the best rival
-  - **Refine the framing** — Clarify the hypothesis and observations before generating rivals
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

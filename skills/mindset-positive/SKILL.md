@@ -16,6 +16,14 @@ This matters because the interventions for each dimension are different. If your
 **Step 1: PERMA Audit**
 Evaluate each dimension honestly on a 1–10 scale and provide the evidence for that rating.
 
+**Framing check:** Confirm the specific wellbeing situation before continuing. State what you've identified — the person's situation, the dimension(s) they've flagged (if any), and what kind of output they're seeking — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation and what they want to understand or improve]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 *Positive Emotion (P):*
 The frequency and quality of positive emotional experiences — not just happiness, but the full range: joy, gratitude, serenity, interest, hope, pride, awe, love. Barbara Fredrickson's broaden-and-build theory shows that positive emotions do something distinctive: they broaden momentary thought-action repertoires and build lasting personal resources (psychological, physical, social, intellectual). They are not just pleasant — they compound. A low score here means not that the person is depressed but that the soil isn't being cultivated.
 
@@ -32,6 +40,14 @@ Belonging to and serving something you believe is bigger than yourself. Religion
 Pursuing achievement for its own sake — not because it produces positive emotion (often it doesn't, in the moment) but because the pursuit of mastery and completion is itself a component of a full life. Distinct from Engagement: you can accomplish without being engaged (dull but necessary work you finish), and be engaged without accomplishing (flow in an activity that produces nothing).
 
 **Step 2: Identify the Deficit**
+**Before narrowing:** Show all five PERMA ratings to the user first. Use `AskUserQuestion`:
+- **Question:** "I've rated all five dimensions. Before I identify the primary deficit, are there any you'd flag as especially important, or any where the score doesn't feel accurate?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the ratings look right
+  - **Flag one** — user will name a specific dimension to prioritise
+  - **Adjust a rating** — user will correct a score that doesn't feel right
+
 Which dimension(s) scored lowest? Are there dimensions at adequate levels that are masking genuine deficits in others?
 
 *Common patterns:*

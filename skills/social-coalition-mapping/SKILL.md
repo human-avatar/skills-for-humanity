@@ -14,6 +14,14 @@ Proposals fail not because they are wrong, but because they lack the support nee
 **Step 1: Define the Required Support**
 What does success require? Formal approval from whom? Informal buy-in from whom? What is the minimum needed for the proposal to move?
 
+**Framing check:** Confirm the specific proposal and its success conditions before continuing. State what you've identified — the actual proposal being mapped, who owns it, and what "winning" looks like — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the proposal, its goal, and the decision-making context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: List All Relevant Stakeholders**
 Everyone who could affect whether this succeeds — including those who are currently uninvolved.
 
@@ -27,6 +35,14 @@ Who does each supporter influence? Whose support can they bring along? How can t
 What is the specific objection driving resistance — not what you assume, but what you know or can find out? What would genuinely move them? What would they need to be true?
 
 **Step 6: Identify the Minimum Viable Coalition**
+**Before narrowing:** Show the complete stakeholder list from Step 2–3 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] stakeholders. Before I select the minimum viable coalition, are there any you'd flag as especially critical, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific stakeholder to include
+  - **Add a missing one** — user will describe them
+
 What is the smallest set of stakeholders that, if aligned, makes success likely? Focus energy on this set first.
 
 **Step 7: Design the Engagement Sequence**
@@ -36,17 +52,17 @@ Who should be approached first? Whose support makes others more likely to join? 
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Critical allies only** — Who must be on board without whom this fails
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

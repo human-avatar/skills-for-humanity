@@ -21,6 +21,14 @@ What happened? Who was involved, what decisions were made, what were the outcome
 Provide enough specifics to work with — the analysis depends on the case having real
 texture, not just a summary.
 
+**Framing check:** Confirm the specific historical case before continuing. State what you've identified — the case, the key actors or decisions involved, and the outcome being examined — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific case and outcome]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Surface Events**
 What happened at the observable level — the actions taken, the decisions made, the
 sequence of events from beginning to outcome? Keep this purely descriptive. No
@@ -53,17 +61,17 @@ this principle would give the wrong answer.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Transferable principle only** — The single insight most applicable to the current situation
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

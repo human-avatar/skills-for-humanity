@@ -20,6 +20,14 @@ Be precise. Are you trying to change:
 
 The answer shapes everything else. Belief change requires evidence and trust. Attitude change often requires social proof and identity alignment. Behavior change may be achievable without attitude change through friction design and environment.
 
+**Framing check:** Confirm the specific persuasion situation before continuing. State what you've identified — the change target type, the audience, and the goal — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the change target, who you're trying to persuade, and what you want them to believe, decide, or do]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Profile the Audience**
 Assess:
 - **Motivation to process:** Are they engaged and motivated to think carefully about this? Or will they process peripherally?
@@ -61,9 +69,9 @@ Build the specific message or sequence. For a central-route argument: premises, 
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis + constructed approach** — Audience profile, influence selection, ethical check, and built-out message
@@ -71,7 +79,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Construct the message** — I've already identified the approach; help me build it out
   - **Refine the situation** — Clarify the audience or the goal before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

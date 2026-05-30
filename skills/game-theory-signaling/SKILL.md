@@ -18,6 +18,14 @@ George Akerlof's market for lemons (1970) shows the consequence when signaling f
 **Step 1: Information asymmetry**
 Identify what one party knows that the other doesn't. Name the informed party and the uninformed party. What is the private information — quality, intent, ability, commitment, type? What would the uninformed party do if they had this information?
 
+**Framing check:** Confirm the specific signaling situation before continuing. State the informed party, the uninformed party, and the private information being claimed in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific signaling situation — who is trying to credibly communicate what to whom]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Communication goal**
 What does the informed party want to credibly communicate? State it precisely: not just "I'm good" but specifically what quality, commitment, or type is being claimed and why it matters to the receiver.
 
@@ -25,7 +33,17 @@ What does the informed party want to credibly communicate? State it precisely: n
 Why isn't verbal communication credible here? Work through the receiver's reasoning: "If they said this regardless of whether it's true — which they'd be tempted to do — then my hearing it gives me no information." Identify the specific incentive to misrepresent that makes verbal claims unbelievable.
 
 **Step 4: Costly signal design**
-What action would be credible because it is only rational to take if the claim is true? Evaluate candidate signals on three criteria:
+What action would be credible because it is only rational to take if the claim is true? Generate candidate signals first, then evaluate them.
+
+**Before narrowing:** Show the complete set of candidate signals to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] candidate signals. Before I rank them by credibility and feasibility, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific signal to include
+  - **Add a missing one** — user will describe it
+
+Evaluate candidate signals on three criteria:
 - *Cost differential*: the signal must cost less for the type making the true claim than for a type trying to fake it (the single-crossing condition)
 - *Observability*: the receiver must be able to verify the signal was taken
 - *Magnitude*: the signal must be costly enough that low types wouldn't bother, but not so costly that high types wouldn't either
@@ -36,6 +54,22 @@ For claims about future behaviour (not just present type), identify commitment d
 - *Public commitment*: making the claim in front of an audience that would observe a violation
 - *Collateral*: putting something of value at risk contingent on the claimed behaviour
 - *Third-party enforcement*: a binding agreement that creates external penalties for defection from the claim
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

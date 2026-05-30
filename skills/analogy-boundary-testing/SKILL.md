@@ -18,6 +18,14 @@ happens.
 Write it explicitly: "X is like Y." Name the analogy being tested, the domain it comes
 from, and the claim being made on the basis of it.
 
+**Framing check:** Confirm the specific analogy before continuing. State what you've identified — the source domain, target domain, and the claim being made — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the analogy and the claim it supports]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different analogy or claim than read; incorporate the correction before proceeding
+
 **Step 2: List Similarities**
 What does the analogy capture correctly? List every genuine parallel — the aspects where
 the structural correspondence is real. This is not validation; it's establishing what the
@@ -30,6 +38,14 @@ feedback mechanisms, different scales, different reversibility. Be thorough — 
 difference-listing is the most common failure mode here.
 
 **Step 4: Test Each Difference Against the Decision**
+**Before narrowing:** Show the complete list of differences from Step 3 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] differences. Before I filter to those relevant to your decision, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific difference to include
+  - **Add a missing one** — user will describe it
+
 For each decision or conclusion being made on the basis of this analogy: which differences
 are relevant to that specific decision? A difference that doesn't affect the conclusion is
 harmless. A difference that does affect it invalidates the reasoning.
@@ -47,17 +63,17 @@ can it inform? State the boundary clearly.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Breaking points only** — Where the analogy fails, not where it holds
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

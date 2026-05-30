@@ -21,6 +21,14 @@ The Interesting column is often the most generative. It holds the things that do
 **Step 1: State the subject**
 Confirm what is being evaluated — an idea, plan, proposal, decision, or statement.
 
+**Framing check:** Confirm the specific idea or proposal before continuing. State what you've identified — the actual object being evaluated and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific idea or proposal being evaluated]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Work each column fully**
 
 For each column, generate a minimum of 3 substantive items before moving to the next. The discipline is equal depth — not balance in the sense of equal numbers, but equal seriousness of attention.
@@ -34,22 +42,30 @@ What is actually problematic? What could go wrong? What does it cost — in reso
 **Interesting column — notable observations:**
 What is surprising, unexpected, or thought-provoking about this? What questions does it raise? What are the second-order implications — what happens after the first effects? What is worth watching even if it's not clearly good or bad? What assumptions does this reveal?
 
+**Before synthesising:** State what each column surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each column found: [one bullet per column — Plus: [key value surfaced], Minus: [key cost or risk surfaced], Interesting: [key implication or question surfaced]]. Before I synthesise, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — columns covered the ground
+  - **Weight [direction]** — user will name which thread (Plus / Minus / Interesting) to emphasise
+  - **Add a missing angle** — user will name a dimension not yet covered
+
 **Step 3: Overall assessment**
 After all three columns are complete, offer a brief overall assessment. This is not a verdict — it is an observation about what the PMI reveals. Which column is most heavily loaded? What is the key tension? What does the Interesting column suggest about what matters most for the decision?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Minus list only** — What's genuinely problematic about this idea, skip plus and interesting
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

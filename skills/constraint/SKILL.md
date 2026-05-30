@@ -18,6 +18,14 @@ Applies constraint reasoning to any situation where limits are shaping (or block
 
 ## Routing Decision
 
+**Framing check:** Confirm the specific constraint and the goal it is blocking before continuing. State what you've identified — the constraint itself and what it is preventing — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the constraint and the goal it is blocking]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Constraint feels like it might be an assumption, habit, or politics** → hardness-testing
 - **Constraint is real but you want it to generate rather than block** → rule-inversion
 - **Scope has grown beyond what's actually needed** → scope-reduction

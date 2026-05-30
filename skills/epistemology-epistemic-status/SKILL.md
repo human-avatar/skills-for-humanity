@@ -22,6 +22,14 @@ List every claim that the argument, plan, analysis, or domain rests on. Be exhau
 
 Resist the urge to prune. The point is to surface everything before classifying anything.
 
+**Framing check:** Confirm the specific domain being audited before continuing. State what you've identified — the actual argument, plan, or body of claims under examination and its central purpose — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific content being audited]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Assign Epistemic Status**
 
 Use this taxonomy:
@@ -49,7 +57,17 @@ Review the inventory for common patterns of epistemic overconfidence:
 - **The invisible assumption**: claims so deeply embedded they weren't listed in Step 1 — probe by asking "what would have to be true for this whole analysis to hold?"
 
 **Step 5: Flag High-Stakes Unknowns**
-Which unknown or hoped claims are most load-bearing? If the thing you most need to be true turns out to be false, what breaks? These are the priority items for investigation, verification, or contingency planning.
+Which unknown or hoped claims are most load-bearing? If the thing you most need to be true turns out to be false, what breaks?
+
+**Before narrowing:** Show the complete set of unknown and hoped claims to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] unknown or hoped claims. Before I select the most load-bearing ones, are there any you'd flag as especially critical, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific claim to include
+  - **Add a missing one** — user will describe it
+
+These are the priority items for investigation, verification, or contingency planning.
 
 **Step 6: Produce the Map**
 Synthesize into a structured output: the full inventory with statuses, the dependency structure, and the highest-priority epistemic gaps.
@@ -58,9 +76,9 @@ Synthesize into a structured output: the full inventory with statuses, the depen
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full audit** — Complete inventory, status for every claim, dependency map, status inflation audit
@@ -68,7 +86,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Assumptions only** — Surface what's being taken for granted; skip known/believed claims
   - **Refine the domain** — Sharpen what we're auditing before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

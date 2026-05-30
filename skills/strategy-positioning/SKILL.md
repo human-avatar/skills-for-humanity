@@ -18,6 +18,14 @@ The failure mode is positioning by assertion: saying you occupy a position witho
 **Step 1: Ideal unassailable position**
 What would it look like to hold a position that a rational, well-resourced opponent would choose to go around rather than contest directly? Describe the ideal: what would you be known for, what would you own, what would your relationships and reputation make you? Be specific — "market leader" is not a position. "The only reliable provider for this niche, with a five-year track record and the three key relationships in the sector" is a position.
 
+**Framing check:** Confirm the specific competitive situation before continuing. State what you've identified — the actor seeking the position, the competitive arena, and the opponent context — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of who is positioning, in what arena, against what competitive pressure]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Required assets and capabilities**
 What would you need to hold that position? List specifically: skills, relationships, reputation, information, technology, capital, team, time. What do you currently have? What is missing?
 
@@ -25,10 +33,36 @@ What would you need to hold that position? List specifically: skills, relationsh
 Honest assessment of where you stand today. What do you actually own in this competitive landscape? Not what you aspire to, not what you're building toward — what position do you hold right now that an opponent would need to consider?
 
 **Step 4: Gap-widening moves**
-What investments or actions create the largest gap between your current position and any attacker's ability to replicate it? Rank by leverage: which moves create the deepest moat per unit of investment? Which moves compound — making future moves easier?
+What investments or actions create the largest gap between your current position and any attacker's ability to replicate it?
+
+**Before narrowing:** Show the complete set of candidate gap-widening moves to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] potential gap-widening moves. Before I select the highest-leverage ones, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific move to include
+  - **Add a missing one** — user will describe it
+
+Rank by leverage: which moves create the deepest moat per unit of investment? Which moves compound — making future moves easier?
 
 **Step 5: Position test**
 Would a rational, well-resourced opponent, looking at your fully-built position, choose a different arena rather than attack you here? If the honest answer is "no — they'd still come at us," then the position isn't unassailable yet. Name what's missing.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

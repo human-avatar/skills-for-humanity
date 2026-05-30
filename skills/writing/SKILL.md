@@ -25,6 +25,14 @@ Wait for their response before diagnosing.
 
 ### Step 2: Diagnose the Problem Type
 
+**Framing check:** Confirm the specific writing challenge before continuing. State what you've identified — the content being worked on and its core problem type — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific writing challenge, content type, and what isn't working]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 Read the situation and classify it against these problem clusters:
 
 **Fiction craft** — The core problem is in the storytelling machinery: character psychology, plot architecture, scene structure, dialogue texture, world credibility, narrative arc, or point-of-view integrity.
@@ -45,6 +53,14 @@ Read the situation and classify it against these problem clusters:
 ---
 
 ### Step 3: Identify 3–4 Best-Fit Skills
+
+**Before narrowing:** Show the complete set of candidate skills for the diagnosed cluster to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] skills in the [cluster name] cluster. Before I select the best fits, are there any you'd flag as especially relevant, or any angle I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific skill to include
+  - **Add a missing angle** — user will describe it
 
 Within the most relevant cluster, identify the 2–4 skills that best match the specific problem. Use the routing guide below.
 

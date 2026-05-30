@@ -14,6 +14,14 @@ Timing is often as consequential as the decision itself. The right action at the
 **Step 1: State the Action and Current Context**
 Name the action under consideration and describe current conditions — market, organizational, political, technical. The timing analysis is grounded in this specific context.
 
+**Framing check:** Confirm the specific action and context before continuing. State what you've identified — the actual action being timed and the domain it sits in — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the action and its current context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Identify Readiness Conditions**
 What observable conditions would make this optimal timing? These are specific and external — not "when we're ready" but "when X is true in the environment". For each condition: is it currently present or absent?
 
@@ -33,17 +41,17 @@ What specific observable events should prompt action? These make timing a decisi
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Timing verdict only** — Act, wait, or prepare — and the single most important reason why
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

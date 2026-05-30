@@ -21,6 +21,14 @@ The three-layer model maps every effective piece of copy:
 
 **Step 1: Attention — Does the Opening Earn the Next Sentence?**
 Read only the headline and first line. Stop. Ask: does this give the reader a reason to continue? Specifically:
+
+**Framing check:** Confirm the specific copy before continuing. State what you've identified — the content being analyzed (headline, body, CTA) and the product or offer it's for — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific copy — the format, product/offer, and apparent goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
 - Does it name a specific benefit, problem, or claim — not a category?
 - Does it speak to the reader's experience, not the product's features?
 - Is there a hook — something surprising, specific, or resonant?
@@ -48,7 +56,31 @@ Flag every statement that describes the product (feature) rather than the reader
 - Write the benefit version
 
 **Step 5: Overall Verdict and Headline Rewrite**
+**Before narrowing:** Show the complete set of failures and weaknesses identified across Steps 1–4 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] copy issues across attention, desire, action, and feature/benefit confusion. Before I select the most significant failure to lead with, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific issue to prioritise
+  - **Add a missing one** — user will describe it
+
 State the copy's single most significant failure. Rewrite the headline based on the strongest benefit identified in the copy.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

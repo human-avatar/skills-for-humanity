@@ -21,6 +21,14 @@ Most real belief systems are hybrid. The point of analysis is not to pick the ri
 **Step 1: Identify the Belief**
 State the belief precisely. What exactly is being claimed to be known or justifiably believed? Strip away hedges and weasel words to get the core claim.
 
+**Framing check:** Confirm the specific belief before continuing. State what you've identified — the actual claim being analyzed and the domain or context it comes from — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific belief and its context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different belief than read; incorporate the correction before proceeding
+
 **Step 2: Trace the Justification Chain**
 Ask: "What makes you think that?" Recursively trace the answer until you hit one of three stopping points:
 - A basic belief that seems self-evident or foundational (foundationalism)
@@ -51,6 +59,15 @@ Classify each link: **sound** / **shaky** / **unsupported** / **circular**.
 Special flag: **circular justification** — where A justifies B and B justifies A, without either being independently grounded. Common in self-reinforcing organizational beliefs ("our strategy is working because our metrics are up; our metrics are up because our strategy is working").
 
 **Step 5: Identify the Weakest Link**
+
+**Before narrowing:** Show the complete link assessment to the user first. Use `AskUserQuestion`:
+- **Question:** "I've assessed [N] links in the justification chain. Before I identify the most critical weakest link, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the link assessment looks right
+  - **Flag one** — user will name a specific link to treat as critical
+  - **Add a missing one** — user will describe a link not yet in the chain
+
 Which link, if removed, would most damage justification for the belief? This is the critical point — the place where effort to strengthen or challenge the belief will have the most leverage.
 
 **Step 6: Assess Overall Justification**
@@ -66,9 +83,9 @@ What evidence, argument, or process change would most improve justification? Wha
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Trace the full chain, classify each link, identify weakest point
@@ -76,7 +93,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **What would change this belief** — Focus on the update conditions, not the chain structure
   - **Refine the belief** — Sharpen what we're analyzing before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

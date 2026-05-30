@@ -24,6 +24,14 @@ Applies aesthetic reasoning to any artifact — design, writing, code, product, 
 - **You want to strip something back to its core** → simplicity-analysis
 - **Unclear** → start with coherence-check; it usually surfaces which other question needs answering
 
+**Framing check:** Confirm the specific artifact before routing. State what you've identified — the actual object being analyzed and the aesthetic question being asked — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the artifact and the aesthetic question]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ---
 
 ## Confirm Direction

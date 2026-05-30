@@ -24,6 +24,14 @@ Applies emotional intelligence to interpersonal and organizational situations. D
 - **A relationship or team has trust problems** → trust-audit
 - **Unclear** → stakes-mapping; understanding what's really at stake usually clarifies everything else
 
+**Framing check:** Confirm the specific interpersonal or organizational situation before continuing. State what you've identified — the people involved, the emotional dynamic at play, and the context — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation, the people involved, and what's going wrong emotionally]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ## Confirm Direction
 
 After diagnosing which tool fits, use the `AskUserQuestion` tool to confirm direction. Construct the question dynamically to include your diagnosis:

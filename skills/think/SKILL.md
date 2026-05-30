@@ -24,6 +24,14 @@ Wait for their response before proceeding. Aim to understand:
 
 If any of these are unclear after reading their description, ask one targeted follow-up question before designing the plan.
 
+**Framing check:** Confirm the specific situation before continuing. State what you've identified — the goal, the obstacle, and the decision point — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the goal, obstacle, and what they're about to do or decide]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ---
 
 ### Step 2: Design the Workflow
@@ -52,6 +60,14 @@ Design an ordered sequence of 2–5 skills that together address the goal. Each 
 | Understand a system or pattern | systems-feedback-mapping → systems-leverage-analysis → historical-precedent-analysis |
 
 Use these as starting points. Adapt to the specific situation.
+
+**Before narrowing:** Show the full candidate workflow to the user before committing to a sequence. Use `AskUserQuestion`:
+- **Question:** "I've drafted a workflow of [N] steps. Before I lock it in, are there any steps you'd flag as especially important, any you'd cut, or any angle I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with this sequence** — the plan looks right
+  - **Flag one step** — user will name a step to prioritise or adjust
+  - **Add a missing angle** — user will describe a lens or skill not yet included
 
 ---
 

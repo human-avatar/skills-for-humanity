@@ -40,10 +40,27 @@ Is this the right moment for this action? What is changing in the environment th
 
 **Step 1: State the decision or action being considered**
 
+**Framing check:** Confirm the specific challenge or problem before continuing. State what you've identified — the actual decision or action and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific decision or action]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Scan all factor categories**
 Work through each category above. For each one, generate the relevant factors for this specific situation. Name factors the user probably hasn't considered — these are the tool's primary value.
 
 **Step 3: Highlight the most important factors**
+
+**Before narrowing:** Show the complete generated set to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] factors across all categories. Before I select the most significant, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific factor to include
+  - **Add a missing one** — user will describe it
+
 After mapping everything, identify the 3–5 factors that deserve the most attention — either because they are high-stakes, because they are frequently overlooked, or because they are uncertain in ways that could significantly affect the outcome.
 
 **Step 4: Identify what's missing**
@@ -51,17 +68,17 @@ What information would you need to properly assess this situation? What factors 
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Overlooked factors only** — Factors most likely being ignored in this specific situation
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

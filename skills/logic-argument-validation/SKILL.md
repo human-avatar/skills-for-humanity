@@ -19,6 +19,14 @@ Before evaluating, make the argument explicit:
 
 Restate this clearly before proceeding. Often the weakest point becomes obvious once the structure is explicit.
 
+**Framing check:** Confirm the argument being examined and the claim at stake before continuing. State what you've identified — the actual argument and the conclusion it is trying to establish — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the argument and its conclusion]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Test premise soundness**
 For each premise:
 - Is it stated as fact? Is it actually established, assumed, or contested?
@@ -52,17 +60,17 @@ Scan for common fallacies. Name them specifically if found:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Validity test only** — Skip premise truth assessment, test whether the conclusion follows from what's given
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

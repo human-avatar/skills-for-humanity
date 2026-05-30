@@ -14,6 +14,14 @@ More sources does not mean better verification. If ten publications all cite the
 **Step 1: State the Claim**
 Write out the claim you want to triangulate, precisely. Vague claims are hard to triangulate because different sources may be speaking to different aspects.
 
+**Framing check:** Confirm the specific claim before continuing. State what you've identified — the actual claim being triangulated and its scope — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the claim and its scope]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different claim than read; incorporate the correction before proceeding
+
 **Step 2: Collect Candidate Sources**
 List all sources that appear to speak to the claim:
 - Studies, papers, reports
@@ -38,6 +46,14 @@ For each source, trace its origin and classify its independence from other sourc
 The critical question for each source: does it trace back to any other source on the list? If so, classify it as structurally dependent or derivative, not independent.
 
 **Step 4: Identify the Independent Evidence Base**
+**Before narrowing:** Show the complete classification table to the user first. Use `AskUserQuestion`:
+- **Question:** "I've classified [N] sources. Before I identify the genuinely independent ones, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific source to include
+  - **Add a missing one** — user will describe it
+
 After classification, identify the sources that are genuinely independent. How many truly independent sources support this claim? One? Three? Zero?
 
 A common finding: a claim appears to have "many sources" but has only 1-2 independent studies, with the rest being summaries, citations, commentaries, or amplifications of those originals.
@@ -67,9 +83,9 @@ Based on the genuine independent evidence base and its convergence pattern, issu
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full triangulation** — All steps: collect sources, classify independence, assess convergence, evaluate method diversity, verdict
@@ -77,7 +93,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Convergence verdict only** — Assume I've classified the sources; just assess whether they genuinely converge
   - **Refine the claim** — Clarify what exactly we're triangulating before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

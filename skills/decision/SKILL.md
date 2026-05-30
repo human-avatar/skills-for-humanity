@@ -18,6 +18,14 @@ Applies structured decision thinking to any choice. Diagnoses what kind of decis
 
 ## Routing Decision
 
+**Framing check:** Confirm the decision and its intended outcome before routing. State what you've identified — the actual choice being faced and what the user is trying to achieve — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific decision and its intended outcome]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **About to decide between 2 options — may be missing others** → option-mapping first
 - **Options are visible, need to compare them systematically** → criteria-weighting
 - **Leaning toward a direction, want to stress-test it** → premortem-analysis

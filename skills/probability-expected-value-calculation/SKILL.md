@@ -14,6 +14,14 @@ Expected value is the correct framework for comparing options under uncertainty.
 **Step 1: Define the Options**
 List the options being compared. Include "do nothing" or "wait" as explicit options — they have EVs too.
 
+**Framing check:** Confirm the specific decision and its options before continuing. State what you've identified — the actual choice being evaluated, the options in play, and the unit of value — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the decision, its options, and what success/failure looks like]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: List Outcomes for Each Option**
 For each option: what are the possible outcomes? Use scenario-weighting to assign probabilities if this has not already been done. Outcomes must be mutually exclusive and exhaustive per option.
 
@@ -33,17 +41,17 @@ Is any outcome bad enough that it would be unacceptable regardless of its probab
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **EV comparison table only** — Final expected values per option, skip the step-by-step breakdown
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

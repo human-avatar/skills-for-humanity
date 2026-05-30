@@ -20,6 +20,14 @@ William Vickrey's second-price auction is the canonical example: by having the w
 **Step 1: Desired outcome**
 State precisely what behaviour or allocation the mechanism should produce. Vague goals produce vague mechanisms. "People should behave better" is not a desired outcome. "Employees should report their true performance levels" is. "Suppliers should bid their true costs" is. Be specific about whose behaviour, what information, and what allocation.
 
+**Framing check:** Confirm the desired outcome and the players involved before continuing. State what you've identified — the specific behaviour or allocation being targeted, the players whose incentives need aligning, and the private information at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the desired outcome, the players, and the core misalignment]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Player map**
 For each player involved:
 - What *private information* do they hold? (True valuation, effort level, ability, cost, intent)
@@ -40,6 +48,22 @@ Design the rules and payoffs. Work through three components:
 
 **Step 5: Manipulation check**
 Test the mechanism against strategic players. Ask: "What would a player with extreme private information do?" Try the boundary cases: the player with the highest possible valuation, the lowest, the one who most wants to game the system. Can they improve their outcome by misreporting? If yes, identify the loophole and revise.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

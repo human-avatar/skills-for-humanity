@@ -21,6 +21,14 @@ What is the problem, and what makes it stuck? What solutions have already been
 considered and found inadequate? What territory keeps getting returned to? Naming
 the groove is the first step to breaking it.
 
+**Framing check:** Confirm the specific challenge before continuing. State what you've identified — the actual problem and the groove it keeps returning to — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the stuck problem and its groove]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Generate a Random Stimulus**
 Introduce something genuinely unrelated to the problem domain — the less obviously
 connected the better. Options:
@@ -47,6 +55,14 @@ no immediate rejection. Some connections will be useless — make them anyway. T
 goal is volume of bridges, not quality filtering at this stage. Quantity first.
 
 **Step 5: Identify Promising Directions**
+**Before narrowing:** Show the complete forced connections table to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] forced connections. Before I select the most promising, are there any you'd flag as especially worth developing, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific connection to include
+  - **Add a missing one** — user will describe it
+
 Which forced connections suggest a genuinely new direction — even partially? Which
 reframe the problem itself rather than just suggesting a surface solution? A
 connection that reveals a new way of seeing the problem is often more valuable than
@@ -61,17 +77,17 @@ for it to work? What is the testable version?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Three connections only** — Strongest forced connections between the stimulus and the problem
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

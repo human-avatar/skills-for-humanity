@@ -20,6 +20,14 @@ Name each person or group whose motivation needs mapping. Be specific — "the
 engineering team" and "the engineering manager" may have completely different dominant
 motivators. Split when in doubt.
 
+**Framing check:** Confirm the specific people or groups being mapped before continuing. State what you've identified — the actual individuals or groups and the situation driving the need for this mapping — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of who is being mapped and what situation is creating the motivation question]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Extrinsic Motivators**
 What external rewards and penalties shape their behaviour? Consider: compensation
 structure (base, bonus, equity), formal recognition mechanisms (awards, visibility,
@@ -41,6 +49,14 @@ require, reputation they're managing across different audiences, being seen as
 credible, indispensable, or ahead of the curve.
 
 **Step 5: Dominant Motivator**
+**Before narrowing:** Show the complete set of motivators surfaced across Steps 2–4 for each person or group. Use `AskUserQuestion`:
+- **Question:** "I've identified the following motivators across extrinsic, intrinsic, and social dimensions. Before I select the dominant one for each person or group, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific motivator to include or elevate
+  - **Add a missing one** — user will describe a motivator not yet captured
+
 Given all three categories, what is the single strongest driver for this person or
 group? The dominant motivator is the one that, if frustrated, would produce the most
 significant behavioural change — or that, if served, would unlock the most
@@ -56,17 +72,17 @@ motivators into alignment with the desired outcome.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Core driver only** — The deepest motivation beneath the stated reasons
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

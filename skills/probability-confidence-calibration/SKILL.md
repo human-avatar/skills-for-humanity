@@ -14,6 +14,14 @@ Overconfidence is the most documented and costly bias in judgment. People who sa
 **Step 1: State the Claim and Current Confidence**
 Name the specific claim — not a vague domain but a specific, falsifiable statement — and state the current confidence level as a percentage.
 
+**Framing check:** Confirm the specific claim and confidence level before continuing. State what you've identified — the actual claim being evaluated and its stated confidence percentage — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific claim and confidence level, e.g. 'You believe X with 85% confidence and want to know if that's calibrated to the evidence']. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Audit Supporting Evidence**
 List the evidence supporting the claim. For each piece: classify its strength:
 - **Direct observation:** you or a trusted source directly witnessed this
@@ -37,17 +45,17 @@ Adjust the confidence level to reflect the evidence quality, gaps, and failure m
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Miscalibrations only** — Flag where confidence exceeds evidence, skip well-calibrated claims
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

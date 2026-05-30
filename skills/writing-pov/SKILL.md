@@ -24,6 +24,14 @@ The fit question is as important as the violation question: does the chosen POV 
 **Step 1: Identify Current POV Type**
 First person / close third / omniscient / second person / mixed. If mixed, is it intentionally mixed (multiple POV characters with clear transitions) or unintentionally mixed (the narration drifts without structure)?
 
+**Framing check:** Confirm the specific text and POV situation before continuing. State what you've identified — the POV type, the POV character (if applicable), and whether the concern is violations, fit, or both — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the text and its POV situation]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: State the Contract**
 What does this POV promise about access to interiority? First person: access to the narrator's interior, inference about others. Close third: access to POV character's interior, not others'. Omniscient: access to any interior, but must be applied consistently. State the contract explicitly — it becomes the audit standard.
 
@@ -42,6 +50,22 @@ Does the chosen POV serve the story's core effect? Consider:
 - If the story's power is in the narrator's *voice and personality* — first person may be more powerful
 - If the story requires events the protagonist can't witness — close third may be limiting; omniscient or multiple POV may be needed
 - If dramatic irony is central — omniscient or multiple POV enables it; first-person limits it
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

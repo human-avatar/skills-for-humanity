@@ -18,6 +18,14 @@ The ending is not the change. The ending is the consequence of the change. This 
 **Step 1: Start State**
 What is the character's belief, wound, and worldview at the story's opening? Be specific: not "she is closed off" but "she believes that needing people is weakness — a belief installed by her mother's abandonment when she was nine, which she has managed by becoming self-sufficient to a degree that reads as coldness." The start state must be specific enough to be testable: you should be able to ask of any scene "is this character acting from their opening belief?" and get a clear answer.
 
+**Framing check:** Confirm the specific character and arc before continuing. State what you've identified — the character being analyzed, their apparent wound or core belief, and the arc endpoint as you understand it — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the character, their wound/starting belief, and the arc being examined]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: End State**
 What has changed? What is the new belief? Again, be specific. The end state should be the direct answer to the wound — not its opposite (which would be naive), but the more complex truth that the wound prevented the character from seeing. "She believes needing people is weakness" → "She learns that need is not weakness if the person chosen to be needed is trustworthy." The end state is not a lesson or a moral — it is a lived understanding, demonstrated in action.
 
@@ -35,6 +43,22 @@ Do the external events directly generate the internal states? Or are they runnin
 
 **Step 5: Thematic Argument**
 What does the story argue about the world? Not a message or a moral — an argument: a claim about how things are, how they should be, or what the cost of a particular way of living is. The ending should resolve this argument — not necessarily answer it definitively, but test it at full strength and show what the story believes.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 
