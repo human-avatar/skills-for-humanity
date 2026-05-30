@@ -28,6 +28,14 @@ Fixed mindset activates in specific, identifiable situations:
 
 Name the specific trigger in the current situation.
 
+**Framing check:** Confirm the specific challenge or failure before continuing. State what you've identified — the actual situation, the trigger type, and what ability or identity is at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation and the fixed-mindset trigger active]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Surface the Hidden Fixed-Mindset Belief**
 Every fixed-mindset response rests on a belief that is usually invisible because it is never examined. Extract it explicitly.
 

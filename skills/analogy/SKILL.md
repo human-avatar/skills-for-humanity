@@ -24,6 +24,14 @@ Applies analogical reasoning to any problem. Diagnoses what kind of analogy work
 - **Want to know if two situations are genuinely structurally similar** → structure-mapping
 - **Unclear** → structure-mapping first (establishing the analogy rigorously), then boundary-testing (finding where it fails)
 
+**Framing check:** Confirm the specific analogy situation before routing. State what you've identified — the analogy or problem being examined and the goal (stress-test, import solutions, shift perspective, or validate structure) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the analogy situation and goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ---
 
 ## Confirm Direction

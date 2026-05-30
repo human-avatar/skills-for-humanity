@@ -19,6 +19,14 @@ from their own perspective.
 Write the proposal clearly — what is being asked, what it proposes to do, and what it
 asks of the audience (approval, resources, behaviour change, belief change).
 
+**Framing check:** Confirm the message, the audience, and the goal before continuing. State what you've identified — the actual proposal being analyzed, who it is directed at, and what it is asking them to do — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the proposal, its audience, and the outcome being sought]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: List Audience Segments**
 Who will receive this? Different roles and individuals will have different objections.
 A finance stakeholder's objection to a proposal is structurally different from an
@@ -49,17 +57,17 @@ yourself is more credible than responding to it when challenged.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Top 3 objections only** — Most likely showstoppers, skip the full map
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

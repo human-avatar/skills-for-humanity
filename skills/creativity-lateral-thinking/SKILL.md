@@ -21,6 +21,14 @@ Before generating anything, name the dominant idea in the user's framing. This i
 
 This step matters because lateral thinking cannot happen until you know what you're stepping away from.
 
+**Framing check:** Confirm the specific challenge before continuing. State what you've identified — the actual problem or situation and the dominant idea organizing the user's thinking — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the challenge and current dominant approach]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Identify the load-bearing assumptions**
 
 What assumptions does the dominant idea rest on? List 3–5 of them. These are the stepping-off points. Each assumption is a potential direction for a lateral move.
@@ -39,21 +47,29 @@ Aim for 5–7 lateral moves total. Quality over quantity: each one should repres
 
 **Step 4: Highlight the most promising**
 
+**Before narrowing:** Show the complete set of lateral moves to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] lateral moves. Before I select the most promising, are there any you'd flag as especially interesting, or any directions I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific move to include
+  - **Add a missing one** — user will describe a direction not yet captured
+
 After listing the moves, identify 1–2 that open the most interesting new territory. Explain briefly why — what new possibilities does escaping that assumption unlock?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Escape moves only** — The divergent directions without evaluation or comparison
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

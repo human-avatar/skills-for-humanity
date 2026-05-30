@@ -21,6 +21,14 @@ What is it, and what is it supposed to do? Name the object — a strategy, produ
 message, design, process, argument — and state its job in one sentence. If the
 purpose isn't clear, clarifying it is the first act of simplification.
 
+**Framing check:** Confirm the specific subject before continuing. State what you've identified — the actual object being analyzed and its intended purpose — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific object and its purpose]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Find the Essence**
 If you could keep only one thing — one idea, one element, one mechanism — and it had
 to carry the entire weight of the purpose, what would it be? State this as one
@@ -55,17 +63,17 @@ keeping.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Removals only** — What can be cut while preserving what matters
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

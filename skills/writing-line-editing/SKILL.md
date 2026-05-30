@@ -24,6 +24,15 @@ Five failures account for the majority of sentence-level problems:
 ## Your Process
 
 **Pass 1: Redundancy**
+
+**Framing check:** Confirm the specific text before continuing. State what you've identified — the actual piece being edited and its key parameters (length, register, genre) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific text — e.g. 'a 400-word professional report introduction with academic register']. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 Flag any sentence or passage that says what has already been said. This includes: direct repetition (same information twice in close proximity), circular sentences (restating the subject in the predicate), and summary after explanation (explaining something then immediately summarising it). For each: quote both instances, recommend cutting or combining.
 
 **Pass 2: Zombie Nouns (Nominalisations)**
@@ -54,6 +63,22 @@ Prescribe: where to add short sentences; where to vary opening patterns; where a
 Identify opening sentences in paragraphs and in the piece itself where the writer is warming up rather than landing. Signs: "It is worth noting that...", "It is important to understand that...", "One of the interesting aspects of this is...", sentences where the subject is "it" or "there" followed by a linking verb.
 
 For each: quote the throat-clearing opener + write the sentence as it should start.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

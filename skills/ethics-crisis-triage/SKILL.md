@@ -22,6 +22,14 @@ Before any ethical analysis, get clear on what is actually known:
 
 Resist the urge to analyse before the facts are clear. Ethics analysis on wrong assumptions produces wrong conclusions.
 
+**Framing check:** Confirm the ethical situation before continuing. State what you've identified — the incident or failure, who is affected, and whether harm is ongoing or contained — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the incident, affected parties, and current harm status]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Rapid framework sweep**
 Run each lens quickly — this is triage, not a full audit.
 
@@ -51,6 +59,14 @@ Based on the sweep, identify:
 - **What must be preserved** — evidence, logs, records that will matter for accountability
 - **Who must decide** — what decisions require human authority, and who holds it
 
+**Before synthesising:** State what each framework surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each lens found: [one bullet per framework — utilitarian, deontological, care ethics, justice]. Before I synthesise into a response framework, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — frameworks covered the ground
+  - **Weight [direction]** — user will name which ethical thread to emphasise
+  - **Add a missing angle** — user will name a dimension not yet covered
+
 **Step 4: Draft the response framework**
 Not the communications plan — the ethical framework for how you respond:
 - **Transparency**: What are you obligated to disclose, to whom, and when?
@@ -62,17 +78,17 @@ Not the communications plan — the ethical framework for how you respond:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Immediate harm only** — Who's being harmed right now and what stops it fastest
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

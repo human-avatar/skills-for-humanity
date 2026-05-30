@@ -14,6 +14,14 @@ Vague uncertainty — "it might work, it might not" — produces poor decisions.
 **Step 1: List Scenarios**
 Enumerate all scenarios — they must be mutually exclusive (no overlap) and collectively exhaustive (cover all meaningful possibilities). If "other" is significant, make it explicit. Typically 3–5 scenarios; more than 6 reduces usability.
 
+**Framing check:** Confirm the specific situation and uncertainty before continuing. State what you've identified — the actual decision or situation at stake and the key uncertainty being quantified — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific situation and the uncertainty being modelled]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Assign Initial Probabilities**
 Assign a probability to each scenario. They must sum to 100%. Do this before analyzing each scenario in detail — your prior is informative and anchoring matters.
 
@@ -24,6 +32,14 @@ For each probability: would you accept a bet at these odds? If you assigned 70% 
 What would need to be true for each scenario to occur? What is the single most important condition that must hold?
 
 **Step 5: Find the High-Probability and High-Impact Scenarios**
+**Before narrowing:** Show the complete calibrated scenario table to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] scenarios with assigned probabilities. Before I select the highest-probability and highest-impact ones to focus on, are there any scenarios you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the scenario set looks right
+  - **Flag one** — user will name a specific scenario to prioritise
+  - **Add a missing one** — user will describe a scenario to include
+
 These may be the same scenario or different ones. If the highest-probability scenario is low-impact and the highest-impact scenario is low-probability, name both — they require different responses.
 
 **Step 6: Identify Most Useful Information**
@@ -33,17 +49,17 @@ What new information would most update these probabilities? This determines what
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Top 3 scenarios only** — Most likely, most harmful, most surprising
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

@@ -16,6 +16,14 @@ Sun Tzu's nine situations range from dispersive ground (where retreat is correct
 **Step 1: Landscape inventory**
 What are the available positions in this competitive context? Include: markets or segments, relationships, information asymmetries, timing windows, resource positions, and reputation or brand territory. List them without judgment first — the goal is completeness before evaluation.
 
+**Framing check:** Confirm the competitive context before continuing. State the specific situation being analyzed — who the actor is, what arena they are operating in, and what strategic question is at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific competitive context and strategic question]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Favorable ground**
 Where do your strengths meet their weaknesses? Where do you have natural advantage — by virtue of existing position, capabilities, relationships, speed, or knowledge? Sun Tzu: "In battle, use the orthodox method; win through the unorthodox." Favorable ground is where your orthodoxy is their weakness.
 
@@ -29,7 +37,31 @@ Where do you have no natural advantage and engagement drains you? Sun Tzu's "dis
 Who currently holds the most advantageous position in this landscape? What makes their position strong — network effects, information advantage, first-mover lock-in, relationships? What would it take for you to hold that position instead? Is acquiring it worth the cost?
 
 **Step 6: Terrain verdict**
+**Before narrowing:** Show the full set of positions identified across Steps 1–5 to the user before issuing a verdict. Use `AskUserQuestion`:
+- **Question:** "I've mapped [N] positions across favorable, contested, dangerous, and high ground. Before I issue a terrain verdict, are there any positions you'd flag as especially critical, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your verdict** — the landscape looks complete
+  - **Flag one** — user will name a specific position to weigh more heavily
+  - **Add a missing one** — user will describe a position not yet in the map
+
 Based on the above: which positions are worth fighting for, which require waiting and preparation, and which should be avoided? A clear verdict — not a hedge.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

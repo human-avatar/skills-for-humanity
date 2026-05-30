@@ -17,6 +17,14 @@ Applies identity and values reasoning to decisions and directions. Diagnoses wha
 
 ## Routing Decision
 
+**Framing check:** Confirm the specific identity situation before routing. State what you've identified — the person or organization in question, the decision or situation triggering the identity question, and whether the concern is about integrity, mission drift, or revealed values — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the identity situation and what's at stake]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Gut says something is wrong but can't articulate it** → character-testing
 - **Worried a direction is drifting from core purpose** → mission-alignment
 - **Want to know what your decisions actually reveal about your values** → values-clarification

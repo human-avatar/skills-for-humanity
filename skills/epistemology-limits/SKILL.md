@@ -18,6 +18,14 @@ Write the question as precisely as possible. Then check: has investigation been 
 
 This skill applies when investigation has been done and the question remains open, or when you can see in advance that investigation won't settle it.
 
+**Framing check:** Confirm the specific question and its epistemic status before continuing. State what you've identified — the actual question being examined and whether investigation has already been attempted — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific question and its investigation status]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Classify the Type of Limit**
 
 ### Fundamental Limits
@@ -68,9 +76,9 @@ Does the limit actually matter for the decision at hand? Sometimes what seems li
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Classify the limit, identify what can be established, produce reframed question
@@ -78,7 +86,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Reframe only** — Assume there's a limit; go straight to the best answerable version
   - **Refine the question** — Sharpen what we're trying to know before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

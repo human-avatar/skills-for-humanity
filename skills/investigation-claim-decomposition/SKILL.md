@@ -14,6 +14,14 @@ Complex claims are bundles. "The talent market has fundamentally shifted" contai
 **Step 1: State the Master Claim**
 Write out the claim in its current form. If it was stated imprecisely, note that — but trace it faithfully. Do not pre-interpret; decompose what was actually asserted.
 
+**Framing check:** Confirm the specific claim before continuing. State what you've identified — the actual claim being decomposed and its apparent domain (factual, causal, normative, etc.) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the claim and its domain]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different claim than read; incorporate the correction before proceeding
+
 **Step 2: Decompose into Atomic Sub-Claims**
 Break the master claim into the smallest independently assessable statements. Each sub-claim should be:
 - A single, specific assertion
@@ -43,6 +51,14 @@ For each sub-claim, assign a classification:
 | **Assumed** | Treated as true without being argued; load-bearing but unexamined |
 
 **Step 4: Identify the Load-Bearing Sub-Claims**
+**Before narrowing:** Show the complete list of classified sub-claims to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] sub-claims. Before I select the most load-bearing ones, are there any you'd flag as especially critical, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific sub-claim to include as load-bearing
+  - **Add a missing one** — user will describe a sub-claim not yet listed
+
 Not all sub-claims carry equal weight. Determine:
 - Which sub-claims, if false, would cause the master claim to fail?
 - Which sub-claims are doing heavy lifting that isn't acknowledged?
@@ -63,9 +79,9 @@ Given the load map and classifications, what should be verified first? Rank by:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full decomposition** — Complete all steps: decompose, classify, map dependencies, recommend priorities
@@ -73,7 +89,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Load-bearing claims only** — Focus on identifying which sub-claims are doing the most work
   - **Refine the claim first** — Clarify what exactly we're decomposing before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

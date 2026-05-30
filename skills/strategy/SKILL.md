@@ -15,6 +15,14 @@ The strategy skills in this category draw on Sun Tzu (*The Art of War*), Clausew
 
 Read the user's situation carefully. Identify which strategic challenge is primary, then present the options below — briefly and specifically — and ask which fits. Execute immediately on selection.
 
+**Framing check:** Confirm the competitive situation before continuing. State what you've identified — the actor, the opponent or competitive pressure, and the primary objective at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the actor, the adversarial dynamic, and the goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Reading the landscape — where should I compete, and where should I avoid?**
 → `/strategy-terrain` — Maps available positions, identifies favorable and dangerous ground, tells you which battles are worth fighting.
 
@@ -38,6 +46,20 @@ Read the user's situation carefully. Identify which strategic challenge is prima
 
 **Who do I need on my side — coalition and alliance?**
 → `/strategy-alliance` — Maps parties, identifies natural allies and swing parties, assesses alliance stability. Alliances built on shared interest vs. goodwill alone.
+
+---
+
+## Routing Confirmation
+
+After diagnosing, use `AskUserQuestion` before routing:
+- **Question:** "My read: this is a [type] situation — [one sentence why]. Run `/[sub-skill]`?"
+- **Header:** "Direction"
+- **Options:**
+  - **Yes — run `/[sub-skill]`** — diagnosis is correct
+  - **Show all options** — list all eight sub-skills with one-line descriptions
+  - **Different angle** — describe which aspect of the competitive situation is most pressing
+
+Adapt [type], [why], and [sub-skill] based on the primary strategic challenge identified.
 
 ---
 

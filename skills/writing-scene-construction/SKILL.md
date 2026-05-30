@@ -18,6 +18,14 @@ The second most common failure: scenes that serve one function when they need to
 **Step 1: Scene Goal**
 What does the POV character want in *this scene*? Not what they want in the story — what they want right now, from this specific situation. Be concrete: "to convince Marcus to lend her the money," not "to solve her financial problems." If the goal can't be stated specifically, the scene has no engine.
 
+**Framing check:** Confirm the specific scene before continuing. State what you've identified — the scene's POV character, their immediate want, and the narrative moment it occupies — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the scene — POV character, their specific want, and where it sits in the story]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different scene or situation than read; incorporate the correction before proceeding
+
 **Step 2: Obstacle**
 What prevents the character from getting it? The obstacle should be active and specific — a person with their own opposing goal, a circumstance that makes the goal impossible, or an internal conflict that prevents the character from acting. Weak obstacles are vague ("things are difficult") or absent (the character just gets what they want).
 
@@ -44,6 +52,22 @@ What does this scene do? Mark all that apply:
 - **Transition** — moves characters or situation from one state to another
 
 If the scene serves only one function, it is at risk. Consider whether it can be combined with adjacent scenes or rewritten to serve a second function.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

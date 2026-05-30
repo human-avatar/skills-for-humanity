@@ -20,6 +20,14 @@ These two concepts are complementary but distinct. The Shapley value is always u
 **Step 1: Player-value map**
 List all players and, for each possible coalition (every subset), specify the value that coalition can generate on its own. This is the characteristic function of the game — v(S) for every subset S. For small groups (3–4 players), enumerate all subsets. For larger groups, focus on the most relevant coalitions: the grand coalition, each individual player alone, and the likely competing sub-coalitions.
 
+**Framing check:** Confirm the specific coalition situation before continuing. State what you've identified — the players, what value they can jointly create, and the core question (who should form a coalition and how should gains be divided) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the players, their potential joint value, and the key coalition question]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Grand coalition assessment**
 Is the grand coalition (all players together) the most efficient arrangement? Check whether v(everyone) ≥ v(any subgroup) + v(remaining players). If yes, the grand coalition maximises total value and the question is only how to divide it. If no, some smaller coalition creates more value, and the question is which one forms.
 
@@ -44,6 +52,22 @@ Even with a core allocation, identify threats:
 - Which players are most tempted to defect to a subcoalition?
 - What external conditions (new opportunities, changing valuations, information revelations) could shift the characteristic function?
 - What governance or enforcement mechanisms could reinforce stability?
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

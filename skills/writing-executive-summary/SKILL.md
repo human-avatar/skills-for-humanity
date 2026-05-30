@@ -22,8 +22,26 @@ Four common failures:
 **Step 1: Reader's Role and Actual Decision**
 Who exactly is reading this? What is the specific decision they need to make? Not "the board should be informed" but "the board is deciding whether to approve the $2M market expansion budget." This decision frames everything: what gets included, what gets cut, and how the recommendation is framed.
 
+**Framing check:** Confirm the reader and their decision before continuing. State what you've identified — the specific audience, their role, and the exact decision they are making — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of who the reader is and what decision they need to make]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Identify the Three Most Important Things**
-From the full document: what are the three findings, facts, or insights that most directly bear on the reader's decision? Not the most interesting to you — the most important to them. These become the three bullets in the Key Findings section. If there are more than three, you are either including noise or you have not prioritised.
+From the full document: what are the three findings, facts, or insights that most directly bear on the reader's decision? Not the most interesting to you — the most important to them.
+
+**Before narrowing:** Show the complete set of candidate findings to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] candidate findings. Before I select the three most critical to the reader's decision, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific finding to include
+  - **Add a missing one** — user will describe it
+
+These become the three bullets in the Key Findings section. If there are more than three, you are either including noise or you have not prioritised.
 
 **Step 3: Implications Not Findings**
 Translate findings into implications: not "our Q3 customer acquisition cost rose 40%" but "our current acquisition strategy is unsustainable at scale — at Q3 rates, the expansion budget funds half the projected customer growth." Implications answer "so what?" They are what the executive needs in order to act.
@@ -33,6 +51,22 @@ Anything that explains how the analysis was done, why you looked at what you loo
 
 **Step 5: Draft to One Page / 300 Words**
 Every sentence must earn its place. The test for each sentence: does a reader without this sentence make a worse decision? If no, cut it. The executive summary is not a place for comprehensive coverage — it is a place for decisive clarity.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

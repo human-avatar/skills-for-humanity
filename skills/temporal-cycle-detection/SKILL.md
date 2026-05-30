@@ -14,6 +14,14 @@ Every situation that feels unprecedented is usually an instance of a recurring c
 **Step 1: Describe Current State and Trajectory**
 State what is happening now and how the situation has moved over the past period. Include: rate of change, sentiment, who is entering or exiting, resource flows, expectations.
 
+**Framing check:** Confirm the specific situation before continuing. State what you've identified — the actual phenomenon or domain being analyzed and its key observable parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific situation and what is changing]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Match to a Candidate Cycle**
 Compare against the most common cycles:
 - **Technology Hype Cycle (Gartner):** trigger → peak of inflated expectations → trough of disillusionment → slope of enlightenment → plateau of productivity
@@ -39,17 +47,17 @@ Where does this situation differ from the typical cycle? These divergences — n
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Current position only** — Where in the cycle we are right now, skip the full cycle description
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

@@ -14,6 +14,14 @@ Facts don't change behavior; narrative does. The same information delivered as a
 **Step 1: Identify Audience and Current Belief**
 Who is the specific audience? What do they already believe about this situation? You are not starting from zero — you are moving them from where they are.
 
+**Framing check:** Confirm the specific communication and its audience before continuing. State what you've identified — the actual content being structured and who it is for — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific communication, its audience, and the intended outcome]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Find the Tension**
 What is the gap between current state and desired state? If there is no tension, there is no story. The tension must be real to the audience, not just to the sender.
 
@@ -32,17 +40,17 @@ Data supports narrative; it does not replace it. Assign each data point or proof
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Missing elements only** — What story components are absent from this communication
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

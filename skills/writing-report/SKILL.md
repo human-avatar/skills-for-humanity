@@ -24,6 +24,14 @@ The most common report failures:
 **Step 1: Reader's Question**
 Who is reading this report, and what do they need to know and decide? State it specifically: not "the board needs to understand performance" but "the board needs to decide whether to approve the Q4 investment increase given Q3 performance." The reader's specific decision shapes every structural choice.
 
+**Framing check:** Confirm the specific report and its reader before continuing. State what you've identified — the actual document being analyzed, its intended audience, and the core decision it must serve — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the report, its audience, and the decision it needs to serve]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Answer-First Check**
 Does the opening section answer the main question before developing it? The first section of a well-structured report should contain the key finding and its primary implication, in plain language, before any methodology, context, or detail. Check: can a reader who only reads the first section make an informed decision?
 
@@ -35,6 +43,22 @@ Flag every instance of vague quantification or hedging language: significant, su
 
 **Step 5: Navigability**
 Can a time-pressed reader find what they need without reading everything? Check: is there an executive summary? Are section headers navigable? If there is a key recommendation, is it labelled clearly? Is there a table of contents for documents over 10 pages?
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

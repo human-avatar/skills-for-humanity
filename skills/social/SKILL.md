@@ -18,6 +18,14 @@ Applies social and organizational reasoning to group dynamics, power, incentives
 
 ## Routing Decision
 
+**Framing check:** Confirm the social situation before diagnosing. State what you've identified — the specific group, relationship, or dynamic at stake and the core tension or goal — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific social situation, group, and what needs to happen]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Proposal needs stakeholder support — need to build alignment** → coalition-mapping
 - **Team behaving in ways that are hard to understand or predict** → dynamics-analysis
 - **Behavior seems misaligned with stated goals — incentives might be wrong** → incentive-analysis

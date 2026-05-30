@@ -20,6 +20,14 @@ Describe the design, plan, system, or solution in enough detail to evaluate its 
 If it's a process, name the steps. If it's a system, name the components. If it's a
 strategy, name the moves.
 
+**Framing check:** Confirm the specific solution before continuing. State what you've identified — the actual artifact being tested and its apparent purpose — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the solution and what it is meant to accomplish]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Define the Irreducible Core**
 What is the minimum that does the job? State in one sentence what the solution must
 accomplish to succeed. Every element that doesn't directly serve this core is a
@@ -53,17 +61,17 @@ element serves a secondary purpose worth naming. Distinguish them explicitly.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Accidental complexity only** — What could be removed without losing anything that matters
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

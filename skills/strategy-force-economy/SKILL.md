@@ -18,17 +18,57 @@ The discipline is finding the leverage point: the node in the system where a sma
 **Step 1: State the objective**
 Define what success looks like clearly and specifically. Vague objectives produce vague force economy analyses. What must be true for this to be considered won?
 
+**Framing check:** Confirm the specific situation before continuing. State the objective and the resource constraint in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the objective and the resource or competitive constraint]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Maximum-force approach**
 What does the brute-force path look like? If you matched the opponent resource-for-resource and attacked directly, what would that cost in time, money, relationships, and attention? Name the full cost. This is your baseline.
 
 **Step 3: Minimum-force alternatives**
 What approaches achieve the same objective at lower cost? Generate at least three alternatives — not as compromises but as genuine paths. Consider: approaches that go around rather than through, approaches that use the opponent's own momentum, approaches that make the contested ground irrelevant.
 
+**Before narrowing:** Show the complete generated set of alternatives to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] minimum-force alternatives. Before I select the most promising, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific alternative to include
+  - **Add a missing one** — user will describe it
+
 **Step 4: Leverage points**
 Where in this system does a small input create a large output? Candidates: a key relationship that unlocks others, an information advantage that reshapes the opponent's behavior, a timing move that creates conditions others must respond to, a position that creates a cascade of favorable effects without requiring follow-on force.
 
+**Before narrowing:** Show all identified leverage point candidates to the user before selecting the highest-leverage node. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] leverage point candidates. Before I select the single highest-leverage node, are there any you'd flag as especially critical, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific leverage point to prioritise
+  - **Add a missing one** — user will describe it
+
 **Step 5: Non-contest approaches**
 Can the objective be achieved without direct competition at all? Options: go around (find uncontested ground), ally with (add force through alliance), make irrelevant (change the game so the contested position no longer matters), wait (until the opponent's overextension creates the opening).
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

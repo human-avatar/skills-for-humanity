@@ -14,6 +14,14 @@ Without a gap between current state and desired state, communication is noise. T
 **Step 1: State the Communication**
 What is the communication — its subject, its argument, its ask? State it plainly before analyzing what's missing.
 
+**Framing check:** Confirm the specific communication before continuing. State what you've identified — the actual content being analyzed, its intended audience, and its core ask — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the communication, its audience, and its intended ask]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Locate the Tension**
 Ask: what is wrong, at risk, or missing in the world this communication addresses? That is the tension. It should be a gap between where things are and where they need to be. If you can't find it, note that — it's diagnostic.
 
@@ -30,17 +38,17 @@ State the tension explicitly, early, without burying it in qualifications. The s
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Central tension only** — The one conflict that makes this worth attending to
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

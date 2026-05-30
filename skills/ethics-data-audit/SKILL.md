@@ -16,6 +16,14 @@ The distinction matters. GDPR-compliant practices can still be extractive. Lawfu
 **Step 1: Define the data practice**
 What data is being collected, retained, shared, or used? Be specific: what fields, what volume, what purpose, who can access it, how long is it kept, where does it go?
 
+**Framing check:** Confirm the specific data practice before continuing. State what you've identified — the actual data being handled, its stated purpose, and the decision or change under review — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the data practice, its purpose, and the decision being audited]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Deontological Assessment — Rights and Duties**
 Users have rights that don't disappear because they clicked "I agree." Examine:
 
@@ -34,23 +42,32 @@ Data relationships are not neutral transactions. Examine:
 - **Trust**: If users knew exactly what you were doing with their data, would they feel the relationship was honourable?
 - **Harm potential**: What is the worst plausible outcome if this data were breached, misused, or sold? Who bears that harm?
 
+**Before synthesising:** State what each method surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each method found: [one bullet for deontological findings — the duties most at risk; one bullet for care ethics findings — the relationship and vulnerability concerns most at risk]. Before I synthesise into a verdict, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — methods covered the ground
+  - **Weight deontological concerns** — user wants rights and duties to lead the verdict
+  - **Weight care ethics concerns** — user wants relationship and vulnerability to lead the verdict
+  - **Add a missing angle** — user will name a dimension not yet covered
+
 **Step 4: Produce the audit**
 
 ---
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Consent and harm potential only** — Skip necessity, proportionality, and retention sections
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

@@ -23,6 +23,14 @@ Tone has multiple dimensions, and they can drift independently:
 **Step 1: Intended Tone**
 What tone was intended? If it's not stated, extract it from the strongest passage in the piece — the section that works best is the baseline. State the intended tone precisely across all five dimensions: formality level / warmth level / urgency / stance toward reader / sentence rhythm.
 
+**Framing check:** Confirm the piece and its intended register before continuing. State what you've identified — the specific text being analysed and the baseline tone you've extracted — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the piece and its intended tone]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Scan for Departures**
 Read through the piece and flag sections where any of the five tone dimensions shifts from the baseline. Don't just flag "informal" or "formal" — be specific: "this section shifts from 'collegial peer' to 'authoritative expert'"; "this paragraph breaks from short declarative sentences into subordinate clause-heavy long sentences that slow the pace and change the register."
 
@@ -38,6 +46,22 @@ Understanding the cause determines the correction.
 
 **Step 4: Prescribe Corrections**
 For each flagged section: what specific changes bring it into alignment? This may involve vocabulary choices ("synergistic" → "works well together"), sentence length adjustments, the removal of hedging language, or the addition of warmth. Be specific — "make it more casual" is not actionable; "replace the three nominalisations in this paragraph and cut the passive construction in the final sentence" is.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

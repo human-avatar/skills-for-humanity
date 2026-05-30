@@ -21,6 +21,14 @@ Specify the relationship being audited — two individuals, a team and its stake
 a vendor relationship, a product and its users. Be precise about direction: whose
 trust in whom is being assessed?
 
+**Framing check:** Confirm the specific relationship and trust direction before continuing. State what you've identified — the two parties and which direction of trust is under audit — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the relationship and trust direction]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Assess Each Driver**
 For each of the four trust drivers, identify recent concrete evidence on both sides.
 Evidence must be specific — named events, observed behaviours, cited decisions.
@@ -40,6 +48,14 @@ Generalisations don't diagnose.
   against: decisions made without considering impact, information withheld.
 
 **Step 3: Identify the Most Damaged Driver**
+**Before narrowing:** Show the complete driver assessment to the user first. Use `AskUserQuestion`:
+- **Question:** "I've assessed all four trust drivers. Before I identify the most damaged one, are there any you'd flag as especially critical, or any signals I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the assessment looks right
+  - **Flag one** — user will name a specific driver to prioritise
+  - **Add a missing signal** — user will describe evidence not yet captured
+
 Where is the deficit largest relative to what the relationship requires to function?
 This is the repair priority — not where there's the most noise, but where the
 structural deficit is deepest.
@@ -58,17 +74,17 @@ no signal — the erosion cancels the repair.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Trust deficits only** — What's actively eroding trust right now
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

@@ -14,6 +14,14 @@ An argument can fail in three distinct places: a premise can be false, the infer
 **Step 1: Extract the Argument Structure**
 Identify the premises (claims taken as given), the inference (how they connect), and the conclusion (what is claimed to follow). Write them out explicitly. Complex reasoning often has multiple linked arguments — map the chain.
 
+**Framing check:** Confirm the argument being examined before continuing. State what you've identified — the actual object being analyzed and the claim at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific argument and the conclusion it is trying to establish]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Test Each Premise**
 Classify each premise:
 - **Established fact** — supported by reliable evidence
@@ -39,17 +47,17 @@ Does the reasoning hold? Give a verdict and name the specific weaknesses if it d
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Premises only** — Surface what's being taken as given and classify each, skip inference and fallacy sections
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

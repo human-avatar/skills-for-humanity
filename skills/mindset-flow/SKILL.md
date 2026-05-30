@@ -23,6 +23,14 @@ When all three are present, flow is available. When any one is absent, it is not
 **Step 1: Identify the Target Activity**
 Name the specific activity you want to flow in. Not "work" — that is too large. "Writing the technical design document for the API migration." "Practicing the Bach cello suite." "Writing the first draft of the chapter." Flow is always flow in *something specific*.
 
+**Framing check:** Confirm the specific activity before continuing. State what you've identified — the actual activity and its key parameters (what it is, roughly how long/frequent, and what you already know about the obstacle) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific activity and situation]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Locate Yourself on the Flow Channel**
 The flow channel is defined by the relationship between challenge and skill. Map the current state:
 
@@ -57,6 +65,14 @@ For the specific activity, evaluate each condition:
 
 **Step 4: Identify the Primary Blocker**
 Most flow failures have a primary cause. Name it:
+
+**Before narrowing:** Show the complete set of blockers identified in Step 3 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified the following blockers from the audit: [list each blocker found]. Before I select the primary one to focus on, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific blocker to treat as primary
+  - **Add a missing one** — user will describe it
 
 *Boredom:* skill has outgrown challenge → need to raise the stakes, add complexity, or change the form
 *Anxiety:* challenge has outrun skill → need to reduce scope, build sub-skills, or restructure the task

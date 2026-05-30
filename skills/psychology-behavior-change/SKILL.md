@@ -16,6 +16,14 @@ Be precise. Not "be healthier" but "go for a 30-minute walk after work on weekda
 
 Also specify: are you trying to **stop** a behavior, **start** a behavior, or **modify** (frequency, intensity, consistency) a behavior? These have different intervention profiles.
 
+**Framing check:** Confirm the specific behavior before continuing. State what you've identified — the exact behavior and whether the goal is to start, stop, or modify it — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific behavior and direction]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Diagnose What's Maintaining the Current Behavior**
 Most behavioral persistence has a cause. Identify which mechanism is doing the work:
 
@@ -48,7 +56,15 @@ Is the current behavior maintained by what the surrounding group does? Social no
 | Identity conflict | Identity reframing — small votes for the new identity |
 | Social norm | Change context or norm; social commitments and accountability |
 
-Multiple mechanisms often co-occur. Prioritize: which one, if addressed, would unblock the rest?
+Multiple mechanisms often co-occur. **Before narrowing:** Show the complete set of mechanisms identified to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] maintaining mechanisms. Before I select the primary one to address, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific mechanism to prioritise
+  - **Add a missing one** — user will describe it
+
+Then prioritize: which one, if addressed, would unblock the rest?
 
 **Step 4: Design the Implementation**
 
@@ -69,9 +85,9 @@ All behavior change involves setbacks. Design the relapse response in advance: w
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full diagnosis + intervention design** — All steps, full output with specific implementation plan
@@ -79,7 +95,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Intervention design** — I already know the maintaining mechanism; design the implementation
   - **Refine the behavior** — Clarify what behavior we're targeting before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

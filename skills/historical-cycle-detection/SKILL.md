@@ -21,8 +21,26 @@ accelerating, plateauing, reversing — and the sentiment among participants. Se
 is often the most reliable indicator of cycle position because it drives behaviour
 independently of fundamentals.
 
+**Framing check:** Confirm the specific situation before continuing. State what you've identified — the actual subject being analyzed, the domain it belongs to, and the rough time horizon in view — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific situation and its trajectory]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Match to the Most Fitting Cycle**
-Evaluate against these candidate cycles and select the strongest match:
+Evaluate against these candidate cycles. List every candidate cycle that is a plausible match, with one sentence of reasoning for each.
+
+**Before narrowing:** Show the complete set of plausible candidate cycles to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified the following cycles as plausible matches: [list each candidate with one sentence of reasoning]. Before I select the strongest match, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific cycle to prioritise
+  - **Add a missing one** — user will describe an alternative cycle to consider
+
+Then select the strongest match:
 - **Hype cycle** — technology moves through peak of inflated expectations, trough
   of disillusionment, slope of enlightenment, plateau of productivity. Characterised
   by sentiment-fundamentals divergence.
@@ -61,17 +79,17 @@ playing out differently, or that the cycle identification needs revision.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Pattern match only** — The specific historical cycle this most resembles
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

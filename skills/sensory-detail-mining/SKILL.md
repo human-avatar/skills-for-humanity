@@ -14,6 +14,14 @@ Abstractions are useful — but they lose the specific detail that often contain
 **Step 1: Take the Current Description**
 Work with whatever account, analysis, or summary exists. This is the starting material — it contains the abstractions to excavate.
 
+**Framing check:** Confirm the specific subject before continuing. State what you've identified — the actual material being excavated and what kind of abstraction it primarily deals in — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific content — e.g. 'a session-recording summary describing user behaviour at a checkout flow']. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Identify Where It's Abstract**
 Mark every place the description uses categories, summaries, or generalisations instead of specific observed instances. Words like "often," "users," "usually," "issues," "problems," and "feedback" are abstraction signals.
 
@@ -35,17 +43,17 @@ Now that you have the specifics: what do they show that the abstractions conceal
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **One overlooked detail** — The single most important thing being missed
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

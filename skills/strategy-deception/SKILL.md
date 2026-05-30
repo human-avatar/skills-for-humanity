@@ -20,6 +20,14 @@ One structural constraint governs everything: **whatever you conceal must be con
 **Step 1: Information to protect**
 What knowledge of your position or intentions, if known by the opponent, would disadvantage you? Be specific. Not "our strategy" (too vague) but "the fact that we have no alternative vendor and our current contract expires in 60 days." List each piece of protective information separately.
 
+**Framing check:** Confirm the specific competitive situation before continuing. State the actor, the opponent, and the context in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of who is managing information against whom, and in what competitive context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Advantageous false impressions**
 What beliefs, if held by your opponent, would work in your favor? These must be plausible — impressions that could arise from your actual position, not fabrications that require active lying. Example: "that we have multiple alternatives in play" (if you could plausibly have them), not "that we have a signed term sheet" (if you don't).
 
@@ -31,6 +39,22 @@ Is what you're concealing consistently concealed across every surface — every 
 
 **Step 5: Counter-deception**
 What might your opponent be concealing or signaling falsely? What are they trying to make you believe? Apply the same framework in reverse: what impressions are they managing, what would they want you to assume, and where do their signals feel too clean or too consistent to be the full picture?
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

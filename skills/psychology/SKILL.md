@@ -19,6 +19,14 @@ Applies cognitive and behavioral frameworks to understand why people think, feel
 
 ## Routing Decision
 
+**Framing check:** Confirm the specific situation before routing. State what you've identified — the person or group whose psychology is in question, the behavior or decision at issue, and the outcome the user is trying to understand or influence — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific situation, person/group, and goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **"Why is [person/group] doing this?" / "What's driving this behavior?"** → psychology-motivation (surface vs. root motivation, what need is actually being served)
 - **"What biases might be at play?" / "Are we thinking clearly about this?"** → psychology-cognitive-biases (diagnostic scan for active cognitive distortions)
 - **"Is my gut right here?" / "Should I trust my instinct?" / "When does fast thinking work?"** → psychology-heuristics (assess the heuristic in use, decide whether to override)

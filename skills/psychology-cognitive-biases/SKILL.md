@@ -14,6 +14,14 @@ Most biased thinking feels like clear thinking. The distortion is invisible from
 **Step 1: Identify the Target**
 What is the decision, belief, or behavior being examined? Be specific. "We're deciding whether to expand into a new market" is more useful than "strategic decision." The target shapes which biases are most likely to be active.
 
+**Framing check:** Confirm the specific situation before continuing. State what you've identified — the actual decision, belief, or behavior being examined and the stakes or parties involved — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific situation being examined]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Scan for Active Bias Categories**
 Assess which of the following are most plausible given this specific situation:
 
@@ -26,6 +34,14 @@ Assess which of the following are most plausible given this specific situation:
 - **Planning fallacy** — Systematically underestimating time, cost, and complexity for future tasks, even when past experience should calibrate estimates down. Live when: project planning, timeline estimation, budget setting.
 - **Hindsight bias** — Seeing past events as more predictable than they were; "we should have known." Live when: reviewing failures or post-mortems; can distort who is blamed and what was actually knowable.
 - **Status quo bias** — Overvaluing the current state simply because it's current; experiencing change as loss. Live when: evaluating options that require changing course; when "do nothing" is being treated as riskless.
+
+**Before narrowing:** Show the complete set of plausible biases identified in Step 2 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] potentially active biases. Before I select the most significant to diagnose in depth, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific bias to include
+  - **Add a missing one** — user will describe it
 
 **Step 3: Diagnose the Specific Distortion**
 For each active bias, describe how it's operating in this specific situation — not generically, but concretely. "Confirmation bias is operating because the market research was commissioned after the decision to expand was informally made, meaning the team was implicitly looking for validation, not evidence."
@@ -40,9 +56,9 @@ How much is the current thinking likely to be off-course? Low (biases present bu
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full diagnostic** — Complete all steps, full reasoning shown
@@ -50,7 +66,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **One specific bias** — Focus on a single bias category I've already identified
   - **Refine the situation** — Clarify what's being decided before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

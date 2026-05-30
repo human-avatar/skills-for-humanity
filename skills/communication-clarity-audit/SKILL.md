@@ -19,6 +19,14 @@ Do not read this as the writer who knows what was meant. Read it as someone rece
 cold. What is actually on the page? This requires a deliberate perspective shift — it is
 the hardest step and the most important one.
 
+**Framing check:** Confirm the specific message, audience, and goal before continuing. State what you've identified — the actual content being audited, who it's addressed to, and what it's trying to achieve — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the message, its intended audience, and its goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Structure Check**
 Can the main point be identified within 10 seconds? If not, the structure is obscuring it.
 Is the structure serving the reader or the writer's thinking process? The two are often
@@ -40,6 +48,14 @@ informs without directing produces nothing. A message that directs ambiguously p
 the wrong thing.
 
 **Step 6: Name the Most Likely Misreading**
+**Before narrowing:** Show the complete set of misreadings identified across all steps to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] potential misreadings. Before I select the most likely one, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific misreading to prioritise
+  - **Add a missing one** — user will describe it
+
 State the single most plausible way this message will be misread or misunderstood by a
 reasonable receiver. This is the most valuable output — it is the failure that will
 actually happen if the message is sent as written.
@@ -48,17 +64,17 @@ actually happen if the message is sent as written.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Breakpoints only** — Where this message will be misread or lost, skip what's already clear
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

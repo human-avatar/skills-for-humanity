@@ -32,6 +32,14 @@ Lanier's central and urgent warning: **do not place AI, LLMs, or software inside
 **Step 1: Identify the entity in question**
 What exactly is being considered for moral status? Name it precisely. "The AI system" is too vague — what specifically? A language model? An autonomous agent? A robot? A trained classifier making decisions about people?
 
+**Framing check:** Confirm the specific entity and the moral question before continuing. State what you've identified — the actual entity being evaluated and the core question about its moral status — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific entity and the moral status question being asked]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Apply the three-zone test**
 
 Ask the diagnostic questions for each zone:
@@ -58,17 +66,17 @@ Is the proposal or decision requiring humans to accommodate the system, rather t
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Most overlooked circle only** — The ring of affected parties most likely being ignored
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

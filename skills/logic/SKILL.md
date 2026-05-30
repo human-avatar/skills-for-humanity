@@ -21,6 +21,14 @@ Applies logical analysis to arguments, plans, reasoning, and systems. Diagnoses 
 
 ## Routing Decision
 
+**Framing check:** Confirm the argument or reasoning being examined before routing. State the argument being examined and the claim at stake in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific argument or reasoning and what's at stake]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Complex argument worth thorough pressure-testing** → logic-council (multi-advisor + peer review)
 - **Need a complete logic review quickly** → logic-check (all dimensions, no overhead)
 - **Specific argument with a conclusion that needs validating** → argument-validation

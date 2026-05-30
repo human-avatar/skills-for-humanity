@@ -16,6 +16,14 @@ Not abstract words — translate each value into a behavioural definition. "What
 - Instead of: "We value innovation."
 - Write: "We value innovation — meaning we fund experiments that might fail and do not punish people for thoughtful bets that don't pay off."
 
+**Framing check:** Confirm the specific subject before continuing. State what you've identified — the entity whose values are being examined and the set of stated values in scope — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the entity and the values under examination]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Find Recent Decisions That Confirmed Each Value**
 For each value: what recent decision or action was consistent with the behavioural definition? Be specific — name the decision.
 
@@ -32,17 +40,17 @@ Based on the evidence from Steps 2–4: what are the actual, operative values �
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Operative values only** — Values actually revealed by decisions, not stated ones
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

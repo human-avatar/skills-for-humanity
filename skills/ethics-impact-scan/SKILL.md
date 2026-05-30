@@ -16,6 +16,14 @@ It runs two lenses: **utilitarian** (net effect on aggregate wellbeing) and **ju
 **Step 1: Clarify the subject**
 State what is being scanned — a feature, change, product decision, or policy. If the subject is vague, ask one clarifying question before proceeding.
 
+**Framing check:** Confirm the specific ethical situation before continuing. State what you've identified — the actual thing being scanned and the parties most likely affected — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific feature/decision and who it affects]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Map the stakeholder field**
 Before applying any lens, identify everyone affected:
 - Direct users (who uses this feature and how?)
@@ -49,17 +57,17 @@ Produce a short list of ethical flags — things that warrant attention before s
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Go/no-go verdict only** — Recommendation and top conditions, skip the benefit/harm map
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

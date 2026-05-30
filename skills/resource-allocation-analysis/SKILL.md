@@ -14,6 +14,14 @@ Every allocation is a trade-off — giving to one thing means giving less to ano
 **Step 1: Inventory Available Resources**
 Name and quantify the resources to be allocated: budget, headcount, time, capacity. Be precise about what is actually available — not what is desired.
 
+**Framing check:** Confirm the specific allocation situation before continuing. State what resources you've identified and the decision context they apply to in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing — e.g. 'Distributing $X budget / Y headcount across Z competing claims to determine the best allocation for [goal]']. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: List All Competing Claims**
 Every demand on the resource. Include maintenance and ongoing commitments, not just new initiatives. Claims that are implicitly assumed to be funded should be made explicit here.
 
@@ -33,17 +41,17 @@ Does this allocation, taken as a whole, serve the most important outcomes? Where
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Trade-off table only** — What each allocation gives up, skip the full recommendation
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

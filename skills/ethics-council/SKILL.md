@@ -65,6 +65,14 @@ Frame the ethical question clearly and neutrally. The framing should include:
 
 If the question is too vague ("is our product ethical?"), ask one clarifying question. Just one.
 
+**Framing check:** Confirm the ethical situation before continuing. State what you've identified — the specific decision or action under examination, the key stakeholders, and the primary moral tension — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific ethical situation, decision, and affected parties]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ---
 
 ### Human Check-in
@@ -144,6 +152,14 @@ Under 200 words. Be direct.
 ```
 
 ---
+
+**Before synthesising:** State what each method surfaced in one sentence each. Use `AskUserQuestion`:
+- **Question:** "Here's what each framework found: [one bullet per framework — Utilitarian, Deontological, Virtue Ethics, Care Ethics, Justice and Fairness — each summarised in one sentence]. Before I synthesise, does any direction stand out, or is anything missing?"
+- **Header:** "Synthesis direction"
+- **Options:**
+  - **Synthesise as planned** — frameworks covered the ground
+  - **Weight [direction]** — user will name which framework's thread to emphasise
+  - **Add a missing angle** — user will name a dimension not yet covered
 
 ### Step 4: Chair Synthesis
 

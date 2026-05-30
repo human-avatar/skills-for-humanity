@@ -25,6 +25,14 @@ Applies creative thinking to any challenge. Diagnoses what kind of creative work
 
 ## Routing Decision
 
+**Framing check:** Confirm the specific challenge or problem before continuing. State what you've identified — the actual creative challenge and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific challenge]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 - **Problem framing might itself be wrong** → assumption-excavator (run before anything else)
 - **Stuck in one direction, keep returning to the same idea** → lateral-thinking
 - **Need to see the full option space before choosing** → alternatives or concept-fan

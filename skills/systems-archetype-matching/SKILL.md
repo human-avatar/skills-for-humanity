@@ -14,6 +14,14 @@ Recurring system behaviors are not unique — they follow a small set of structu
 **Step 1: Describe the Recurring Behavior**
 State what keeps happening. Include: what was tried, what temporarily worked, what came back. The more specific, the better the match.
 
+**Framing check:** Confirm the specific system and its recurring behavior before continuing. State what you've identified — the system in question, the behavior that keeps repeating, and what has been tried — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the system and recurring behavior]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Compare Against All Eight Archetypes**
 Screen each archetype:
 - **Limits to Growth:** growth slows unexpectedly as a constraint is hit
@@ -26,6 +34,14 @@ Screen each archetype:
 - **Growth and Underinvestment:** growth slows because capacity investment lags demand
 
 **Step 3: Select the Best Match**
+**Before narrowing:** Show the complete screened set to the user first. List all archetypes that plausibly match — even partial fits — before selecting one. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] archetypes with some fit. Before I select the strongest match, are there any you'd flag as especially relevant, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific archetype to include or elevate
+  - **Add a missing one** — user will describe a pattern not yet captured
+
 Choose the archetype whose causal structure most closely matches the described situation. Note any secondary archetypes.
 
 **Step 4: Map the Situation Onto the Archetype**
@@ -38,17 +54,17 @@ Each archetype has a known high-leverage response. State it for this situation s
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Archetype identification only** — Name the recurring system pattern, skip full dynamics analysis
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

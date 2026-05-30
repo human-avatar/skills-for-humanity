@@ -26,6 +26,14 @@ These registers overlap — don't worry about which category something falls int
 **Step 1: Establish the decision or situation**
 What is the user trying to decide or do? State it clearly.
 
+**Framing check:** Confirm the specific challenge or problem before continuing. State what you've identified — the actual situation being explored and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific challenge or problem]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Generate without evaluating**
 Work through all three registers systematically. For each option generated:
 - State it clearly
@@ -48,21 +56,29 @@ After the first pass, push further. Ask: "What haven't I considered yet?" Look f
 Only after the full list is complete, evaluate. For each option: briefly note what makes it viable or not. Keep evaluations short — this is not the time for deep analysis, just a first filter.
 
 **Step 5: Highlight the options worth developing**
+**Before narrowing:** Show the complete generated set to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] options. Before I select the most promising for further development, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific option to include
+  - **Add a missing one** — user will describe it
+
 Identify 2–4 options that deserve further thinking. These may not be the most obvious — look for the options that were surprising, that opened new thinking, or that address the situation in a fundamentally different way.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Generation only** — Produce the alternatives without the comparison or evaluation phase
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

@@ -23,6 +23,14 @@ The second most common failure: the strongest counterargument is not addressed. 
 **Step 1: Central Claim**
 State the argument's claim in one sentence. Be specific: "We should adopt a four-day work week" is more specific than "Work-life balance matters." The more specific the claim, the more clearly the evidence can be evaluated against it. A claim that can't be stated specifically is often a claim that hasn't been formed yet.
 
+**Framing check:** Confirm the specific argument before continuing. State what you've identified — the actual claim being argued and the context or piece it appears in — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific argument and its context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different argument than read; incorporate the correction before proceeding
+
 **Step 2: Warrant — State It Explicitly**
 What principle or assumption connects the evidence to the claim? State it as a full sentence: "X is true (evidence), and because [warrant], therefore Y (claim)." Test: does the argument work if the reader doesn't share the warrant? If not, the warrant needs to be argued for — not just asserted.
 
@@ -43,6 +51,22 @@ Flag appeals that are standing in for reasoning:
 - **Repetition as intensification:** Restating the claim more forcefully as if repetition adds proof.
 
 These are not automatically illegitimate — emotion and authority are genuine persuasive tools. The problem is when they *substitute* for reasoning rather than support it.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

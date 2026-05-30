@@ -24,6 +24,15 @@ Each pass requires a different diagnostic lens. Running all four in sequence is 
 ## Your Process
 
 **Pass 1: Timeline Audit**
+
+**Framing check:** Confirm the specific manuscript and its scope before continuing. State what you've identified — the work being audited, its genre/setting, and the portion in scope (full manuscript, a chapter range, a specific scene) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the manuscript, e.g. 'a fantasy novel manuscript, full text, set in a world with established magic rules']. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different scope or work than read; incorporate the correction before proceeding
+
 Reconstruct the chronological order of events. Note every time marker: "the next morning," "three weeks later," "before she left," "the day after Marcus died." Build a timeline and check:
 - Are events in order consistent with stated time markers?
 - Do stated durations (travel times, healing times, gestation times) match what the story shows?
@@ -58,6 +67,22 @@ Track key objects, locations, and physical descriptions:
 - Scene-to-scene physical state: what does each character have, wear, and carry at the start of each scene? Does it match the end of the previous scene?
 
 Flag: each contradiction with the original description, the contradicting description, and the locations of both.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

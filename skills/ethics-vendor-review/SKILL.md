@@ -18,6 +18,14 @@ It applies two lenses: **virtue ethics** (what does choosing this vendor say abo
 **Step 1: Define the relationship**
 What is the vendor providing? What is the nature and depth of the dependency? How much leverage would they have once integrated? What data or access do they require?
 
+**Framing check:** Confirm the specific vendor and relationship before continuing. State what you've identified — the vendor being evaluated, what they provide, and the nature of the integration — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the vendor, what they provide, and what kind of relationship is being considered]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Virtue Ethics Assessment — Character and Alignment**
 
 Virtue ethics asks: what does this choice say about us? Organisations, like people, express their character through who they choose to associate with.
@@ -47,17 +55,17 @@ Examine:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Red flags only** — Specific concerns, skip domains that look clean
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

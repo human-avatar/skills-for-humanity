@@ -26,6 +26,14 @@ Build a specific reader profile:
 - **Relationship:** Friendly, skeptical, or neutral? Expert, novice, or intermediate?
 - **Time:** How much attention do they have? Will they read carefully or scan?
 
+**Framing check:** Confirm the specific content and target audience before continuing. State what you've identified — the actual piece being calibrated and the reader it is being calibrated for — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the content and target audience]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Calibration Failures — Identify**
 Read the content as the profiled reader. Flag:
 - **Jargon without definition:** Technical terms the reader won't know
@@ -39,6 +47,22 @@ What is the single question this reader most needs answered? Is it answered prom
 
 **Step 4: Framing Adjustment**
 Same substance, different framing. For technical content going to a non-technical reader: replace mechanism with outcome ("this algorithm sorts results by frequency" → "the most relevant results appear first"). For strategic content going to a technical reader: replace policy with specification ("improve response times" → "p95 response time under 200ms"). The framing makes the content land in the register the reader occupies.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

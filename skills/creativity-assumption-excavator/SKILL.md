@@ -28,6 +28,14 @@ Assumptions operate at different depths. Shallow assumptions are easy to spot. D
 **Step 1: Restate the problem as framed**
 Write out the user's problem as they've stated it, in their language. This is the surface to excavate.
 
+**Framing check:** Confirm the specific challenge before continuing. State what you've identified — the actual problem being excavated and its apparent domain — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific problem and its context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Surface assumptions at each layer**
 
 Work through all three layers. For each assumption you find:
@@ -38,6 +46,15 @@ Work through all three layers. For each assumption you find:
 Generate at least 3 assumptions at each layer. The structural and identity layers typically require more probing.
 
 **Step 3: Challenge the most load-bearing assumptions**
+
+**Before narrowing:** Show the complete set of assumptions surfaced across all three layers to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] assumptions across the three layers. Before I select the most load-bearing ones to challenge, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific assumption to include
+  - **Add a missing one** — user will describe it
+
 For the 3–5 assumptions that most constrain the solution space, ask:
 - Is this assumption actually true, or just taken for granted?
 - What if the opposite were true?
@@ -51,17 +68,17 @@ Name 1–2 new directions that open up when each key assumption is questioned.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Load-bearing assumptions only** — The ones that most change the problem if they turn out to be wrong
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

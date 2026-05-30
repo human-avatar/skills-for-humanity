@@ -18,6 +18,14 @@ is the most leverage-bearing preparation step there is.
 Don't model "the team" or "leadership." Name the individuals or segments who will receive
 this message. Different people in the same meeting need different models.
 
+**Framing check:** Confirm the message, the audience, and the goal before continuing. State what you've identified — the specific communication being planned, who it's directed at, and what outcome it needs to achieve — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the message, the audience, and the communication goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Current Belief**
 What do they already think about this topic? Not what you wish they thought — what they
 actually think right now. This is the starting position the message must move from.
@@ -46,17 +54,17 @@ a specific concern addressed before anything else can land.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Fears and concerns only** — What the audience is most worried about, skip beliefs and goals
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

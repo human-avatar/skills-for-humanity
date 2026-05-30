@@ -20,6 +20,14 @@ What does it do and how does it feel to engage with it? Focus on behaviour and
 effect, not surface features — not "it uses blue and white" but "it creates calm
 authority that builds confidence incrementally." Describe the experience of it.
 
+**Framing check:** Confirm the specific artefact before continuing. State what you've identified — the actual object being analyzed and its medium or domain — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific artefact and its context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different artefact or context than read; incorporate the correction before proceeding
+
 **Step 2: Identify Formal Patterns Present**
 Work through this list systematically — multiple patterns often operate simultaneously:
 - **Repetition/Rhythm** — recurring elements that create expectation, then satisfy
@@ -41,6 +49,14 @@ resemble? The hero's journey. The fugue. The golden section. Thesis-antithesis-
 synthesis. Call and response. Name the archetype and its source domain.
 
 **Step 4: Name the Pattern**
+**Before narrowing:** Show the complete set of patterns identified in Step 2 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] patterns at work. Before I select the dominant one, are there any you'd flag as especially significant, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific pattern to treat as dominant
+  - **Add a missing one** — user will describe a pattern not yet identified
+
 Give the dominant pattern a precise name. Test: does naming it make the thing more
 legible? Does it reveal why certain elements work and why others feel off? A good
 pattern name is generative — it produces new options, not just descriptions.
@@ -54,17 +70,17 @@ tension) or accidental (incoherence)?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Pattern name only** — Identify and name the underlying structure, skip full analysis
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

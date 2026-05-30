@@ -23,6 +23,14 @@ who has observed our strategy for two years and is now choosing where to attack.
 replacement is solving the wrong problem." Specificity determines how much you can
 genuinely inhabit.
 
+**Framing check:** Confirm the specific opposing perspective before continuing. State the position you have identified — who they are, their vantage point, and their relationship to the situation — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the opposing perspective and their vantage point]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different perspective than read; incorporate the correction before proceeding
+
 **Step 2: Set Aside Your Own Perspective**
 This step is non-negotiable. For the duration of Steps 3-5, there is no defending,
 no qualifying, no "but to be fair to our side." You are not you. You are them. You
@@ -57,17 +65,17 @@ better (the approach is right but it's not landing).
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Opposing view only** — Fully inhabit the opposite position, skip the reflection and re-integration
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

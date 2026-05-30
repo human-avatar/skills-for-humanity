@@ -18,6 +18,14 @@ planning meeting.
 List everything in the current plan, feature set, or requirement. Be complete — you can
 only strip what you've named.
 
+**Framing check:** Confirm the constraint and the goal it is blocking before continuing. State what you've identified — the specific scope being reduced and the core job it must accomplish — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the scope and the core job it must accomplish]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Find the Core Job**
 Ask: what is the single verb this must do? Not what it should do, what it must do. Strip
 all nouns and adjectives until only the job remains. "A user can complete a purchase" is a
@@ -44,17 +52,17 @@ description without the original scope document.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Minimum viable scope only** — The smallest version that still satisfies the actual need
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

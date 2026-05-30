@@ -18,11 +18,29 @@ The most common alliance error is the inverse: trying to win everyone over. Alli
 **Step 1: Party map**
 List everyone involved in or affected by this situation. For each: what do they actually want (not what they say), what is their current position relative to your objective, and what is their capacity to help or hurt you?
 
+**Framing check:** Confirm the specific alliance situation before continuing. State what you've identified — the objective being pursued, the competitive or political context, and the rough set of parties involved — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the objective, context, and parties]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Natural allies**
 Parties whose interests align closely with yours without requiring significant trade-offs. Their success and yours point in the same direction. These require minimal persuasion — the main task is making the alignment explicit and activating it. Natural allies should be your first moves.
 
 **Step 3: Swing parties**
-Parties who could go either way. What would it take to align them? Is the cost of alignment (concessions, time, reciprocal obligations) worth the support gained? For each swing party: name the minimum offering that tips them, and whether that offer is actually available to you.
+Parties who could go either way. What would it take to align them? Is the cost of alignment (concessions, time, reciprocal obligations) worth the support gained?
+
+**Before narrowing:** Show the complete list of identified swing parties to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] swing parties. Before I assess which are worth pursuing, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific swing party to prioritise
+  - **Add a missing one** — user will describe a party not yet included
+
+For each swing party: name the minimum offering that tips them, and whether that offer is actually available to you.
 
 **Step 4: Parties to neutralize**
 Parties who might oppose you but needn't be actively won over — just prevented from acting against you. Neutralization is different from alliance: you are not asking for support, only for non-interference. This is often cheaper and more achievable than active alignment. What would each potential opponent need to remain neutral?
@@ -32,6 +50,22 @@ What holds each proposed alliance together? Shared interest (durable), reciproca
 
 **Step 6: Machiavelli test**
 For each alliance being proposed: is it based on genuine shared interest, or on the assumption of goodwill? Goodwill alliances require active maintenance and may not hold under pressure. Name them, and either identify the underlying interest that makes them durable or build in contingency.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

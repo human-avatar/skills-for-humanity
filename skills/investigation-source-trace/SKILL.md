@@ -14,6 +14,14 @@ Most claims arrive pre-laundered. By the time you encounter them, they have pass
 **Step 1: Capture the Claim as Received**
 Write out the claim exactly as you have encountered it. Note: who is asserting it now, in what context, and what confidence level they are expressing ("studies show" vs. "I've heard" vs. "it's well established that").
 
+**Framing check:** Confirm the specific claim before continuing. State what you've identified — the actual claim being traced and the current form it takes — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the claim and its current form]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different claim than read; incorporate the correction before proceeding
+
 **Step 2: Identify Potential Origin Points**
 Work backward. What is the earliest source you can find for this claim? Strategies:
 - Search for the earliest publication or statement you can locate
@@ -59,9 +67,9 @@ Compare the claim as received with the claim at its origin. Answer:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full trace** — Complete all steps: origin identification, transmission map, credibility assessment, verdict
@@ -69,7 +77,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Transmission distortion only** — Focus on how the claim changed; assume I've identified the source
   - **Refine the claim** — Clarify what exactly we're tracing before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

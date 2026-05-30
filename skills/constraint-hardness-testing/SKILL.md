@@ -18,6 +18,14 @@ spent working around or accepting them.
 Write it exactly as it's been stated or assumed. Don't clean it up — the imprecision is
 often where the phantom lives.
 
+**Framing check:** Confirm the specific constraint and the goal it is blocking before continuing. State what you've identified — the exact constraint as you understand it and the goal or action it prevents — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the constraint and the goal it blocks]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Source It**
 Who said this constraint exists? When? Is the source a law or regulation, a signed contract,
 a technical impossibility, a leadership decision, a team preference, or unknown? The source
@@ -48,17 +56,17 @@ than stated.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Real vs assumed verdict only** — Classify each constraint without full analysis
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

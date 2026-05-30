@@ -26,6 +26,14 @@ Applies narrative and storytelling thinking to communication, strategy, and mean
 
 ## Confirm Direction
 
+**Framing check:** Before confirming which tool to run, confirm your read of the narrative situation. State the specific content, communication, or story challenge being addressed in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific narrative situation — what content, for what purpose, for whom]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 After diagnosing which tool fits, use the `AskUserQuestion` tool to confirm direction. Construct the question dynamically to include your diagnosis:
 
 - **Question:** "My read: **[diagnosed tool]** — [one sentence on why it fits]. How would you like to proceed?"

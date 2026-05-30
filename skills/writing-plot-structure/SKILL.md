@@ -18,6 +18,14 @@ The most common structural failures: a missing first turning point (so the prota
 **Step 1: Inciting Incident**
 What disrupts the equilibrium? Identify the event that breaks the story's opening state and raises the central question. Diagnostic: does this event happen *to* the protagonist, or merely *near* them? An inciting incident that the protagonist can ignore is not functioning — it must demand response. Does it raise a specific, answerable question that will carry the story?
 
+**Framing check:** Confirm the specific story and its structural situation before continuing. State what you've identified — the title or subject of the work, its genre, and the structural symptom the user is reporting — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the story, its genre, and the structural problem being diagnosed]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: First Turning Point**
 Where does the protagonist commit to the central struggle? This is the point of no return — after this, they cannot go back to the opening state even if they wanted to. It is often marked by an active choice, not just an event that happens to them. Diagnostic: is there a real cost to this commitment? If there's no cost, there are no stakes.
 
@@ -31,6 +39,22 @@ The protagonist confronts the central struggle with everything they have and app
 The internal change enabled by the dark night allows the external problem to resolve. The key diagnostic: does the climax require the protagonist's change, or could any competent person have resolved it? If the resolution doesn't require the protagonist's specific internal transformation, the plot and character arc are running on parallel tracks that never truly connect.
 
 **For each beat:** Does it exist? Is it caused by the beat before it (cause-and-effect chain)? Does it raise the stakes rather than maintain them?
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

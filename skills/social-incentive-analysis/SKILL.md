@@ -14,6 +14,14 @@ Most behaviour that looks irrational is perfectly rational given the actual ince
 **Step 1: Describe the Behaviour**
 Name the specific behaviour to explain or change. Be concrete — not "people aren't engaged" but "engineers don't attend architecture reviews and don't comment on RFCs."
 
+**Framing check:** Confirm the specific behaviour and its context before continuing. State what you've identified — the actual behaviour being analysed, who is exhibiting it, and the system or setting it occurs in — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific behaviour, the actors involved, and the context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Map What the System Actually Rewards**
 Not what it is supposed to reward — what actually gets people promoted, praised, defended, or protected? Look at recent promotions, public praise, and what leadership visibly prioritises.
 
@@ -33,17 +41,17 @@ For each problematic behaviour: what specific incentive change would most direct
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Misaligned incentives only** — Where actual incentives diverge from stated goals
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

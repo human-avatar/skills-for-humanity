@@ -28,7 +28,23 @@ Create 3–5 provocations for the user's situation. Each should:
 
 Label each with "Po:" to signal its status.
 
+**Framing check:** Confirm the specific challenge before continuing. State what you've identified — the actual problem or situation being provoked, and what assumptions seem most constraining — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific challenge and its core assumptions]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Select the most generative**
+**Before narrowing:** Show the complete set of generated provocations to the user first. Use `AskUserQuestion`:
+- **Question:** "I've generated [N] provocations. Before I select the most generative, are there any you'd flag as especially promising, or any angle I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific provocation to include
+  - **Add a missing one** — user will describe a different angle to provoke
+
 Choose the 1–2 provocations most likely to produce interesting movement. Briefly note why — which assumption does each one destabilize?
 
 **Step 3: Extract movement from the provocation**
@@ -46,17 +62,17 @@ From the movement above, identify 1–3 candidate ideas — genuinely new direct
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Real-world ideas only** — Skip the provocation mechanics, deliver the actionable directions the provocation unlocks
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

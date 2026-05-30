@@ -22,11 +22,27 @@ The point is not sympathy. It is accuracy. A bad OPS produces a straw man — a 
 **Step 1: Identify the perspectives to explore**
 Who are the relevant others? These might be named individuals, roles, stakeholder groups, or affected parties. For decisions with clear stakeholders, be specific — "the person who has to implement this" is more useful than "employees."
 
+**Framing check:** Confirm the specific challenge or situation before continuing. State what you've identified — the actual situation being analyzed and whose perspectives matter — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation and the decision or action at the center of it]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 Aim to include:
 - The people most affected
 - The people most likely to resist or object
 - The people whose cooperation is needed
 - Any party whose interests are easily overlooked
+
+**Before narrowing:** Show the complete list of candidate perspectives to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] perspectives to explore: [list them]. Before I select the most relevant ones to reason through in depth, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific perspective to include
+  - **Add a missing one** — user will describe it
 
 **Step 2: For each perspective — reason from inside it**
 
@@ -52,17 +68,17 @@ After working through all perspectives, step back. What does the map of perspect
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **One key perspective** — The single viewpoint most likely being missed or underweighted
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output format
 

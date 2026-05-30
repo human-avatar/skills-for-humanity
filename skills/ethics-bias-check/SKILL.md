@@ -16,6 +16,14 @@ This check surfaces those patterns before they ship.
 **Step 1: Define the system**
 What is the algorithm, model, or automated decision? What is its input? What is its output? Who does it make decisions *about*? What happens to people based on its output?
 
+**Framing check:** Confirm the specific system before continuing. State what you've identified — the actual system being audited, its outputs, and the population it affects — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the system, its outputs, and who it affects]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Identify the implicit default**
 Every system has a default user in mind — often implicitly. Ask:
 - Who was this optimised for?
@@ -46,17 +54,17 @@ When the system makes errors, who bears the cost?
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Disparate impact only** — Flag differential outcomes without full root-cause analysis
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

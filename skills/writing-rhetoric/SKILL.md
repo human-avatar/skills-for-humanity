@@ -24,6 +24,14 @@ Identify the four elements of the rhetorical situation:
 - **Purpose:** What is the text trying to do? (Persuade? Inform? Legitimise? Mobilise? Reassure?)
 - **Context:** What is the occasion and institutional setting of this text? What situation does it respond to?
 
+**Framing check:** Confirm the specific text and its rhetorical context before continuing. State what you've identified — the actual piece being analysed, its apparent genre/form, and the core question the analysis will answer — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific text, its form, and the rhetorical question at stake]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Explicit Argument vs. Rhetorical Frame**
 State the explicit argument: what does the text claim?
 Then map the rhetorical frame: what does the text assume without claiming?
@@ -49,6 +57,22 @@ For each: quote the term, identify what frame it encodes, and note what alternat
 
 **Step 5: Verdict**
 Is the rhetoric honest and proportionate to the argument? This is the key evaluative question. Rhetoric is not inherently manipulative — all writing makes rhetorical choices. The question is whether the rhetorical moves are serving the argument or substituting for it; whether the loaded language is doing work the logic doesn't; whether the frame is being deployed honestly or invisibly.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

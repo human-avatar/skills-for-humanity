@@ -24,6 +24,14 @@ Applies resource reasoning to allocation, constraints, leverage, and waste. Diag
 - **Sense that effort isn't producing commensurate output** → waste-audit
 - **Unclear** → bottleneck-analysis; finding the constraint usually determines how to allocate and where the leverage is
 
+**Framing check:** Confirm the specific resource situation before routing. State what you've identified — the system or context under analysis and the core resource tension (scarcity, blockage, inefficiency, or leverage) — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the resource situation and what kind of problem it is]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 ## Confirm Direction
 
 After diagnosing which tool fits, use the `AskUserQuestion` tool to confirm direction. Construct the question dynamically to include your diagnosis:

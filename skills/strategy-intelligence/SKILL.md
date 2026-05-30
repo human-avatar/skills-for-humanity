@@ -16,17 +16,51 @@ The self-audit is as important as the opponent audit, and harder. Self-flattery 
 **Step 1: Self-audit**
 List actual strengths, weaknesses, hard constraints, and available resources. Do not soften the weaknesses. Ask: what would embarrass you to admit in this situation? Those admissions are the accurate self-assessment. What dependencies do you have? What time pressures? What is your actual walk-away position?
 
+**Framing check:** Confirm the specific situation before continuing. State what you've identified — the strategic situation, the opponent or counterparty, and the decision at stake — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the situation, opponent, and decision]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Opponent audit**
 What do you know about their position, capabilities, constraints, and intentions? Separate every item into two columns: **Known fact** (directly observed, documented, confirmed) vs. **Assumption** (inferred, expected, believed but unverified). Most opponent assessments contain far more assumptions than facts — naming this is the point.
 
 **Step 3: Intelligence gaps**
-What would change your decision if you knew it? List the three most important unknowns — the gaps where your current assumption, if wrong, would alter your strategy significantly. Rank by impact.
+What would change your decision if you knew it? List all significant unknowns — every gap where your current assumption, if wrong, could alter your strategy.
+
+**Before narrowing:** Show the complete list of identified gaps to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] intelligence gaps. Before I select the most critical, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific gap to include in the top three
+  - **Add a missing one** — user will describe an unknown not yet captured
+
+Then narrow to the three most important gaps — where your current assumption, if wrong, would alter your strategy most significantly. Rank by impact.
 
 **Step 4: Information-gathering paths**
 For each top gap: how might it be closed before acting? What is available through legitimate observation, inquiry, public sources, or network access? What would it cost (time, money, relationship capital) to close each gap?
 
 **Step 5: Assumption risk rating**
 For each current assumption in the opponent audit: rate the risk if that assumption is wrong. High — strategy fails if wrong. Medium — strategy degrades but survives. Low — minor adjustment required. Highlight the high-risk assumptions.
+
+---
+
+## Human Check-in
+
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
+
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
+- **Header:** "Scope"
+- **Options:**
+  - **Full analysis** — Complete all steps, reasoning shown throughout
+  - **Key findings only** — Bottom-line output, skip step-by-step detail
+  - **Specific focus** — Zoom in on one aspect of this analysis
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
+
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

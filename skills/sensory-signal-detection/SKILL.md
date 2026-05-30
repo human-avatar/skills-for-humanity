@@ -14,6 +14,14 @@ In any rich environment — data, feedback, conversation, a market — most of w
 **Step 1: Inventory Everything Present**
 List all the data, observations, or inputs available. Don't filter yet — complete the inventory first.
 
+**Framing check:** Confirm the specific subject before continuing. State what you've identified — the actual environment or dataset being analyzed and what outcome or phenomenon the user is trying to understand — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific environment/dataset and the outcome you're testing against]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Variance Test**
 For each item: does it vary with the outcome or phenomenon you're trying to understand? Signal co-varies with what you care about. Noise varies on its own schedule.
 
@@ -27,23 +35,33 @@ Is this item unique to this situation, or is it always present? Always-present b
 If this item changed or disappeared, would the outcome change? If yes: probable signal. If the outcome would be the same regardless: probable noise.
 
 **Step 6: Classify and Summarise**
-Assign a classification to each item and identify the top signals to act on.
+Assign a classification to each item and present the full classified inventory to the user.
+
+**Before narrowing:** Show the complete classified set to the user first. Use `AskUserQuestion`:
+- **Question:** "I've classified [N] elements. Before I select the top signals to act on, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific element to include in the top signals
+  - **Add a missing one** — user will describe an element not yet in the inventory
+
+Then identify the top signals to act on.
 
 ---
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Noise sources only** — What's obscuring the real signal
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

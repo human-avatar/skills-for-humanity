@@ -19,6 +19,14 @@ What must the receiver do, feel, or understand as a result of this communication
 specific. "Understand the situation" is not a goal. "Approve the budget by Friday" is.
 "Feel heard about the reorg" is.
 
+**Framing check:** Confirm the message, the audience, and the goal before continuing. State what you've identified — the actual communication being designed and its key parameters — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the message, audience, and goal]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Urgency**
 How quickly must they act or respond? Hours, days, weeks? Urgency drives the sync vs
 async question more than any other factor.
@@ -44,6 +52,15 @@ Apply the selection logic:
 - Formal commitment → written with signature or named acknowledgment
 
 **Step 6: Choose Primary and Secondary Medium**
+
+**Before narrowing:** Show the complete set of candidate media that matched in Step 5 to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified these candidate media: [list each matching channel from Step 5]. Before I select the best fit, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific channel to include
+  - **Add a missing one** — user will describe it
+
 Select the primary channel. If the message needs reinforcement (complex, high-stakes,
 or high emotional weight), add a secondary: e.g., meeting followed by written summary.
 
@@ -51,17 +68,17 @@ or high emotional weight), add a secondary: e.g., meeting followed by written su
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Channel recommendation only** — Which medium and why, skip the full analysis
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 

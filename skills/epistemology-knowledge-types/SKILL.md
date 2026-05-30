@@ -16,6 +16,14 @@ This skill classifies the kind of knowing in play, then draws out what that clas
 **Step 1: Extract the Claim**
 State the claim being made as precisely as possible. Strip away rhetorical packaging. What exactly is being asserted?
 
+**Framing check:** Confirm the specific claim before continuing. State what you've identified — the actual claim being analyzed and the context in which it is being made — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the specific claim and context]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Classify Along the Primary Axis — A Priori vs. A Posteriori**
 
 - **A priori** — can be known through reason alone, independent of experience. True by definition, logical necessity, or mathematical proof. Examples: "all bachelors are unmarried," "2+2=4," "if A>B and B>C then A>C."
@@ -64,9 +72,9 @@ The most common errors:
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full classification** — Complete all steps with the epistemic implications drawn out
@@ -74,7 +82,7 @@ Before proceeding, use the `AskUserQuestion` tool:
   - **Identify the confusion** — Focus on what knowledge-type error is being made, skip full taxonomy
   - **Refine the claim** — Sharpen what we're analyzing before starting
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ---
 

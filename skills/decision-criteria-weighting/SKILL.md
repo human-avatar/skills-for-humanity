@@ -17,10 +17,26 @@ judgment — it is to make the judgment visible enough to inspect, challenge, an
 Name the decision. List the actual options being considered — not aspirational ones. If an
 option isn't genuinely available, remove it before it contaminates the analysis.
 
+**Framing check:** Confirm the decision and its intended outcome before continuing. State what you've identified — the specific decision being made and the options on the table — in one sentence, then use `AskUserQuestion`:
+- **Question:** "I'm reading this as: [your one-sentence framing of the decision and the options being compared]. Is that right?"
+- **Header:** "Framing"
+- **Options:**
+  - **Yes — proceed** — framing is correct
+  - **Adjust** — one element is off; user will correct it before you continue
+  - **Reframe** — different situation than read; incorporate the correction before proceeding
+
 **Step 2: Identify 4-8 Criteria**
 Name the criteria that define a good outcome for this specific decision. Criteria should
 be independent (not measuring the same thing twice), observable (you can score against
 them), and genuinely relevant (removing one would change the analysis).
+
+**Before narrowing:** Show the complete generated set of candidate criteria to the user first. Use `AskUserQuestion`:
+- **Question:** "I've identified [N] candidate criteria. Before I narrow to the most decision-relevant ones, are there any you'd flag as especially important, or any I've missed?"
+- **Header:** "Prioritise"
+- **Options:**
+  - **Proceed with your selection** — the set looks right
+  - **Flag one** — user will name a specific criterion to include
+  - **Add a missing one** — user will describe it
 
 **Step 3: Weight the Criteria**
 Distribute exactly 100 points across the criteria. This forces trade-offs — you cannot
@@ -44,17 +60,17 @@ preference? Either is possible. Don't dismiss either.
 
 ## Human Check-in
 
-Before proceeding, use the `AskUserQuestion` tool:
+Before proceeding, use the `AskUserQuestion` tool. State your interpretation of the situation in 1–2 sentences — what is being analyzed and what the core question is — then ask:
 
-- **Question:** "How do you want to run this?"
+- **Question:** "My read: [your 1–2 sentence interpretation]. How do you want to proceed?"
 - **Header:** "Scope"
 - **Options:**
   - **Full analysis** — Complete all steps, reasoning shown throughout
   - **Key findings only** — Bottom-line output, skip step-by-step detail
   - **Weights only** — Establish criteria priorities before scoring any options
-  - **Refine the framing** — Adjust what we're analyzing before starting
+  - **Reframe** — The read is off; correct it and the analysis will follow the corrected framing
 
-Proceed based on their selection.
+Proceed based on their selection. If the user reframes, incorporate the correction before running any analysis.
 
 ## Output Format
 
