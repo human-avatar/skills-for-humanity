@@ -1,7 +1,7 @@
 {
   "name": "@human-avatar/skills-for-humanity",
   "version": "1.1.6",
-  "description": "93 structured thinking tools for Claude Code — logic, ethics, creativity, decision-making, systems thinking, and more.",
+  "description": "Structured thinking tools for Claude Code — logic, ethics, creativity, decision-making, systems thinking, and more.",
   "keywords": [
     "claude-code",
     "claude-code-plugin",

@@ -9,7 +9,7 @@
 
 <br>
 
-[![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/216_skills-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/35_categories-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)
+[![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)
 
 <br>
 </div>
@@ -69,7 +69,7 @@ Every skill pauses before running: states its read, confirms what it's actually 
 ---
 
 <details>
-<summary><strong>Skills reference</strong> — 216 skills across 35 categories</summary>
+<summary><strong>Skills reference</strong></summary>
 
 ### Think Sharper
 

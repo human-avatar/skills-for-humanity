@@ -47,7 +47,7 @@ const args = process.argv.slice(2);
 
 if (args.includes('--help') || args.includes('-h')) {
   log(`
-${bold}skills-for-humanity${reset} — 171 structured thinking tools for Claude Code
+${bold}skills-for-humanity${reset} — structured thinking tools for Claude Code
 
 ${bold}Usage:${reset}
   npx @human-avatar/skills-for-humanity [options]
@@ -196,7 +196,7 @@ async function uninstall() {
 async function install() {
   log();
   log(`${bold}${cyan}skills-for-humanity${reset}`);
-  log(`${dim}171 structured thinking tools for Claude Code${reset}`);
+  log(`${dim}structured thinking tools for Claude Code${reset}`);
   log();
 
   const target = await resolveTarget();
@@ -224,7 +224,7 @@ async function install() {
   // Done
   log();
   log(`${bold}Done.${reset} Restart Claude Code, then:`);
-  log(`  ${cyan}/think${reset}      ${dim}— route to the right skill from all 171${reset}`);
+  log(`  ${cyan}/think${reset}      ${dim}— route to the right skill${reset}`);
   log(`  ${cyan}/ethics${reset}     ${dim}— ethical analysis${reset}`);
   log(`  ${cyan}/logic${reset}      ${dim}— validate and pressure-test reasoning${reset}`);
   log(`  ${cyan}/creativity${reset} ${dim}— de Bono suite + brainstorm${reset}`);
