@@ -16,11 +16,11 @@
 
 | | Skills |
 |---|---|
-| **Think Sharper** | `/s4h-logic` · `/s4h-probability` · `/s4h-decision` · `/s4h-constraint` · `/s4h-game-theory` · `/s4h-epistemology` · `/s4h-investigation` · `/s4h-economics` · `/s4h-information` · `/s4h-cognition` |
-| **Think Differently** | `/s4h-creativity` · `/s4h-analogy` · `/s4h-play` · `/s4h-evolution` · `/s4h-design` |
-| **Think About People** | `/s4h-communication` · `/s4h-social` · `/s4h-emotional` · `/s4h-ethics` · `/s4h-identity` · `/s4h-narrative` · `/s4h-psychology` · `/s4h-mindset` · `/s4h-writing` · `/s4h-linguistics` |
-| **Think in Time & Systems** | `/s4h-systems` · `/s4h-temporal` · `/s4h-historical` · `/s4h-resource` · `/s4h-strategy` · `/s4h-network` · `/s4h-ecology` |
-| **See More Clearly** | `/s4h-aesthetic` · `/s4h-sensory` |
+| **Think Sharper** | `/s4h-logic`<br>`/s4h-probability`<br>`/s4h-decision`<br>`/s4h-constraint`<br>`/s4h-game-theory`<br>`/s4h-epistemology`<br>`/s4h-investigation`<br>`/s4h-economics`<br>`/s4h-information`<br>`/s4h-cognition` |
+| **Think Differently** | `/s4h-creativity`<br>`/s4h-analogy`<br>`/s4h-play`<br>`/s4h-evolution`<br>`/s4h-design` |
+| **Think About People** | `/s4h-communication`<br>`/s4h-social`<br>`/s4h-emotional`<br>`/s4h-ethics`<br>`/s4h-identity`<br>`/s4h-narrative`<br>`/s4h-psychology`<br>`/s4h-mindset`<br>`/s4h-writing`<br>`/s4h-linguistics` |
+| **Think in Time & Systems** | `/s4h-systems`<br>`/s4h-temporal`<br>`/s4h-historical`<br>`/s4h-resource`<br>`/s4h-strategy`<br>`/s4h-network`<br>`/s4h-ecology` |
+| **See More Clearly** | `/s4h-aesthetic`<br>`/s4h-sensory` |
 
 ---
 
