@@ -1,9 +1,7 @@
 <div align="center">
 <br>
 
-# skills-for-humanity
-
-**`s4h`**
+# `s4h` skills-for-humanity
 
 <br>
 
