@@ -207,6 +207,19 @@ async function install() {
   const isUpdate = names.some((n) => fs.existsSync(path.join(skillsDir, n)));
   log(`${isUpdate ? 'Updating' : 'Installing'} ${names.length} skills to ${yellow}${skillsDir}${reset}…`);
 
+  // Remove stale skills — previous versions used unprefixed names (e.g. "logic" → "s4h-logic")
+  const currentSet = new Set(names);
+  if (fs.existsSync(skillsDir)) {
+    for (const entry of fs.readdirSync(skillsDir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const unprefixed = entry.name.replace(/^s4h-?/, '');
+      const isOurs = currentSet.has(entry.name) || names.some((n) => n.replace(/^s4h-?/, '') === unprefixed);
+      if (isOurs && !currentSet.has(entry.name)) {
+        removeDir(path.join(skillsDir, entry.name));
+      }
+    }
+  }
+
   try {
     for (const name of names) {
       copyDir(path.join(SKILLS_SRC, name), path.join(skillsDir, name));
