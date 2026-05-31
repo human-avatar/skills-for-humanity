@@ -2,7 +2,7 @@
 
 > Map what kind of knowing is in play before testing whether the claim is true.
 
-**Trigger:** `/epistemology-knowledge-types`
+**Trigger:** `/s4h-epistemology-knowledge-types`
 
 ---
 

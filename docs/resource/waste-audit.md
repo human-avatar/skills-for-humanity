@@ -2,7 +2,7 @@
 
 > Finds where resources are being lost, duplicated, or underused — the seven wastes applied to knowledge work.
 
-**Trigger:** `/resource-waste-audit`
+**Trigger:** `/s4h-resource-waste-audit`
 
 ---
 

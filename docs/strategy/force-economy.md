@@ -1,8 +1,8 @@
-# `/strategy-force-economy`
+# `/s4h-strategy-force-economy`
 
 > *Supreme excellence consists in breaking the enemy's resistance without fighting.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-force-economy` · **Source:** Sun Tzu, *The Art of War*; Basil Liddell Hart, *Strategy*
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-force-economy` · **Source:** Sun Tzu, *The Art of War*; Basil Liddell Hart, *Strategy*
 
 ---
 
@@ -28,7 +28,7 @@ The framework surfaces at least three minimum-force alternatives to the direct a
 
 **Don't use force economy to avoid necessary investment.** Sometimes the high-cost path is the right path, and force economy analysis that always recommends the cheaper route is just risk aversion with a strategic veneer. The question is whether there is a minimum-force path that achieves the objective at acceptable quality — not whether you can avoid all cost.
 
-**Don't confuse leverage with shortcuts.** Leverage points are real structural features of systems — they exist independently of your wanting them to. Finding them requires honest analysis of the competitive structure, not wishful thinking about which action will do the most work. The nearest neighbor: `/strategy-positioning` — which addresses building the structural position that makes future force economy possible. Investment in positioning now is often the best force economy move available.
+**Don't confuse leverage with shortcuts.** Leverage points are real structural features of systems — they exist independently of your wanting them to. Finding them requires honest analysis of the competitive structure, not wishful thinking about which action will do the most work. The nearest neighbor: `/s4h-strategy-positioning` — which addresses building the structural position that makes future force economy possible. Investment in positioning now is often the best force economy move available.
 
 ---
 
@@ -102,7 +102,7 @@ The competitor's 40-person team ships a more feature-complete integration later.
 
 ## Related skills
 
-- [`/strategy-positioning`](positioning.md) — Investment in positioning now reduces force required in future contests
-- [`/strategy-alliance`](alliance.md) — Alliances are the most reliable force multiplier; the Platform X developer relations approach is an alliance move
-- [`/strategy-victory`](victory.md) — Force economy requires knowing your minimum victory condition — so you know when "good enough to ship" is actually good enough
-- [`/strategy-timing`](timing.md) — In resource-constrained situations, timing the minimum-force approach to a moment when the opponent is mid-build is a force multiplier
+- [`/s4h-strategy-positioning`](positioning.md) — Investment in positioning now reduces force required in future contests
+- [`/s4h-strategy-alliance`](alliance.md) — Alliances are the most reliable force multiplier; the Platform X developer relations approach is an alliance move
+- [`/s4h-strategy-victory`](victory.md) — Force economy requires knowing your minimum victory condition — so you know when "good enough to ship" is actually good enough
+- [`/s4h-strategy-timing`](timing.md) — In resource-constrained situations, timing the minimum-force approach to a moment when the opponent is mid-build is a force multiplier

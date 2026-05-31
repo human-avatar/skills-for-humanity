@@ -2,7 +2,7 @@
 
 > Maps the actual incentives driving behavior — distinguishing stated motivations from what the system rewards.
 
-**Trigger:** `/social-incentive-analysis`
+**Trigger:** `/s4h-social-incentive-analysis`
 
 ---
 

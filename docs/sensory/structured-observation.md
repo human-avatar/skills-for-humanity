@@ -2,7 +2,7 @@
 
 > Applies disciplined observation to a situation — suspending interpretation to see what's actually there before deciding what it means.
 
-**Trigger:** `/sensory-structured-observation`
+**Trigger:** `/s4h-sensory-structured-observation`
 
 ---
 

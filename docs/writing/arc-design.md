@@ -1,8 +1,8 @@
-# `/writing-arc-design`
+# `/s4h-writing-arc-design`
 
 > *The ending is not the change. The ending is the consequence of the change.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-arc-design`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-arc-design`
 
 ---
 
@@ -27,9 +27,9 @@ Maps character arcs and thematic arcs by aligning start state, pressure points, 
 
 **Don't use this for static characters.** Not all characters arc. Some characters are defined by their resistance to change — and that resistance is itself the arc. A character who refuses to change in a story about transformation can be profoundly effective. Arc design is for stories where a transformation is intended and is not landing.
 
-**Don't use this without a character profile.** The arc endpoint must flow from the wound and defence established in character development. Designing an arc for a character whose wound and defence haven't been mapped is designing a destination without knowing the starting point. Use `/writing-character-development` first.
+**Don't use this without a character profile.** The arc endpoint must flow from the wound and defence established in character development. Designing an arc for a character whose wound and defence haven't been mapped is designing a destination without knowing the starting point. Use `/s4h-writing-character-development` first.
 
-The nearest neighbor: [`/writing-plot-structure`](plot-structure.md) — which addresses the external events. Arc design and plot structure must be diagnosed together: the external structure is the mechanism that generates the pressure points that force the internal change. A well-designed arc with a broken plot structure will not be delivered.
+The nearest neighbor: [`/s4h-writing-plot-structure`](plot-structure.md) — which addresses the external events. Arc design and plot structure must be diagnosed together: the external structure is the mechanism that generates the pressure points that force the internal change. A well-designed arc with a broken plot structure will not be delivered.
 
 ---
 
@@ -97,6 +97,6 @@ The argument at full strength requires: a moment where Marcus has the system on 
 
 ## Related skills
 
-- [`/writing-plot-structure`](plot-structure.md) — The external events that generate the pressure points; repair these together
-- [`/writing-character-development`](character-development.md) — Marcus's wound and defence must be fully mapped before the arc repairs can be targeted
-- [`/writing-scene-construction`](scene-construction.md) — Individual scenes that should be pressure points must deliver what the arc requires
+- [`/s4h-writing-plot-structure`](plot-structure.md) — The external events that generate the pressure points; repair these together
+- [`/s4h-writing-character-development`](character-development.md) — Marcus's wound and defence must be fully mapped before the arc repairs can be targeted
+- [`/s4h-writing-scene-construction`](scene-construction.md) — Individual scenes that should be pressure points must deliver what the arc requires

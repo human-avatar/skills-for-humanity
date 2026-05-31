@@ -37,13 +37,13 @@ The nearest neighbor: [Logic](../logic/) — specifically [constraint-mapping](.
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/constraint`** | Routes to the right constraint skill for your situation | Not sure which tool fits; describe your situation |
-| [`/constraint-hardness-testing`](hardness-testing.md) | Tests whether a stated constraint is actually real | "We can't do X" — and you're not sure that's true |
-| [`/constraint-rule-inversion`](rule-inversion.md) | Flips a constraint into a creative driver | The constraint is real; you want it to generate possibilities, not just block them |
-| [`/constraint-scope-reduction`](scope-reduction.md) | Finds the minimum that satisfies the actual requirement | Scope has grown; you want to cut to what's genuinely needed |
-| [`/constraint-workaround-mapping`](workaround-mapping.md) | Finds paths around a fixed constraint without removing it | Constraint is genuinely fixed; you need to route around it to the same goal |
+| **`/s4h-constraint`** | Routes to the right constraint skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-constraint-hardness-testing`](hardness-testing.md) | Tests whether a stated constraint is actually real | "We can't do X" — and you're not sure that's true |
+| [`/s4h-constraint-rule-inversion`](rule-inversion.md) | Flips a constraint into a creative driver | The constraint is real; you want it to generate possibilities, not just block them |
+| [`/s4h-constraint-scope-reduction`](scope-reduction.md) | Finds the minimum that satisfies the actual requirement | Scope has grown; you want to cut to what's genuinely needed |
+| [`/s4h-constraint-workaround-mapping`](workaround-mapping.md) | Finds paths around a fixed constraint without removing it | Constraint is genuinely fixed; you need to route around it to the same goal |
 
-**Not sure which tool?** → Invoke `/constraint` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-constraint` — it diagnoses your situation and picks the right skill.
 
 ---
 

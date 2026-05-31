@@ -2,7 +2,7 @@
 
 > Reads where a system is in its developmental cycle — and what that means for strategy.
 
-**Trigger:** `/ecology-succession`
+**Trigger:** `/s4h-ecology-succession`
 
 ---
 
@@ -81,7 +81,7 @@ The HR software market as a whole is in Ω — the AI disruption is a market-lev
 
 ## Related skills
 
-- [`/ecology-carrying-capacity`](carrying-capacity.md) — Assess the specific constraints driving the K-phase rigidity
-- [`/temporal-futures-mapping`](../temporal/futures-mapping.md) — Project forward through multiple succession scenarios with explicit timelines
-- [`/historical-cycle-detection`](../historical/cycle-detection.md) — Find historical precedents for this succession pattern in analogous industries
-- [`/systems-archetype-matching`](../systems/archetype-matching.md) — The "Limits to Growth" archetype often describes the specific dynamic within K phase
+- [`/s4h-ecology-carrying-capacity`](carrying-capacity.md) — Assess the specific constraints driving the K-phase rigidity
+- [`/s4h-temporal-futures-mapping`](../temporal/futures-mapping.md) — Project forward through multiple succession scenarios with explicit timelines
+- [`/s4h-historical-cycle-detection`](../historical/cycle-detection.md) — Find historical precedents for this succession pattern in analogous industries
+- [`/s4h-systems-archetype-matching`](../systems/archetype-matching.md) — The "Limits to Growth" archetype often describes the specific dynamic within K phase

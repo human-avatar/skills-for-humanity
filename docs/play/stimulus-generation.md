@@ -2,7 +2,7 @@
 
 > Introduces a random, unrelated element to break mental fixation — forcing new associations that bypass the groove of familiar thinking.
 
-**Trigger:** `/play-stimulus-generation`
+**Trigger:** `/s4h-play-stimulus-generation`
 
 ---
 

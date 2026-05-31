@@ -2,7 +2,7 @@
 
 > What actually changes minds and drives action — and how to select the right approach for the context.
 
-**Trigger:** `/psychology-persuasion`
+**Trigger:** `/s4h-psychology-persuasion`
 
 ---
 

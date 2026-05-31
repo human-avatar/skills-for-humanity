@@ -1,8 +1,8 @@
-# `/game-theory-iterated`
+# `/s4h-game-theory-iterated`
 
 > *In a one-shot game, defect. In a repeated game with patient players, cooperate first — and mean it.*
 
-**Category:** [Game Theory](README.md) · **Command:** `/game-theory-iterated` · **Source:** Robert Axelrod, *The Evolution of Cooperation* (1984); Folk Theorem (Aumann, Shapley)
+**Category:** [Game Theory](README.md) · **Command:** `/s4h-game-theory-iterated` · **Source:** Robert Axelrod, *The Evolution of Cooperation* (1984); Folk Theorem (Aumann, Shapley)
 
 ---
 
@@ -30,7 +30,7 @@ The central result: in a repeated game with sufficiently patient players, mutual
 
 **Don't assume repetition solves everything.** Repetition enables cooperation only when the discount factor is sufficiently high. Impatient players, uncertain relationship continuity, high time pressure, or impending relationship exit all reduce the shadow of the future and undermine cooperation even in repeated games. Repetition is the precondition; patience and observability are the enablers.
 
-The nearest neighbor: [`/game-theory-prisoners-dilemma`](prisoners-dilemma.md) — the one-shot version of this problem. Start there to understand the structural logic; come here to understand how cooperation can be sustained over time.
+The nearest neighbor: [`/s4h-game-theory-prisoners-dilemma`](prisoners-dilemma.md) — the one-shot version of this problem. Start there to understand the structural logic; come here to understand how cooperation can be sustained over time.
 
 ---
 
@@ -130,6 +130,6 @@ The relationship is damaged but recoverable. The sequence:
 
 ## Related skills
 
-- [`/game-theory-prisoners-dilemma`](prisoners-dilemma.md) — the one-shot structure underlying this analysis
-- [`/game-theory-signaling`](signaling.md) — how to make cooperative intent credible through costly signals and commitment devices
-- [`/strategy-timing`](../strategy/timing.md) — when to act, when to signal, and when to wait in a fragile equilibrium
+- [`/s4h-game-theory-prisoners-dilemma`](prisoners-dilemma.md) — the one-shot structure underlying this analysis
+- [`/s4h-game-theory-signaling`](signaling.md) — how to make cooperative intent credible through costly signals and commitment devices
+- [`/s4h-strategy-timing`](../strategy/timing.md) — when to act, when to signal, and when to wait in a fragile equilibrium

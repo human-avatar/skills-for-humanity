@@ -2,7 +2,7 @@
 
 > Maps the hard limits and soft preferences that define what the solution space actually is.
 
-**Trigger:** `/design-constraints`
+**Trigger:** `/s4h-design-constraints`
 
 ---
 
@@ -72,6 +72,6 @@ Native payment methods (Apple Pay / Google Pay) should be the primary flow — t
 
 ## Related skills
 
-- [`/design-user-needs`](user-needs.md) — once constraints are mapped, revisit whether the real user need is still being served within this solution space
-- [`/design-iteration`](iteration.md) — structure the prototype-test cycle within the solution space identified
-- [`/constraint-hardness-testing`](../constraint/hardness-testing.md) — test individual soft or assumed constraints if any need to be challenged
+- [`/s4h-design-user-needs`](user-needs.md) — once constraints are mapped, revisit whether the real user need is still being served within this solution space
+- [`/s4h-design-iteration`](iteration.md) — structure the prototype-test cycle within the solution space identified
+- [`/s4h-constraint-hardness-testing`](../constraint/hardness-testing.md) — test individual soft or assumed constraints if any need to be challenged

@@ -2,7 +2,7 @@
 
 > Evaluates a third-party vendor, supplier, or integration against ethical standards before signing or shipping.
 
-**Trigger:** `/ethics-vendor-review`
+**Trigger:** `/s4h-ethics-vendor-review`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Identifies the entities whose removal would collapse the system — not the biggest, the most structurally irreplaceable.
 
-**Trigger:** `/ecology-keystone-species`
+**Trigger:** `/s4h-ecology-keystone-species`
 
 ---
 
@@ -84,6 +84,6 @@ Better but still severe. 90 days is not enough to transfer six years of relation
 
 ## Related skills
 
-- [`/ecology-interdependence`](interdependence.md) — Map the full dependency web to see how Marcus's structural position is embedded in the system
-- [`/ecology-succession`](succession.md) — Plan for the transition if Marcus does leave, applying succession thinking to knowledge and relationship transfer
-- [`/systems-leverage-analysis`](../systems/leverage-analysis.md) — Find the highest-leverage investments in structural resilience
+- [`/s4h-ecology-interdependence`](interdependence.md) — Map the full dependency web to see how Marcus's structural position is embedded in the system
+- [`/s4h-ecology-succession`](succession.md) — Plan for the transition if Marcus does leave, applying succession thinking to knowledge and relationship transfer
+- [`/s4h-systems-leverage-analysis`](../systems/leverage-analysis.md) — Find the highest-leverage investments in structural resilience

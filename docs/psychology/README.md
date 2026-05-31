@@ -37,14 +37,14 @@ The nearest neighbor trap: **Psychology is not social dynamics.** Psychology foc
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/psychology`** | Routes to the right psychology skill for your situation | Not sure which tool fits; describe the situation |
-| [`/psychology-cognitive-biases`](cognitive-biases.md) | Diagnose which cognitive biases are actively distorting thinking in a specific situation | "What biases are at play?" "Are we thinking clearly about this?" |
-| [`/psychology-motivation`](motivation.md) | Surface the root motivation beneath surface explanations; identify what's actually driving behavior | "What's driving this?" "What does this person actually want?" |
-| [`/psychology-heuristics`](heuristics.md) | Assess the fast-thinking pattern at work — when to trust it, when to override it | "Should I trust my gut?" "Is this a pattern-matching question?" |
-| [`/psychology-persuasion`](persuasion.md) | Select the right influence approach and construct it for the context | "How do I change their mind?" "What would convince them?" |
-| [`/psychology-behavior-change`](behavior-change.md) | Diagnose what's maintaining a behavior and design the intervention to shift it | "Why does this habit persist?" "How do I make this stick?" |
+| **`/s4h-psychology`** | Routes to the right psychology skill for your situation | Not sure which tool fits; describe the situation |
+| [`/s4h-psychology-cognitive-biases`](cognitive-biases.md) | Diagnose which cognitive biases are actively distorting thinking in a specific situation | "What biases are at play?" "Are we thinking clearly about this?" |
+| [`/s4h-psychology-motivation`](motivation.md) | Surface the root motivation beneath surface explanations; identify what's actually driving behavior | "What's driving this?" "What does this person actually want?" |
+| [`/s4h-psychology-heuristics`](heuristics.md) | Assess the fast-thinking pattern at work — when to trust it, when to override it | "Should I trust my gut?" "Is this a pattern-matching question?" |
+| [`/s4h-psychology-persuasion`](persuasion.md) | Select the right influence approach and construct it for the context | "How do I change their mind?" "What would convince them?" |
+| [`/s4h-psychology-behavior-change`](behavior-change.md) | Diagnose what's maintaining a behavior and design the intervention to shift it | "Why does this habit persist?" "How do I make this stick?" |
 
-**Not sure which tool?** → Invoke `/psychology` — it diagnoses your situation and routes to the right skill.
+**Not sure which tool?** → Invoke `/s4h-psychology` — it diagnoses your situation and routes to the right skill.
 
 ---
 

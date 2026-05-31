@@ -2,7 +2,7 @@
 
 > Maps the dependency web — and traces what propagates through it when something changes.
 
-**Trigger:** `/ecology-interdependence`
+**Trigger:** `/s4h-ecology-interdependence`
 
 ---
 
@@ -84,6 +84,6 @@ The current architecture is tightly coupled to a single vendor across 8 dependen
 
 ## Related skills
 
-- [`/ecology-keystone-species`](keystone-species.md) — Once the dependency map is built, identify which nodes are structurally irreplaceable
-- [`/ecology-carrying-capacity`](carrying-capacity.md) — Assess whether the proposed change puts load on nodes that are already near their limits
-- [`/systems-feedback-mapping`](../systems/feedback-mapping.md) — Map the reinforcing and balancing loops embedded in the dependency structure
+- [`/s4h-ecology-keystone-species`](keystone-species.md) — Once the dependency map is built, identify which nodes are structurally irreplaceable
+- [`/s4h-ecology-carrying-capacity`](carrying-capacity.md) — Assess whether the proposed change puts load on nodes that are already near their limits
+- [`/s4h-systems-feedback-mapping`](../systems/feedback-mapping.md) — Map the reinforcing and balancing loops embedded in the dependency structure

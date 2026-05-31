@@ -2,7 +2,7 @@
 
 > A five-framework reasoning tribunal that stress-tests arguments, plans, and conclusions — catching what single-framework analysis misses.
 
-**Trigger:** `/logic-council`
+**Trigger:** `/s4h-logic-council`
 
 ---
 
@@ -22,7 +22,7 @@ Convenes five reasoning specialists simultaneously — Formal Logic, Systems Thi
 
 ## When NOT to use
 
-- For moral questions — use `/ethics-council`
+- For moral questions — use `/s4h-ethics-council`
 - For general decisions — use `decision-option-mapping` or `decision-premortem-analysis`
 - For quick validation of simple reasoning — `logic-check` or `logic-argument-validation` is faster
 - For fixing flawed logic once found — use `logic-fixer` after the council identifies the breaks

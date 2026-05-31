@@ -2,7 +2,7 @@
 
 > Not all nodes are equal. Centrality reveals which ones matter — and why.
 
-**Trigger:** `/network-centrality`
+**Trigger:** `/s4h-network-centrality`
 
 ---
 
@@ -65,6 +65,6 @@ Slack data reflects communication, not influence — some high-impact relationsh
 
 ## Related skills
 
-- [`/network-contagion`](contagion.md) — use centrality findings to identify the highest-leverage seed nodes for spreading information or driving adoption
-- [`/network-weak-ties`](weak-ties.md) — dig into the structural holes the centrality analysis reveals (e.g., the data/analytics silo)
-- [`/social-power-mapping`](../social/power-mapping.md) — translate structural centrality into an organizational power map with explicit political implications
+- [`/s4h-network-contagion`](contagion.md) — use centrality findings to identify the highest-leverage seed nodes for spreading information or driving adoption
+- [`/s4h-network-weak-ties`](weak-ties.md) — dig into the structural holes the centrality analysis reveals (e.g., the data/analytics silo)
+- [`/s4h-social-power-mapping`](../social/power-mapping.md) — translate structural centrality into an organizational power map with explicit political implications

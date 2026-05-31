@@ -1,8 +1,8 @@
-# `/strategy-alliance`
+# `/s4h-strategy-alliance`
 
 > *If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-alliance` · **Source:** Sun Tzu, *The Art of War*; Niccolò Machiavelli, *The Prince*
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-alliance` · **Source:** Sun Tzu, *The Art of War*; Niccolò Machiavelli, *The Prince*
 
 ---
 
@@ -28,7 +28,7 @@ The analysis produces an alliance structure — not a stakeholder communication 
 
 **Don't build alliances before you know what you're asking people to ally for.** An alliance analysis without a clear objective maps the landscape without knowing what the terrain is for. Victory definition comes first; alliance structure is the means to achieve it. Parties aligned to a vague objective will fragment at the first point where the objective must become specific.
 
-**Don't treat alliance building as lobbying.** The nearest neighbor: `/social-coalition-mapping` — which analyzes power and influence dynamics in social systems. Alliance strategy is specifically about interest-aligned coalition building in competitive contexts. If the question is "how do I influence this person?" rather than "whose interests align with mine?", the framing is different. Machiavelli's insight is that persuasion-based alliances (lobbying) are fragile; interest-based alliances are durable.
+**Don't treat alliance building as lobbying.** The nearest neighbor: `/s4h-social-coalition-mapping` — which analyzes power and influence dynamics in social systems. Alliance strategy is specifically about interest-aligned coalition building in competitive contexts. If the question is "how do I influence this person?" rather than "whose interests align with mine?", the framing is different. Machiavelli's insight is that persuasion-based alliances (lobbying) are fragile; interest-based alliances are durable.
 
 ---
 
@@ -115,7 +115,7 @@ The difference between this sequence and walking in with a proposal is the diffe
 
 ## Related skills
 
-- [`/strategy-force-economy`](force-economy.md) — Alliances are the most powerful force multiplier; the coalition approach here is the force economy answer to a three-team-lead opposition
-- [`/strategy-intelligence`](intelligence.md) — Knowing what each party actually wants (vs. what they say they want) requires the intelligence discipline; the party inventory above required inference that should be validated
-- [`/strategy-victory`](victory.md) — Alliance strategy requires a shared victory definition; if the three team leads define success differently from you, the co-ownership framing needs to address that explicitly
-- [`/social-coalition-mapping`](../social/coalition-mapping.md) — For deeper analysis of the power and influence dynamics at play in the organizational context
+- [`/s4h-strategy-force-economy`](force-economy.md) — Alliances are the most powerful force multiplier; the coalition approach here is the force economy answer to a three-team-lead opposition
+- [`/s4h-strategy-intelligence`](intelligence.md) — Knowing what each party actually wants (vs. what they say they want) requires the intelligence discipline; the party inventory above required inference that should be validated
+- [`/s4h-strategy-victory`](victory.md) — Alliance strategy requires a shared victory definition; if the three team leads define success differently from you, the co-ownership framing needs to address that explicitly
+- [`/s4h-social-coalition-mapping`](../social/coalition-mapping.md) — For deeper analysis of the power and influence dynamics at play in the organizational context

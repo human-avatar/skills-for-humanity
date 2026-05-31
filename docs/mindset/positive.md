@@ -2,7 +2,7 @@
 
 > Diagnose which dimension of flourishing is underdeveloped and apply the right evidence-based intervention.
 
-**Trigger:** `/mindset-positive`
+**Trigger:** `/s4h-mindset-positive`
 
 ---
 

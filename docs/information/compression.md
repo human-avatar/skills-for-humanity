@@ -2,7 +2,7 @@
 
 > Every representation compresses reality. The question is whether it compresses well.
 
-**Trigger:** `/information-compression`
+**Trigger:** `/s4h-information-compression`
 
 ---
 
@@ -76,6 +76,6 @@ Full persona profiles, detailed competitive brand analysis, methodology sections
 
 ## Related skills
 
-- [`/information-signal-noise`](signal-noise.md) — find the signal before compressing; compressing noise alongside signal produces a smaller but equally noisy output
-- [`/information-redundancy`](redundancy.md) — identify which repetitions in the source are load-bearing before cutting them
-- [`/communication-audience-modeling`](../communication/audience-modeling.md) — model the receiver to understand what is reconstructable vs. essential for this specific audience
+- [`/s4h-information-signal-noise`](signal-noise.md) — find the signal before compressing; compressing noise alongside signal produces a smaller but equally noisy output
+- [`/s4h-information-redundancy`](redundancy.md) — identify which repetitions in the source are load-bearing before cutting them
+- [`/s4h-communication-audience-modeling`](../communication/audience-modeling.md) — model the receiver to understand what is reconstructable vs. essential for this specific audience

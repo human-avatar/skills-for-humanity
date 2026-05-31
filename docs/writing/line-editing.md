@@ -1,8 +1,8 @@
-# `/writing-line-editing`
+# `/s4h-writing-line-editing`
 
 > *Line editing removes what is broken. It does not create quality — that is a different task.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-line-editing`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-line-editing`
 
 ---
 
@@ -25,11 +25,11 @@ Applies five systematic editing passes — redundancy, nominalisation, passive v
 
 ## When *not* to use it
 
-**Don't use this before restructuring.** Line editing sentences that will be cut or moved is wasted work. Structure first, sentences second. If the piece has organisation problems, use `/writing-restructure` first.
+**Don't use this before restructuring.** Line editing sentences that will be cut or moved is wasted work. Structure first, sentences second. If the piece has organisation problems, use `/s4h-writing-restructure` first.
 
-**Don't use this expecting it to make flat prose compelling.** Line editing removes problems; it does not create quality. A passage can be zero-redundancy, zero-nominalisation, active-voice throughout, rhythmically varied, and still read as flat because it lacks specific imagery, precise verbs, and sensory grounding. For prose quality, use `/writing-prose-elevation` after line editing.
+**Don't use this expecting it to make flat prose compelling.** Line editing removes problems; it does not create quality. A passage can be zero-redundancy, zero-nominalisation, active-voice throughout, rhythmically varied, and still read as flat because it lacks specific imagery, precise verbs, and sensory grounding. For prose quality, use `/s4h-writing-prose-elevation` after line editing.
 
-The nearest neighbor: [`/writing-prose-elevation`](prose-elevation.md) — which raises the quality of prose that is already mechanically clean. Use line editing to remove mechanical failures; use prose elevation to realise the latent quality in what remains. They are the two stages of the same process, in that order.
+The nearest neighbor: [`/s4h-writing-prose-elevation`](prose-elevation.md) — which raises the quality of prose that is already mechanically clean. Use line editing to remove mechanical failures; use prose elevation to realise the latent quality in what remains. They are the two stages of the same process, in that order.
 
 ---
 
@@ -127,6 +127,6 @@ The original meaning is fully preserved. Every fact present in the 97-word origi
 
 ## Related skills
 
-- [`/writing-prose-elevation`](prose-elevation.md) — After line editing removes problems, use this to raise the quality of what remains
-- [`/writing-restructure`](restructure.md) — Run before line editing; never edit sentences in the wrong order
-- [`/writing-tone-alignment`](tone-alignment.md) — Many tone corrections happen at the sentence level; often run together
+- [`/s4h-writing-prose-elevation`](prose-elevation.md) — After line editing removes problems, use this to raise the quality of what remains
+- [`/s4h-writing-restructure`](restructure.md) — Run before line editing; never edit sentences in the wrong order
+- [`/s4h-writing-tone-alignment`](tone-alignment.md) — Many tone corrections happen at the sentence level; often run together

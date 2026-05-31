@@ -2,7 +2,7 @@
 
 > Tests whether a solution is more complex than it needs to be — distinguishing necessary complexity from accidental complexity that accreted over time.
 
-**Trigger:** `/aesthetic-elegance-testing`
+**Trigger:** `/s4h-aesthetic-elegance-testing`
 
 ---
 

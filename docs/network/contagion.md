@@ -2,7 +2,7 @@
 
 > Spread is not about the pathogen. It is about the network it travels through.
 
-**Trigger:** `/network-contagion`
+**Trigger:** `/s4h-network-contagion`
 
 ---
 
@@ -81,6 +81,6 @@ The tipping point requires at least one full team to reach local saturation (all
 
 ## Related skills
 
-- [`/network-centrality`](centrality.md) — identify the specific seed nodes (high-closeness for simple contagion; high-clustering-coefficient for complex contagion)
-- [`/network-weak-ties`](weak-ties.md) — map the bridges a spread cascade must cross to jump from the first tipping cluster to adjacent clusters
-- [`/systems-feedback-mapping`](../systems/feedback-mapping.md) — model the reinforcing loops that amplify spread once the tipping point is crossed
+- [`/s4h-network-centrality`](centrality.md) — identify the specific seed nodes (high-closeness for simple contagion; high-clustering-coefficient for complex contagion)
+- [`/s4h-network-weak-ties`](weak-ties.md) — map the bridges a spread cascade must cross to jump from the first tipping cluster to adjacent clusters
+- [`/s4h-systems-feedback-mapping`](../systems/feedback-mapping.md) — model the reinforcing loops that amplify spread once the tipping point is crossed

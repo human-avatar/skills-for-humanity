@@ -2,7 +2,7 @@
 
 > The difference between knowing something and thinking you know it is invisible from the inside — until it isn't.
 
-**Trigger:** `/cognition-metacognition`
+**Trigger:** `/s4h-cognition-metacognition`
 
 ---
 
@@ -68,6 +68,6 @@ Applies John Flavell's three-component metacognition framework — metacognitive
 
 ## Related skills
 
-- [`/cognition-mental-models`](mental-models.md) — if the gaps surfaced here are model-level (not just knowledge gaps), audit the underlying mental models driving the beliefs
-- [`/epistemology-epistemic-status`](../epistemology/epistemic-status.md) — examine the evidentiary warrant for the specific claims where confidence is hardest to calibrate
-- [`/probability-confidence-calibration`](../probability/confidence-calibration.md) — apply formal probability calibration techniques to the confidence estimates surfaced here
+- [`/s4h-cognition-mental-models`](mental-models.md) — if the gaps surfaced here are model-level (not just knowledge gaps), audit the underlying mental models driving the beliefs
+- [`/s4h-epistemology-epistemic-status`](../epistemology/epistemic-status.md) — examine the evidentiary warrant for the specific claims where confidence is hardest to calibrate
+- [`/s4h-probability-confidence-calibration`](../probability/confidence-calibration.md) — apply formal probability calibration techniques to the confidence estimates surfaced here

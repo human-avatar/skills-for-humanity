@@ -2,7 +2,7 @@
 
 > Whoever controls the definition controls the argument.
 
-**Trigger:** `/linguistics-semantic-drift`
+**Trigger:** `/s4h-linguistics-semantic-drift`
 
 ---
 
@@ -70,6 +70,6 @@ For "trauma-informed": consider retiring the phrase in grant applications and op
 
 ## Related skills
 
-- [`/linguistics-framing`](framing.md) — The semantic drift often reflects an underlying frame change; map the frame to understand the drift
-- [`/linguistics-connotation`](connotation.md) — Audit the current connotative freight of the drifted term and any replacement candidates
-- [`/epistemology-epistemic-status`](../epistemology/epistemic-status.md) — Assess whether arguments relying on this term are using a consistent or contested meaning
+- [`/s4h-linguistics-framing`](framing.md) — The semantic drift often reflects an underlying frame change; map the frame to understand the drift
+- [`/s4h-linguistics-connotation`](connotation.md) — Audit the current connotative freight of the drifted term and any replacement candidates
+- [`/s4h-epistemology-epistemic-status`](../epistemology/epistemic-status.md) — Assess whether arguments relying on this term are using a consistent or contested meaning

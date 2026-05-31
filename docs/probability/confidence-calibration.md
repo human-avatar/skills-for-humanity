@@ -2,7 +2,7 @@
 
 > Tests whether stated confidence levels match available evidence — catching overconfidence and underconfidence.
 
-**Trigger:** `/probability-confidence-calibration`
+**Trigger:** `/s4h-probability-confidence-calibration`
 
 ---
 

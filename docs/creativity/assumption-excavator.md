@@ -2,7 +2,7 @@
 
 > Surfaces the hidden assumptions that make a problem seem harder — or different — than it is.
 
-**Trigger:** `/creativity-assumption-excavator`
+**Trigger:** `/s4h-creativity-assumption-excavator`
 
 ---
 

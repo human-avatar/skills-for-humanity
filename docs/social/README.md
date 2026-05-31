@@ -37,13 +37,13 @@ The nearest neighbor: [Emotional](../emotional/) — which focuses on individual
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/social`** | Routes to the right social skill for your situation | Not sure which tool fits; describe your situation |
-| [`/social-coalition-mapping`](coalition-mapping.md) | Maps who needs to be aligned and how to build the support coalition | Proposal needs stakeholders; "who do I need to get on board?" |
-| [`/social-dynamics-analysis`](dynamics-analysis.md) | Identifies the group psychology shaping a team or discussion | Team dysfunction; groupthink; psychological safety concerns; "why won't people speak up?" |
-| [`/social-incentive-analysis`](incentive-analysis.md) | Maps the actual incentives driving behavior | "Why are they doing this?" Behavior misaligned with stated goals; follow the incentives |
-| [`/social-power-mapping`](power-mapping.md) | Maps who holds formal authority, informal influence, and gatekeeping power | "Who actually decides?" "Who are the gatekeepers?" Navigating organizational politics |
+| **`/s4h-social`** | Routes to the right social skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-social-coalition-mapping`](coalition-mapping.md) | Maps who needs to be aligned and how to build the support coalition | Proposal needs stakeholders; "who do I need to get on board?" |
+| [`/s4h-social-dynamics-analysis`](dynamics-analysis.md) | Identifies the group psychology shaping a team or discussion | Team dysfunction; groupthink; psychological safety concerns; "why won't people speak up?" |
+| [`/s4h-social-incentive-analysis`](incentive-analysis.md) | Maps the actual incentives driving behavior | "Why are they doing this?" Behavior misaligned with stated goals; follow the incentives |
+| [`/s4h-social-power-mapping`](power-mapping.md) | Maps who holds formal authority, informal influence, and gatekeeping power | "Who actually decides?" "Who are the gatekeepers?" Navigating organizational politics |
 
-**Not sure which tool?** → Invoke `/social` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-social` — it diagnoses your situation and picks the right skill.
 
 ---
 

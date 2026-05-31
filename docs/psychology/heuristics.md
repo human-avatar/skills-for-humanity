@@ -2,7 +2,7 @@
 
 > Fast thinking is compressed expertise — when it's reliable, and when it's not.
 
-**Trigger:** `/psychology-heuristics`
+**Trigger:** `/s4h-psychology-heuristics`
 
 ---
 

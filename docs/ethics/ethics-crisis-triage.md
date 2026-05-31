@@ -2,7 +2,7 @@
 
 > Rapid multi-framework ethical assessment when something has already gone wrong — structure for urgent ethical response.
 
-**Trigger:** `/ethics-crisis-triage`
+**Trigger:** `/s4h-ethics-crisis-triage`
 
 ---
 

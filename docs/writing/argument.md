@@ -1,8 +1,8 @@
-# `/writing-argument`
+# `/s4h-writing-argument`
 
 > *Arguments fail not in the evidence but in the warrant — the unstated principle that connects them.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-argument`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-argument`
 
 ---
 
@@ -29,7 +29,7 @@ Builds and repairs persuasive arguments by surfacing the warrant, auditing evide
 
 **Don't use this when the problem is emotional, not logical.** Some resistance to arguments is not a reasoning problem — it is a values difference or a relationship problem. A person who disagrees with your values about what matters will not be persuaded by a stronger logical argument. In those cases, understanding the values difference is more useful than perfecting the argument structure.
 
-The nearest neighbor: [`/writing-rhetoric`](rhetoric.md) — which analyses how an argument is being made rhetorically (its appeals, its frames, its assumptions). Argument analysis asks "is the logic sound?"; rhetoric analysis asks "what is the text doing?" Use argument for logical assessment; use rhetoric for the full rhetorical picture including things that argument analysis doesn't catch.
+The nearest neighbor: [`/s4h-writing-rhetoric`](rhetoric.md) — which analyses how an argument is being made rhetorically (its appeals, its frames, its assumptions). Argument analysis asks "is the logic sound?"; rhetoric analysis asks "what is the text doing?" Use argument for logical assessment; use rhetoric for the full rhetorical picture including things that argument analysis doesn't catch.
 
 ---
 
@@ -134,6 +134,6 @@ None of these are illegitimate rhetorical tools per se, but all three are curren
 
 ## Related skills
 
-- [`/writing-rhetoric`](rhetoric.md) — Analyses how the argument is being made rhetorically, including assumptions and frames that argument analysis doesn't address
-- [`/writing-restructure`](restructure.md) — Many argument problems are structural: claim comes too late, counterargument is buried
-- [`/writing-audience-calibration`](audience-calibration.md) — The warrant that works for one audience may not work for another; calibration includes choosing which assumptions to argue for
+- [`/s4h-writing-rhetoric`](rhetoric.md) — Analyses how the argument is being made rhetorically, including assumptions and frames that argument analysis doesn't address
+- [`/s4h-writing-restructure`](restructure.md) — Many argument problems are structural: claim comes too late, counterargument is buried
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — The warrant that works for one audience may not work for another; calibration includes choosing which assumptions to argue for

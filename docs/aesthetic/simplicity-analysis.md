@@ -2,7 +2,7 @@
 
 > Finds the simpler version while preserving what matters — not arbitrary reduction, but finding the core and discarding what is not it.
 
-**Trigger:** `/aesthetic-simplicity-analysis`
+**Trigger:** `/s4h-aesthetic-simplicity-analysis`
 
 ---
 

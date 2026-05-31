@@ -2,7 +2,7 @@
 
 > Diagnostic scan: which cognitive biases are actively distorting thinking in this specific situation.
 
-**Trigger:** `/psychology-cognitive-biases`
+**Trigger:** `/s4h-psychology-cognitive-biases`
 
 ---
 

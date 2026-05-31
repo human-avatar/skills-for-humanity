@@ -1,8 +1,8 @@
-# `/economics-incentive-mapping`
+# `/s4h-economics-incentive-mapping`
 
 > *People don't do what you ask them to. They do what the structure rewards them for.*
 
-**Category:** [Economics](README.md) · **Command:** `/economics-incentive-mapping` · **Source:** Principal-agent theory; Kahneman & Tversky — loss aversion; Charlie Munger
+**Category:** [Economics](README.md) · **Command:** `/s4h-economics-incentive-mapping` · **Source:** Principal-agent theory; Kahneman & Tversky — loss aversion; Charlie Munger
 
 ---
 
@@ -26,11 +26,11 @@ Draws on principal-agent theory (the classic case of diverging incentives betwee
 
 ## When *not* to use it
 
-**Don't use incentive mapping as a substitute for understanding values, culture, or psychology.** Incentive mapping models people as rational responders to costs and benefits — a useful simplification, but not a complete model. Some behaviour is driven by identity, intrinsic motivation, social norms, or habit in ways that don't reduce to incentive analysis. Over-applying the incentive lens can produce cynical diagnoses and miss the actual driver. When the behaviour seems to track meaning, connection, or identity rather than reward, use `/psychology-motivation` or `/emotional-motivation-mapping`.
+**Don't use incentive mapping as a substitute for understanding values, culture, or psychology.** Incentive mapping models people as rational responders to costs and benefits — a useful simplification, but not a complete model. Some behaviour is driven by identity, intrinsic motivation, social norms, or habit in ways that don't reduce to incentive analysis. Over-applying the incentive lens can produce cynical diagnoses and miss the actual driver. When the behaviour seems to track meaning, connection, or identity rather than reward, use `/s4h-psychology-motivation` or `/s4h-emotional-motivation-mapping`.
 
 **Be careful about conflating prediction with moral judgment.** Saying "the incentive structure pushes people toward X" is a structural diagnosis, not an accusation. People responding to incentives are not misbehaving — the structure is misbehaving. Keep the analysis clinical and directed at redesign.
 
-The nearest neighbor: [`/game-theory-mechanism-design`](../game-theory/mechanism-design.md) — the formal, mathematical version of incentive redesign. Use incentive mapping to diagnose; use mechanism design when you need to formally specify the optimal rule or mechanism.
+The nearest neighbor: [`/s4h-game-theory-mechanism-design`](../game-theory/mechanism-design.md) — the formal, mathematical version of incentive redesign. Use incentive mapping to diagnose; use mechanism design when you need to formally specify the optimal rule or mechanism.
 
 ---
 
@@ -97,7 +97,7 @@ The nearest neighbor: [`/game-theory-mechanism-design`](../game-theory/mechanism
 
 ## Related skills
 
-- [`/game-theory-mechanism-design`](../game-theory/mechanism-design.md) — formally design the rules that make the desired behaviour individually rational
-- [`/economics-externalities`](externalities.md) — when the misalignment involves costs falling on parties outside the decision
-- [`/economics-coordination`](coordination.md) — when the incentive problem is producing collective action failure across a group
-- [`/social-incentive-analysis`](../social/incentive-analysis.md) — for the political and relational dimensions of incentive dynamics
+- [`/s4h-game-theory-mechanism-design`](../game-theory/mechanism-design.md) — formally design the rules that make the desired behaviour individually rational
+- [`/s4h-economics-externalities`](externalities.md) — when the misalignment involves costs falling on parties outside the decision
+- [`/s4h-economics-coordination`](coordination.md) — when the incentive problem is producing collective action failure across a group
+- [`/s4h-social-incentive-analysis`](../social/incentive-analysis.md) — for the political and relational dimensions of incentive dynamics

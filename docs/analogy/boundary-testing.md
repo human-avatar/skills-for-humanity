@@ -2,7 +2,7 @@
 
 > Finds where an analogy breaks down before it's relied upon.
 
-**Trigger:** `/analogy-boundary-testing`
+**Trigger:** `/s4h-analogy-boundary-testing`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Identifies the deep structural correspondence between two situations — genuine isomorphism vs superficial similarity.
 
-**Trigger:** `/analogy-structure-mapping`
+**Trigger:** `/s4h-analogy-structure-mapping`
 
 ---
 

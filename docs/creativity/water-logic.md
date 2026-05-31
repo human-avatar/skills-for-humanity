@@ -2,7 +2,7 @@
 
 > Explores without judgment — follows where ideas lead rather than testing whether they're right.
 
-**Trigger:** `/creativity-water-logic`
+**Trigger:** `/s4h-creativity-water-logic`
 
 ---
 

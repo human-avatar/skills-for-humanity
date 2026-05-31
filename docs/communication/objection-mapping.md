@@ -2,7 +2,7 @@
 
 > Maps likely objections before you deliver a proposal — so nothing arrives as a surprise.
 
-**Trigger:** `/communication-objection-mapping`
+**Trigger:** `/s4h-communication-objection-mapping`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Separates what's actually there from everything that's in the way.
 
-**Trigger:** `/information-signal-noise`
+**Trigger:** `/s4h-information-signal-noise`
 
 ---
 
@@ -66,6 +66,6 @@ Employees who have trained themselves to skim or ignore #general have likely mis
 
 ## Related skills
 
-- [`/information-compression`](compression.md) — having found the signal, ask what's the minimum representation that preserves it
-- [`/information-entropy`](entropy.md) — measure how much information the signal actually carries and calibrate update weight accordingly
-- [`/communication-clarity-audit`](../communication/clarity-audit.md) — audit whether the signal, once found, is clearly expressed for the intended audience
+- [`/s4h-information-compression`](compression.md) — having found the signal, ask what's the minimum representation that preserves it
+- [`/s4h-information-entropy`](entropy.md) — measure how much information the signal actually carries and calibrate update weight accordingly
+- [`/s4h-communication-clarity-audit`](../communication/clarity-audit.md) — audit whether the signal, once found, is clearly expressed for the intended audience

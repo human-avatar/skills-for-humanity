@@ -1,8 +1,8 @@
-# `/game-theory-signaling`
+# `/s4h-game-theory-signaling`
 
 > *Cheap talk is free, so it's worthless. A credible signal costs something — and is only worth paying if what you're claiming is true.*
 
-**Category:** [Game Theory](README.md) · **Command:** `/game-theory-signaling` · **Source:** Michael Spence (1973, Nobel 2001); Thomas Schelling; George Akerlof (1970)
+**Category:** [Game Theory](README.md) · **Command:** `/s4h-game-theory-signaling` · **Source:** Michael Spence (1973, Nobel 2001); Thomas Schelling; George Akerlof (1970)
 
 ---
 
@@ -30,7 +30,7 @@ The core mechanism: a signal is credible if and only if it would not be rational
 
 **Don't design costly signals that are wasteful relative to the benefit.** Spence's model shows that signaling can be socially inefficient — resources are consumed sending and reading signals that would be unnecessary if information were symmetric. When designing or choosing signals, prefer signals with productive side-effects (skills that are genuinely useful, not just credentialising) over pure cost signals.
 
-The nearest neighbor: [`/game-theory-mechanism-design`](mechanism-design.md) — which designs *systems* that elicit honest information from many players. Signaling addresses a bilateral credibility problem (one sender, one receiver); mechanism design addresses the system-level problem of incentivising truthful revelation across all participants.
+The nearest neighbor: [`/s4h-game-theory-mechanism-design`](mechanism-design.md) — which designs *systems* that elicit honest information from many players. Signaling addresses a bilateral credibility problem (one sender, one receiver); mechanism design addresses the system-level problem of incentivising truthful revelation across all participants.
 
 ---
 
@@ -116,6 +116,6 @@ What not to do: add more verbal emphasis ("I really am at the right level"), add
 
 ## Related skills
 
-- [`/game-theory-equilibrium`](equilibrium.md) — the full equilibrium analysis of signaling games, including separating vs. pooling equilibria
-- [`/game-theory-mechanism-design`](mechanism-design.md) — designing systems that elicit honest revelation from many players
-- [`/communication-audience-modeling`](../communication/audience-modeling.md) — understanding the receiver's priors and updating them through the right channel
+- [`/s4h-game-theory-equilibrium`](equilibrium.md) — the full equilibrium analysis of signaling games, including separating vs. pooling equilibria
+- [`/s4h-game-theory-mechanism-design`](mechanism-design.md) — designing systems that elicit honest revelation from many players
+- [`/s4h-communication-audience-modeling`](../communication/audience-modeling.md) — understanding the receiver's priors and updating them through the right channel

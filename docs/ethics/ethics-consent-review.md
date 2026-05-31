@@ -2,7 +2,7 @@
 
 > Reviews a UX flow or data practice to verify that user consent is genuine — informed, voluntary, and meaningful.
 
-**Trigger:** `/ethics-consent-review`
+**Trigger:** `/s4h-ethics-consent-review`
 
 ---
 

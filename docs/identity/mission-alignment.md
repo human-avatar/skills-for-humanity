@@ -2,7 +2,7 @@
 
 > Tests whether a proposed decision is genuinely aligned with stated mission — or is rationalising a departure from it.
 
-**Trigger:** `/identity-mission-alignment`
+**Trigger:** `/s4h-identity-mission-alignment`
 
 ---
 

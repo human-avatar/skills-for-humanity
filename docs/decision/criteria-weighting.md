@@ -2,7 +2,7 @@
 
 > Weighted multi-criteria analysis — makes trade-offs explicit rather than implicit.
 
-**Trigger:** `/decision-criteria-weighting`
+**Trigger:** `/s4h-decision-criteria-weighting`
 
 ---
 

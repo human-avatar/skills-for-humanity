@@ -2,7 +2,7 @@
 
 > Maps the ceiling and what happens when the system crosses it.
 
-**Trigger:** `/ecology-carrying-capacity`
+**Trigger:** `/s4h-ecology-carrying-capacity`
 
 ---
 
@@ -65,7 +65,7 @@ Early-warning signals (already present): missed delivery dates, "quality bar sli
 
 ## Related skills
 
-- [`/ecology-keystone-species`](keystone-species.md) — Identify which senior engineers are structurally irreplaceable keystones in the bandwidth constraint
-- [`/ecology-succession`](succession.md) — Understand what developmental stage the organisation is in and what the transition to the next stage requires
-- [`/systems-leverage-analysis`](../systems/leverage-analysis.md) — Find the highest-leverage intervention to raise the ceiling
-- [`/resource-bottleneck-analysis`](../resource/bottleneck-analysis.md) — Operational throughput analysis for the constraint once it is identified
+- [`/s4h-ecology-keystone-species`](keystone-species.md) — Identify which senior engineers are structurally irreplaceable keystones in the bandwidth constraint
+- [`/s4h-ecology-succession`](succession.md) — Understand what developmental stage the organisation is in and what the transition to the next stage requires
+- [`/s4h-systems-leverage-analysis`](../systems/leverage-analysis.md) — Find the highest-leverage intervention to raise the ceiling
+- [`/s4h-resource-bottleneck-analysis`](../resource/bottleneck-analysis.md) — Operational throughput analysis for the constraint once it is identified

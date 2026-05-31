@@ -39,13 +39,13 @@ The nearest neighbor: [Systems](../systems/) — specifically feedback mapping a
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/ecology`** | Routes to the right ecology skill for your situation | Not sure which tool fits; describe your situation |
-| [`/ecology-carrying-capacity`](carrying-capacity.md) | Maps the ceiling and what happens when the system crosses it | "How much can this system handle?" Growth is slowing; stress signals appearing; want to know where the limit is |
-| [`/ecology-keystone-species`](keystone-species.md) | Identifies entities with disproportionate structural importance | "What if we lose X?" Single points of structural failure; want to know who is truly irreplaceable |
-| [`/ecology-interdependence`](interdependence.md) | Maps dependency webs and cascade pathways | "What cascades if we change X?" Planning a change and need to trace its propagation through the system |
-| [`/ecology-succession`](succession.md) | Applies the adaptive cycle to understand developmental stage and transitions | "What stage are we in?" System feels like it is at an inflection point; want to read the transition |
+| **`/s4h-ecology`** | Routes to the right ecology skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-ecology-carrying-capacity`](carrying-capacity.md) | Maps the ceiling and what happens when the system crosses it | "How much can this system handle?" Growth is slowing; stress signals appearing; want to know where the limit is |
+| [`/s4h-ecology-keystone-species`](keystone-species.md) | Identifies entities with disproportionate structural importance | "What if we lose X?" Single points of structural failure; want to know who is truly irreplaceable |
+| [`/s4h-ecology-interdependence`](interdependence.md) | Maps dependency webs and cascade pathways | "What cascades if we change X?" Planning a change and need to trace its propagation through the system |
+| [`/s4h-ecology-succession`](succession.md) | Applies the adaptive cycle to understand developmental stage and transitions | "What stage are we in?" System feels like it is at an inflection point; want to read the transition |
 
-**Not sure which tool?** → Invoke `/ecology` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-ecology` — it diagnoses your situation and picks the right skill.
 
 ---
 

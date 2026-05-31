@@ -2,7 +2,7 @@
 
 > Map the cognitive distortion and generate a more accurate interpretation.
 
-**Trigger:** `/mindset-reframe`
+**Trigger:** `/s4h-mindset-reframe`
 
 ---
 

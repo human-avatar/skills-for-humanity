@@ -2,7 +2,7 @@
 
 > Verify a claim across genuinely independent sources — and distinguish corroboration from amplification.
 
-**Trigger:** `/investigation-triangulation`
+**Trigger:** `/s4h-investigation-triangulation`
 
 ---
 

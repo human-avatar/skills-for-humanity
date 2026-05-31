@@ -2,7 +2,7 @@
 
 > Maps what your audience currently believes, actually cares about, and fears before you communicate.
 
-**Trigger:** `/communication-audience-modeling`
+**Trigger:** `/s4h-communication-audience-modeling`
 
 ---
 

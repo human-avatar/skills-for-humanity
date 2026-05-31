@@ -1,8 +1,8 @@
-# `/writing-tone-alignment`
+# `/s4h-writing-tone-alignment`
 
 > *The reader cannot trust a voice they cannot locate. Tone drift is the author's hand becoming visible.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-tone-alignment`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-tone-alignment`
 
 ---
 
@@ -29,7 +29,7 @@ Diagnoses tone drift — unintended shifts in formality, warmth, urgency, stance
 
 **Don't use this before fixing structural problems.** If the piece needs to be restructured, do that first. Tone-aligning sections that will be deleted or moved is wasted effort.
 
-The nearest neighbor: [`/writing-voice-consistency`](voice-consistency.md) — which addresses the full identity of the speaker (who is speaking) rather than just the register of the speech (how they are speaking). Voice consistency asks "does this sound like the same person?"; tone alignment asks "is that person speaking in a consistent register?" They often need to be run together on multi-author documents.
+The nearest neighbor: [`/s4h-writing-voice-consistency`](voice-consistency.md) — which addresses the full identity of the speaker (who is speaking) rather than just the register of the speech (how they are speaking). Voice consistency asks "does this sound like the same person?"; tone alignment asks "is that person speaking in a consistent register?" They often need to be run together on multi-author documents.
 
 ---
 
@@ -107,6 +107,6 @@ Key changes: remove "actually" (combative); replace present progressive ("we're 
 
 ## Related skills
 
-- [`/writing-voice-consistency`](voice-consistency.md) — For the full voice identity audit when multi-author drift is severe
-- [`/writing-audience-calibration`](audience-calibration.md) — If the tone is consistent but calibrated to the wrong reader
-- [`/writing-line-editing`](line-editing.md) — Many tone corrections happen at the sentence level; these two skills often work together
+- [`/s4h-writing-voice-consistency`](voice-consistency.md) — For the full voice identity audit when multi-author drift is severe
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — If the tone is consistent but calibrated to the wrong reader
+- [`/s4h-writing-line-editing`](line-editing.md) — Many tone corrections happen at the sentence level; these two skills often work together

@@ -1,8 +1,8 @@
-# `/economics-coordination`
+# `/s4h-economics-coordination`
 
 > *Everyone is acting rationally. The outcome is still catastrophic. Here's why — and what to do about it.*
 
-**Category:** [Economics](README.md) · **Command:** `/economics-coordination` · **Source:** Elinor Ostrom — *Governing the Commons* (1990); Garrett Hardin — "The Tragedy of the Commons" (1968); Mancur Olson — *The Logic of Collective Action* (1965)
+**Category:** [Economics](README.md) · **Command:** `/s4h-economics-coordination` · **Source:** Elinor Ostrom — *Governing the Commons* (1990); Garrett Hardin — "The Tragedy of the Commons" (1968); Mancur Olson — *The Logic of Collective Action* (1965)
 
 ---
 
@@ -24,11 +24,11 @@ Diagnoses the structural reasons why individually rational behaviour produces co
 
 ## When *not* to use it
 
-**Don't diagnose a coordination failure when the problem is bilateral — a straightforward dispute between two parties.** Two people or organisations in conflict over resources or interests is usually better addressed by `/game-theory-equilibrium` or `/game-theory-prisoners-dilemma`. Coordination failure analysis is most valuable when there are *many* actors, the resource or good is shared across a group, and individual rational choice produces collective harm.
+**Don't diagnose a coordination failure when the problem is bilateral — a straightforward dispute between two parties.** Two people or organisations in conflict over resources or interests is usually better addressed by `/s4h-game-theory-equilibrium` or `/s4h-game-theory-prisoners-dilemma`. Coordination failure analysis is most valuable when there are *many* actors, the resource or good is shared across a group, and individual rational choice produces collective harm.
 
 **Don't assume the tragedy is inevitable and that only top-down intervention works.** Ostrom's core finding overturned this assumption. Communities have governed shared resources sustainably for centuries without privatisation or state control. Before recommending regulation or privatisation, assess whether the conditions for community governance are present — they often are.
 
-The nearest neighbor: [`/game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — the formal analysis of the two-party cooperation failure. Use `/economics-coordination` for multi-party and institutional analysis; use the prisoners' dilemma skill when you need to model the payoff structure and find paths to cooperation in a bilateral or small-group setting.
+The nearest neighbor: [`/s4h-game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — the formal analysis of the two-party cooperation failure. Use `/s4h-economics-coordination` for multi-party and institutional analysis; use the prisoners' dilemma skill when you need to model the payoff structure and find paths to cooperation in a bilateral or small-group setting.
 
 ---
 
@@ -119,7 +119,7 @@ The attrition cost attribution mechanism is a powerful complement: it internalis
 
 ## Related skills
 
-- [`/game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — formal analysis of the cooperation failure structure and paths to resolution
-- [`/game-theory-mechanism-design`](../game-theory/mechanism-design.md) — design the rules that make cooperation individually rational
-- [`/economics-externalities`](externalities.md) — the overwork problem involves unpriced externalities imposed on associates and the firm
-- [`/systems-archetype-matching`](../systems/archetype-matching.md) — tragedy of the commons is a named systems archetype with a predictable dynamic
+- [`/s4h-game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — formal analysis of the cooperation failure structure and paths to resolution
+- [`/s4h-game-theory-mechanism-design`](../game-theory/mechanism-design.md) — design the rules that make cooperation individually rational
+- [`/s4h-economics-externalities`](externalities.md) — the overwork problem involves unpriced externalities imposed on associates and the firm
+- [`/s4h-systems-archetype-matching`](../systems/archetype-matching.md) — tragedy of the commons is a named systems archetype with a predictable dynamic

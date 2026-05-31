@@ -2,7 +2,7 @@
 
 > Maps the audience's current beliefs, real goals, fears, and threshold conditions before communicating with them.
 
-**Trigger:** `/narrative-audience-modeling`
+**Trigger:** `/s4h-narrative-audience-modeling`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Matches the message to the right channel and format — the same content in the wrong medium loses most of its effect.
 
-**Trigger:** `/communication-medium-selection`
+**Trigger:** `/s4h-communication-medium-selection`
 
 ---
 

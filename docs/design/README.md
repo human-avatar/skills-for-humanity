@@ -28,7 +28,7 @@ Design problems are not solved by adding. The best designs achieve their functio
 
 ## When *not* to reach for it
 
-**Don't use design tools when the problem is primarily strategic, not form-giving.** If the question is which market to enter, which product to build, or what direction to bet on — that's a decision problem, not a design problem. Start with `/decision` to make the strategic call, then bring design tools to the execution of it.
+**Don't use design tools when the problem is primarily strategic, not form-giving.** If the question is which market to enter, which product to build, or what direction to bet on — that's a decision problem, not a design problem. Start with `/s4h-decision` to make the strategic call, then bring design tools to the execution of it.
 
 **Design thinking is not the same as aesthetic refinement.** If something already works and the question is purely visual — does this look right, is the visual hierarchy correct, does it cohere — reach for the aesthetic toolkit. Design tools ask "does the form serve the function?"; aesthetic tools ask "does the form cohere as a visual whole?" The distinction matters because fixing the aesthetics of a design that hasn't found its function is expensive work that may need to be undone.
 
@@ -40,13 +40,13 @@ The nearest neighbor: [Aesthetic](../aesthetic/) — for visual coherence, patte
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/design`** | Routes to the right design skill for your situation | Not sure which tool fits; describe your situation |
-| [`/design-user-needs`](user-needs.md) | Distinguishes real needs from stated wants using jobs-to-be-done and latent need mapping | "What do people actually need?" Stated request feels like a solution to an unstated problem |
-| [`/design-constraints`](design-constraints.md) | Maps hard limits and soft preferences to define the actual solution space | "What are the constraints?" Need to understand what territory is genuinely open for design |
-| [`/design-iteration`](iteration.md) | Structures the prototype-test-learn cycle with the right fidelity and decision criteria | "How do we test this?" Need to run an iteration cycle with clear hypotheses and learning |
-| [`/design-simplicity`](simplicity.md) | Removes unnecessary elements to find the form that does exactly what is needed, nothing more | "This is too complicated." Something exists that could have elements removed without losing function |
+| **`/s4h-design`** | Routes to the right design skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-design-user-needs`](user-needs.md) | Distinguishes real needs from stated wants using jobs-to-be-done and latent need mapping | "What do people actually need?" Stated request feels like a solution to an unstated problem |
+| [`/s4h-design-constraints`](design-constraints.md) | Maps hard limits and soft preferences to define the actual solution space | "What are the constraints?" Need to understand what territory is genuinely open for design |
+| [`/s4h-design-iteration`](iteration.md) | Structures the prototype-test-learn cycle with the right fidelity and decision criteria | "How do we test this?" Need to run an iteration cycle with clear hypotheses and learning |
+| [`/s4h-design-simplicity`](simplicity.md) | Removes unnecessary elements to find the form that does exactly what is needed, nothing more | "This is too complicated." Something exists that could have elements removed without losing function |
 
-**Not sure which tool?** → Invoke `/design` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-design` — it diagnoses your situation and picks the right skill.
 
 ---
 

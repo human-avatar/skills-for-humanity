@@ -2,7 +2,7 @@
 
 > Checks whether an argument's premises actually support its conclusion, and identifies logical fallacies.
 
-**Trigger:** `/logic-argument-validation`
+**Trigger:** `/s4h-logic-argument-validation`
 
 ---
 

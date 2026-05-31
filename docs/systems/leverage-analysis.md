@@ -2,7 +2,7 @@
 
 > Finds where small interventions produce large, lasting change — using Meadows' leverage point hierarchy.
 
-**Trigger:** `/systems-leverage-analysis`
+**Trigger:** `/s4h-systems-leverage-analysis`
 
 ---
 

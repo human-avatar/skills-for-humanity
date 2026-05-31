@@ -37,13 +37,13 @@ The nearest neighbor: [Resource](../resource/) — specifically bottleneck analy
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/systems`** | Routes to the right systems skill for your situation | Not sure which tool fits; describe your situation |
-| [`/systems-archetype-matching`](archetype-matching.md) | Identifies what recurring system pattern this is | "This feels like a pattern." Limits to growth, escalation, tragedy of the commons, etc. |
-| [`/systems-emergence-detection`](emergence-detection.md) | Understands unexpected behavior that no one intended | System producing surprising results; "why does this keep happening?" |
-| [`/systems-feedback-mapping`](feedback-mapping.md) | Maps the reinforcing and balancing feedback loops | "What's driving this behavior?" Root cause in loop dynamics, not events |
-| [`/systems-leverage-analysis`](leverage-analysis.md) | Finds where small interventions produce large, lasting change | "Where should we intervene?" Using Meadows' leverage point hierarchy |
+| **`/s4h-systems`** | Routes to the right systems skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-systems-archetype-matching`](archetype-matching.md) | Identifies what recurring system pattern this is | "This feels like a pattern." Limits to growth, escalation, tragedy of the commons, etc. |
+| [`/s4h-systems-emergence-detection`](emergence-detection.md) | Understands unexpected behavior that no one intended | System producing surprising results; "why does this keep happening?" |
+| [`/s4h-systems-feedback-mapping`](feedback-mapping.md) | Maps the reinforcing and balancing feedback loops | "What's driving this behavior?" Root cause in loop dynamics, not events |
+| [`/s4h-systems-leverage-analysis`](leverage-analysis.md) | Finds where small interventions produce large, lasting change | "Where should we intervene?" Using Meadows' leverage point hierarchy |
 
-**Not sure which tool?** → Invoke `/systems` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-systems` — it diagnoses your situation and picks the right skill.
 
 ---
 

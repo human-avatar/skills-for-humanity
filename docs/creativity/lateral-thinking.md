@@ -2,7 +2,7 @@
 
 > Escapes the dominant idea — the direction you keep returning to — and generates genuinely different directions.
 
-**Trigger:** `/creativity-lateral-thinking`
+**Trigger:** `/s4h-creativity-lateral-thinking`
 
 ---
 

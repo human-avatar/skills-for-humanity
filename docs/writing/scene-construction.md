@@ -1,8 +1,8 @@
-# `/writing-scene-construction`
+# `/s4h-writing-scene-construction`
 
 > *Every scene is a mini-story. Without a want, obstacle, and changed outcome, it's not a scene — it's a passage of time.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-scene-construction`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-scene-construction`
 
 ---
 
@@ -29,7 +29,7 @@ Diagnoses individual scenes using the want/obstacle/outcome framework, assesses 
 
 **Don't use this before fixing the surrounding structure.** A scene might be failing because the structural beat it belongs to is itself failing — because the midpoint hasn't shifted the story's direction, a scene within that section has no function to perform. Fix the structure first; the scene's problems may resolve.
 
-The nearest neighbor: [`/writing-dialogue`](dialogue.md) — which addresses what happens within the scene when the core scene architecture is correct but the conversation inside it isn't working. If the scene has a clear goal, obstacle, and outcome but still reads as flat, the problem is likely in the dialogue; use that skill next.
+The nearest neighbor: [`/s4h-writing-dialogue`](dialogue.md) — which addresses what happens within the scene when the core scene architecture is correct but the conversation inside it isn't working. If the scene has a clear goal, obstacle, and outcome but still reads as flat, the problem is likely in the dialogue; use that skill next.
 
 ---
 
@@ -83,6 +83,6 @@ The nearest neighbor: [`/writing-dialogue`](dialogue.md) — which addresses wha
 
 ## Related skills
 
-- [`/writing-dialogue`](dialogue.md) — Once the scene architecture is right, use this to repair the conversation inside it
-- [`/writing-plot-structure`](plot-structure.md) — If the scene is in a structural beat that's failing, fix the beat first
-- [`/writing-inconsistency-audit`](inconsistency-audit.md) — For scene-level continuity errors
+- [`/s4h-writing-dialogue`](dialogue.md) — Once the scene architecture is right, use this to repair the conversation inside it
+- [`/s4h-writing-plot-structure`](plot-structure.md) — If the scene is in a structural beat that's failing, fix the beat first
+- [`/s4h-writing-inconsistency-audit`](inconsistency-audit.md) — For scene-level continuity errors

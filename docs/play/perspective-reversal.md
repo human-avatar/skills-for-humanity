@@ -2,7 +2,7 @@
 
 > Fully inhabits the opposing perspective to find what is invisible from your own position.
 
-**Trigger:** `/play-perspective-reversal`
+**Trigger:** `/s4h-play-perspective-reversal`
 
 ---
 

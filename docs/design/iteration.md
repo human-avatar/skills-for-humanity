@@ -2,7 +2,7 @@
 
 > Structures the feedback loop between making and learning — prototype, test, decide, repeat.
 
-**Trigger:** `/design-iteration`
+**Trigger:** `/s4h-design-iteration`
 
 ---
 
@@ -88,6 +88,6 @@ Convergent test on the collapsed 4-step flow: does each step make sense on its o
 
 ## Related skills
 
-- [`/design-user-needs`](user-needs.md) — defines what the prototype should be testing against; run first if the need hasn't been validated
-- [`/design-simplicity`](simplicity.md) — before building the prototype, remove what isn't necessary from the design
-- [`/creativity-alternatives`](../creativity/alternatives.md) — if neither hypothesis is promising, generate new directions before testing
+- [`/s4h-design-user-needs`](user-needs.md) — defines what the prototype should be testing against; run first if the need hasn't been validated
+- [`/s4h-design-simplicity`](simplicity.md) — before building the prototype, remove what isn't necessary from the design
+- [`/s4h-creativity-alternatives`](../creativity/alternatives.md) — if neither hypothesis is promising, generate new directions before testing

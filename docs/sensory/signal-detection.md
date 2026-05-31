@@ -2,7 +2,7 @@
 
 > Separates meaningful signal from background noise — finds what actually matters among everything present.
 
-**Trigger:** `/sensory-signal-detection`
+**Trigger:** `/s4h-sensory-signal-detection`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Behavior persists for reasons. Find the reason, design the intervention.
 
-**Trigger:** `/psychology-behavior-change`
+**Trigger:** `/s4h-psychology-behavior-change`
 
 ---
 

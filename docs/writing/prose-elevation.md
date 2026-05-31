@@ -1,8 +1,8 @@
-# `/writing-prose-elevation`
+# `/s4h-writing-prose-elevation`
 
 > *Flat prose fails in three specific ways. Fix those three things and the prose rises.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-prose-elevation`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-prose-elevation`
 
 ---
 
@@ -25,11 +25,11 @@ Identifies existing strengths in prose and then targets the three primary qualit
 
 ## When *not* to use it
 
-**Don't use this before line editing.** A passage that is verbose, passive-heavy, and redundant will not benefit from elevation until the mechanical problems are removed. Clean the mechanics first (see [`/writing-line-editing`](line-editing.md)); then elevate the quality of what remains.
+**Don't use this before line editing.** A passage that is verbose, passive-heavy, and redundant will not benefit from elevation until the mechanical problems are removed. Clean the mechanics first (see [`/s4h-writing-line-editing`](line-editing.md)); then elevate the quality of what remains.
 
 **Don't use this to impose a style.** The goal is to realise the latent quality already present in the writer's voice, not to replace it with a more generic version of "good prose." A prose elevation that makes every passage sound the same, or that overrides the writer's idiosyncrasies, has failed. The rewritten sample should sound like the best version of the writer, not like someone else.
 
-The nearest neighbor: [`/writing-line-editing`](line-editing.md) — which addresses mechanical failures at the sentence level. These two skills work in sequence: line editing first (remove problems), prose elevation second (raise quality). Both can be needed without either substituting for the other.
+The nearest neighbor: [`/s4h-writing-line-editing`](line-editing.md) — which addresses mechanical failures at the sentence level. These two skills work in sequence: line editing first (remove problems), prose elevation second (raise quality). Both can be needed without either substituting for the other.
 
 ---
 
@@ -125,6 +125,6 @@ The prose is operating entirely in summary mode — it tells us what Nadia did a
 
 ## Related skills
 
-- [`/writing-line-editing`](line-editing.md) — Run before elevation; remove mechanical problems first
-- [`/writing-voice-consistency`](voice-consistency.md) — Elevation must stay in the writer's voice; verify the elevated passages sound like the same person
-- [`/writing-scene-construction`](scene-construction.md) — If the opening scene lacks a want, obstacle, and outcome, prose elevation alone won't fix it
+- [`/s4h-writing-line-editing`](line-editing.md) — Run before elevation; remove mechanical problems first
+- [`/s4h-writing-voice-consistency`](voice-consistency.md) — Elevation must stay in the writer's voice; verify the elevated passages sound like the same person
+- [`/s4h-writing-scene-construction`](scene-construction.md) — If the opening scene lacks a want, obstacle, and outcome, prose elevation alone won't fix it

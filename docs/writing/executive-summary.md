@@ -1,8 +1,8 @@
-# `/writing-executive-summary`
+# `/s4h-writing-executive-summary`
 
 > *The executive doesn't need a tour of your analysis. They need the answer, its implications, and what happens next.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-executive-summary`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-executive-summary`
 
 ---
 
@@ -28,7 +28,7 @@ Produces one-page executive summaries and board-level briefs from lengthy docume
 
 **Don't use this when you don't yet know what the recommendation is.** An executive summary without a recommendation is a document summary, which is not the same thing. If the analysis does not produce a clear recommendation, the summary should say what further work is needed to arrive at one. Hedging the recommendation in the summary ("it may be worth considering...") signals that the analysis is not complete.
 
-The nearest neighbor: [`/writing-report`](report.md) — which audits the full document structure. Executive summary sits above the report; it is not a substitute for a well-structured document. If the full document is poorly organised, the summary will be harder to produce and the executive who follows up will be frustrated. Use `/writing-report` to fix the document; use this skill to produce the brief above it.
+The nearest neighbor: [`/s4h-writing-report`](report.md) — which audits the full document structure. Executive summary sits above the report; it is not a substitute for a well-structured document. If the full document is poorly organised, the summary will be harder to produce and the executive who follows up will be frustrated. Use `/s4h-writing-report` to fix the document; use this skill to produce the brief above it.
 
 ---
 
@@ -91,6 +91,6 @@ The nearest neighbor: [`/writing-report`](report.md) — which audits the full d
 
 ## Related skills
 
-- [`/writing-report`](report.md) — Audit the full document structure; executive summary sits above it
-- [`/writing-audience-calibration`](audience-calibration.md) — The executive's specific role and decision context shapes every word of the summary
-- [`/writing-restructure`](restructure.md) — If the source document is poorly structured, producing the summary requires identifying the findings first
+- [`/s4h-writing-report`](report.md) — Audit the full document structure; executive summary sits above it
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — The executive's specific role and decision context shapes every word of the summary
+- [`/s4h-writing-restructure`](restructure.md) — If the source document is poorly structured, producing the summary requires identifying the findings first

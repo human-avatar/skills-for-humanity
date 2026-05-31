@@ -2,7 +2,7 @@
 
 > Assesses whether now is the right time to act, wait, or prepare.
 
-**Trigger:** `/temporal-timing-analysis`
+**Trigger:** `/s4h-temporal-timing-analysis`
 
 ---
 

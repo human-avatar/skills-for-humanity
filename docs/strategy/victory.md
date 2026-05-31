@@ -1,8 +1,8 @@
-# `/strategy-victory`
+# `/s4h-strategy-victory`
 
 > *The supreme art of war is to subdue the enemy without fighting.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-victory` · **Source:** Sun Tzu, *The Art of War*; Carl von Clausewitz, *On War*
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-victory` · **Source:** Sun Tzu, *The Art of War*; Carl von Clausewitz, *On War*
 
 ---
 
@@ -28,7 +28,7 @@ The framework draws on Clausewitz's principle that every military contest serves
 
 **Don't use victory definition as a tool for rationalized retreat.** Defining minimum victory conditions can be misused to find reasons to accept less than is achievable with reasonable effort. The discipline is defining what you actually need — not the most you could hope for, and not the least you could get away with. The minimum victory is the honest floor, not a comfortable ceiling.
 
-**Don't skip this in favor of going straight to tactics.** The nearest neighbor: `/strategy-force-economy` — which tells you the minimum intervention to achieve the objective. Force economy analysis requires knowing the objective first; without victory definition, you're optimizing for the wrong thing with great efficiency.
+**Don't skip this in favor of going straight to tactics.** The nearest neighbor: `/s4h-strategy-force-economy` — which tells you the minimum intervention to achieve the objective. Force economy analysis requires knowing the objective first; without victory definition, you're optimizing for the wrong thing with great efficiency.
 
 ---
 
@@ -115,7 +115,7 @@ The deterrence objective — establishing consequences — is worth examining se
 
 ## Related skills
 
-- [`/strategy-force-economy`](force-economy.md) — Once victory conditions are defined, force economy identifies the minimum path to the minimum victory condition
-- [`/strategy-terrain`](terrain.md) — Which battles are worth having depends on knowing what winning would actually mean
-- [`/strategy-alliance`](alliance.md) — Coalition strategy requires shared victory definitions; if allies define success differently, the alliance fractures
-- [`/strategy-timing`](timing.md) — Victory recognition conditions tell you when to stop; timing analysis tells you when to start
+- [`/s4h-strategy-force-economy`](force-economy.md) — Once victory conditions are defined, force economy identifies the minimum path to the minimum victory condition
+- [`/s4h-strategy-terrain`](terrain.md) — Which battles are worth having depends on knowing what winning would actually mean
+- [`/s4h-strategy-alliance`](alliance.md) — Coalition strategy requires shared victory definitions; if allies define success differently, the alliance fractures
+- [`/s4h-strategy-timing`](timing.md) — Victory recognition conditions tell you when to stop; timing analysis tells you when to start

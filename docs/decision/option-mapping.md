@@ -2,7 +2,7 @@
 
 > Makes all real options visible before evaluating any — counters the false dichotomy.
 
-**Trigger:** `/decision-option-mapping`
+**Trigger:** `/s4h-decision-option-mapping`
 
 ---
 

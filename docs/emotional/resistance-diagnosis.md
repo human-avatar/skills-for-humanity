@@ -2,7 +2,7 @@
 
 > Diagnoses the source of resistance — not just that it exists, but what's underneath it.
 
-**Trigger:** `/emotional-resistance-diagnosis`
+**Trigger:** `/s4h-emotional-resistance-diagnosis`
 
 ---
 

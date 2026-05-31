@@ -2,7 +2,7 @@
 
 > Maps causal relationships, traces dependencies, and reasons about consequences before acting.
 
-**Trigger:** `/logic-causality-mapping`
+**Trigger:** `/s4h-logic-causality-mapping`
 
 ---
 

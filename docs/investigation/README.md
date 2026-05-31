@@ -38,14 +38,14 @@ The nearest neighbor trap: Investigation is not research. Research finds informa
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/investigation`** | Routes to the right investigation skill for your situation | Not sure which tool fits; describe what you're trying to establish |
-| [`/investigation-source-trace`](source-trace.md) | Traces a claim to its origin, maps transmission distortion, assesses source credibility | "Where does this come from?" "Is this just a rumor that became conventional wisdom?" |
-| [`/investigation-claim-decomposition`](claim-decomposition.md) | Breaks a complex claim into independently verifiable sub-claims and identifies load-bearing parts | "What exactly is this asserting?" "This seems like multiple claims at once" |
-| [`/investigation-evidence-audit`](evidence-audit.md) | Evaluates evidence quality, type, completeness, and conflicts of interest | "Is the evidence good?" "Is this just one study?" "What's missing?" |
-| [`/investigation-counter-hypothesis`](counter-hypothesis.md) | Generates the best rival explanations for the same observations and identifies decisive tests | "Could something else explain this?" "Am I sure this isn't confounded?" |
-| [`/investigation-triangulation`](triangulation.md) | Verifies a claim across genuinely independent sources, distinguishing corroboration from amplification | "Do multiple sources actually agree?" "Are these sources independent?" |
+| **`/s4h-investigation`** | Routes to the right investigation skill for your situation | Not sure which tool fits; describe what you're trying to establish |
+| [`/s4h-investigation-source-trace`](source-trace.md) | Traces a claim to its origin, maps transmission distortion, assesses source credibility | "Where does this come from?" "Is this just a rumor that became conventional wisdom?" |
+| [`/s4h-investigation-claim-decomposition`](claim-decomposition.md) | Breaks a complex claim into independently verifiable sub-claims and identifies load-bearing parts | "What exactly is this asserting?" "This seems like multiple claims at once" |
+| [`/s4h-investigation-evidence-audit`](evidence-audit.md) | Evaluates evidence quality, type, completeness, and conflicts of interest | "Is the evidence good?" "Is this just one study?" "What's missing?" |
+| [`/s4h-investigation-counter-hypothesis`](counter-hypothesis.md) | Generates the best rival explanations for the same observations and identifies decisive tests | "Could something else explain this?" "Am I sure this isn't confounded?" |
+| [`/s4h-investigation-triangulation`](triangulation.md) | Verifies a claim across genuinely independent sources, distinguishing corroboration from amplification | "Do multiple sources actually agree?" "Are these sources independent?" |
 
-**Not sure which tool?** → Invoke `/investigation` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-investigation` — it diagnoses your situation and picks the right skill.
 
 ---
 

@@ -2,7 +2,7 @@
 
 > What people say and what they mean are rarely the same thing — and both matter.
 
-**Trigger:** `/linguistics-pragmatics`
+**Trigger:** `/s4h-linguistics-pragmatics`
 
 ---
 
@@ -66,6 +66,6 @@ This communication is performing two simultaneous functions: (1) managing the so
 
 ## Related skills
 
-- [`/linguistics-framing`](framing.md) — Examine the frame the presuppositions reveal; "a range of perspectives" is a framing move, not a neutral description
-- [`/communication-objection-mapping`](../communication/objection-mapping.md) — If you are drafting a response, map how the implied content will be received
-- [`/psychology-persuasion`](../psychology/persuasion.md) — Understand the influence mechanisms operating in the implied content
+- [`/s4h-linguistics-framing`](framing.md) — Examine the frame the presuppositions reveal; "a range of perspectives" is a framing move, not a neutral description
+- [`/s4h-communication-objection-mapping`](../communication/objection-mapping.md) — If you are drafting a response, map how the implied content will be received
+- [`/s4h-psychology-persuasion`](../psychology/persuasion.md) — Understand the influence mechanisms operating in the implied content

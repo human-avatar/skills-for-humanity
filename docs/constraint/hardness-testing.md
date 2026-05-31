@@ -2,7 +2,7 @@
 
 > Tests whether a stated constraint is actually real — separating genuine limits from assumptions, habits, and politics dressed as facts.
 
-**Trigger:** `/constraint-hardness-testing`
+**Trigger:** `/s4h-constraint-hardness-testing`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Surfaces internal contradictions in documents, specs, and plans.
 
-**Trigger:** `/logic-consistency-check`
+**Trigger:** `/s4h-logic-consistency-check`
 
 ---
 

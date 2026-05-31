@@ -2,7 +2,7 @@
 
 > Finds genuinely similar historical situations to inform a current decision.
 
-**Trigger:** `/historical-precedent-analysis`
+**Trigger:** `/s4h-historical-precedent-analysis`
 
 ---
 

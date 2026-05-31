@@ -1,8 +1,8 @@
-# `/economics-externalities`
+# `/s4h-economics-externalities`
 
 > *When the person deciding doesn't bear all the consequences, they will make the wrong decision — predictably and repeatably.*
 
-**Category:** [Economics](README.md) · **Command:** `/economics-externalities` · **Source:** A.C. Pigou — *The Economics of Welfare* (1920); Ronald Coase — "The Problem of Social Cost" (1960)
+**Category:** [Economics](README.md) · **Command:** `/s4h-economics-externalities` · **Source:** A.C. Pigou — *The Economics of Welfare* (1920); Ronald Coase — "The Problem of Social Cost" (1960)
 
 ---
 
@@ -24,11 +24,11 @@ Identifies costs and benefits that fall on parties outside the decision-maker's 
 
 ## When *not* to use it
 
-**Don't use externality analysis when the spillover effects are already internalised or negligible.** If the affected parties are already represented in the decision (e.g., the same organisation bears all the costs and benefits), or if the external effects are genuinely trivial in scale, the framework adds structure without insight. The right tool when all parties are inside the decision is `/decision-criteria-weighting`.
+**Don't use externality analysis when the spillover effects are already internalised or negligible.** If the affected parties are already represented in the decision (e.g., the same organisation bears all the costs and benefits), or if the external effects are genuinely trivial in scale, the framework adds structure without insight. The right tool when all parties are inside the decision is `/s4h-decision-criteria-weighting`.
 
 **The Coase Theorem is not a blanket argument against intervention.** The argument "parties can negotiate, so the market will handle it" requires low transaction costs — a condition that fails for most significant externalities. Don't use Coasian logic to justify inaction when the affected parties are many, dispersed, or strategically disadvantaged.
 
-The nearest neighbor: [`/economics-coordination`](coordination.md) — when the externality affects a large diffuse group and addressing it requires collective action rather than bilateral negotiation or state intervention.
+The nearest neighbor: [`/s4h-economics-coordination`](coordination.md) — when the externality affects a large diffuse group and addressing it requires collective action rather than bilateral negotiation or state intervention.
 
 ---
 
@@ -99,7 +99,7 @@ The framing is not "tax grab" vs. "necessary" — it is: the current zero-price 
 
 ## Related skills
 
-- [`/economics-incentive-mapping`](incentive-mapping.md) — the externality often reflects a misaligned incentive structure; this maps it
-- [`/economics-coordination`](coordination.md) — when the externality affects a large diffuse group that needs to act collectively to address it
-- [`/game-theory-mechanism-design`](../game-theory/mechanism-design.md) — formally design the mechanism that internalises the externality optimally
-- [`/systems-feedback-mapping`](../systems/feedback-mapping.md) — when the externality is embedded in a dynamic system with feedback effects
+- [`/s4h-economics-incentive-mapping`](incentive-mapping.md) — the externality often reflects a misaligned incentive structure; this maps it
+- [`/s4h-economics-coordination`](coordination.md) — when the externality affects a large diffuse group that needs to act collectively to address it
+- [`/s4h-game-theory-mechanism-design`](../game-theory/mechanism-design.md) — formally design the mechanism that internalises the externality optimally
+- [`/s4h-systems-feedback-mapping`](../systems/feedback-mapping.md) — when the externality is embedded in a dynamic system with feedback effects

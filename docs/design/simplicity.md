@@ -2,7 +2,7 @@
 
 > Removes what's unnecessary to find the form that does exactly what is needed — nothing more.
 
-**Trigger:** `/design-simplicity`
+**Trigger:** `/s4h-design-simplicity`
 
 ---
 
@@ -87,6 +87,6 @@ Removes approximately 4 elements entirely and reduces 3 others. Estimated cognit
 
 ## Related skills
 
-- [`/design-iteration`](iteration.md) — test whether the simplified design still satisfies users
-- [`/aesthetic-simplicity-analysis`](../aesthetic/simplicity-analysis.md) — apply simplicity analysis specifically to the visual and aesthetic form
-- [`/constraint-scope-reduction`](../constraint/scope-reduction.md) — for removing scope from a project brief before building, not from a design that already exists
+- [`/s4h-design-iteration`](iteration.md) — test whether the simplified design still satisfies users
+- [`/s4h-aesthetic-simplicity-analysis`](../aesthetic/simplicity-analysis.md) — apply simplicity analysis specifically to the visual and aesthetic form
+- [`/s4h-constraint-scope-reduction`](../constraint/scope-reduction.md) — for removing scope from a project brief before building, not from a design that already exists

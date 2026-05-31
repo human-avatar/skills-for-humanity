@@ -1,8 +1,8 @@
-# `/economics-margin`
+# `/s4h-economics-margin`
 
 > *Sunk costs are real. They are also irrelevant. Strip them out and ask what the next unit actually produces.*
 
-**Category:** [Economics](README.md) · **Command:** `/economics-margin` · **Source:** Alfred Marshall — marginal revolution; Daniel Kahneman — sunk cost and loss aversion
+**Category:** [Economics](README.md) · **Command:** `/s4h-economics-margin` · **Source:** Alfred Marshall — marginal revolution; Daniel Kahneman — sunk cost and loss aversion
 
 ---
 
@@ -26,11 +26,11 @@ Draws on Marshall's marginal revolution and on Kahneman's behavioural finding th
 
 ## When *not* to use it
 
-**Don't use marginal analysis when the question is which path to take, not how much of a path to take.** Marginal analysis applies to quantity decisions — more or less of something. If the question is which of two discrete alternatives to pursue, the right tool is `/economics-opportunity-cost`, which identifies what is foregone, not `/economics-margin`, which identifies when to stop doing what you're doing.
+**Don't use marginal analysis when the question is which path to take, not how much of a path to take.** Marginal analysis applies to quantity decisions — more or less of something. If the question is which of two discrete alternatives to pursue, the right tool is `/s4h-economics-opportunity-cost`, which identifies what is foregone, not `/s4h-economics-margin`, which identifies when to stop doing what you're doing.
 
 **Marginal thinking is not the same as short-termism.** The marginal comparison includes future costs and benefits; sunk costs are excluded not because the future doesn't matter but because the past cannot be changed. A long investment with a long payoff horizon is a legitimate marginal benefit — it should appear in the forward calculation, not be excluded from it.
 
-The nearest neighbor: [`/economics-opportunity-cost`](opportunity-cost.md) — for the question "which alternative should I pursue?" rather than "how much of this should I do?"
+The nearest neighbor: [`/s4h-economics-opportunity-cost`](opportunity-cost.md) — for the question "which alternative should I pursue?" rather than "how much of this should I do?"
 
 ---
 
@@ -103,7 +103,7 @@ If the leadership wants to preserve the newsletter, the correct move is: (1) exp
 
 ## Related skills
 
-- [`/economics-opportunity-cost`](opportunity-cost.md) — what else could the £4,500/month produce if redirected?
-- [`/decision-premortem-analysis`](../decision/premortem-analysis.md) — stress-test a decision to continue before committing further
-- [`/economics-incentive-mapping`](incentive-mapping.md) — when sunk cost reasoning is driven by institutional or personal incentives to protect prior decisions
-- [`/probability-expected-value-calculation`](../probability/expected-value-calculation.md) — when the marginal benefit is uncertain and needs a probability-weighted estimate
+- [`/s4h-economics-opportunity-cost`](opportunity-cost.md) — what else could the £4,500/month produce if redirected?
+- [`/s4h-decision-premortem-analysis`](../decision/premortem-analysis.md) — stress-test a decision to continue before committing further
+- [`/s4h-economics-incentive-mapping`](incentive-mapping.md) — when sunk cost reasoning is driven by institutional or personal incentives to protect prior decisions
+- [`/s4h-probability-expected-value-calculation`](../probability/expected-value-calculation.md) — when the marginal benefit is uncertain and needs a probability-weighted estimate

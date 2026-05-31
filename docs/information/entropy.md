@@ -2,7 +2,7 @@
 
 > Information is what surprises you. Everything else is confirmation.
 
-**Trigger:** `/information-entropy`
+**Trigger:** `/s4h-information-entropy`
 
 ---
 
@@ -77,6 +77,6 @@ The current attention allocation is inverted. The CEO's attention is going to NP
 
 ## Related skills
 
-- [`/information-signal-noise`](signal-noise.md) — verify whether high-entropy elements are genuine signal or just noise before updating heavily
-- [`/probability-base-rate-anchoring`](../probability/base-rate-anchoring.md) — anchor surprise assessments against correct base rates before treating findings as informative
-- [`/epistemology-epistemic-status`](../epistemology/epistemic-status.md) — map how much the high-information elements should actually update beliefs across the domain
+- [`/s4h-information-signal-noise`](signal-noise.md) — verify whether high-entropy elements are genuine signal or just noise before updating heavily
+- [`/s4h-probability-base-rate-anchoring`](../probability/base-rate-anchoring.md) — anchor surprise assessments against correct base rates before treating findings as informative
+- [`/s4h-epistemology-epistemic-status`](../epistemology/epistemic-status.md) — map how much the high-information elements should actually update beliefs across the domain

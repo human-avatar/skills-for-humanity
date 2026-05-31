@@ -2,7 +2,7 @@
 
 > A quick ethical impact assessment on a proposed feature, change, or decision — maps who benefits, who's harmed, and at what scale.
 
-**Trigger:** `/ethics-impact-scan`
+**Trigger:** `/s4h-ethics-impact-scan`
 
 ---
 

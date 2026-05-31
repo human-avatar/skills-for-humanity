@@ -2,7 +2,7 @@
 
 > Finds the minimum that satisfies the actual requirement — stripping away what's wanted but not needed.
 
-**Trigger:** `/constraint-scope-reduction`
+**Trigger:** `/s4h-constraint-scope-reduction`
 
 ---
 

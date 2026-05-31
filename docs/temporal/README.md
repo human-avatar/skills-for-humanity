@@ -37,13 +37,13 @@ The nearest neighbor: [Historical](../historical/) — which looks backward at w
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/temporal`** | Routes to the right temporal skill for your situation | Not sure which tool fits; describe your situation |
-| [`/temporal-cycle-detection`](cycle-detection.md) | Identifies what recurring cycle this is and where you currently are | "Is this a bubble?" "Where are we in the hype cycle?" "What comes next?" |
-| [`/temporal-horizon-mapping`](horizon-mapping.md) | Maps consequences across short, medium, and long time horizons | Decision looks different at different scales; need to hold all three simultaneously |
-| [`/temporal-futures-mapping`](futures-mapping.md) | Explores possible, probable, and preferable futures | Strategic planning; scenario thinking; "how might this play out?" |
-| [`/temporal-timing-analysis`](timing-analysis.md) | Assesses whether now is the right time to act, wait, or prepare | "Should we wait?" "Are we too early?" "Is now the window?" |
+| **`/s4h-temporal`** | Routes to the right temporal skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-temporal-cycle-detection`](cycle-detection.md) | Identifies what recurring cycle this is and where you currently are | "Is this a bubble?" "Where are we in the hype cycle?" "What comes next?" |
+| [`/s4h-temporal-horizon-mapping`](horizon-mapping.md) | Maps consequences across short, medium, and long time horizons | Decision looks different at different scales; need to hold all three simultaneously |
+| [`/s4h-temporal-futures-mapping`](futures-mapping.md) | Explores possible, probable, and preferable futures | Strategic planning; scenario thinking; "how might this play out?" |
+| [`/s4h-temporal-timing-analysis`](timing-analysis.md) | Assesses whether now is the right time to act, wait, or prepare | "Should we wait?" "Are we too early?" "Is now the window?" |
 
-**Not sure which tool?** → Invoke `/temporal` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-temporal` — it diagnoses your situation and picks the right skill.
 
 ---
 

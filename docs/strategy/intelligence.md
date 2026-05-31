@@ -1,8 +1,8 @@
-# `/strategy-intelligence`
+# `/s4h-strategy-intelligence`
 
 > *Know yourself and know your enemy; in a hundred battles you will never be in peril.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-intelligence` · **Source:** Sun Tzu, *The Art of War*, Book XIII
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-intelligence` · **Source:** Sun Tzu, *The Art of War*, Book XIII
 
 ---
 
@@ -28,7 +28,7 @@ The discipline is enforcing the fact/assumption distinction. Most strategic plan
 
 **Don't use intelligence audit as a reason to keep gathering information indefinitely.** The goal is to identify which gaps are worth closing before acting — not to eliminate all uncertainty before moving. Perfect intelligence doesn't exist. The output is a decision about which gaps change your strategy if wrong and which don't. Gaps that don't change your strategy don't need closing before you act.
 
-**Don't confuse intelligence with surveillance.** The framework is about auditing your own knowledge and identifying legitimate paths to closing gaps — public sources, direct inquiry, network access. The nearest neighbor: `/strategy-deception` — which addresses the reverse question of what your opponent knows or believes about you, and how to manage it.
+**Don't confuse intelligence with surveillance.** The framework is about auditing your own knowledge and identifying legitimate paths to closing gaps — public sources, direct inquiry, network access. The nearest neighbor: `/s4h-strategy-deception` — which addresses the reverse question of what your opponent knows or believes about you, and how to manage it.
 
 ---
 
@@ -101,7 +101,7 @@ High-risk assumptions requiring action before the review:
 
 ## Related skills
 
-- [`/strategy-terrain`](terrain.md) — Intelligence feeds the terrain map; inaccurate terrain comes from assumptions held as facts
-- [`/strategy-deception`](deception.md) — Once you know what your counterpart believes about you, you can manage that deliberately
-- [`/strategy-timing`](timing.md) — Intelligence gaps may warrant delaying action; timing analysis weighs the cost of waiting for better intelligence vs. acting now
-- [`/strategy-victory`](victory.md) — Minimum and maximum victory conditions clarify which intelligence gaps actually matter for the decision
+- [`/s4h-strategy-terrain`](terrain.md) — Intelligence feeds the terrain map; inaccurate terrain comes from assumptions held as facts
+- [`/s4h-strategy-deception`](deception.md) — Once you know what your counterpart believes about you, you can manage that deliberately
+- [`/s4h-strategy-timing`](timing.md) — Intelligence gaps may warrant delaying action; timing analysis weighs the cost of waiting for better intelligence vs. acting now
+- [`/s4h-strategy-victory`](victory.md) — Minimum and maximum victory conditions clarify which intelligence gaps actually matter for the decision

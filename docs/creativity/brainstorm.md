@@ -2,7 +2,7 @@
 
 > Orchestrated multi-method creative thinking session — selects and sequences the right tools for your specific challenge.
 
-**Trigger:** `/creativity-brainstorm`
+**Trigger:** `/s4h-creativity-brainstorm`
 
 ---
 

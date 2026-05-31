@@ -36,13 +36,13 @@ The nearest neighbor: [Creativity](../creativity/) — which uses the structured
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/play`** | Routes to the right play skill for your situation | Not sure which tool fits; describe your situation |
-| [`/play-constraint-inversion`](constraint-inversion.md) | Removes the main constraint to see what becomes possible, then maps back | Constraint feels like the ceiling on all thinking |
-| [`/play-perspective-reversal`](perspective-reversal.md) | Fully inhabits the opposing perspective to find what you're missing | Missing what the competitor, critic, or user sees |
-| [`/play-stimulus-generation`](stimulus-generation.md) | Introduces a random, unrelated element to break fixation | Stuck in the same circles; exhausted the usual thinking |
-| [`/play-worst-case-reversal`](worst-case-reversal.md) | Designs the worst possible version, then reverses each failure mode | Safe brainstorming; politeness is killing creative honesty |
+| **`/s4h-play`** | Routes to the right play skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-play-constraint-inversion`](constraint-inversion.md) | Removes the main constraint to see what becomes possible, then maps back | Constraint feels like the ceiling on all thinking |
+| [`/s4h-play-perspective-reversal`](perspective-reversal.md) | Fully inhabits the opposing perspective to find what you're missing | Missing what the competitor, critic, or user sees |
+| [`/s4h-play-stimulus-generation`](stimulus-generation.md) | Introduces a random, unrelated element to break fixation | Stuck in the same circles; exhausted the usual thinking |
+| [`/s4h-play-worst-case-reversal`](worst-case-reversal.md) | Designs the worst possible version, then reverses each failure mode | Safe brainstorming; politeness is killing creative honesty |
 
-**Not sure which tool?** → Invoke `/play` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-play` — it diagnoses your situation and picks the right skill.
 
 ---
 

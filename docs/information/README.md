@@ -28,9 +28,9 @@ These are not abstract tools. They apply wherever information moves: in strategy
 
 ## When *not* to reach for it
 
-**Don't reach for information tools when the problem is the truth of the content, not the quality of the transmission.** If the question is "is this claim correct?" rather than "is this signal reaching me cleanly?", you need `/investigation` or `/epistemology`, not information theory. Information tools diagnose the channel and the representation; they don't audit the underlying facts.
+**Don't reach for information tools when the problem is the truth of the content, not the quality of the transmission.** If the question is "is this claim correct?" rather than "is this signal reaching me cleanly?", you need `/s4h-investigation` or `/s4h-epistemology`, not information theory. Information tools diagnose the channel and the representation; they don't audit the underlying facts.
 
-**Information theory is not a substitute for domain knowledge.** Identifying which signals carry high information content requires knowing what you were expecting — which requires understanding the domain. These tools amplify domain expertise; they do not replace it. If you don't have enough context to estimate what would be surprising, start with `/epistemology-epistemic-status` to build the prior before applying entropy analysis.
+**Information theory is not a substitute for domain knowledge.** Identifying which signals carry high information content requires knowing what you were expecting — which requires understanding the domain. These tools amplify domain expertise; they do not replace it. If you don't have enough context to estimate what would be surprising, start with `/s4h-epistemology-epistemic-status` to build the prior before applying entropy analysis.
 
 The nearest neighbour: [Epistemology](../epistemology/) — for questions about the nature and limits of knowledge itself, rather than the quality of the channel through which it travels.
 
@@ -40,13 +40,13 @@ The nearest neighbour: [Epistemology](../epistemology/) — for questions about 
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/information`** | Routes to the right information skill for your situation | Not sure which tool fits; describe your situation |
-| [`/information-signal-noise`](signal-noise.md) | Separates meaningful signal from background noise; applies SNR thinking to any source | "What actually matters here?" "Cut through the noise." "What's driving the variation?" |
-| [`/information-compression`](compression.md) | Asks what must be preserved and what can be discarded; lossy vs. lossless tradeoffs | "Cut this down." "What can I remove without losing the key point?" "What's essential?" |
-| [`/information-redundancy`](redundancy.md) | Maps where redundancy creates resilience and error correction vs. where it creates waste | "Is this duplication a problem?" "Single point of failure?" "Are we saying the same thing twice?" |
-| [`/information-entropy`](entropy.md) | Measures uncertainty, surprise, and information content in any source | "How surprising is this?" "How much should I update on this?" "Where is the real information?" |
+| **`/s4h-information`** | Routes to the right information skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-information-signal-noise`](signal-noise.md) | Separates meaningful signal from background noise; applies SNR thinking to any source | "What actually matters here?" "Cut through the noise." "What's driving the variation?" |
+| [`/s4h-information-compression`](compression.md) | Asks what must be preserved and what can be discarded; lossy vs. lossless tradeoffs | "Cut this down." "What can I remove without losing the key point?" "What's essential?" |
+| [`/s4h-information-redundancy`](redundancy.md) | Maps where redundancy creates resilience and error correction vs. where it creates waste | "Is this duplication a problem?" "Single point of failure?" "Are we saying the same thing twice?" |
+| [`/s4h-information-entropy`](entropy.md) | Measures uncertainty, surprise, and information content in any source | "How surprising is this?" "How much should I update on this?" "Where is the real information?" |
 
-**Not sure which tool?** → Invoke `/information` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-information` — it diagnoses your situation and picks the right skill.
 
 ---
 

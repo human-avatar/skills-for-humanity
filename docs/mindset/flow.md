@@ -2,7 +2,7 @@
 
 > Diagnose why optimal experience isn't occurring and redesign the conditions for it.
 
-**Trigger:** `/mindset-flow`
+**Trigger:** `/s4h-mindset-flow`
 
 ---
 

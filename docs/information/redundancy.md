@@ -2,7 +2,7 @@
 
 > Redundancy has two faces: the backup that saves you, and the duplication that wastes you.
 
-**Trigger:** `/information-redundancy`
+**Trigger:** `/s4h-information-redundancy`
 
 ---
 
@@ -69,6 +69,6 @@ Adding missing redundancy:
 
 ## Related skills
 
-- [`/information-compression`](compression.md) — once load-bearing vs. wasteful redundancy is mapped, compression removes the wasteful instances
-- [`/information-signal-noise`](signal-noise.md) — wasteful redundancy often creates noise in communication channels; SNR analysis addresses the channel-level symptom
-- [`/systems-feedback-mapping`](../systems/feedback-mapping.md) — the dynamics that produced the redundancy pattern (often accretive process design) are best understood through feedback loop analysis
+- [`/s4h-information-compression`](compression.md) — once load-bearing vs. wasteful redundancy is mapped, compression removes the wasteful instances
+- [`/s4h-information-signal-noise`](signal-noise.md) — wasteful redundancy often creates noise in communication channels; SNR analysis addresses the channel-level symptom
+- [`/s4h-systems-feedback-mapping`](../systems/feedback-mapping.md) — the dynamics that produced the redundancy pattern (often accretive process design) are best understood through feedback loop analysis

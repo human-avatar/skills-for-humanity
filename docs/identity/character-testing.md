@@ -2,7 +2,7 @@
 
 > Asks what a person or organisation of genuine integrity would do — grounding decisions in character rather than calculation.
 
-**Trigger:** `/identity-character-testing`
+**Trigger:** `/s4h-identity-character-testing`
 
 ---
 

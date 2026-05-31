@@ -1,8 +1,8 @@
-# `/ethics-empathy-circle`
+# `/s4h-ethics-empathy-circle`
 
 > *When we treat AI as a conscious being, humans begin adapting to serve machines — rather than demanding machines serve us.*
 
-**Category:** [Ethics](README.md) · **Command:** `/ethics-empathy-circle` · **Source:** Jaron Lanier
+**Category:** [Ethics](README.md) · **Command:** `/s4h-ethics-empathy-circle` · **Source:** Jaron Lanier
 
 ---
 
@@ -47,7 +47,7 @@ Three reasons:
 
 **Don't confuse capability with personhood.** A system being impressive, complex, or unpredictable does not constitute evidence of phenomenal experience. Lanier's point is precisely that we are prone to this confusion and it costs us.
 
-The nearest neighbor: [`/ethics-check`](ethics-check.md) — which applies moral frameworks to a decision. Use empathy-circle first when the question is about which entities the decision concerns morally, then ethics-check on the decision itself.
+The nearest neighbor: [`/s4h-ethics-check`](ethics-check.md) — which applies moral frameworks to a decision. Use empathy-circle first when the question is about which entities the decision concerns morally, then ethics-check on the decision itself.
 
 ---
 
@@ -124,7 +124,7 @@ Recommendation: redirect the policy from protecting the model's "experience" to 
 
 ## Related skills
 
-- [`/ethics-check`](ethics-check.md) — Five-framework analysis of the decision, once the moral patients are correctly identified
-- [`/ethics-bias-check`](ethics-bias-check.md) — Evaluating AI systems for harm to humans (who are inside the circle)
-- [`/ethics-impact-scan`](ethics-impact-scan.md) — Pre-ship scan; pairs with empathy-circle to clarify whose interests matter
-- [`/identity-character-testing`](../identity/character-testing.md) — What would a person of genuine integrity do with this analysis?
+- [`/s4h-ethics-check`](ethics-check.md) — Five-framework analysis of the decision, once the moral patients are correctly identified
+- [`/s4h-ethics-bias-check`](ethics-bias-check.md) — Evaluating AI systems for harm to humans (who are inside the circle)
+- [`/s4h-ethics-impact-scan`](ethics-impact-scan.md) — Pre-ship scan; pairs with empathy-circle to clarify whose interests matter
+- [`/s4h-identity-character-testing`](../identity/character-testing.md) — What would a person of genuine integrity do with this analysis?

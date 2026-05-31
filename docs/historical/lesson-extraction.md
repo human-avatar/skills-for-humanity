@@ -2,7 +2,7 @@
 
 > Extracts the transferable principle from a specific historical case — separating contingent surface details from the underlying rule that applies across contexts.
 
-**Trigger:** `/historical-lesson-extraction`
+**Trigger:** `/s4h-historical-lesson-extraction`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Maps every relevant factor before deciding or acting — the pre-flight checklist for consequential decisions.
 
-**Trigger:** `/creativity-consider-factors`
+**Trigger:** `/s4h-creativity-consider-factors`
 
 ---
 

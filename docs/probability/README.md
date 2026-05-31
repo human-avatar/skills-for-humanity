@@ -36,13 +36,13 @@ The nearest neighbor: [Decision](../decision/) — which handles the choice proc
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/probability`** | Routes to the right probability skill for your situation | Not sure which tool fits; describe your situation |
-| [`/probability-base-rate-anchoring`](base-rate-anchoring.md) | Anchors estimates in historical base rates before adjusting | Estimate feels optimistic; "outside view"; "how often does this actually happen?" |
-| [`/probability-confidence-calibration`](confidence-calibration.md) | Tests whether stated confidence matches available evidence | "Am I overconfident?" "How sure should I be?" "Is this as certain as it seems?" |
-| [`/probability-expected-value-calculation`](expected-value-calculation.md) | Calculates expected value to compare options under uncertainty | "Is this risk worth taking?" "Expected value?" Comparing asymmetric options |
-| [`/probability-scenario-weighting`](scenario-weighting.md) | Assigns explicit probabilities to distinct scenarios before deciding | Multiple plausible futures; "assign probabilities"; "quantify the uncertainty" |
+| **`/s4h-probability`** | Routes to the right probability skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-probability-base-rate-anchoring`](base-rate-anchoring.md) | Anchors estimates in historical base rates before adjusting | Estimate feels optimistic; "outside view"; "how often does this actually happen?" |
+| [`/s4h-probability-confidence-calibration`](confidence-calibration.md) | Tests whether stated confidence matches available evidence | "Am I overconfident?" "How sure should I be?" "Is this as certain as it seems?" |
+| [`/s4h-probability-expected-value-calculation`](expected-value-calculation.md) | Calculates expected value to compare options under uncertainty | "Is this risk worth taking?" "Expected value?" Comparing asymmetric options |
+| [`/s4h-probability-scenario-weighting`](scenario-weighting.md) | Assigns explicit probabilities to distinct scenarios before deciding | Multiple plausible futures; "assign probabilities"; "quantify the uncertainty" |
 
-**Not sure which tool?** → Invoke `/probability` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-probability` — it diagnoses your situation and picks the right skill.
 
 ---
 

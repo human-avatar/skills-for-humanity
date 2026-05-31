@@ -2,7 +2,7 @@
 
 > Calculates expected value to compare options under uncertainty.
 
-**Trigger:** `/probability-expected-value-calculation`
+**Trigger:** `/s4h-probability-expected-value-calculation`
 
 ---
 

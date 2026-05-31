@@ -2,7 +2,7 @@
 
 > Generates all options before evaluating any — the antidote to false dichotomies.
 
-**Trigger:** `/creativity-alternatives`
+**Trigger:** `/s4h-creativity-alternatives`
 
 ---
 

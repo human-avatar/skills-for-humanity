@@ -1,8 +1,8 @@
-# `/writing-restructure`
+# `/s4h-writing-restructure`
 
 > *The writer always knows where they're going. The reader only knows where they've been.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-restructure`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-restructure`
 
 ---
 
@@ -25,11 +25,11 @@ Diagnoses structural problems in non-fiction, essays, and documents — buried l
 
 ## When *not* to use it
 
-**Don't use this for fiction.** Fiction structure is addressed by `/writing-plot-structure` (narrative beats) and `/writing-scene-construction` (individual scenes). The restructure skill addresses non-fiction, essays, reports, articles, and professional documents — pieces with a central argument or finding that needs to reach the reader efficiently.
+**Don't use this for fiction.** Fiction structure is addressed by `/s4h-writing-plot-structure` (narrative beats) and `/s4h-writing-scene-construction` (individual scenes). The restructure skill addresses non-fiction, essays, reports, articles, and professional documents — pieces with a central argument or finding that needs to reach the reader efficiently.
 
 **Don't use this before you know what the piece is arguing.** If the piece's central claim can't be stated in one sentence, restructuring it will just rearrange confusion. Clarify the argument first. Sometimes what appears to be a structure problem is a thinking problem — the piece is long because the writer hasn't yet found the point.
 
-The nearest neighbor: [`/writing-executive-summary`](executive-summary.md) — which front-loads the central finding, implications, and recommendation for a senior audience. If a piece needs both restructuring and an executive-facing brief, restructure the document first, then produce the summary from its new structure.
+The nearest neighbor: [`/s4h-writing-executive-summary`](executive-summary.md) — which front-loads the central finding, implications, and recommendation for a senior audience. If a piece needs both restructuring and an executive-facing brief, restructure the document first, then produce the summary from its new structure.
 
 ---
 
@@ -122,6 +122,6 @@ The first 600 words are the lowest-value sections. The manager's "800 words" est
 
 ## Related skills
 
-- [`/writing-executive-summary`](executive-summary.md) — If the restructured essay needs a one-page brief above it for a senior audience
-- [`/writing-argument`](argument.md) — If the essay's problem is the argument itself (warrant missing, evidence insufficient) rather than its order
-- [`/writing-line-editing`](line-editing.md) — After restructuring is complete, line editing cleans the sentences in their new order
+- [`/s4h-writing-executive-summary`](executive-summary.md) — If the restructured essay needs a one-page brief above it for a senior audience
+- [`/s4h-writing-argument`](argument.md) — If the essay's problem is the argument itself (warrant missing, evidence insufficient) rather than its order
+- [`/s4h-writing-line-editing`](line-editing.md) — After restructuring is complete, line editing cleans the sentences in their new order

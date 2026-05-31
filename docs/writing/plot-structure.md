@@ -1,8 +1,8 @@
-# `/writing-plot-structure`
+# `/s4h-writing-plot-structure`
 
 > *Most plot problems are structural. The sentences may be excellent. The architecture is broken.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-plot-structure`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-plot-structure`
 
 ---
 
@@ -27,9 +27,9 @@ Diagnoses structural failures in a story using the five-beat dramatic framework 
 
 **Don't use this for purely episodic structures.** Some narratives are deliberately episodic — they are a series of encounters rather than a building arc, and the reader experiences them as a journey through a world rather than a mounting dramatic question. Applying the five-beat framework to these can produce false diagnoses of "missing midpoint" when the form is simply different.
 
-**Don't use this before you have a story to diagnose.** This is a diagnostic tool, not a generation tool. If you are generating a story from scratch, start with `/writing-character-development` and `/writing-arc-design` to build the character's internal need and arc endpoint first — the external plot should grow from those.
+**Don't use this before you have a story to diagnose.** This is a diagnostic tool, not a generation tool. If you are generating a story from scratch, start with `/s4h-writing-character-development` and `/s4h-writing-arc-design` to build the character's internal need and arc endpoint first — the external plot should grow from those.
 
-The nearest neighbor: [`/writing-arc-design`](arc-design.md) — which addresses the internal emotional arc that must mirror the external structure. Plot structure and arc design must be diagnosed together; a plot that is structurally sound but disconnected from the character's internal change will still produce a story that feels hollow.
+The nearest neighbor: [`/s4h-writing-arc-design`](arc-design.md) — which addresses the internal emotional arc that must mirror the external structure. Plot structure and arc design must be diagnosed together; a plot that is structurally sound but disconnected from the character's internal change will still produce a story that feels hollow.
 
 ---
 
@@ -109,6 +109,6 @@ The chain from dark night to climax is solid. The chain from first turning point
 
 ## Related skills
 
-- [`/writing-arc-design`](arc-design.md) — The internal arc must mirror this external structure; repair the plot structure and arc design together
-- [`/writing-scene-construction`](scene-construction.md) — Once beats are correctly placed, individual scenes within them must deliver what the structure requires
-- [`/writing-restructure`](restructure.md) — If the beats exist but are in the wrong position or proportion
+- [`/s4h-writing-arc-design`](arc-design.md) — The internal arc must mirror this external structure; repair the plot structure and arc design together
+- [`/s4h-writing-scene-construction`](scene-construction.md) — Once beats are correctly placed, individual scenes within them must deliver what the structure requires
+- [`/s4h-writing-restructure`](restructure.md) — If the beats exist but are in the wrong position or proportion

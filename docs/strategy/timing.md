@@ -1,8 +1,8 @@
-# `/strategy-timing`
+# `/s4h-strategy-timing`
 
 > *Timing exists in everything. When you are able to observe timing thoroughly, you can make use of it.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-timing` · **Source:** Miyamoto Musashi, *The Book of Five Rings*; Sun Tzu, *The Art of War*
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-timing` · **Source:** Miyamoto Musashi, *The Book of Five Rings*; Sun Tzu, *The Art of War*
 
 ---
 
@@ -28,7 +28,7 @@ The framework draws on Musashi's concept of the interval — the moment when you
 
 **Don't use timing analysis to rationalize indefinite delay.** "The moment isn't right" is a legitimate conclusion — sometimes. It is also the most comfortable story to tell yourself when acting is difficult. If your timing analysis produces "keep waiting" three times in a row without identified trigger conditions, the analysis is probably covering for something else. Name what's actually holding you back.
 
-**Don't confuse timing with preparation.** If the real issue is that you aren't ready — the position isn't built, the intelligence isn't gathered, the product isn't done — that is a preparation problem, not a timing problem. The nearest neighbor: `/strategy-positioning` — which addresses whether you've done the work that makes the timing right when it arrives.
+**Don't confuse timing with preparation.** If the real issue is that you aren't ready — the position isn't built, the intelligence isn't gathered, the product isn't done — that is a preparation problem, not a timing problem. The nearest neighbor: `/s4h-strategy-positioning` — which addresses whether you've done the work that makes the timing right when it arrives.
 
 ---
 
@@ -92,7 +92,7 @@ The competitor's announcement changes the strategic context. It does not change 
 
 ## Related skills
 
-- [`/strategy-intelligence`](intelligence.md) — Timing decisions depend heavily on the accuracy of your picture of the competitor's current state
-- [`/strategy-positioning`](positioning.md) — Sometimes the right timing is simply "when your position is ready" — distinguish timing from preparation
-- [`/strategy-force-economy`](force-economy.md) — In flowing situations with closing windows, the minimum effective launch beats the maximum-effort launch that misses the window
-- [`/strategy-victory`](victory.md) — Knowing your victory conditions (first-mover matters / quality matters more than sequence) clarifies the timing trade-off
+- [`/s4h-strategy-intelligence`](intelligence.md) — Timing decisions depend heavily on the accuracy of your picture of the competitor's current state
+- [`/s4h-strategy-positioning`](positioning.md) — Sometimes the right timing is simply "when your position is ready" — distinguish timing from preparation
+- [`/s4h-strategy-force-economy`](force-economy.md) — In flowing situations with closing windows, the minimum effective launch beats the maximum-effort launch that misses the window
+- [`/s4h-strategy-victory`](victory.md) — Knowing your victory conditions (first-mover matters / quality matters more than sequence) clarifies the timing trade-off

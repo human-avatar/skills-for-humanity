@@ -37,13 +37,13 @@ The nearest neighbor: [Narrative](../narrative/) — which focuses on the story 
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/communication`** | Routes to the right communication skill for your situation | Not sure which tool fits; describe your situation |
-| [`/communication-audience-modeling`](audience-modeling.md) | Maps what your audience believes, cares about, and fears | You don't know why they're not responding; you want to communicate from their position |
-| [`/communication-clarity-audit`](clarity-audit.md) | Finds where a message will be misread or lost before sending | You have a draft and want to find where it breaks |
-| [`/communication-medium-selection`](medium-selection.md) | Chooses the right channel and format for the message | Email vs. meeting? Async vs. sync? Document vs. conversation? |
-| [`/communication-objection-mapping`](objection-mapping.md) | Maps likely objections before you deliver a proposal | You're about to present something contentious and need to prepare |
+| **`/s4h-communication`** | Routes to the right communication skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-communication-audience-modeling`](audience-modeling.md) | Maps what your audience believes, cares about, and fears | You don't know why they're not responding; you want to communicate from their position |
+| [`/s4h-communication-clarity-audit`](clarity-audit.md) | Finds where a message will be misread or lost before sending | You have a draft and want to find where it breaks |
+| [`/s4h-communication-medium-selection`](medium-selection.md) | Chooses the right channel and format for the message | Email vs. meeting? Async vs. sync? Document vs. conversation? |
+| [`/s4h-communication-objection-mapping`](objection-mapping.md) | Maps likely objections before you deliver a proposal | You're about to present something contentious and need to prepare |
 
-**Not sure which tool?** → Invoke `/communication` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-communication` — it diagnoses your situation and picks the right skill.
 
 ---
 

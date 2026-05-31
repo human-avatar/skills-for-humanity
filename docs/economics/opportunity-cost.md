@@ -1,8 +1,8 @@
-# `/economics-opportunity-cost`
+# `/s4h-economics-opportunity-cost`
 
 > *The price you paid is not the cost of your choice. The cost is the next-best thing you didn't do.*
 
-**Category:** [Economics](README.md) · **Command:** `/economics-opportunity-cost` · **Source:** Alfred Marshall — *Principles of Economics* (1890)
+**Category:** [Economics](README.md) · **Command:** `/s4h-economics-opportunity-cost` · **Source:** Alfred Marshall — *Principles of Economics* (1890)
 
 ---
 
@@ -26,11 +26,11 @@ Opportunity cost analysis is particularly powerful for revealing the true cost o
 
 ## When *not* to use it
 
-**Don't apply opportunity cost framing to decisions where no genuine alternatives exist.** If the choice is between doing something necessary and not doing it, and there is truly no competing use of the resource, opportunity cost analysis adds friction without insight. The relevant tool in that case is `/decision-premortem-analysis` — checking whether the commitment is sound, not whether alternatives were missed.
+**Don't apply opportunity cost framing to decisions where no genuine alternatives exist.** If the choice is between doing something necessary and not doing it, and there is truly no competing use of the resource, opportunity cost analysis adds friction without insight. The relevant tool in that case is `/s4h-decision-premortem-analysis` — checking whether the commitment is sound, not whether alternatives were missed.
 
-**Opportunity cost is not the same as marginal analysis.** Opportunity cost asks: "which path should we take?" Marginal analysis asks: "how much of this path should we take?" When the decision is about scale or quantity — more or less of something — use `/economics-margin`. When the decision is between discrete alternatives, opportunity cost applies.
+**Opportunity cost is not the same as marginal analysis.** Opportunity cost asks: "which path should we take?" Marginal analysis asks: "how much of this path should we take?" When the decision is about scale or quantity — more or less of something — use `/s4h-economics-margin`. When the decision is between discrete alternatives, opportunity cost applies.
 
-The nearest neighbor: [`/economics-margin`](margin.md) — which handles the "how much?" dimension of resource allocation rather than the "which of these?" dimension.
+The nearest neighbor: [`/s4h-economics-margin`](margin.md) — which handles the "how much?" dimension of resource allocation rather than the "which of these?" dimension.
 
 ---
 
@@ -96,7 +96,7 @@ Recommendation: explore the partial option with clients before committing. If th
 
 ## Related skills
 
-- [`/economics-margin`](margin.md) — when the question is "how much should we invest in this?" rather than "which path to take?"
-- [`/decision-criteria-weighting`](../decision/criteria-weighting.md) — run a weighted comparison of the alternatives once they're all visible
-- [`/decision-premortem-analysis`](../decision/premortem-analysis.md) — stress-test the chosen option by imagining it fails
-- [`/economics-incentive-mapping`](incentive-mapping.md) — understand what incentives are shaping which alternative gets proposed
+- [`/s4h-economics-margin`](margin.md) — when the question is "how much should we invest in this?" rather than "which path to take?"
+- [`/s4h-decision-criteria-weighting`](../decision/criteria-weighting.md) — run a weighted comparison of the alternatives once they're all visible
+- [`/s4h-decision-premortem-analysis`](../decision/premortem-analysis.md) — stress-test the chosen option by imagining it fails
+- [`/s4h-economics-incentive-mapping`](incentive-mapping.md) — understand what incentives are shaping which alternative gets proposed

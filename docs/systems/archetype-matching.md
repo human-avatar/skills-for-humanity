@@ -2,7 +2,7 @@
 
 > Identifies which recurring system pattern this situation is an instance of.
 
-**Trigger:** `/systems-archetype-matching`
+**Trigger:** `/s4h-systems-archetype-matching`
 
 ---
 

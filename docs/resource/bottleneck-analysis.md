@@ -2,7 +2,7 @@
 
 > Finds what is actually constraining throughput — the system can only move as fast as its slowest point.
 
-**Trigger:** `/resource-bottleneck-analysis`
+**Trigger:** `/s4h-resource-bottleneck-analysis`
 
 ---
 
