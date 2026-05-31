@@ -2,13 +2,13 @@
 
 > A fast, comprehensive ethics report — five frameworks applied in a single pass, with synthesis and recommendation.
 
-**Trigger:** `/ethics-check`
+**Trigger:** `/s4h-ethics-check`
 
 ---
 
 ## What it does
 
-Runs five ethical frameworks (Utilitarian, Deontological, Virtue Ethics, Care Ethics, Justice/Fairness) across a decision or action in sequence, synthesizes where they agree and conflict, and produces a clear recommendation. Lighter than `/ethics-council` (no peer review), heavier than `/ethics-impact-scan` (covers all five frameworks). The right tool when you need a complete ethical read without convening a full deliberation.
+Runs five ethical frameworks (Utilitarian, Deontological, Virtue Ethics, Care Ethics, Justice/Fairness) across a decision or action in sequence, synthesizes where they agree and conflict, and produces a clear recommendation. Lighter than `/s4h-ethics-council` (no peer review), heavier than `/s4h-ethics-impact-scan` (covers all five frameworks). The right tool when you need a complete ethical read without convening a full deliberation.
 
 ---
 
@@ -22,9 +22,9 @@ Runs five ethical frameworks (Utilitarian, Deontological, Virtue Ethics, Care Et
 
 ## When NOT to use
 
-- High-stakes decisions with significant ongoing consequences — use `/ethics-council` for deeper deliberation and peer challenge
-- Quick pre-ship checks — use `/ethics-impact-scan` for a faster first pass
-- Active crisis situations — use `/ethics-crisis-triage` for time-pressured incidents
+- High-stakes decisions with significant ongoing consequences — use `/s4h-ethics-council` for deeper deliberation and peer challenge
+- Quick pre-ship checks — use `/s4h-ethics-impact-scan` for a faster first pass
+- Active crisis situations — use `/s4h-ethics-crisis-triage` for time-pressured incidents
 
 ---
 

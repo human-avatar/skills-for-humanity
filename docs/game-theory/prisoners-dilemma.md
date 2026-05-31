@@ -1,8 +1,8 @@
-# `/game-theory-prisoners-dilemma`
+# `/s4h-game-theory-prisoners-dilemma`
 
 > *Individual rationality and collective rationality diverge. That gap — not bad faith — is what makes cooperation hard.*
 
-**Category:** [Game Theory](README.md) · **Command:** `/game-theory-prisoners-dilemma` · **Source:** Flood & Dresher (1950); Robert Axelrod, *The Evolution of Cooperation* (1984)
+**Category:** [Game Theory](README.md) · **Command:** `/s4h-game-theory-prisoners-dilemma` · **Source:** Flood & Dresher (1950); Robert Axelrod, *The Evolution of Cooperation* (1984)
 
 ---
 
@@ -30,7 +30,7 @@ The prisoner's dilemma explains why intelligent, rational people repeatedly prod
 
 **Don't use prisoners' dilemma analysis as an excuse for defecting.** The framework diagnoses the structure; it doesn't prescribe defection. Many prisoners' dilemma situations have coordination solutions that make mutual cooperation individually rational — the point of the analysis is to find them, not to validate the bad equilibrium.
 
-The nearest neighbor: [`/game-theory-iterated`](iterated.md) — the formal analysis of how cooperation is sustained in repeated interactions. Prisoners' dilemma analysis identifies the problem and the structural levers; iterated analysis identifies the precise strategies that sustain cooperation over time. For high-stakes ongoing relationships, use both.
+The nearest neighbor: [`/s4h-game-theory-iterated`](iterated.md) — the formal analysis of how cooperation is sustained in repeated interactions. Prisoners' dilemma analysis identifies the problem and the structural levers; iterated analysis identifies the precise strategies that sustain cooperation over time. For high-stakes ongoing relationships, use both.
 
 ---
 
@@ -137,7 +137,7 @@ If Alex and Sam refer overflow work to each other, they become collaborators on 
 
 ## Related skills
 
-- [`/game-theory-iterated`](iterated.md) — formal analysis of strategies for sustaining cooperation over repeated interactions
-- [`/game-theory-mechanism-design`](mechanism-design.md) — redesigning payoffs and rules to make cooperation individually rational
-- [`/game-theory-equilibrium`](equilibrium.md) — mapping the full payoff matrix and confirming the Nash equilibrium
-- [`/strategy-alliance`](../strategy/alliance.md) — the strategic dimension of cooperative relationships
+- [`/s4h-game-theory-iterated`](iterated.md) — formal analysis of strategies for sustaining cooperation over repeated interactions
+- [`/s4h-game-theory-mechanism-design`](mechanism-design.md) — redesigning payoffs and rules to make cooperation individually rational
+- [`/s4h-game-theory-equilibrium`](equilibrium.md) — mapping the full payoff matrix and confirming the Nash equilibrium
+- [`/s4h-strategy-alliance`](../strategy/alliance.md) — the strategic dimension of cooperative relationships

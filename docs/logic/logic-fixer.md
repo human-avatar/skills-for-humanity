@@ -2,7 +2,7 @@
 
 > Takes broken reasoning and produces a corrected version — not just diagnosis, but repair.
 
-**Trigger:** `/logic-fixer`
+**Trigger:** `/s4h-logic-fixer`
 
 ---
 

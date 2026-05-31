@@ -2,7 +2,7 @@
 
 > Maps the consequences of a decision across short, medium, and long time horizons simultaneously.
 
-**Trigger:** `/temporal-horizon-mapping`
+**Trigger:** `/s4h-temporal-horizon-mapping`
 
 ---
 

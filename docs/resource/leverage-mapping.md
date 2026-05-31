@@ -2,7 +2,7 @@
 
 > Finds the highest-leverage use of available resources — where the same input produces the most output.
 
-**Trigger:** `/resource-leverage-mapping`
+**Trigger:** `/s4h-resource-leverage-mapping`
 
 ---
 

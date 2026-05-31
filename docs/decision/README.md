@@ -35,13 +35,13 @@ These tools don't make decisions for you. They make the decision-making process 
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/decision`** | Routes to the right decision skill for your situation | Not sure which tool fits; describe your situation |
-| [`/decision-option-mapping`](option-mapping.md) | Ensures all real options are visible before choosing | About to choose between two options; false dichotomy likely; "what are all my choices?" |
-| [`/decision-criteria-weighting`](criteria-weighting.md) | Runs a weighted multi-criteria analysis | Options are clear; need to compare them systematically; multiple people need to agree |
-| [`/decision-premortem-analysis`](premortem-analysis.md) | Imagines the decision failed and diagnoses why | Leaning toward a direction; want to surface the failure modes before committing |
-| [`/decision-reversibility-analysis`](reversibility-analysis.md) | Categorizes a decision by reversibility to calibrate process | Unsure how much to invest in deliberation; "is this a one-way or two-way door?" |
+| **`/s4h-decision`** | Routes to the right decision skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-decision-option-mapping`](option-mapping.md) | Ensures all real options are visible before choosing | About to choose between two options; false dichotomy likely; "what are all my choices?" |
+| [`/s4h-decision-criteria-weighting`](criteria-weighting.md) | Runs a weighted multi-criteria analysis | Options are clear; need to compare them systematically; multiple people need to agree |
+| [`/s4h-decision-premortem-analysis`](premortem-analysis.md) | Imagines the decision failed and diagnoses why | Leaning toward a direction; want to surface the failure modes before committing |
+| [`/s4h-decision-reversibility-analysis`](reversibility-analysis.md) | Categorizes a decision by reversibility to calibrate process | Unsure how much to invest in deliberation; "is this a one-way or two-way door?" |
 
-**Not sure which tool?** → Invoke `/decision` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-decision` — it diagnoses your situation and picks the right skill.
 
 ---
 

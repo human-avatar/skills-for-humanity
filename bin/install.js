@@ -224,11 +224,11 @@ async function install() {
   // Done
   log();
   log(`${bold}Done.${reset} Restart Claude Code, then:`);
-  log(`  ${cyan}/think${reset}      ${dim}— route to the right skill${reset}`);
-  log(`  ${cyan}/ethics${reset}     ${dim}— ethical analysis${reset}`);
-  log(`  ${cyan}/logic${reset}      ${dim}— validate and pressure-test reasoning${reset}`);
-  log(`  ${cyan}/creativity${reset} ${dim}— de Bono suite + brainstorm${reset}`);
-  log(`  ${cyan}/decision${reset}   ${dim}— premortem, criteria weighting, option mapping${reset}`);
+  log(`  ${cyan}/s4h-think${reset}      ${dim}— route to the right skill${reset}`);
+  log(`  ${cyan}/s4h-ethics${reset}     ${dim}— ethical analysis${reset}`);
+  log(`  ${cyan}/s4h-logic${reset}      ${dim}— validate and pressure-test reasoning${reset}`);
+  log(`  ${cyan}/s4h-creativity${reset} ${dim}— de Bono suite + brainstorm${reset}`);
+  log(`  ${cyan}/s4h-decision${reset}   ${dim}— premortem, criteria weighting, option mapping${reset}`);
   log();
 }
 

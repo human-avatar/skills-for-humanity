@@ -39,13 +39,13 @@ The nearest-neighbor trap: **Epistemology is not skepticism.** The tools here do
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/epistemology`** | Routes to the right epistemology skill for your situation | Not sure which tool fits; describe your situation |
-| [`/epistemology-knowledge-types`](knowledge-types.md) | Maps what kind of knowing is in play — a priori/a posteriori, propositional/procedural/acquaintance, source analysis | "What kind of claim is this?" "Am I reasoning from evidence or assumption?" |
-| [`/epistemology-justification`](justification.md) | Examines what would actually justify believing a claim; traces and tests the justification chain | "What would it take to actually know this?" "Is this belief actually justified?" |
-| [`/epistemology-epistemic-status`](epistemic-status.md) | Honest calibration: what do you know vs. believe vs. assume vs. hope across a domain | "How certain should I be?" "Give me an honest audit of what we know" |
-| [`/epistemology-limits`](limits.md) | Classifies what can't be known and why; identifies what can be established; reframes into the answerable | "Can this even be known?" "We keep investigating and it doesn't settle" |
+| **`/s4h-epistemology`** | Routes to the right epistemology skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-epistemology-knowledge-types`](knowledge-types.md) | Maps what kind of knowing is in play — a priori/a posteriori, propositional/procedural/acquaintance, source analysis | "What kind of claim is this?" "Am I reasoning from evidence or assumption?" |
+| [`/s4h-epistemology-justification`](justification.md) | Examines what would actually justify believing a claim; traces and tests the justification chain | "What would it take to actually know this?" "Is this belief actually justified?" |
+| [`/s4h-epistemology-epistemic-status`](epistemic-status.md) | Honest calibration: what do you know vs. believe vs. assume vs. hope across a domain | "How certain should I be?" "Give me an honest audit of what we know" |
+| [`/s4h-epistemology-limits`](limits.md) | Classifies what can't be known and why; identifies what can be established; reframes into the answerable | "Can this even be known?" "We keep investigating and it doesn't settle" |
 
-**Not sure which tool?** → Invoke `/epistemology` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-epistemology` — it diagnoses your situation and picks the right skill.
 
 ---
 

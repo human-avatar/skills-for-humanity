@@ -2,7 +2,7 @@
 
 > Breaks cognitive fixation by introducing a random, unrelated stimulus — the randomness is the point.
 
-**Trigger:** `/creativity-random-entry`
+**Trigger:** `/s4h-creativity-random-entry`
 
 ---
 

@@ -1,8 +1,8 @@
-# `/evolution-niche`
+# `/s4h-evolution-niche`
 
 > *Two species cannot occupy the same niche indefinitely. Understand the niche dimensions, and you understand who gets to stay.*
 
-**Trigger:** `/evolution-niche`
+**Trigger:** `/s4h-evolution-niche`
 
 ---
 
@@ -26,11 +26,11 @@ Stuart Kauffman's work on adjacent possibles extends the analysis: the map of un
 
 ## When *not* to use it
 
-**Don't use niche analysis when the question is individual strategy choice, not competitive positioning.** If the question is "what should we build?" rather than "where can we survive alongside or instead of our competitors?", the framing is wrong — use `/decision-option-mapping`.
+**Don't use niche analysis when the question is individual strategy choice, not competitive positioning.** If the question is "what should we build?" rather than "where can we survive alongside or instead of our competitors?", the framing is wrong — use `/s4h-decision-option-mapping`.
 
 **Don't mistake surface similarity for niche overlap.** Two players can appear similar (same category, same price range) but occupy distinct niches if they serve different customers, at different times, or via different acquisition channels. The niche dimensions matter; the surface category does not. The job of this tool is to find the axes of real differentiation, not to accept the obvious ones.
 
-The nearest neighbor: [`/strategy-positioning`](../strategy/positioning.md) — for translating the niche map into a concrete competitive move, once you know what the niche landscape looks like.
+The nearest neighbor: [`/s4h-strategy-positioning`](../strategy/positioning.md) — for translating the niche map into a concrete competitive move, once you know what the niche landscape looks like.
 
 ---
 
@@ -100,6 +100,6 @@ For a new entrant: the consumer primary account niche is contested and approachi
 
 ## Related skills
 
-- [`/evolution-variation-selection`](variation-selection.md) — understand what selection pressures are actively reshaping the competitive space
-- [`/evolution-arms-race`](arms-race.md) — if two players in the same niche are escalating capabilities against each other
-- [`/strategy-positioning`](../strategy/positioning.md) — translate the niche map into a competitive positioning decision
+- [`/s4h-evolution-variation-selection`](variation-selection.md) — understand what selection pressures are actively reshaping the competitive space
+- [`/s4h-evolution-arms-race`](arms-race.md) — if two players in the same niche are escalating capabilities against each other
+- [`/s4h-strategy-positioning`](../strategy/positioning.md) — translate the niche map into a competitive positioning decision

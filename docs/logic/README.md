@@ -37,16 +37,16 @@ The nearest neighbor: [Probability](../probability/) — which handles reasoning
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/logic`** | Routes to the right logic skill for your situation | Not sure which tool fits; describe your situation |
-| [`/logic-council`](logic-council.md) | Full 5-advisor reasoning council with peer review | Complex argument; high stakes; want independent pressure-testing |
-| [`/logic-check`](logic-check.md) | Fast comprehensive logic report — premises, inference, fallacies, verdict | Need a complete logic review quickly; lighter than the council |
-| [`/logic-argument-validation`](argument-validation.md) | Validates whether premises support the conclusion | Specific argument with a conclusion that needs checking |
-| [`/logic-consistency-check`](consistency-check.md) | Finds internal contradictions in documents and specs | Spec or plan that grew incrementally; "something feels inconsistent" |
-| [`/logic-causality-mapping`](causality-mapping.md) | Maps causal relationships, dependencies, and consequences | "What causes this?" "What breaks if X changes?" Root cause analysis |
-| [`/logic-constraint-mapping`](constraint-mapping.md) | Maps the full constraint landscape — what's hard, soft, and assumed | Unclear what's actually fixed; need to understand the solution space |
-| [`/logic-fixer`](logic-fixer.md) | Takes broken reasoning and produces a corrected version | Have reasoning that's wrong and want it fixed, not just diagnosed |
+| **`/s4h-logic`** | Routes to the right logic skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-logic-council`](logic-council.md) | Full 5-advisor reasoning council with peer review | Complex argument; high stakes; want independent pressure-testing |
+| [`/s4h-logic-check`](logic-check.md) | Fast comprehensive logic report — premises, inference, fallacies, verdict | Need a complete logic review quickly; lighter than the council |
+| [`/s4h-logic-argument-validation`](argument-validation.md) | Validates whether premises support the conclusion | Specific argument with a conclusion that needs checking |
+| [`/s4h-logic-consistency-check`](consistency-check.md) | Finds internal contradictions in documents and specs | Spec or plan that grew incrementally; "something feels inconsistent" |
+| [`/s4h-logic-causality-mapping`](causality-mapping.md) | Maps causal relationships, dependencies, and consequences | "What causes this?" "What breaks if X changes?" Root cause analysis |
+| [`/s4h-logic-constraint-mapping`](constraint-mapping.md) | Maps the full constraint landscape — what's hard, soft, and assumed | Unclear what's actually fixed; need to understand the solution space |
+| [`/s4h-logic-fixer`](logic-fixer.md) | Takes broken reasoning and produces a corrected version | Have reasoning that's wrong and want it fixed, not just diagnosed |
 
-**Not sure which tool?** → Invoke `/logic` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-logic` — it diagnoses your situation and picks the right skill.
 
 ---
 

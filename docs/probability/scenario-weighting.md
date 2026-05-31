@@ -2,7 +2,7 @@
 
 > Assigns explicit probabilities to distinct scenarios before making a decision — forcing precision about what is actually believed.
 
-**Trigger:** `/probability-scenario-weighting`
+**Trigger:** `/s4h-probability-scenario-weighting`
 
 ---
 

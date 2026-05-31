@@ -1,8 +1,8 @@
-# `/evolution-arms-race`
+# `/s4h-evolution-arms-race`
 
 > *The cheetah gets faster, the gazelle gets faster. At the end, both are exhausted and the distance between them is unchanged.*
 
-**Trigger:** `/evolution-arms-race`
+**Trigger:** `/s4h-evolution-arms-race`
 
 ---
 
@@ -30,7 +30,7 @@ Richard Dawkins and John Krebs identified the core logic in 1979: in predator-pr
 
 **An arms race analysis does not imply you should stop competing.** It maps the structure of the dynamic to surface the costs and asymmetries. Sometimes the right answer is to escalate — if you hold a structural cost advantage in the escalating dimension, accelerating the race is strategically rational. The tool surfaces what the arms race is costing you and whether the asymmetries favour you; it does not prescribe de-escalation by default.
 
-The nearest neighbor: [`/game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — when the arms race has a cooperation structure (both parties would benefit from de-escalating but neither can trust the other to stop first), the prisoners' dilemma tool handles the structural analysis of why mutual restraint fails.
+The nearest neighbor: [`/s4h-game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — when the arms race has a cooperation structure (both parties would benefit from de-escalating but neither can trust the other to stop first), the prisoners' dilemma tool handles the structural analysis of why mutual restraint fails.
 
 ---
 
@@ -106,6 +106,6 @@ Risk: FreshBox loses acquisition volume short-term as the promotional moat disap
 
 ## Related skills
 
-- [`/game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — analyse why mutual de-escalation fails even when both parties would prefer it
-- [`/evolution-niche`](niche.md) — map the dimensions along which decoupling could move FreshBox to a different competitive niche
-- [`/game-theory-mechanism-design`](../game-theory/mechanism-design.md) — design an exit mechanism that makes mutual stand-down credible
+- [`/s4h-game-theory-prisoners-dilemma`](../game-theory/prisoners-dilemma.md) — analyse why mutual de-escalation fails even when both parties would prefer it
+- [`/s4h-evolution-niche`](niche.md) — map the dimensions along which decoupling could move FreshBox to a different competitive niche
+- [`/s4h-game-theory-mechanism-design`](../game-theory/mechanism-design.md) — design an exit mechanism that makes mutual stand-down credible

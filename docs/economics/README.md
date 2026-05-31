@@ -29,7 +29,7 @@ The unifying principle: structure determines behaviour. If you want to understan
 
 **Don't apply economic reasoning when the question is primarily relational, ethical, or emotional.** Economics asks "what does the structure reward?" — not "what does this person value?" or "what is the right thing to do?" For questions about trust, fairness, meaning, identity, or moral obligation, the economics lens can be actively distorting: it frames everything as an incentive problem and misses what actually matters to the people involved. When someone is asking for meaning, giving them a marginal analysis is alienating.
 
-**Economics is not a theory of everything.** Incentives are powerful but incomplete as explanations of behaviour. Social norms, emotional commitments, identity, and intrinsic motivation all drive behaviour in ways that don't reduce to incentive structures — and can be undermined by introducing explicit incentives (Titmuss's famous finding: paying blood donors reduced donation rates). When intrinsic motivation is the mechanism, `/psychology-motivation` and `/emotional-motivation-mapping` are better tools than incentive mapping.
+**Economics is not a theory of everything.** Incentives are powerful but incomplete as explanations of behaviour. Social norms, emotional commitments, identity, and intrinsic motivation all drive behaviour in ways that don't reduce to incentive structures — and can be undermined by introducing explicit incentives (Titmuss's famous finding: paying blood donors reduced donation rates). When intrinsic motivation is the mechanism, `/s4h-psychology-motivation` and `/s4h-emotional-motivation-mapping` are better tools than incentive mapping.
 
 The nearest neighbor: [Game Theory](../game-theory/) — the formal analysis of strategic interaction. Economics provides the conceptual framework (incentives, externalities, margin, coordination); game theory provides the mathematical precision (payoff matrices, equilibria, mechanism design). Use economics to understand the structure of the problem; use game theory when you need to reason formally about what specific players will do.
 
@@ -39,14 +39,14 @@ The nearest neighbor: [Game Theory](../game-theory/) — the formal analysis of 
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/economics`** | Routes to the right economics skill for your situation | Not sure which tool fits; describe your situation |
-| [`/economics-opportunity-cost`](opportunity-cost.md) | Maps what you give up — the true cost of a choice, including the best foregone alternative | "What am I giving up?" Any decision where the path not taken matters |
-| [`/economics-incentive-mapping`](incentive-mapping.md) | Identifies who benefits, who pays, and what the structure actually rewards — then spots the misalignments | Behaviour diverging from stated intent; "why do people keep doing this?" |
-| [`/economics-externalities`](externalities.md) | Finds costs and benefits falling on parties outside the decision — and how to internalise them | Side effects on third parties; social cost vs. private cost; Pigouvian analysis |
-| [`/economics-margin`](margin.md) | Applies marginal logic — the relevant decision is the next unit, not the average or the sunk cost | "Should we do more of this?" Sunk cost reasoning; scale decisions |
-| [`/economics-coordination`](coordination.md) | Diagnoses why individually rational behaviour produces collective irrationality — and what institutional fixes exist | Tragedy of the commons; free-rider problems; "everyone acts rationally but the outcome is bad for all" |
+| **`/s4h-economics`** | Routes to the right economics skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-economics-opportunity-cost`](opportunity-cost.md) | Maps what you give up — the true cost of a choice, including the best foregone alternative | "What am I giving up?" Any decision where the path not taken matters |
+| [`/s4h-economics-incentive-mapping`](incentive-mapping.md) | Identifies who benefits, who pays, and what the structure actually rewards — then spots the misalignments | Behaviour diverging from stated intent; "why do people keep doing this?" |
+| [`/s4h-economics-externalities`](externalities.md) | Finds costs and benefits falling on parties outside the decision — and how to internalise them | Side effects on third parties; social cost vs. private cost; Pigouvian analysis |
+| [`/s4h-economics-margin`](margin.md) | Applies marginal logic — the relevant decision is the next unit, not the average or the sunk cost | "Should we do more of this?" Sunk cost reasoning; scale decisions |
+| [`/s4h-economics-coordination`](coordination.md) | Diagnoses why individually rational behaviour produces collective irrationality — and what institutional fixes exist | Tragedy of the commons; free-rider problems; "everyone acts rationally but the outcome is bad for all" |
 
-**Not sure which tool?** → Invoke `/economics` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-economics` — it diagnoses your situation and picks the right skill.
 
 ---
 

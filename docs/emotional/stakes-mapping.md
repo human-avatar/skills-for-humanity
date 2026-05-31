@@ -2,7 +2,7 @@
 
 > Maps what each stakeholder actually cares about beneath their stated position.
 
-**Trigger:** `/emotional-stakes-mapping`
+**Trigger:** `/s4h-emotional-stakes-mapping`
 
 ---
 

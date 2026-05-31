@@ -2,7 +2,7 @@
 
 > Every description of a situation is also an argument about it.
 
-**Trigger:** `/linguistics-framing`
+**Trigger:** `/s4h-linguistics-framing`
 
 ---
 
@@ -92,6 +92,6 @@ The reframe does not require Finance to abandon ROI logic. It redirects ROI anal
 
 ## Related skills
 
-- [`/linguistics-connotation`](connotation.md) — Audit the specific vocabulary within the new frame for hidden freight before adopting it
-- [`/communication-audience-modeling`](../communication/audience-modeling.md) — Test which frame will resonate with the specific audience you need to persuade
-- [`/narrative-frame-analysis`](../narrative/frame-analysis.md) — Extend the frame analysis into the full narrative structure of the communication
+- [`/s4h-linguistics-connotation`](connotation.md) — Audit the specific vocabulary within the new frame for hidden freight before adopting it
+- [`/s4h-communication-audience-modeling`](../communication/audience-modeling.md) — Test which frame will resonate with the specific audience you need to persuade
+- [`/s4h-narrative-frame-analysis`](../narrative/frame-analysis.md) — Extend the frame analysis into the full narrative structure of the communication

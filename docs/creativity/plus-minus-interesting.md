@@ -2,7 +2,7 @@
 
 > Evaluates any idea fairly — positives, negatives, and what's worth noticing — before accepting or rejecting it.
 
-**Trigger:** `/creativity-plus-minus-interesting`
+**Trigger:** `/s4h-creativity-plus-minus-interesting`
 
 ---
 

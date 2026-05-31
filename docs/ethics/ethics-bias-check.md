@@ -2,7 +2,7 @@
 
 > Evaluates an algorithm, model, or automated decision process for discriminatory patterns and unfair outcomes — before it ships.
 
-**Trigger:** `/ethics-bias-check`
+**Trigger:** `/s4h-ethics-bias-check`
 
 ---
 

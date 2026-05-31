@@ -37,14 +37,14 @@ The nearest-neighbor trap: **mindset is not motivation.** Motivation skills diag
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/mindset`** | Routes to the right mindset skill for your situation | Not sure which tool fits; describe your situation |
-| [`/mindset-stoic`](stoic.md) | Full Stoic toolkit: dichotomy of control, negative visualization, amor fati, memento mori, view from above | Worried about outcomes you can't control; want equanimity; facing adversity or loss |
-| [`/mindset-positive`](positive.md) | PERMA audit and targeted intervention for each dimension of flourishing | "I'm not thriving"; "something feels missing"; want to build wellbeing rather than fix distress |
-| [`/mindset-growth`](growth.md) | Identify fixed-mindset trigger, surface hidden belief, reframe, design the learning response | Treating failure as evidence about identity; avoiding challenges; hating not being good at things |
-| [`/mindset-reframe`](reframe.md) | Map the cognitive distortion and generate a more accurate interpretation | Stuck in a negative thought loop; catastrophizing; interpreting situations at their worst |
-| [`/mindset-flow`](flow.md) | Diagnose why flow isn't occurring and redesign conditions for optimal experience | Can't focus; want deep work; used to experience flow and have lost it |
+| **`/s4h-mindset`** | Routes to the right mindset skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-mindset-stoic`](stoic.md) | Full Stoic toolkit: dichotomy of control, negative visualization, amor fati, memento mori, view from above | Worried about outcomes you can't control; want equanimity; facing adversity or loss |
+| [`/s4h-mindset-positive`](positive.md) | PERMA audit and targeted intervention for each dimension of flourishing | "I'm not thriving"; "something feels missing"; want to build wellbeing rather than fix distress |
+| [`/s4h-mindset-growth`](growth.md) | Identify fixed-mindset trigger, surface hidden belief, reframe, design the learning response | Treating failure as evidence about identity; avoiding challenges; hating not being good at things |
+| [`/s4h-mindset-reframe`](reframe.md) | Map the cognitive distortion and generate a more accurate interpretation | Stuck in a negative thought loop; catastrophizing; interpreting situations at their worst |
+| [`/s4h-mindset-flow`](flow.md) | Diagnose why flow isn't occurring and redesign conditions for optimal experience | Can't focus; want deep work; used to experience flow and have lost it |
 
-**Not sure which tool?** → Invoke `/mindset` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-mindset` — it diagnoses your situation and picks the right skill.
 
 ---
 

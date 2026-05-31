@@ -2,7 +2,7 @@
 
 > Five independent ethical advisors, peer review, chair synthesis, HTML report. The full process for high-stakes decisions.
 
-**Trigger:** `/ethics-council`
+**Trigger:** `/s4h-ethics-council`
 
 ---
 

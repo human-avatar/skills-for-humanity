@@ -2,7 +2,7 @@
 
 > Identifies what recurring cycle the current situation is an instance of — and where in that cycle you currently are.
 
-**Trigger:** `/historical-cycle-detection`
+**Trigger:** `/s4h-historical-cycle-detection`
 
 ---
 

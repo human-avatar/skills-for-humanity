@@ -1,8 +1,8 @@
-# `/writing-inconsistency-audit`
+# `/s4h-writing-inconsistency-audit`
 
 > *One visible inconsistency tells the reader the author may have lost the thread. They spend the rest of the story half-watching for the next crack.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-inconsistency-audit`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-inconsistency-audit`
 
 ---
 
@@ -29,7 +29,7 @@ Runs four systematic passes across a manuscript — timeline, character logic, w
 
 **Don't use this when the "inconsistency" is intentional.** Unreliable narrators, deliberately distorted timelines, and stories where different accounts of the same event contradict each other are not inconsistencies — they are the story's mechanism. Before running an audit, identify which apparent inconsistencies are intentional. These should be excluded from the report.
 
-The nearest neighbor: [`/writing-pov`](pov.md) — which addresses a specific sub-category of inconsistency (narration accessing knowledge the POV character doesn't have) in more depth. If POV violations are the primary problem, use that skill; if you need a full four-category audit, use this one.
+The nearest neighbor: [`/s4h-writing-pov`](pov.md) — which addresses a specific sub-category of inconsistency (narration accessing knowledge the POV character doesn't have) in more depth. If POV violations are the primary problem, use that skill; if you need a full four-category audit, use this one.
 
 ---
 
@@ -120,6 +120,6 @@ The reader's concern is valid and the story-critical issue is in **Character Log
 
 ## Related skills
 
-- [`/writing-character-development`](character-development.md) — Establishes the character-logic baseline that the audit measures violations against
-- [`/writing-worldbuilding`](worldbuilding.md) — Establishes the world-rules baseline
-- [`/writing-pov`](pov.md) — Deeper analysis when POV violations are the primary issue
+- [`/s4h-writing-character-development`](character-development.md) — Establishes the character-logic baseline that the audit measures violations against
+- [`/s4h-writing-worldbuilding`](worldbuilding.md) — Establishes the world-rules baseline
+- [`/s4h-writing-pov`](pov.md) — Deeper analysis when POV violations are the primary issue

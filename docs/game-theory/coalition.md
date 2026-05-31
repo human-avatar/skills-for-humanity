@@ -1,8 +1,8 @@
-# `/game-theory-coalition`
+# `/s4h-game-theory-coalition`
 
 > *Fair isn't equal. Fair is proportional to what you contribute — on average, across every possible way the coalition could have formed.*
 
-**Category:** [Game Theory](README.md) · **Command:** `/game-theory-coalition` · **Source:** Lloyd Shapley (Shapley value, 1953; Nobel 2012)
+**Category:** [Game Theory](README.md) · **Command:** `/s4h-game-theory-coalition` · **Source:** Lloyd Shapley (Shapley value, 1953; Nobel 2012)
 
 ---
 
@@ -30,7 +30,7 @@ The two central questions: who should partner with whom, and how should the gain
 
 **Don't treat the Shapley value as the prediction of what will happen.** It is the *fair* allocation, not the *likely* allocation. Actual bargaining outcomes depend on negotiating skill, outside options, information asymmetries, timing, and power dynamics. Use the Shapley value as a reference point and legitimacy anchor — a number that no party can argue violates basic fairness — not as a prediction of what skilled negotiators will reach.
 
-The nearest neighbor: [`/strategy-alliance`](../strategy/alliance.md) — the strategic and contextual analysis of partnership decisions. Coalition analysis provides the formal structure; strategy provides the tactical wisdom for how to negotiate within it. Use both for high-stakes partnership decisions.
+The nearest neighbor: [`/s4h-strategy-alliance`](../strategy/alliance.md) — the strategic and contextual analysis of partnership decisions. Coalition analysis provides the formal structure; strategy provides the tactical wisdom for how to negotiate within it. Use both for high-stakes partnership decisions.
 
 ---
 
@@ -159,6 +159,6 @@ The {Priya, Marcus} coalition has high standalone value (35). Both players are i
 
 ## Related skills
 
-- [`/game-theory-mechanism-design`](mechanism-design.md) — designing the process for fair coalition negotiation
-- [`/strategy-alliance`](../strategy/alliance.md) — the strategic and contextual dimension of partnership decisions
-- [`/social-coalition-mapping`](../social/coalition-mapping.md) — the social and power dynamics of alliance building
+- [`/s4h-game-theory-mechanism-design`](mechanism-design.md) — designing the process for fair coalition negotiation
+- [`/s4h-strategy-alliance`](../strategy/alliance.md) — the strategic and contextual dimension of partnership decisions
+- [`/s4h-social-coalition-mapping`](../social/coalition-mapping.md) — the social and power dynamics of alliance building

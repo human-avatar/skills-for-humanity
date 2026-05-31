@@ -2,7 +2,7 @@
 
 > Finds or creates the tension that makes communication worth paying attention to.
 
-**Trigger:** `/narrative-tension-mapping`
+**Trigger:** `/s4h-narrative-tension-mapping`
 
 ---
 

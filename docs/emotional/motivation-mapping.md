@@ -2,7 +2,7 @@
 
 > Maps what genuinely drives someone — beyond stated reasons and job descriptions.
 
-**Trigger:** `/emotional-motivation-mapping`
+**Trigger:** `/s4h-emotional-motivation-mapping`
 
 ---
 

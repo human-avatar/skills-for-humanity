@@ -2,7 +2,7 @@
 
 > Make the implicit model explicit — then test it against reality before it costs you.
 
-**Trigger:** `/cognition-mental-models`
+**Trigger:** `/s4h-cognition-mental-models`
 
 ---
 
@@ -67,6 +67,6 @@ Surfaces the internal representations that drive perception and decision-making,
 
 ## Related skills
 
-- [`/cognition-metacognition`](metacognition.md) — after updating your model, monitor whether you're applying it accurately in real situations
-- [`/epistemology-justification`](../epistemology/justification.md) — examine whether the updated model's key claims are adequately supported by evidence
-- [`/systems-feedback-mapping`](../systems/feedback-mapping.md) — if the mental model involves a dynamic system, map the feedback loops to make the dynamics precise
+- [`/s4h-cognition-metacognition`](metacognition.md) — after updating your model, monitor whether you're applying it accurately in real situations
+- [`/s4h-epistemology-justification`](../epistemology/justification.md) — examine whether the updated model's key claims are adequately supported by evidence
+- [`/s4h-systems-feedback-mapping`](../systems/feedback-mapping.md) — if the mental model involves a dynamic system, map the feedback loops to make the dynamics precise

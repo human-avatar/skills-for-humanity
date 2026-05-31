@@ -2,7 +2,7 @@
 
 > Map what's capturing your focus, what's depleting it, and build structural defences — not just willpower.
 
-**Trigger:** `/cognition-attention`
+**Trigger:** `/s4h-cognition-attention`
 
 ---
 
@@ -68,6 +68,6 @@ The goal is not to become unavailable. It is to ensure that the most cognitively
 
 ## Related skills
 
-- [`/cognition-cognitive-load`](cognitive-load.md) — once attention is protected, manage the working memory demands within focus sessions
-- [`/mindset-flow`](../mindset/flow.md) — use the protected attention environment as the foundation for flow state design
-- [`/communication-medium-selection`](../communication/medium-selection.md) — reduce the attention cost of communication by choosing the right medium and response cadence
+- [`/s4h-cognition-cognitive-load`](cognitive-load.md) — once attention is protected, manage the working memory demands within focus sessions
+- [`/s4h-mindset-flow`](../mindset/flow.md) — use the protected attention environment as the foundation for flow state design
+- [`/s4h-communication-medium-selection`](../communication/medium-selection.md) — reduce the attention cost of communication by choosing the right medium and response cadence

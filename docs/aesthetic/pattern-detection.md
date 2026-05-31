@@ -2,7 +2,7 @@
 
 > Identifies the underlying formal pattern at work — because naming the pattern unlocks the playbook.
 
-**Trigger:** `/aesthetic-pattern-detection`
+**Trigger:** `/s4h-aesthetic-pattern-detection`
 
 ---
 

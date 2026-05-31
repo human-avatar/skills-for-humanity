@@ -2,7 +2,7 @@
 
 > The gap between what a word means and what it does is where most communication misfires originate.
 
-**Trigger:** `/linguistics-connotation`
+**Trigger:** `/s4h-linguistics-connotation`
 
 ---
 
@@ -74,6 +74,6 @@ Overall register: formal corporate, varying between legal-technical and euphemis
 
 ## Related skills
 
-- [`/linguistics-framing`](framing.md) — Surface the frame these word choices are activating; connotation and framing problems often co-occur
-- [`/linguistics-pragmatics`](pragmatics.md) — Analyze what the full text implies beyond what it says; connotation problems often generate unintended implicatures
-- [`/communication-clarity-audit`](../communication/clarity-audit.md) — Audit the text for comprehension failures alongside connotation issues
+- [`/s4h-linguistics-framing`](framing.md) — Surface the frame these word choices are activating; connotation and framing problems often co-occur
+- [`/s4h-linguistics-pragmatics`](pragmatics.md) — Analyze what the full text implies beyond what it says; connotation problems often generate unintended implicatures
+- [`/s4h-communication-clarity-audit`](../communication/clarity-audit.md) — Audit the text for comprehension failures alongside connotation issues

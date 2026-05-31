@@ -2,7 +2,7 @@
 
 > Audits a data collection, retention, or sharing decision against ethical standards — going beyond legal compliance.
 
-**Trigger:** `/ethics-data-audit`
+**Trigger:** `/s4h-ethics-data-audit`
 
 ---
 

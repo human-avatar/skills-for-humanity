@@ -2,7 +2,7 @@
 
 > Stop conflating confident with correct. Map what you actually know vs. believe vs. assume vs. hope.
 
-**Trigger:** `/epistemology-epistemic-status`
+**Trigger:** `/s4h-epistemology-epistemic-status`
 
 ---
 

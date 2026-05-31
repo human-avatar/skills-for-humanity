@@ -37,13 +37,13 @@ The nearest neighbor: [Systems](../systems/) — specifically leverage analysis,
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/resource`** | Routes to the right resource skill for your situation | Not sure which tool fits; describe your situation |
-| [`/resource-allocation-analysis`](allocation-analysis.md) | Distributes limited resources across competing needs explicitly | Competing priorities; "how do we split this?"; need visible trade-off decisions |
-| [`/resource-bottleneck-analysis`](bottleneck-analysis.md) | Finds what is actually constraining throughput | "Why are we moving slowly?"; work queuing up somewhere; theory of constraints |
-| [`/resource-leverage-mapping`](leverage-mapping.md) | Finds the highest-leverage use of available resources | "Where should we put our energy?"; want to maximize impact with what exists |
-| [`/resource-waste-audit`](waste-audit.md) | Finds where resources are being lost, duplicated, or underused | "Where are we wasting effort?"; output below what input would suggest |
+| **`/s4h-resource`** | Routes to the right resource skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-resource-allocation-analysis`](allocation-analysis.md) | Distributes limited resources across competing needs explicitly | Competing priorities; "how do we split this?"; need visible trade-off decisions |
+| [`/s4h-resource-bottleneck-analysis`](bottleneck-analysis.md) | Finds what is actually constraining throughput | "Why are we moving slowly?"; work queuing up somewhere; theory of constraints |
+| [`/s4h-resource-leverage-mapping`](leverage-mapping.md) | Finds the highest-leverage use of available resources | "Where should we put our energy?"; want to maximize impact with what exists |
+| [`/s4h-resource-waste-audit`](waste-audit.md) | Finds where resources are being lost, duplicated, or underused | "Where are we wasting effort?"; output below what input would suggest |
 
-**Not sure which tool?** → Invoke `/resource` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-resource` — it diagnoses your situation and picks the right skill.
 
 ---
 

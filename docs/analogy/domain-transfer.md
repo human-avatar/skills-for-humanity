@@ -2,7 +2,7 @@
 
 > Imports solutions from unrelated domains by finding structural similarities between your problem and solved problems elsewhere.
 
-**Trigger:** `/analogy-domain-transfer`
+**Trigger:** `/s4h-analogy-domain-transfer`
 
 ---
 

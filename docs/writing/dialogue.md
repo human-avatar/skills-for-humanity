@@ -1,8 +1,8 @@
-# `/writing-dialogue`
+# `/s4h-writing-dialogue`
 
 > *Real conversation is about what is not said. The subtext is the scene.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-dialogue`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-dialogue`
 
 ---
 
@@ -25,11 +25,11 @@ Analyses dialogue for surface vs. subtext goals, voice differentiation, expositi
 
 ## When *not* to use it
 
-**Don't use this when the scene structure is the problem.** If the scene lacks a goal, obstacle, and outcome, the dialogue inside it will be flat regardless of how good the individual lines are. Fix the scene structure first (see [`/writing-scene-construction`](scene-construction.md)), then apply dialogue repair.
+**Don't use this when the scene structure is the problem.** If the scene lacks a goal, obstacle, and outcome, the dialogue inside it will be flat regardless of how good the individual lines are. Fix the scene structure first (see [`/s4h-writing-scene-construction`](scene-construction.md)), then apply dialogue repair.
 
 **Don't use this to impose obliqueness for its own sake.** Subtext means the real stakes are present beneath the surface exchange — it does not mean the dialogue must be cryptic or obscure. Some moments require directness: confession, declaration, ultimatum. Not all on-the-nose dialogue is a failure. The question is whether the directness is earned by the scene's dramatic moment, or whether it is the writer's default mode.
 
-The nearest neighbor: [`/writing-character-development`](character-development.md) — which reveals why a character speaks the way they do. Voice differentiation problems are almost always character problems: if you don't know what a character can't say directly, can't ask for, can't admit, you don't yet know their voice. Fix the character first; the voice will follow.
+The nearest neighbor: [`/s4h-writing-character-development`](character-development.md) — which reveals why a character speaks the way they do. Voice differentiation problems are almost always character problems: if you don't know what a character can't say directly, can't ask for, can't admit, you don't yet know their voice. Fix the character first; the voice will follow.
 
 ---
 
@@ -123,6 +123,6 @@ The rewrite moves the subtext underground. Neither character names what they wan
 
 ## Related skills
 
-- [`/writing-scene-construction`](scene-construction.md) — Fix the scene's architecture before the dialogue inside it
-- [`/writing-character-development`](character-development.md) — Voice differentiation problems are character problems; build the character first
-- [`/writing-voice-consistency`](voice-consistency.md) — When a character's voice is inconsistent across the manuscript rather than within a single scene
+- [`/s4h-writing-scene-construction`](scene-construction.md) — Fix the scene's architecture before the dialogue inside it
+- [`/s4h-writing-character-development`](character-development.md) — Voice differentiation problems are character problems; build the character first
+- [`/s4h-writing-voice-consistency`](voice-consistency.md) — When a character's voice is inconsistent across the manuscript rather than within a single scene

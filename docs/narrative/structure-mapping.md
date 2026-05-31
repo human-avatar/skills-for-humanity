@@ -2,7 +2,7 @@
 
 > Applies story architecture to any communication — proposal, presentation, strategy doc — so it moves people rather than informing them.
 
-**Trigger:** `/narrative-structure-mapping`
+**Trigger:** `/s4h-narrative-structure-mapping`
 
 ---
 

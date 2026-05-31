@@ -2,7 +2,7 @@
 
 > Approaches a problem from completely different fields to break the assumption blindness that comes from domain expertise.
 
-**Trigger:** `/analogy-perspective-shifting`
+**Trigger:** `/s4h-analogy-perspective-shifting`
 
 ---
 

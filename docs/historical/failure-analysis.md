@@ -2,7 +2,7 @@
 
 > Extracts recurring failure modes from similar past situations — most failures have happened before.
 
-**Trigger:** `/historical-failure-analysis`
+**Trigger:** `/s4h-historical-failure-analysis`
 
 ---
 

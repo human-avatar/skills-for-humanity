@@ -2,7 +2,7 @@
 
 > Audits a communication for where the message will be lost, misread, or misunderstood — before it's sent.
 
-**Trigger:** `/communication-clarity-audit`
+**Trigger:** `/s4h-communication-clarity-audit`
 
 ---
 

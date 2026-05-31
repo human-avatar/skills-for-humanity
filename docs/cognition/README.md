@@ -28,9 +28,9 @@ The unifying principle: most cognitive failures are not failures of intelligence
 
 ## When *not* to reach for it
 
-**Don't use cognition tools when the problem is primarily emotional or motivational, not cognitive.** If you understand what to do perfectly well but can't bring yourself to do it, that is not a working memory problem or a metacognitive failure — it is a motivation or resistance problem. Reach for `/emotional-resistance-diagnosis` or `/psychology-behavior-change` instead.
+**Don't use cognition tools when the problem is primarily emotional or motivational, not cognitive.** If you understand what to do perfectly well but can't bring yourself to do it, that is not a working memory problem or a metacognitive failure — it is a motivation or resistance problem. Reach for `/s4h-emotional-resistance-diagnosis` or `/s4h-psychology-behavior-change` instead.
 
-**Cognition is not epistemology.** Cognition tools examine the mechanisms of thinking — how attention works, how models shape perception, how working memory operates. Epistemology examines the warrant for specific claims — whether a belief is adequately justified. If your question is "am I thinking well?" reach for cognition. If your question is "is this belief correct and well-supported?", reach for `/epistemology`.
+**Cognition is not epistemology.** Cognition tools examine the mechanisms of thinking — how attention works, how models shape perception, how working memory operates. Epistemology examines the warrant for specific claims — whether a belief is adequately justified. If your question is "am I thinking well?" reach for cognition. If your question is "is this belief correct and well-supported?", reach for `/s4h-epistemology`.
 
 The nearest neighbor: [Psychology](../psychology/) — which applies behavioural and cognitive frameworks to understand why people act as they do. Psychology is the right category when the question is about someone else's behaviour or about influence; cognition is the right category when the question is about the quality of your own thinking process.
 
@@ -40,13 +40,13 @@ The nearest neighbor: [Psychology](../psychology/) — which applies behavioural
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/cognition`** | Routes to the right cognition skill for your situation | Not sure which tool fits; describe your cognitive challenge |
-| [`/cognition-attention`](attention.md) | Maps the attention economy of a situation — threats, depletion sources, and structural defences | "I can't focus." "What's stealing my cognitive bandwidth?" "How do I protect deep work?" |
-| [`/cognition-mental-models`](mental-models.md) | Surfaces and audits the internal representations driving perception and decisions | "What assumptions am I making?" "I keep seeing this the same way." "What model is shaping this?" |
-| [`/cognition-metacognition`](metacognition.md) | Applies thinking-about-thinking — monitoring comprehension, calibrating confidence, knowing what you don't know | "How confident should I be?" "Am I actually understanding this?" "What don't I know that I should?" |
-| [`/cognition-cognitive-load`](cognitive-load.md) | Manages working memory limits — chunking, offloading, reducing extraneous complexity | "This is too much to hold in my head." "People aren't retaining this." "How do I simplify this without losing what matters?" |
+| **`/s4h-cognition`** | Routes to the right cognition skill for your situation | Not sure which tool fits; describe your cognitive challenge |
+| [`/s4h-cognition-attention`](attention.md) | Maps the attention economy of a situation — threats, depletion sources, and structural defences | "I can't focus." "What's stealing my cognitive bandwidth?" "How do I protect deep work?" |
+| [`/s4h-cognition-mental-models`](mental-models.md) | Surfaces and audits the internal representations driving perception and decisions | "What assumptions am I making?" "I keep seeing this the same way." "What model is shaping this?" |
+| [`/s4h-cognition-metacognition`](metacognition.md) | Applies thinking-about-thinking — monitoring comprehension, calibrating confidence, knowing what you don't know | "How confident should I be?" "Am I actually understanding this?" "What don't I know that I should?" |
+| [`/s4h-cognition-cognitive-load`](cognitive-load.md) | Manages working memory limits — chunking, offloading, reducing extraneous complexity | "This is too much to hold in my head." "People aren't retaining this." "How do I simplify this without losing what matters?" |
 
-**Not sure which tool?** → Invoke `/cognition` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-cognition` — it diagnoses your situation and picks the right skill.
 
 ---
 

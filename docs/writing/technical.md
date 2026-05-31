@@ -1,8 +1,8 @@
-# `/writing-technical`
+# `/s4h-writing-technical`
 
 > *The test is simple: can a reader with the assumed knowledge execute the task using only this document?*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-technical`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-technical`
 
 ---
 
@@ -29,7 +29,7 @@ Writes and audits technical documentation, API docs, user guides, and specificat
 
 **Don't use this when the product itself is not ready to document.** Documentation written for an unstable API will be wrong before it is published. If the implementation is still changing, the documentation work will compound. Write documentation when the interface is stable.
 
-The nearest neighbor: [`/writing-audience-calibration`](audience-calibration.md) — which profiles the assumed reader and identifies knowledge calibration failures. Audience calibration is the first and most important decision in technical writing; everything else depends on correctly identifying what the reader knows and doesn't know. For documentation calibration problems specifically, run audience-calibration first.
+The nearest neighbor: [`/s4h-writing-audience-calibration`](audience-calibration.md) — which profiles the assumed reader and identifies knowledge calibration failures. Audience calibration is the first and most important decision in technical writing; everything else depends on correctly identifying what the reader knows and doesn't know. For documentation calibration problems specifically, run audience-calibration first.
 
 ---
 
@@ -204,6 +204,6 @@ The rewrite adds: the missing steps 2 and 3, a concrete example for every reques
 
 ## Related skills
 
-- [`/writing-audience-calibration`](audience-calibration.md) — Profile the assumed reader before writing; all other decisions depend on this
-- [`/writing-restructure`](restructure.md) — Documentation often needs reordering, especially moving prerequisites before the steps that need them
-- [`/writing-line-editing`](line-editing.md) — Technical writing often suffers from passive voice and nominalisation; final pass after content is complete
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — Profile the assumed reader before writing; all other decisions depend on this
+- [`/s4h-writing-restructure`](restructure.md) — Documentation often needs reordering, especially moving prerequisites before the steps that need them
+- [`/s4h-writing-line-editing`](line-editing.md) — Technical writing often suffers from passive voice and nominalisation; final pass after content is complete

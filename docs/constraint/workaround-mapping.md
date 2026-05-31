@@ -2,7 +2,7 @@
 
 > Finds paths around a fixed constraint without removing it — routing around a hard limit to reach the same goal.
 
-**Trigger:** `/constraint-workaround-mapping`
+**Trigger:** `/s4h-constraint-workaround-mapping`
 
 ---
 

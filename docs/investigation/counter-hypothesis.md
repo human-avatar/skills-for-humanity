@@ -2,7 +2,7 @@
 
 > Generate the best alternative explanations for the same observations — then identify the test that would distinguish them.
 
-**Trigger:** `/investigation-counter-hypothesis`
+**Trigger:** `/s4h-investigation-counter-hypothesis`
 
 ---
 

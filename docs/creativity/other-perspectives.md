@@ -2,7 +2,7 @@
 
 > Thinks genuinely from other people's positions — not sentiment, but structured reasoning from within someone else's situation.
 
-**Trigger:** `/creativity-other-perspectives`
+**Trigger:** `/s4h-creativity-other-perspectives`
 
 ---
 

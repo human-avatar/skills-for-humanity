@@ -2,7 +2,7 @@
 
 > Maps who holds formal authority, informal influence, gatekeeping power, and expertise power.
 
-**Trigger:** `/social-power-mapping`
+**Trigger:** `/s4h-social-power-mapping`
 
 ---
 

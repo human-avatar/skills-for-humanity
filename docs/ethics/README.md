@@ -37,18 +37,18 @@ The nearest neighbor: [Identity](../identity/) — which tests whether something
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/ethics`** | Routes to the right ethics skill for your situation | Not sure which tool fits; describe your situation |
-| [`/ethics-council`](ethics-council.md) | Full 5-framework council with peer review and HTML report | High-stakes decision; multiple stakeholders; want thorough, documented analysis |
-| [`/ethics-check`](ethics-check.md) | Fast comprehensive ethics report across all 5 frameworks | Need a complete ethical assessment quickly; lighter than the full council |
-| [`/ethics-crisis-triage`](ethics-crisis-triage.md) | Rapid ethical response to an active incident | Something has already gone wrong; need ethical clarity under pressure |
-| [`/ethics-data-audit`](ethics-data-audit.md) | Audits data collection and sharing against ethical standards | Changing data models, retention policy, or sharing agreements |
-| [`/ethics-bias-check`](ethics-bias-check.md) | Evaluates algorithms and models for discriminatory patterns | Any ML model, ranking, scoring, or automated decision system |
-| [`/ethics-consent-review`](ethics-consent-review.md) | Reviews UX flows for genuine (not checkbox) consent | Checkout flows, onboarding, notification settings, permissions, dark patterns |
-| [`/ethics-impact-scan`](ethics-impact-scan.md) | Quick pre-ship impact assessment | About to ship; want to surface obvious ethical problems before they're embedded |
-| [`/ethics-vendor-review`](ethics-vendor-review.md) | Evaluates vendors and partners against ethical standards | Evaluating a new supplier, SaaS tool, API, or partnership |
-| [`/ethics-empathy-circle`](ethics-empathy-circle.md) | Applies Lanier's Circle of Empathy to determine which entities deserve moral consideration | AI personhood; "does this system deserve rights?"; human downgrading; category errors |
+| **`/s4h-ethics`** | Routes to the right ethics skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-ethics-council`](ethics-council.md) | Full 5-framework council with peer review and HTML report | High-stakes decision; multiple stakeholders; want thorough, documented analysis |
+| [`/s4h-ethics-check`](ethics-check.md) | Fast comprehensive ethics report across all 5 frameworks | Need a complete ethical assessment quickly; lighter than the full council |
+| [`/s4h-ethics-crisis-triage`](ethics-crisis-triage.md) | Rapid ethical response to an active incident | Something has already gone wrong; need ethical clarity under pressure |
+| [`/s4h-ethics-data-audit`](ethics-data-audit.md) | Audits data collection and sharing against ethical standards | Changing data models, retention policy, or sharing agreements |
+| [`/s4h-ethics-bias-check`](ethics-bias-check.md) | Evaluates algorithms and models for discriminatory patterns | Any ML model, ranking, scoring, or automated decision system |
+| [`/s4h-ethics-consent-review`](ethics-consent-review.md) | Reviews UX flows for genuine (not checkbox) consent | Checkout flows, onboarding, notification settings, permissions, dark patterns |
+| [`/s4h-ethics-impact-scan`](ethics-impact-scan.md) | Quick pre-ship impact assessment | About to ship; want to surface obvious ethical problems before they're embedded |
+| [`/s4h-ethics-vendor-review`](ethics-vendor-review.md) | Evaluates vendors and partners against ethical standards | Evaluating a new supplier, SaaS tool, API, or partnership |
+| [`/s4h-ethics-empathy-circle`](ethics-empathy-circle.md) | Applies Lanier's Circle of Empathy to determine which entities deserve moral consideration | AI personhood; "does this system deserve rights?"; human downgrading; category errors |
 
-**Not sure which tool?** → Invoke `/ethics` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-ethics` — it diagnoses your situation and picks the right skill.
 
 ---
 

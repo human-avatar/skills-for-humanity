@@ -2,7 +2,7 @@
 
 > Surfaces the actual operative values revealed by decisions — distinguishing what is stated from what behavior reveals.
 
-**Trigger:** `/identity-values-clarification`
+**Trigger:** `/s4h-identity-values-clarification`
 
 ---
 

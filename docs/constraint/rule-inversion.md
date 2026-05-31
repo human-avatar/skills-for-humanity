@@ -2,7 +2,7 @@
 
 > Flips a constraint into a creative driver — uses the limit as the generative force rather than working around it.
 
-**Trigger:** `/constraint-rule-inversion`
+**Trigger:** `/s4h-constraint-rule-inversion`
 
 ---
 

@@ -1,8 +1,8 @@
-# `/writing-character-development`
+# `/s4h-writing-character-development`
 
 > *Flat characters come from describing traits. Compelling characters come from engineering contradictions.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-character-development`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-character-development`
 
 ---
 
@@ -28,7 +28,7 @@ Maps the psychological architecture of a character — want vs. need, wound, def
 
 **Don't use this as a character biography tool.** This skill is not about backstory, timeline, or life history — it is about the psychological mechanism that produces behaviour. A character profile with a rich backstory but no wound-and-defence structure will still produce flat characters on the page. The point is the *engine*, not the history.
 
-The nearest neighbor: [`/writing-arc-design`](arc-design.md) — which addresses how the character's internal change maps to the plot's external structure. Use character-development to build the character profile; use arc-design to map how that psychology is transformed by the story's events.
+The nearest neighbor: [`/s4h-writing-arc-design`](arc-design.md) — which addresses how the character's internal change maps to the plot's external structure. Use character-development to build the character profile; use arc-design to map how that psychology is transformed by the story's events.
 
 ---
 
@@ -71,7 +71,7 @@ The defence has a tell: when someone expresses care for her, Senna redirects imm
 
 ## Related skills
 
-- [`/writing-arc-design`](arc-design.md) — Map how this character's wound and defence transform across the story's events
-- [`/writing-inconsistency-audit`](inconsistency-audit.md) — Flag character-logic violations throughout the manuscript
-- [`/writing-dialogue`](dialogue.md) — Voice flows from character; the wound shapes what a character can and cannot say directly
-- [`/writing-scene-construction`](scene-construction.md) — Deploy the behavioural tells in specific scenes
+- [`/s4h-writing-arc-design`](arc-design.md) — Map how this character's wound and defence transform across the story's events
+- [`/s4h-writing-inconsistency-audit`](inconsistency-audit.md) — Flag character-logic violations throughout the manuscript
+- [`/s4h-writing-dialogue`](dialogue.md) — Voice flows from character; the wound shapes what a character can and cannot say directly
+- [`/s4h-writing-scene-construction`](scene-construction.md) — Deploy the behavioural tells in specific scenes

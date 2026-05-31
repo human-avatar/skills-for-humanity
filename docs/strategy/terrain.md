@@ -1,8 +1,8 @@
-# `/strategy-terrain`
+# `/s4h-strategy-terrain`
 
 > *He who occupies the ground first and awaits the enemy is at ease; he who comes later and hastens to fight is weary.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-terrain` · **Source:** Sun Tzu, *The Art of War*, Books X–XI
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-terrain` · **Source:** Sun Tzu, *The Art of War*, Books X–XI
 
 ---
 
@@ -28,7 +28,7 @@ The framework draws on Sun Tzu's taxonomy of terrain and situations, applied to 
 
 **Don't use terrain analysis as a reason to avoid necessary fights.** The discipline of naming dangerous ground is valuable; using it to rationalize avoidance of every difficult contest is not. Some high-value positions are contested. The analysis tells you what contesting them will cost — it doesn't automatically advise against it. If the position is valuable enough and the investment required is acceptable, contested ground is worth fighting for.
 
-**Don't confuse terrain with tactics.** Terrain analysis tells you where to play; it doesn't tell you how to win once you've chosen the ground. The nearest neighbor: `/strategy-positioning` — which answers how to build an unassailable position on the ground you've chosen. Run terrain first to pick the ground, then positioning to make it yours.
+**Don't confuse terrain with tactics.** Terrain analysis tells you where to play; it doesn't tell you how to win once you've chosen the ground. The nearest neighbor: `/s4h-strategy-positioning` — which answers how to build an unassailable position on the ground you've chosen. Run terrain first to pick the ground, then positioning to make it yours.
 
 ---
 
@@ -91,7 +91,7 @@ Taking Asana's position would require matching their brand, compliance, procurem
 
 ## Related skills
 
-- [`/strategy-intelligence`](intelligence.md) — Audit what you actually know vs. assume about competitor positions before finalizing the terrain map
-- [`/strategy-positioning`](positioning.md) — Once you've chosen the ground, build the unassailable position on it
-- [`/strategy-victory`](victory.md) — Define what winning means before terrain analysis, so you know which ground is actually worth fighting for
-- [`/strategy-timing`](timing.md) — Some terrain becomes favorable only at a specific moment; timing analysis pairs with terrain to identify when to move
+- [`/s4h-strategy-intelligence`](intelligence.md) — Audit what you actually know vs. assume about competitor positions before finalizing the terrain map
+- [`/s4h-strategy-positioning`](positioning.md) — Once you've chosen the ground, build the unassailable position on it
+- [`/s4h-strategy-victory`](victory.md) — Define what winning means before terrain analysis, so you know which ground is actually worth fighting for
+- [`/s4h-strategy-timing`](timing.md) — Some terrain becomes favorable only at a specific moment; timing analysis pairs with terrain to identify when to move

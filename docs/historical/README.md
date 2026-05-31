@@ -36,13 +36,13 @@ The nearest neighbor: [Analogy](../analogy/) — which imports mechanisms from o
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/historical`** | Routes to the right historical skill for your situation | Not sure which tool fits; describe your situation |
-| [`/historical-cycle-detection`](cycle-detection.md) | Identifies what recurring cycle this is and where in it you are | "Is this a bubble?" "Have we been here before?" "What comes next?" |
-| [`/historical-failure-analysis`](failure-analysis.md) | Extracts recurring failure modes from similar past situations | "What usually goes wrong with this?" "How do these typically fail?" |
-| [`/historical-lesson-extraction`](lesson-extraction.md) | Extracts the transferable principle from a specific case | Have a specific historical case; want the structural principle, not the surface story |
-| [`/historical-precedent-analysis`](precedent-analysis.md) | Finds genuinely similar historical situations to inform a decision | "Has this happened before?" "What did others do in this situation?" |
+| **`/s4h-historical`** | Routes to the right historical skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-historical-cycle-detection`](cycle-detection.md) | Identifies what recurring cycle this is and where in it you are | "Is this a bubble?" "Have we been here before?" "What comes next?" |
+| [`/s4h-historical-failure-analysis`](failure-analysis.md) | Extracts recurring failure modes from similar past situations | "What usually goes wrong with this?" "How do these typically fail?" |
+| [`/s4h-historical-lesson-extraction`](lesson-extraction.md) | Extracts the transferable principle from a specific case | Have a specific historical case; want the structural principle, not the surface story |
+| [`/s4h-historical-precedent-analysis`](precedent-analysis.md) | Finds genuinely similar historical situations to inform a decision | "Has this happened before?" "What did others do in this situation?" |
 
-**Not sure which tool?** → Invoke `/historical` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-historical` — it diagnoses your situation and picks the right skill.
 
 ---
 

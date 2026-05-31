@@ -2,7 +2,7 @@
 
 > Each new user either makes the product better for everyone — or doesn't. That difference is everything.
 
-**Trigger:** `/network-effects`
+**Trigger:** `/s4h-network-effects`
 
 ---
 
@@ -89,6 +89,6 @@ Competitive threat from the new entrant: they do not need to displace you in Man
 
 ## Related skills
 
-- [`/network-contagion`](contagion.md) — model the adoption spread path within a target vertical and identify the tipping cascade trigger
-- [`/strategy-positioning`](../strategy/positioning.md) — translate the network moat and vertical tipping analysis into a competitive positioning strategy
-- [`/decision-reversibility-analysis`](../decision/reversibility-analysis.md) — assess the reversibility of committing resources to tip a specific vertical before the network effect is confirmed
+- [`/s4h-network-contagion`](contagion.md) — model the adoption spread path within a target vertical and identify the tipping cascade trigger
+- [`/s4h-strategy-positioning`](../strategy/positioning.md) — translate the network moat and vertical tipping analysis into a competitive positioning strategy
+- [`/s4h-decision-reversibility-analysis`](../decision/reversibility-analysis.md) — assess the reversibility of committing resources to tip a specific vertical before the network effect is confirmed

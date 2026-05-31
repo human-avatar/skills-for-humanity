@@ -1,8 +1,8 @@
-# `/writing-copy`
+# `/s4h-writing-copy`
 
 > *Copy fails when it describes the product rather than the reader's experience of having it.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-copy`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-copy`
 
 ---
 
@@ -29,7 +29,7 @@ Writes and audits marketing copy, landing pages, ad copy, email copy, and produc
 
 **Don't use this when the product itself is the problem.** If conversion is low because the product doesn't solve the reader's actual problem, no amount of copy improvement will fix it. Copy amplifies the offer; it cannot create one. If the product-market fit is uncertain, fix that first.
 
-The nearest neighbor: [`/writing-audience-calibration`](audience-calibration.md) — which profiles the specific reader the copy must reach. Generic copy that speaks to everyone reaches no one. The most effective copy improvement is often not the headline rewrite — it is correctly identifying who the reader is and what they specifically fear or want, which then makes the headline rewrite obvious.
+The nearest neighbor: [`/s4h-writing-audience-calibration`](audience-calibration.md) — which profiles the specific reader the copy must reach. Generic copy that speaks to everyone reaches no one. The most effective copy improvement is often not the headline rewrite — it is correctly identifying who the reader is and what they specifically fear or want, which then makes the headline rewrite obvious.
 
 ---
 
@@ -124,6 +124,6 @@ Specificity (free trial), friction removal (no credit card), low investment sign
 
 ## Related skills
 
-- [`/writing-audience-calibration`](audience-calibration.md) — Profile the specific reader; the headline rewrite becomes obvious once you know exactly who you're speaking to
-- [`/writing-argument`](argument.md) — For long-form sales pages where the copy is structured as an argument
-- [`/writing-tone-alignment`](tone-alignment.md) — When copy spans multiple formats and needs consistent register
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — Profile the specific reader; the headline rewrite becomes obvious once you know exactly who you're speaking to
+- [`/s4h-writing-argument`](argument.md) — For long-form sales pages where the copy is structured as an argument
+- [`/s4h-writing-tone-alignment`](tone-alignment.md) — When copy spans multiple formats and needs consistent register

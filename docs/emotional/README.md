@@ -37,13 +37,13 @@ The nearest neighbor: [Social](../social/) — which maps organizational power, 
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/emotional`** | Routes to the right emotional skill for your situation | Not sure which tool fits; describe your situation |
-| [`/emotional-motivation-mapping`](motivation-mapping.md) | Maps what genuinely drives someone beyond their stated role | Behavior is hard to predict; incentives seem misaligned; "why are they doing this?" |
-| [`/emotional-resistance-diagnosis`](resistance-diagnosis.md) | Diagnoses the source of resistance — not just its existence | People won't get on board; pushback that feels emotional rather than logical |
-| [`/emotional-stakes-mapping`](stakes-mapping.md) | Finds what stakeholders actually care about under their stated position | Negotiation is stuck; agreement is fragile; "what do they actually want?" |
-| [`/emotional-trust-audit`](trust-audit.md) | Maps what is building and eroding trust in a relationship | Trust has broken down; relationship needs repair; "why don't they trust us?" |
+| **`/s4h-emotional`** | Routes to the right emotional skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-emotional-motivation-mapping`](motivation-mapping.md) | Maps what genuinely drives someone beyond their stated role | Behavior is hard to predict; incentives seem misaligned; "why are they doing this?" |
+| [`/s4h-emotional-resistance-diagnosis`](resistance-diagnosis.md) | Diagnoses the source of resistance — not just its existence | People won't get on board; pushback that feels emotional rather than logical |
+| [`/s4h-emotional-stakes-mapping`](stakes-mapping.md) | Finds what stakeholders actually care about under their stated position | Negotiation is stuck; agreement is fragile; "what do they actually want?" |
+| [`/s4h-emotional-trust-audit`](trust-audit.md) | Maps what is building and eroding trust in a relationship | Trust has broken down; relationship needs repair; "why don't they trust us?" |
 
-**Not sure which tool?** → Invoke `/emotional` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-emotional` — it diagnoses your situation and picks the right skill.
 
 ---
 

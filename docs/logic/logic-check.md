@@ -2,7 +2,7 @@
 
 > Fast, comprehensive logic report — premises, inference, fallacies, hidden assumptions, verdict.
 
-**Trigger:** `/logic-check`
+**Trigger:** `/s4h-logic-check`
 
 ---
 

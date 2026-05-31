@@ -36,13 +36,13 @@ The nearest neighbor: [Historical](../historical/) — which finds precedents fr
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/analogy`** | Routes to the right analogy skill for your situation | Not sure which tool fits; describe your situation |
-| [`/analogy-boundary-testing`](boundary-testing.md) | Finds where an analogy breaks down before it's relied upon | You're using a comparison to make a decision and want to know where it fails |
-| [`/analogy-domain-transfer`](domain-transfer.md) | Imports solutions from structurally similar problems in other fields | You're stuck; you want to find who's solved something like this elsewhere |
-| [`/analogy-perspective-shifting`](perspective-shifting.md) | Approaches a problem through a completely different field's lens | You need outside eyes; your domain expertise may be creating blind spots |
-| [`/analogy-structure-mapping`](structure-mapping.md) | Tests the genuine structural correspondence between two situations | You want to know if an analogy actually holds at the level that matters |
+| **`/s4h-analogy`** | Routes to the right analogy skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-analogy-boundary-testing`](boundary-testing.md) | Finds where an analogy breaks down before it's relied upon | You're using a comparison to make a decision and want to know where it fails |
+| [`/s4h-analogy-domain-transfer`](domain-transfer.md) | Imports solutions from structurally similar problems in other fields | You're stuck; you want to find who's solved something like this elsewhere |
+| [`/s4h-analogy-perspective-shifting`](perspective-shifting.md) | Approaches a problem through a completely different field's lens | You need outside eyes; your domain expertise may be creating blind spots |
+| [`/s4h-analogy-structure-mapping`](structure-mapping.md) | Tests the genuine structural correspondence between two situations | You want to know if an analogy actually holds at the level that matters |
 
-**Not sure which tool?** → Invoke `/analogy` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-analogy` — it diagnoses your situation and picks the right skill.
 
 ---
 

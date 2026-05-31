@@ -28,11 +28,11 @@ The practical power of evolutionary thinking is its ability to explain persisten
 
 ## When *not* to reach for it
 
-**Don't use evolutionary tools for single-decision problems where the population logic doesn't apply.** If you're making one choice at one moment — which vendor to hire, which campaign to run — the answer is not found by asking what selection would favour over time. Use `/decision` for single-player choices under uncertainty, or `/probability` for single-event estimation. Evolutionary tools are for understanding the trajectory of populations across time, not optimising one decision.
+**Don't use evolutionary tools for single-decision problems where the population logic doesn't apply.** If you're making one choice at one moment — which vendor to hire, which campaign to run — the answer is not found by asking what selection would favour over time. Use `/s4h-decision` for single-player choices under uncertainty, or `/s4h-probability` for single-event estimation. Evolutionary tools are for understanding the trajectory of populations across time, not optimising one decision.
 
 **Evolution does not imply progress.** The most common misapplication of evolutionary thinking is to assume that what survives is better in some objective sense. It is not — it is better *for this environment, now*. Highly adapted strategies become vulnerabilities when the environment shifts; diversity maintained by a fluctuating environment may look like inefficiency under a stable one. Don't use evolutionary analysis to justify current outcomes as optimal — use it to understand what the current environment is selecting for, and whether that is what you want to be selecting for.
 
-The nearest neighbor: [Systems](../systems/) — for understanding the feedback loops that *are* the selection environment. Systems thinking asks how the environment works; evolutionary thinking asks what that environment selects for. Use them together: map the feedback loops with `/systems`, then apply `/evolution` to understand what the system produces over time.
+The nearest neighbor: [Systems](../systems/) — for understanding the feedback loops that *are* the selection environment. Systems thinking asks how the environment works; evolutionary thinking asks what that environment selects for. Use them together: map the feedback loops with `/s4h-systems`, then apply `/s4h-evolution` to understand what the system produces over time.
 
 ---
 
@@ -40,13 +40,13 @@ The nearest neighbor: [Systems](../systems/) — for understanding the feedback 
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/evolution`** | Routes to the right evolution skill for your situation | Not sure which tool fits; describe your situation |
-| [`/evolution-variation-selection`](variation-selection.md) | Maps what varies, what selection pressures are active, and how the population shifts over time | "What gets selected for?"; "Why do some strategies persist and others die out?"; population dynamics |
-| [`/evolution-niche`](niche.md) | Maps competitive space, niche overlap, and where differentiation enables coexistence or displacement | "What niche are we in?"; "Are we too similar to our competitors?"; competitive exclusion risk |
-| [`/evolution-fitness-landscape`](fitness-landscape.md) | Maps the solution space as peaks and valleys — where you are, whether you're stuck, and what valley-crossing would require | "Are we at a local maximum?"; "Why isn't incremental improvement working?"; path dependence |
-| [`/evolution-arms-race`](arms-race.md) | Analyses coevolutionary escalation — when parties adapt to each other in cycles that may help neither | "We keep one-upping each other"; escalation spirals; Red Queen dynamics |
+| **`/s4h-evolution`** | Routes to the right evolution skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-evolution-variation-selection`](variation-selection.md) | Maps what varies, what selection pressures are active, and how the population shifts over time | "What gets selected for?"; "Why do some strategies persist and others die out?"; population dynamics |
+| [`/s4h-evolution-niche`](niche.md) | Maps competitive space, niche overlap, and where differentiation enables coexistence or displacement | "What niche are we in?"; "Are we too similar to our competitors?"; competitive exclusion risk |
+| [`/s4h-evolution-fitness-landscape`](fitness-landscape.md) | Maps the solution space as peaks and valleys — where you are, whether you're stuck, and what valley-crossing would require | "Are we at a local maximum?"; "Why isn't incremental improvement working?"; path dependence |
+| [`/s4h-evolution-arms-race`](arms-race.md) | Analyses coevolutionary escalation — when parties adapt to each other in cycles that may help neither | "We keep one-upping each other"; escalation spirals; Red Queen dynamics |
 
-**Not sure which tool?** → Invoke `/evolution` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-evolution` — it diagnoses your situation and picks the right skill.
 
 ---
 

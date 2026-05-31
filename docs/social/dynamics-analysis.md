@@ -2,7 +2,7 @@
 
 > Identifies the group psychology shaping a team or discussion.
 
-**Trigger:** `/social-dynamics-analysis`
+**Trigger:** `/s4h-social-dynamics-analysis`
 
 ---
 

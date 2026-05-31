@@ -2,7 +2,7 @@
 
 > Removes or inverts the main constraint to see what becomes possible — then uses those unconstrained solutions to find real ones.
 
-**Trigger:** `/play-constraint-inversion`
+**Trigger:** `/s4h-play-constraint-inversion`
 
 ---
 

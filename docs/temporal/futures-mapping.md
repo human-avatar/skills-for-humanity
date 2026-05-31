@@ -2,7 +2,7 @@
 
 > Explores possible, probable, and preferable futures using scenario thinking.
 
-**Trigger:** `/temporal-futures-mapping`
+**Trigger:** `/s4h-temporal-futures-mapping`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Maps the reinforcing and balancing feedback loops that drive behavior in a system.
 
-**Trigger:** `/systems-feedback-mapping`
+**Trigger:** `/s4h-systems-feedback-mapping`
 
 ---
 

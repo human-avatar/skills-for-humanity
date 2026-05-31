@@ -2,7 +2,7 @@
 
 > Maps what is building and eroding trust in a relationship or situation — trust degrades silently until it fails loudly.
 
-**Trigger:** `/emotional-trust-audit`
+**Trigger:** `/s4h-emotional-trust-audit`
 
 ---
 

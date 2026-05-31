@@ -1,8 +1,8 @@
-# `/writing-rhetoric`
+# `/s4h-writing-rhetoric`
 
 > *Rhetoric asks not what a piece says, but what it is doing. The frame often does more work than the argument.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-rhetoric`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-rhetoric`
 
 ---
 
@@ -27,9 +27,9 @@ Analyses the rhetorical situation of a piece of writing — speaker, audience, p
 
 **Don't use this to dismiss arguments by calling them "rhetoric."** Rhetoric analysis is descriptive, not automatically pejorative. All effective communication involves rhetorical choices. The question this skill answers is whether the rhetorical choices are honest and proportionate — whether they serve the argument or substitute for it. A finding that a speech uses pathos is not a finding that the speech is wrong.
 
-**Don't use this as a substitute for argument analysis.** Rhetoric analysis surfaces what a piece is doing; argument analysis evaluates whether the logic is sound. A rhetorically sophisticated piece may also be logically valid, and a rhetorically clumsy piece may be entirely correct. For the logical assessment, use [`/writing-argument`](argument.md). These two skills are complementary, not redundant.
+**Don't use this as a substitute for argument analysis.** Rhetoric analysis surfaces what a piece is doing; argument analysis evaluates whether the logic is sound. A rhetorically sophisticated piece may also be logically valid, and a rhetorically clumsy piece may be entirely correct. For the logical assessment, use [`/s4h-writing-argument`](argument.md). These two skills are complementary, not redundant.
 
-The nearest neighbor: [`/writing-argument`](argument.md) — which asks "is the argument sound?" while rhetoric asks "what is the argument doing?" Use rhetoric first to surface the frame and identify what is being argued implicitly; then use argument to evaluate the explicit case. In combination they give the fullest picture.
+The nearest neighbor: [`/s4h-writing-argument`](argument.md) — which asks "is the argument sound?" while rhetoric asks "what is the argument doing?" Use rhetoric first to surface the frame and identify what is being argued implicitly; then use argument to evaluate the explicit case. In combination they give the fullest picture.
 
 ---
 
@@ -111,6 +111,6 @@ The most significant finding: the binary ("stand with us or surrender") is the s
 
 ## Related skills
 
-- [`/writing-argument`](argument.md) — Evaluate the logical soundness of the explicit argument; use rhetoric and argument together for a complete analysis
-- [`/writing-audience-calibration`](audience-calibration.md) — Understanding who the intended audience is and what assumptions they hold; rhetorical analysis often reveals the intended audience is different from the stated one
+- [`/s4h-writing-argument`](argument.md) — Evaluate the logical soundness of the explicit argument; use rhetoric and argument together for a complete analysis
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — Understanding who the intended audience is and what assumptions they hold; rhetorical analysis often reveals the intended audience is different from the stated one
 - [logic-argument-validation](../logic/) — For formal logical structure when the rhetorical analysis reveals argument problems requiring rigorous audit

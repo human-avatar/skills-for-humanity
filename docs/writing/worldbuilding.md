@@ -1,8 +1,8 @@
-# `/writing-worldbuilding`
+# `/s4h-writing-worldbuilding`
 
 > *A described world tells you what things are. An inhabited world shows you what it costs to live there.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-worldbuilding`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-worldbuilding`
 
 ---
 
@@ -29,7 +29,7 @@ Audits a fictional world across five dimensions — rules, history, economy, tex
 
 **Don't use this to build a world for its own sake.** Worldbuilding that is not in service of story is a displacement activity — a form of creative work that feels productive without moving the project forward. The central question is always: does the world create the story's conflict? If you're building cities, customs, and taxonomies that have no function in the plot, the audit will be redundant because the world itself is a distraction.
 
-The nearest neighbor: [`/writing-inconsistency-audit`](inconsistency-audit.md) — which catches violations of the world's established rules throughout the manuscript. Worldbuilding establishes the rules; inconsistency audit catches where they're broken. Use worldbuilding first to establish the baseline, then inconsistency audit to verify it holds.
+The nearest neighbor: [`/s4h-writing-inconsistency-audit`](inconsistency-audit.md) — which catches violations of the world's established rules throughout the manuscript. Worldbuilding establishes the rules; inconsistency audit catches where they're broken. Use worldbuilding first to establish the baseline, then inconsistency audit to verify it holds.
 
 ---
 
@@ -119,6 +119,6 @@ The chain: Callum Station is a corporate colony with no democratic governance (w
 
 ## Related skills
 
-- [`/writing-inconsistency-audit`](inconsistency-audit.md) — Once world rules are established, audit for violations throughout the manuscript
-- [`/writing-character-development`](character-development.md) — Characters are produced by their world; Tova's psychology should reflect Callum Station's conditions
-- [`/writing-scene-construction`](scene-construction.md) — Deploy world texture at the scene level through specific sensory grounding
+- [`/s4h-writing-inconsistency-audit`](inconsistency-audit.md) — Once world rules are established, audit for violations throughout the manuscript
+- [`/s4h-writing-character-development`](character-development.md) — Characters are produced by their world; Tova's psychology should reflect Callum Station's conditions
+- [`/s4h-writing-scene-construction`](scene-construction.md) — Deploy world texture at the scene level through specific sensory grounding

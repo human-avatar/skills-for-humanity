@@ -2,7 +2,7 @@
 
 > Your closest contacts share your blind spots. Your loose connections don't.
 
-**Trigger:** `/network-weak-ties`
+**Trigger:** `/s4h-network-weak-ties`
 
 ---
 
@@ -77,6 +77,6 @@ Four dense clusters identified, defined by practice area and physical/calendar p
 
 ## Related skills
 
-- [`/network-centrality`](centrality.md) — identify the brokers in this network by betweenness centrality score, and assess how fragile the current bridges are
-- [`/network-contagion`](contagion.md) — model how knowledge, practices, or proposals would spread given the current bridge structure — and what changes once holes are closed
-- [`/social-coalition-mapping`](../social/coalition-mapping.md) — use the structural hole map to build a deliberate coalition across the gaps for a specific pitch or initiative
+- [`/s4h-network-centrality`](centrality.md) — identify the brokers in this network by betweenness centrality score, and assess how fragile the current bridges are
+- [`/s4h-network-contagion`](contagion.md) — model how knowledge, practices, or proposals would spread given the current bridge structure — and what changes once holes are closed
+- [`/s4h-social-coalition-mapping`](../social/coalition-mapping.md) — use the structural hole map to build a deliberate coalition across the gaps for a specific pitch or initiative

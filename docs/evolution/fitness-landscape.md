@@ -1,8 +1,8 @@
-# `/evolution-fitness-landscape`
+# `/s4h-evolution-fitness-landscape`
 
 > *Gradient-following finds local peaks. The global optimum may require crossing a valley — and valleys are dangerous.*
 
-**Trigger:** `/evolution-fitness-landscape`
+**Trigger:** `/s4h-evolution-fitness-landscape`
 
 ---
 
@@ -26,11 +26,11 @@ Stephen Jay Gould's work on contingency enriches the analysis: where a lineage e
 
 ## When *not* to use it
 
-**Don't use fitness landscape analysis when the landscape is smooth.** If there is clearly one best solution and incremental improvement reliably approaches it, the metaphor adds no insight. The tool earns its value in rugged landscapes — where multiple local optima exist and path dependence is real. If you're confident improvement is monotonic, stay in `/decision`.
+**Don't use fitness landscape analysis when the landscape is smooth.** If there is clearly one best solution and incremental improvement reliably approaches it, the metaphor adds no insight. The tool earns its value in rugged landscapes — where multiple local optima exist and path dependence is real. If you're confident improvement is monotonic, stay in `/s4h-decision`.
 
-**Fitness landscape is not a planning tool.** It identifies structural constraints on where you can get from here, and the cost of valley-crossing. It does not tell you which peak to aim for — that is a strategic values question. Use this analysis to understand what is structurally possible, then use `/strategy` to decide what to pursue.
+**Fitness landscape is not a planning tool.** It identifies structural constraints on where you can get from here, and the cost of valley-crossing. It does not tell you which peak to aim for — that is a strategic values question. Use this analysis to understand what is structurally possible, then use `/s4h-strategy` to decide what to pursue.
 
-The nearest neighbor: [`/evolution-variation-selection`](variation-selection.md) — if the question is "what is the environment selecting for?" rather than "are we stuck on a local peak?", start with variation-selection to map the selection pressures before mapping the landscape topology.
+The nearest neighbor: [`/s4h-evolution-variation-selection`](variation-selection.md) — if the question is "what is the environment selecting for?" rather than "are we stuck on a local peak?", start with variation-selection to map the selection pressures before mapping the landscape topology.
 
 ---
 
@@ -93,6 +93,6 @@ Recommendation for the board: the question is not "do we have a problem?" — th
 
 ## Related skills
 
-- [`/evolution-variation-selection`](variation-selection.md) — understand the selection pressures that are reshaping which peaks are highest
-- [`/evolution-niche`](niche.md) — map the competitive space around the peaks you're considering
-- [`/strategy-timing`](../strategy/timing.md) — determine when the moment is right to attempt the valley crossing
+- [`/s4h-evolution-variation-selection`](variation-selection.md) — understand the selection pressures that are reshaping which peaks are highest
+- [`/s4h-evolution-niche`](niche.md) — map the competitive space around the peaks you're considering
+- [`/s4h-strategy-timing`](../strategy/timing.md) — determine when the moment is right to attempt the valley crossing

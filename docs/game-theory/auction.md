@@ -1,8 +1,8 @@
-# `/game-theory-auction`
+# `/s4h-game-theory-auction`
 
 > *In a second-price auction, bid your true value. In a first-price auction, don't. In a common-value auction, winning is bad news — adjust for it.*
 
-**Category:** [Game Theory](README.md) · **Command:** `/game-theory-auction` · **Source:** William Vickrey (1961, Nobel 1996); Paul Milgrom & Robert Wilson (Nobel 2020)
+**Category:** [Game Theory](README.md) · **Command:** `/s4h-game-theory-auction` · **Source:** William Vickrey (1961, Nobel 1996); Paul Milgrom & Robert Wilson (Nobel 2020)
 
 ---
 
@@ -26,11 +26,11 @@ The core insight that most bidders miss: winning a competitive auction is not go
 
 ## When *not* to use it
 
-**Don't use this for negotiations where the auction structure isn't explicit.** If you're in a bilateral negotiation — you and one other party, with back-and-forth discussion of terms — the auction framework doesn't directly apply. The strategic dynamics are different: it's closer to bargaining theory than auction theory. The relevant tools are in `/strategy` and `/decision`.
+**Don't use this for negotiations where the auction structure isn't explicit.** If you're in a bilateral negotiation — you and one other party, with back-and-forth discussion of terms — the auction framework doesn't directly apply. The strategic dynamics are different: it's closer to bargaining theory than auction theory. The relevant tools are in `/s4h-strategy` and `/s4h-decision`.
 
 **Don't confuse private-value and common-value logic.** Private-value bidding (bid your true value in second-price; shade in first-price) is only correct when your value is genuinely independent of what others believe. If the thing you're bidding on has an objective value you're estimating — a house you plan to resell, a company you're acquiring, a contract with market-rate costs — the winner's curse applies and you need to adjust. Applying private-value logic to common-value situations is the most expensive mistake in auction theory.
 
-The nearest neighbor: [`/game-theory-mechanism-design`](mechanism-design.md) — the general framework for designing rules to produce desired outcomes. Auction design is a specialised application. If you're designing an auction, start with mechanism design principles and then apply auction-specific results.
+The nearest neighbor: [`/s4h-game-theory-mechanism-design`](mechanism-design.md) — the general framework for designing rules to produce desired outcomes. Auction design is a specialised application. If you're designing an auction, start with mechanism design principles and then apply auction-specific results.
 
 ---
 
@@ -122,6 +122,6 @@ If you were designing this process as a seller: a transparent ascending auction 
 
 ## Related skills
 
-- [`/game-theory-mechanism-design`](mechanism-design.md) — the general framework for designing rule systems, including auction design
-- [`/game-theory-equilibrium`](equilibrium.md) — equilibrium analysis of specific auction formats
-- [`/probability-expected-value-calculation`](../probability/expected-value-calculation.md) — when the decision is primarily about expected value under uncertainty, not strategic interaction
+- [`/s4h-game-theory-mechanism-design`](mechanism-design.md) — the general framework for designing rule systems, including auction design
+- [`/s4h-game-theory-equilibrium`](equilibrium.md) — equilibrium analysis of specific auction formats
+- [`/s4h-probability-expected-value-calculation`](../probability/expected-value-calculation.md) — when the decision is primarily about expected value under uncertainty, not strategic interaction

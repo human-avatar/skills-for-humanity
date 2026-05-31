@@ -2,7 +2,7 @@
 
 > Break a complex claim into its smallest independently verifiable parts — and find which ones are doing the real work.
 
-**Trigger:** `/investigation-claim-decomposition`
+**Trigger:** `/s4h-investigation-claim-decomposition`
 
 ---
 

@@ -37,12 +37,12 @@ The nearest neighbor: [Ethics](../ethics/) — which applies moral frameworks to
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/identity`** | Routes to the right identity skill for your situation | Not sure which tool fits; describe your situation |
-| [`/identity-character-testing`](character-testing.md) | Asks what a person or organization of genuine integrity would do | Gut discomfort with no clear articulation; "would I be proud of this?" |
-| [`/identity-mission-alignment`](mission-alignment.md) | Tests whether a decision is genuinely on-mission | "Are we drifting?" "Is this really what we're for?" "Is this rationalization?" |
-| [`/identity-values-clarification`](values-clarification.md) | Surfaces the actual operative values revealed by decisions | Want to know what decisions actually reveal; stated vs. actual values |
+| **`/s4h-identity`** | Routes to the right identity skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-identity-character-testing`](character-testing.md) | Asks what a person or organization of genuine integrity would do | Gut discomfort with no clear articulation; "would I be proud of this?" |
+| [`/s4h-identity-mission-alignment`](mission-alignment.md) | Tests whether a decision is genuinely on-mission | "Are we drifting?" "Is this really what we're for?" "Is this rationalization?" |
+| [`/s4h-identity-values-clarification`](values-clarification.md) | Surfaces the actual operative values revealed by decisions | Want to know what decisions actually reveal; stated vs. actual values |
 
-**Not sure which tool?** → Invoke `/identity` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-identity` — it diagnoses your situation and picks the right skill.
 
 ---
 

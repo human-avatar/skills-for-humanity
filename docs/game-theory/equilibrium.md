@@ -1,8 +1,8 @@
-# `/game-theory-equilibrium`
+# `/s4h-game-theory-equilibrium`
 
 > *Many Nash equilibria are collectively inefficient. Knowing where rational play lands — and why — is the prerequisite for changing it.*
 
-**Category:** [Game Theory](README.md) · **Command:** `/game-theory-equilibrium` · **Source:** John Nash (1950); Thomas Schelling — focal points
+**Category:** [Game Theory](README.md) · **Command:** `/s4h-game-theory-equilibrium` · **Source:** John Nash (1950); Thomas Schelling — focal points
 
 ---
 
@@ -26,11 +26,11 @@ A Nash equilibrium is not the best outcome — it is the *stable* outcome. Playe
 
 ## When *not* to use it
 
-**Don't use equilibrium analysis when there is no genuine strategic interaction.** If your outcome doesn't depend on what others choose, there is no game — equilibrium analysis adds complexity with no insight. The right tool is `/decision-option-mapping` or `/probability-expected-value-calculation`.
+**Don't use equilibrium analysis when there is no genuine strategic interaction.** If your outcome doesn't depend on what others choose, there is no game — equilibrium analysis adds complexity with no insight. The right tool is `/s4h-decision-option-mapping` or `/s4h-probability-expected-value-calculation`.
 
-**Don't confuse the equilibrium with a recommendation.** The Nash equilibrium is descriptive, not prescriptive — it tells you where rational play leads, not what you *should* do. If the equilibrium is efficient and you're happy with it, act accordingly. If the equilibrium is inefficient, the question becomes how to change the rules so a better equilibrium exists. That's the job of `/game-theory-mechanism-design`.
+**Don't confuse the equilibrium with a recommendation.** The Nash equilibrium is descriptive, not prescriptive — it tells you where rational play leads, not what you *should* do. If the equilibrium is efficient and you're happy with it, act accordingly. If the equilibrium is inefficient, the question becomes how to change the rules so a better equilibrium exists. That's the job of `/s4h-game-theory-mechanism-design`.
 
-The nearest neighbor: [`/game-theory-prisoners-dilemma`](prisoners-dilemma.md) — the most common case of an inefficient Nash equilibrium. If you already suspect you're in a cooperation failure, start there.
+The nearest neighbor: [`/s4h-game-theory-prisoners-dilemma`](prisoners-dilemma.md) — the most common case of an inefficient Nash equilibrium. If you already suspect you're in a cooperation failure, start there.
 
 ---
 
@@ -111,7 +111,7 @@ There is only one Nash equilibrium here, so there is no coordination problem bet
 
 Possible mechanisms:
 1. **Explicit coordination** (if legal in the jurisdiction): both shops agree not to promote this month. This converts a one-shot prisoners' dilemma into a cooperation problem — credibility of the agreement is the constraint.
-2. **Reputation and repetition**: if this is a recurring monthly decision, the game becomes iterated. Either shop that defects from a no-promotion agreement faces retaliation next month. The shadow of the future can sustain (Don't, Don't). See `/game-theory-iterated`.
+2. **Reputation and repetition**: if this is a recurring monthly decision, the game becomes iterated. Either shop that defects from a no-promotion agreement faces retaliation next month. The shadow of the future can sustain (Don't, Don't). See `/s4h-game-theory-iterated`.
 3. **Public commitment**: one shop publicly announces "we won't run promotions this month unless our competitor does" — a conditional commitment that makes defection costly via reputational damage.
 4. **External restraint**: industry coordination through a trade group, or mutual acknowledgment that margin erosion hurts both.
 
@@ -129,7 +129,7 @@ Without coordination, expect both shops to promote — and both to be worse off.
 
 ## Related skills
 
-- [`/game-theory-prisoners-dilemma`](prisoners-dilemma.md) — deep analysis of the cooperation failure structure identified here
-- [`/game-theory-mechanism-design`](mechanism-design.md) — redesigning the rules so the equilibrium is efficient
-- [`/game-theory-iterated`](iterated.md) — how repetition enables cooperation when the one-shot equilibrium is bad
-- [`/strategy-positioning`](../strategy/positioning.md) — acting effectively given the equilibrium you've identified
+- [`/s4h-game-theory-prisoners-dilemma`](prisoners-dilemma.md) — deep analysis of the cooperation failure structure identified here
+- [`/s4h-game-theory-mechanism-design`](mechanism-design.md) — redesigning the rules so the equilibrium is efficient
+- [`/s4h-game-theory-iterated`](iterated.md) — how repetition enables cooperation when the one-shot equilibrium is bad
+- [`/s4h-strategy-positioning`](../strategy/positioning.md) — acting effectively given the equilibrium you've identified

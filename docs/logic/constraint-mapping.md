@@ -2,7 +2,7 @@
 
 > Maps the full constraint landscape — what's hard, soft, and assumed — for any decision or design.
 
-**Trigger:** `/logic-constraint-mapping`
+**Trigger:** `/s4h-logic-constraint-mapping`
 
 ---
 

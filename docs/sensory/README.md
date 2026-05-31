@@ -37,12 +37,12 @@ The nearest neighbor: [Aesthetic](../aesthetic/) — which analyzes the formal p
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/sensory`** | Routes to the right sensory skill for your situation | Not sure which tool fits; describe your situation |
-| [`/sensory-detail-mining`](detail-mining.md) | Finds specific details that are being overlooked | "What are we missing?" "Go deeper." "Be more specific." |
-| [`/sensory-signal-detection`](signal-detection.md) | Separates meaningful signal from background noise | Too much information; "what actually matters here?" "find the signal" |
-| [`/sensory-structured-observation`](structured-observation.md) | Applies disciplined observation by suspending interpretation | Rushing to interpret; want to see clearly before deciding what it means |
+| **`/s4h-sensory`** | Routes to the right sensory skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-sensory-detail-mining`](detail-mining.md) | Finds specific details that are being overlooked | "What are we missing?" "Go deeper." "Be more specific." |
+| [`/s4h-sensory-signal-detection`](signal-detection.md) | Separates meaningful signal from background noise | Too much information; "what actually matters here?" "find the signal" |
+| [`/s4h-sensory-structured-observation`](structured-observation.md) | Applies disciplined observation by suspending interpretation | Rushing to interpret; want to see clearly before deciding what it means |
 
-**Not sure which tool?** → Invoke `/sensory` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-sensory` — it diagnoses your situation and picks the right skill.
 
 ---
 

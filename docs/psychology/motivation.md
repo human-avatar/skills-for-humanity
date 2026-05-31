@@ -2,7 +2,7 @@
 
 > Surface vs. root: diagnose what's actually driving behavior beneath the stated reason.
 
-**Trigger:** `/psychology-motivation`
+**Trigger:** `/s4h-psychology-motivation`
 
 ---
 

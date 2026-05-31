@@ -2,7 +2,7 @@
 
 > Imagines the decision was made and failed — then diagnoses exactly how.
 
-**Trigger:** `/decision-premortem-analysis`
+**Trigger:** `/s4h-decision-premortem-analysis`
 
 ---
 

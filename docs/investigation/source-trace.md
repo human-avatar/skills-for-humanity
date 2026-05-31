@@ -2,7 +2,7 @@
 
 > Trace a claim back to its origin — who first made it, what evidence it rested on, and how it changed in transmission.
 
-**Trigger:** `/investigation-source-trace`
+**Trigger:** `/s4h-investigation-source-trace`
 
 ---
 

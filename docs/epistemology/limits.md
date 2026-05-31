@@ -2,7 +2,7 @@
 
 > Some questions resist investigation not because you haven't tried hard enough, but because there's a structural wall. Know where it is — and what you can establish on this side of it.
 
-**Trigger:** `/epistemology-limits`
+**Trigger:** `/s4h-epistemology-limits`
 
 ---
 

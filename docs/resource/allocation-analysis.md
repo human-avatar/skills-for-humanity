@@ -2,7 +2,7 @@
 
 > Distributes limited resources across competing needs — making the trade-offs explicit rather than implicit.
 
-**Trigger:** `/resource-allocation-analysis`
+**Trigger:** `/s4h-resource-allocation-analysis`
 
 ---
 

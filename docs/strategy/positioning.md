@@ -1,8 +1,8 @@
-# `/strategy-positioning`
+# `/s4h-strategy-positioning`
 
 > *The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-positioning` · **Source:** Sun Tzu, *The Art of War*; Michael Porter, competitive strategy theory
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-positioning` · **Source:** Sun Tzu, *The Art of War*; Michael Porter, competitive strategy theory
 
 ---
 
@@ -28,7 +28,7 @@ The framework draws on Sun Tzu's principle that unassailability precedes opportu
 
 **Don't use positioning analysis if you haven't validated the market for the position.** Sun Tzu's unassailability principle requires that the position is one an opponent would want. Building an unassailable position in a segment no one cares about is perfectly executed work on the wrong problem. Terrain analysis tells you which positions exist and are valuable; positioning analysis tells you how to hold one once you've identified it.
 
-**Don't mistake the analysis for the work.** Positioning is built through investment, relationship, reputation, and time. The nearest neighbor: `/strategy-terrain` — which identifies available positions before you decide which to build toward. Run terrain first when you're not yet certain which ground is worth holding.
+**Don't mistake the analysis for the work.** Positioning is built through investment, relationship, reputation, and time. The nearest neighbor: `/s4h-strategy-terrain` — which identifies available positions before you decide which to build toward. Run terrain first when you're not yet certain which ground is worth holding.
 
 ---
 
@@ -122,7 +122,7 @@ For another specialist solo consultant: maybe. If another solo builds the same n
 
 ## Related skills
 
-- [`/strategy-terrain`](terrain.md) — Identifies which positions exist and are worth holding before you build toward one
-- [`/strategy-force-economy`](force-economy.md) — A strong position reduces force required for future contests; positioning investment now is force economy later
-- [`/strategy-alliance`](alliance.md) — The referral-infrastructure move is an alliance move; the connector relationships are your alliance network
-- [`/strategy-timing`](timing.md) — Positioning is a long-game investment; timing analysis helps decide when to begin the investment vs. when current contests require resources
+- [`/s4h-strategy-terrain`](terrain.md) — Identifies which positions exist and are worth holding before you build toward one
+- [`/s4h-strategy-force-economy`](force-economy.md) — A strong position reduces force required for future contests; positioning investment now is force economy later
+- [`/s4h-strategy-alliance`](alliance.md) — The referral-infrastructure move is an alliance move; the connector relationships are your alliance network
+- [`/s4h-strategy-timing`](timing.md) — Positioning is a long-game investment; timing analysis helps decide when to begin the investment vs. when current contests require resources

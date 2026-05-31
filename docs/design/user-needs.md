@@ -2,7 +2,7 @@
 
 > Finds what people actually need, beneath what they say they want.
 
-**Trigger:** `/design-user-needs`
+**Trigger:** `/s4h-design-user-needs`
 
 ---
 
@@ -97,6 +97,6 @@ Teams are maintaining a separate spreadsheet to track task ownership and a proje
 
 ## Related skills
 
-- [`/design-constraints`](design-constraints.md) — once the real need is clear, map what constraints define the solution space
-- [`/design-iteration`](iteration.md) — structure the prototype-test cycle to validate whether a design direction serves the real need
-- [`/communication-audience-modeling`](../communication/audience-modeling.md) — for deeper analysis of different user segments and how their needs differ
+- [`/s4h-design-constraints`](design-constraints.md) — once the real need is clear, map what constraints define the solution space
+- [`/s4h-design-iteration`](iteration.md) — structure the prototype-test cycle to validate whether a design direction serves the real need
+- [`/s4h-communication-audience-modeling`](../communication/audience-modeling.md) — for deeper analysis of different user segments and how their needs differ

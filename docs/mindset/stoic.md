@@ -2,7 +2,7 @@
 
 > The full Stoic toolkit: find what is yours, apply the practice, find equanimity.
 
-**Trigger:** `/mindset-stoic`
+**Trigger:** `/s4h-mindset-stoic`
 
 ---
 

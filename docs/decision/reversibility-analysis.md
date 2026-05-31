@@ -2,7 +2,7 @@
 
 > Categorizes a decision by how reversible it is — then applies the right amount of process.
 
-**Trigger:** `/decision-reversibility-analysis`
+**Trigger:** `/s4h-decision-reversibility-analysis`
 
 ---
 

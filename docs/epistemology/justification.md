@@ -2,7 +2,7 @@
 
 > A belief can feel certain without being justified. Make the support structure explicit, then find where it breaks.
 
-**Trigger:** `/epistemology-justification`
+**Trigger:** `/s4h-epistemology-justification`
 
 ---
 

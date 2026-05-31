@@ -2,7 +2,7 @@
 
 > Maps who needs to be aligned and how to build the coalition a proposal needs to succeed.
 
-**Trigger:** `/social-coalition-mapping`
+**Trigger:** `/s4h-social-coalition-mapping`
 
 ---
 

@@ -40,13 +40,13 @@ The nearest neighbor: [Systems](../systems/) — which models feedback loops and
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/network`** | Routes to the right network skill for your situation | Not sure which tool fits; describe your situation |
-| [`/network-centrality`](centrality.md) | Identifies which nodes have the most influence, reach, or control | "Who are the key people?" "Where's the bottleneck?" "Who connects everyone?" |
-| [`/network-contagion`](contagion.md) | Models how things spread — or fail to spread — through a network | "Why did this go viral?" "Why isn't this spreading?" "What's the tipping point?" |
-| [`/network-weak-ties`](weak-ties.md) | Maps structural holes and the bridging connections that span them | "Where are the silos?" "Why are we missing information?" "Who are the connectors?" |
-| [`/network-effects`](network-effects.md) | Analyzes how value scales with participation and where moats form | "Do we have network effects?" "When do we hit critical mass?" "Is this winner-take-all?" |
+| **`/s4h-network`** | Routes to the right network skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-network-centrality`](centrality.md) | Identifies which nodes have the most influence, reach, or control | "Who are the key people?" "Where's the bottleneck?" "Who connects everyone?" |
+| [`/s4h-network-contagion`](contagion.md) | Models how things spread — or fail to spread — through a network | "Why did this go viral?" "Why isn't this spreading?" "What's the tipping point?" |
+| [`/s4h-network-weak-ties`](weak-ties.md) | Maps structural holes and the bridging connections that span them | "Where are the silos?" "Why are we missing information?" "Who are the connectors?" |
+| [`/s4h-network-effects`](network-effects.md) | Analyzes how value scales with participation and where moats form | "Do we have network effects?" "When do we hit critical mass?" "Is this winner-take-all?" |
 
-**Not sure which tool?** → Invoke `/network` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-network` — it diagnoses your situation and picks the right skill.
 
 ---
 

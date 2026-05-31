@@ -37,13 +37,13 @@ The nearest neighbor: [Communication](../communication/) — which focuses on au
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/narrative`** | Routes to the right narrative skill for your situation | Not sure which tool fits; describe your situation |
-| [`/narrative-audience-modeling`](audience-modeling.md) | Maps the audience's beliefs, real goals, fears, and threshold conditions | Don't understand why they're not responding; want to communicate from their position |
-| [`/narrative-frame-analysis`](frame-analysis.md) | Identifies the current frame and generates better alternatives | The framing of a situation is limiting; people can't see what you need them to see |
-| [`/narrative-structure-mapping`](structure-mapping.md) | Applies story architecture to any communication | Content doesn't flow; the structure isn't moving people; "make this compelling" |
-| [`/narrative-tension-mapping`](tension-mapping.md) | Finds or creates the tension that makes communication worth attending to | Communication feels flat, forgettable, or engaging the wrong emotion |
+| **`/s4h-narrative`** | Routes to the right narrative skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-narrative-audience-modeling`](audience-modeling.md) | Maps the audience's beliefs, real goals, fears, and threshold conditions | Don't understand why they're not responding; want to communicate from their position |
+| [`/s4h-narrative-frame-analysis`](frame-analysis.md) | Identifies the current frame and generates better alternatives | The framing of a situation is limiting; people can't see what you need them to see |
+| [`/s4h-narrative-structure-mapping`](structure-mapping.md) | Applies story architecture to any communication | Content doesn't flow; the structure isn't moving people; "make this compelling" |
+| [`/s4h-narrative-tension-mapping`](tension-mapping.md) | Finds or creates the tension that makes communication worth attending to | Communication feels flat, forgettable, or engaging the wrong emotion |
 
-**Not sure which tool?** → Invoke `/narrative` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-narrative` — it diagnoses your situation and picks the right skill.
 
 ---
 

@@ -1,8 +1,8 @@
-# `/evolution-variation-selection`
+# `/s4h-evolution-variation-selection`
 
 > *Selection doesn't design — it filters. Understand the filter and you understand where the population is heading.*
 
-**Trigger:** `/evolution-variation-selection`
+**Trigger:** `/s4h-evolution-variation-selection`
 
 ---
 
@@ -26,11 +26,11 @@ The analysis predicts population trajectories: which strategies, practices, or a
 
 ## When *not* to use it
 
-**Don't use variation-selection when the question is about a single entity making a single choice.** If the unit is "what should our company do?" rather than "how will the population of companies in this market shift?", the evolutionary framing adds complexity without insight. Use `/decision-option-mapping` for single-entity choices.
+**Don't use variation-selection when the question is about a single entity making a single choice.** If the unit is "what should our company do?" rather than "how will the population of companies in this market shift?", the evolutionary framing adds complexity without insight. Use `/s4h-decision-option-mapping` for single-entity choices.
 
-**Don't treat current fitness as permanent.** The most common error: inferring that what is selected for now will always be selected for. Environments shift. The variation-selection tool should always end with an environmental stability assessment — today's winning variant may be tomorrow's dead end. Pair with `/temporal-futures-mapping` when the selection environment itself may be changing.
+**Don't treat current fitness as permanent.** The most common error: inferring that what is selected for now will always be selected for. Environments shift. The variation-selection tool should always end with an environmental stability assessment — today's winning variant may be tomorrow's dead end. Pair with `/s4h-temporal-futures-mapping` when the selection environment itself may be changing.
 
-The nearest neighbor: [`/evolution-niche`](niche.md) — if the core question is who can coexist with whom (not just what gets selected for), niche analysis is more targeted.
+The nearest neighbor: [`/s4h-evolution-niche`](niche.md) — if the core question is who can coexist with whom (not just what gets selected for), niche analysis is more targeted.
 
 ---
 
@@ -103,6 +103,6 @@ Options: (1) Shift toward the lightweight end — requires architectural changes
 
 ## Related skills
 
-- [`/evolution-niche`](niche.md) — map which players can coexist in this landscape and where overlap creates displacement risk
-- [`/evolution-fitness-landscape`](fitness-landscape.md) — if the mid-market position is a local peak, understand what valley must be crossed to reach a higher one
-- [`/temporal-futures-mapping`](../temporal/futures-mapping.md) — map how the selection environment itself is shifting
+- [`/s4h-evolution-niche`](niche.md) — map which players can coexist in this landscape and where overlap creates displacement risk
+- [`/s4h-evolution-fitness-landscape`](fitness-landscape.md) — if the mid-market position is a local peak, understand what valley must be crossed to reach a higher one
+- [`/s4h-temporal-futures-mapping`](../temporal/futures-mapping.md) — map how the selection environment itself is shifting

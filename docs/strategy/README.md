@@ -36,17 +36,17 @@ The unifying principle: "The victorious warrior wins first and then goes to war,
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/strategy`** | Routes to the right strategy skill for your situation | Any adversarial or competitive reasoning situation; not sure which tool fits |
-| [`/strategy-terrain`](terrain.md) | Maps the competitive landscape — favorable, contested, and dangerous ground | Need to know where to compete and where to avoid before committing |
-| [`/strategy-intelligence`](intelligence.md) | Audits what you know vs. what you're assuming about yourself and your opponent | Preparing for a negotiation; suspect you're acting on assumptions held as facts |
-| [`/strategy-timing`](timing.md) | Analyzes whether to act now or wait, reads opponent rhythm, names trigger conditions | Deciding when to launch, move, negotiate, or act — timing matters |
-| [`/strategy-force-economy`](force-economy.md) | Finds the minimum intervention that achieves the objective | Outgunned or under-resourced; need leverage; want to avoid brute-force approach |
-| [`/strategy-positioning`](positioning.md) | Builds the conditions for competitive unassailability before the contest | Want to create a position that's hard to attack rather than winning each individual contest |
-| [`/strategy-deception`](deception.md) | Manages information asymmetry — what to protect, what impressions work in your favor | Negotiation; competitive positioning; want to know what you should and shouldn't reveal |
-| [`/strategy-victory`](victory.md) | Defines what winning actually means — prevents the pyrrhic trap | Objective is unclear; want to avoid winning in ways that lose the larger goal |
-| [`/strategy-alliance`](alliance.md) | Maps parties, identifies natural allies and swing parties, assesses alliance stability | Need to build a coalition; organizational politics; competitive stakeholder management |
+| **`/s4h-strategy`** | Routes to the right strategy skill for your situation | Any adversarial or competitive reasoning situation; not sure which tool fits |
+| [`/s4h-strategy-terrain`](terrain.md) | Maps the competitive landscape — favorable, contested, and dangerous ground | Need to know where to compete and where to avoid before committing |
+| [`/s4h-strategy-intelligence`](intelligence.md) | Audits what you know vs. what you're assuming about yourself and your opponent | Preparing for a negotiation; suspect you're acting on assumptions held as facts |
+| [`/s4h-strategy-timing`](timing.md) | Analyzes whether to act now or wait, reads opponent rhythm, names trigger conditions | Deciding when to launch, move, negotiate, or act — timing matters |
+| [`/s4h-strategy-force-economy`](force-economy.md) | Finds the minimum intervention that achieves the objective | Outgunned or under-resourced; need leverage; want to avoid brute-force approach |
+| [`/s4h-strategy-positioning`](positioning.md) | Builds the conditions for competitive unassailability before the contest | Want to create a position that's hard to attack rather than winning each individual contest |
+| [`/s4h-strategy-deception`](deception.md) | Manages information asymmetry — what to protect, what impressions work in your favor | Negotiation; competitive positioning; want to know what you should and shouldn't reveal |
+| [`/s4h-strategy-victory`](victory.md) | Defines what winning actually means — prevents the pyrrhic trap | Objective is unclear; want to avoid winning in ways that lose the larger goal |
+| [`/s4h-strategy-alliance`](alliance.md) | Maps parties, identifies natural allies and swing parties, assesses alliance stability | Need to build a coalition; organizational politics; competitive stakeholder management |
 
-**Not sure which tool?** → Invoke `/strategy` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-strategy` — it diagnoses your situation and picks the right skill.
 
 ---
 

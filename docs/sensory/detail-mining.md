@@ -2,7 +2,7 @@
 
 > Finds specific details being overlooked — the most important information is often present but not being registered.
 
-**Trigger:** `/sensory-detail-mining`
+**Trigger:** `/s4h-sensory-detail-mining`
 
 ---
 

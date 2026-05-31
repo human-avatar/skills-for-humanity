@@ -37,13 +37,13 @@ The nearest neighbor that trips people up: [Sensory](../sensory/) — which is a
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/aesthetic`** | Routes to the right aesthetic skill for your situation | Not sure which tool fits; describe your situation |
-| [`/aesthetic-coherence-check`](coherence-check.md) | Tests whether the parts form a unified whole | Something feels inconsistent; multiple contributors worked without a shared vision |
-| [`/aesthetic-elegance-testing`](elegance-testing.md) | Separates necessary from accidental complexity | Something feels over-engineered; you wonder if there's a simpler way |
-| [`/aesthetic-pattern-detection`](pattern-detection.md) | Names the underlying structural pattern at work | You want to understand why something works; you want the playbook for this form |
-| [`/aesthetic-simplicity-analysis`](simplicity-analysis.md) | Finds the simpler version while preserving what matters | You want to strip back to the core; "less but better" |
+| **`/s4h-aesthetic`** | Routes to the right aesthetic skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-aesthetic-coherence-check`](coherence-check.md) | Tests whether the parts form a unified whole | Something feels inconsistent; multiple contributors worked without a shared vision |
+| [`/s4h-aesthetic-elegance-testing`](elegance-testing.md) | Separates necessary from accidental complexity | Something feels over-engineered; you wonder if there's a simpler way |
+| [`/s4h-aesthetic-pattern-detection`](pattern-detection.md) | Names the underlying structural pattern at work | You want to understand why something works; you want the playbook for this form |
+| [`/s4h-aesthetic-simplicity-analysis`](simplicity-analysis.md) | Finds the simpler version while preserving what matters | You want to strip back to the core; "less but better" |
 
-**Not sure which tool?** → Invoke `/aesthetic` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-aesthetic` — it diagnoses your situation and picks the right skill.
 
 ---
 

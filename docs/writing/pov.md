@@ -1,8 +1,8 @@
-# `/writing-pov`
+# `/s4h-writing-pov`
 
 > *POV is a contract with the reader. Every violation tells them the author lost the thread.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-pov`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-pov`
 
 ---
 
@@ -29,7 +29,7 @@ Audits point-of-view for contract violations (interiority, observation, knowledg
 
 **Don't use this to fix POV problems caused by character problems.** Sometimes the narration accesses another character's interiority because the author needs the reader to know something that the POV character doesn't know, which the POV character couldn't know. The solution is not to fix the POV — it is to redesign the information architecture so the POV character can access the knowledge through legitimate means. The POV violation is a symptom of a story design problem.
 
-The nearest neighbor: [`/writing-inconsistency-audit`](inconsistency-audit.md) — which logs POV violations as a subcategory of character-logic errors. This skill provides the deeper analysis when POV is the primary problem, rather than treating violations as one item among many.
+The nearest neighbor: [`/s4h-writing-inconsistency-audit`](inconsistency-audit.md) — which logs POV violations as a subcategory of character-logic errors. This skill provides the deeper analysis when POV is the primary problem, rather than treating violations as one item among many.
 
 ---
 
@@ -114,6 +114,6 @@ If the novel requires direct access to Clara's interiority at multiple points, c
 
 ## Related skills
 
-- [`/writing-inconsistency-audit`](inconsistency-audit.md) — For a full manuscript audit where POV violations appear alongside other continuity errors
-- [`/writing-voice-consistency`](voice-consistency.md) — Voice and POV are linked; close-third that drifts into authorial voice is both a POV and a voice problem
-- [`/writing-scene-construction`](scene-construction.md) — If POV violations are caused by the scene needing information the POV character can't access, the scene architecture needs redesigning
+- [`/s4h-writing-inconsistency-audit`](inconsistency-audit.md) — For a full manuscript audit where POV violations appear alongside other continuity errors
+- [`/s4h-writing-voice-consistency`](voice-consistency.md) — Voice and POV are linked; close-third that drifts into authorial voice is both a POV and a voice problem
+- [`/s4h-writing-scene-construction`](scene-construction.md) — If POV violations are caused by the scene needing information the POV character can't access, the scene architecture needs redesigning

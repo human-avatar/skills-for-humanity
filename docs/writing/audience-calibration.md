@@ -1,8 +1,8 @@
-# `/writing-audience-calibration`
+# `/s4h-writing-audience-calibration`
 
 > *Calibration does not require changing the substance. It requires changing the door.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-audience-calibration`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-audience-calibration`
 
 ---
 
@@ -29,7 +29,7 @@ Profiles a specific reader across knowledge, role, stakes, and relationship dime
 
 **Don't confuse calibration with simplification.** A well-calibrated piece for a non-technical reader is not a dumbed-down version of the technical piece. Simplification removes content; calibration changes the approach while preserving the substance. "Database indexing speeds up queries by creating a lookup table that the database reads instead of scanning all data" is not simplified — it is correctly calibrated. The same concept for a DBA would be stated differently: "B-tree index structures improve read performance by O(log n) lookup vs. O(n) table scan."
 
-The nearest neighbor: [`/writing-voice-consistency`](voice-consistency.md) — which ensures the recalibrated content still sounds like the established voice. A piece that has been recalibrated for a new audience but now sounds like a different organisation has traded one problem for another. Run voice consistency after calibration on brand documents.
+The nearest neighbor: [`/s4h-writing-voice-consistency`](voice-consistency.md) — which ensures the recalibrated content still sounds like the established voice. A piece that has been recalibrated for a new audience but now sounds like a different organisation has traded one problem for another. Run voice consistency after calibration on brand documents.
 
 ---
 
@@ -103,6 +103,6 @@ The technical content is identical. The entry point, vocabulary, and emphasis ar
 
 ## Related skills
 
-- [`/writing-executive-summary`](executive-summary.md) — Calibration for senior decision-makers specifically; executive summary format is a specific calibration problem
-- [`/writing-technical`](technical.md) — Technical audience calibration; when the question is which technical level to write for
-- [`/writing-voice-consistency`](voice-consistency.md) — Recalibrated content must stay in the established voice
+- [`/s4h-writing-executive-summary`](executive-summary.md) — Calibration for senior decision-makers specifically; executive summary format is a specific calibration problem
+- [`/s4h-writing-technical`](technical.md) — Technical audience calibration; when the question is which technical level to write for
+- [`/s4h-writing-voice-consistency`](voice-consistency.md) — Recalibrated content must stay in the established voice

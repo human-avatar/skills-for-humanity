@@ -1,8 +1,8 @@
-# `/strategy-deception`
+# `/s4h-strategy-deception`
 
 > *All warfare is based on deception. Hence, when able to attack, we must seem unable; when using our forces, we must seem inactive.*
 
-**Category:** [Strategy](README.md) · **Command:** `/strategy-deception` · **Source:** Sun Tzu, *The Art of War*, Book I
+**Category:** [Strategy](README.md) · **Command:** `/s4h-strategy-deception` · **Source:** Sun Tzu, *The Art of War*, Book I
 
 ---
 
@@ -28,7 +28,7 @@ The framework applies in commercial negotiation, competitive market positioning,
 
 **Do not use this framework for fraud, manipulation of vulnerable parties, or deception that causes disproportionate harm.** Managing information is legitimate in commercial contexts where both parties understand they are in a negotiation and have the means to protect their interests. It is not legitimate when one party has no ability to protect themselves, when the deception involves material facts required for informed consent, or when the mechanism is outright fabrication rather than selective disclosure.
 
-**Don't deploy deception that can't be maintained.** The nearest neighbor: `/strategy-intelligence` — which tells you what your opponent currently believes about you, and therefore what you're actually managing. Without that foundation, you're designing an impression without knowing whether it contradicts information they already have. A collapsed deception is worse than transparency.
+**Don't deploy deception that can't be maintained.** The nearest neighbor: `/s4h-strategy-intelligence` — which tells you what your opponent currently believes about you, and therefore what you're actually managing. Without that foundation, you're designing an impression without knowing whether it contradicts information they already have. A collapsed deception is worse than transparency.
 
 ---
 
@@ -96,7 +96,7 @@ The landlord and their broker are likely managing their own information position
 
 ## Related skills
 
-- [`/strategy-intelligence`](intelligence.md) — Know what they currently believe about you before designing what impressions to manage; without that baseline, deception works in the dark
-- [`/strategy-victory`](victory.md) — Define your minimum and maximum victory conditions first; they determine which information is worth protecting and how far to press
-- [`/strategy-alliance`](alliance.md) — A broker is an alliance relationship; the principal-agent signal structure is one of the most useful alliance benefits in negotiation contexts
-- [`/strategy-timing`](timing.md) — Information asymmetry decays over time; manage what you reveal in the sequence that maximizes your leverage at each stage
+- [`/s4h-strategy-intelligence`](intelligence.md) — Know what they currently believe about you before designing what impressions to manage; without that baseline, deception works in the dark
+- [`/s4h-strategy-victory`](victory.md) — Define your minimum and maximum victory conditions first; they determine which information is worth protecting and how far to press
+- [`/s4h-strategy-alliance`](alliance.md) — A broker is an alliance relationship; the principal-agent signal structure is one of the most useful alliance benefits in negotiation contexts
+- [`/s4h-strategy-timing`](timing.md) — Information asymmetry decays over time; manage what you reveal in the sequence that maximizes your leverage at each stage

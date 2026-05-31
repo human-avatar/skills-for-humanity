@@ -2,7 +2,7 @@
 
 > Identify the fixed-mindset trigger, surface the belief, reframe it, design the learning response.
 
-**Trigger:** `/mindset-growth`
+**Trigger:** `/s4h-mindset-growth`
 
 ---
 

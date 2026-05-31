@@ -2,7 +2,7 @@
 
 > Uses a deliberately impossible or absurd statement as a springboard to non-obvious ideas.
 
-**Trigger:** `/creativity-provocation` or prefix any statement with `Po:`
+**Trigger:** `/s4h-creativity-provocation` or prefix any statement with `Po:`
 
 ---
 

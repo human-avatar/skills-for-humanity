@@ -2,7 +2,7 @@
 
 > Explains unexpected system behavior that no single part of the system intended or caused.
 
-**Trigger:** `/systems-emergence-detection`
+**Trigger:** `/s4h-systems-emergence-detection`
 
 ---
 

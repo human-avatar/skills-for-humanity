@@ -2,7 +2,7 @@
 
 > Expands the solution space at three levels of abstraction — immediate solutions, underlying concepts, and core purpose.
 
-**Trigger:** `/creativity-concept-fan`
+**Trigger:** `/s4h-creativity-concept-fan`
 
 ---
 

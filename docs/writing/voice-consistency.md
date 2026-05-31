@@ -1,8 +1,8 @@
-# `/writing-voice-consistency`
+# `/s4h-writing-voice-consistency`
 
 > *Voice can be extracted from strong passages, characterised as a fingerprint, and used to audit departures. It is not mysterious — it is a set of identifiable choices.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-voice-consistency`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-voice-consistency`
 
 ---
 
@@ -29,7 +29,7 @@ Extracts a voice fingerprint from the strongest existing passages, characterises
 
 **Don't use this to unify individual authorial voices in a collection.** An anthology, essay collection, or multi-author volume where each contribution has a distinct voice is not a voice consistency problem — it is a feature. Voice consistency applies to documents that are intended to speak with one voice, not collections that celebrate many.
 
-The nearest neighbor: [`/writing-tone-alignment`](tone-alignment.md) — which addresses register drift (formality, warmth, urgency) rather than the full voice identity. Tone alignment corrects a specific dimension of voice; voice consistency addresses the whole. For multi-author documents with severe inconsistency, run both.
+The nearest neighbor: [`/s4h-writing-tone-alignment`](tone-alignment.md) — which addresses register drift (formality, warmth, urgency) rather than the full voice identity. Tone alignment corrects a specific dimension of voice; voice consistency addresses the whole. For multi-author documents with severe inconsistency, run both.
 
 ---
 
@@ -151,6 +151,6 @@ We write as an organisation that has done serious work and wants to communicate 
 
 ## Related skills
 
-- [`/writing-tone-alignment`](tone-alignment.md) — For register-specific repairs when the full voice identity is sound but one dimension (formality, warmth) has drifted
-- [`/writing-audience-calibration`](audience-calibration.md) — Voice must be calibrated to the audience; a consistent voice aimed at the wrong reader is still failing
-- [`/writing-prose-elevation`](prose-elevation.md) — Elevation must stay in voice; verify elevated passages sound like the fingerprint
+- [`/s4h-writing-tone-alignment`](tone-alignment.md) — For register-specific repairs when the full voice identity is sound but one dimension (formality, warmth) has drifted
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — Voice must be calibrated to the audience; a consistent voice aimed at the wrong reader is still failing
+- [`/s4h-writing-prose-elevation`](prose-elevation.md) — Elevation must stay in voice; verify elevated passages sound like the fingerprint

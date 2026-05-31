@@ -2,7 +2,7 @@
 
 > Evaluate the quality, strength, and completeness of evidence — including what should exist but doesn't.
 
-**Trigger:** `/investigation-evidence-audit`
+**Trigger:** `/s4h-investigation-evidence-audit`
 
 ---
 

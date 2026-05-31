@@ -40,13 +40,13 @@ The nearest neighbor: [Communication](../communication/) — which focuses on me
 
 | Skill | What it does | Trigger when... |
 |---|---|---|
-| **`/linguistics`** | Routes to the right linguistics skill for your situation | Not sure which tool fits; describe your situation |
-| [`/linguistics-framing`](framing.md) | Identifies how the frame shapes what options are visible and what conclusions feel natural | "How is this being framed?" The conversation keeps hitting the same wall; options feel limited |
-| [`/linguistics-connotation`](connotation.md) | Maps the emotional and political freight words carry beyond their literal meaning | A word is generating reactions you didn't intend; you need better word choices for a specific audience |
-| [`/linguistics-pragmatics`](pragmatics.md) | Analyzes what is implied rather than said — Gricean implicature, speech acts, presuppositions | "What does this really mean?" Something feels off even though the words seem fine |
-| [`/linguistics-semantic-drift`](semantic-drift.md) | Tracks how meanings shift over time or across groups — concept creep, definitional capture | A term is contested, has changed, or means different things to different people |
+| **`/s4h-linguistics`** | Routes to the right linguistics skill for your situation | Not sure which tool fits; describe your situation |
+| [`/s4h-linguistics-framing`](framing.md) | Identifies how the frame shapes what options are visible and what conclusions feel natural | "How is this being framed?" The conversation keeps hitting the same wall; options feel limited |
+| [`/s4h-linguistics-connotation`](connotation.md) | Maps the emotional and political freight words carry beyond their literal meaning | A word is generating reactions you didn't intend; you need better word choices for a specific audience |
+| [`/s4h-linguistics-pragmatics`](pragmatics.md) | Analyzes what is implied rather than said — Gricean implicature, speech acts, presuppositions | "What does this really mean?" Something feels off even though the words seem fine |
+| [`/s4h-linguistics-semantic-drift`](semantic-drift.md) | Tracks how meanings shift over time or across groups — concept creep, definitional capture | A term is contested, has changed, or means different things to different people |
 
-**Not sure which tool?** → Invoke `/linguistics` — it diagnoses your situation and picks the right skill.
+**Not sure which tool?** → Invoke `/s4h-linguistics` — it diagnoses your situation and picks the right skill.
 
 ---
 

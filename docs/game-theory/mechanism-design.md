@@ -1,8 +1,8 @@
-# `/game-theory-mechanism-design`
+# `/s4h-game-theory-mechanism-design`
 
 > *Don't demand honesty. Design a system where honesty is the dominant strategy.*
 
-**Category:** [Game Theory](README.md) · **Command:** `/game-theory-mechanism-design` · **Source:** Hurwicz, Maskin, Myerson (Nobel 2007); William Vickrey
+**Category:** [Game Theory](README.md) · **Command:** `/s4h-game-theory-mechanism-design` · **Source:** Hurwicz, Maskin, Myerson (Nobel 2007); William Vickrey
 
 ---
 
@@ -30,7 +30,7 @@ The revelation principle is the foundation: any outcome achievable by any mechan
 
 **Don't over-engineer.** The revelation principle guarantees that a perfectly incentive-compatible mechanism exists, but it doesn't guarantee the mechanism is simple or cheap to implement. A mechanism that requires players to submit complex reports, that involves large transfers, or that depends on accurate information the designer doesn't actually have may be theoretically optimal but practically useless. The right design is the simplest one that adequately solves the incentive problem.
 
-The nearest neighbor: [`/game-theory-prisoners-dilemma`](prisoners-dilemma.md) — which analyses an existing cooperation failure. Use prisoners' dilemma to diagnose why the current system produces bad outcomes; use mechanism design to fix it by redesigning the rules.
+The nearest neighbor: [`/s4h-game-theory-prisoners-dilemma`](prisoners-dilemma.md) — which analyses an existing cooperation failure. Use prisoners' dilemma to diagnose why the current system produces bad outcomes; use mechanism design to fix it by redesigning the rules.
 
 ---
 
@@ -137,7 +137,7 @@ Transition note: the first cycle of the new mechanism will still produce some in
 
 ## Related skills
 
-- [`/game-theory-prisoners-dilemma`](prisoners-dilemma.md) — diagnosing the cooperation failure that the mechanism is designed to fix
-- [`/game-theory-equilibrium`](equilibrium.md) — verifying that the mechanism produces the intended equilibrium
-- [`/game-theory-auction`](auction.md) — specialised mechanism design for competitive bidding and allocation
-- [`/social-incentive-analysis`](../social/incentive-analysis.md) — the social and political dimensions of incentive redesign
+- [`/s4h-game-theory-prisoners-dilemma`](prisoners-dilemma.md) — diagnosing the cooperation failure that the mechanism is designed to fix
+- [`/s4h-game-theory-equilibrium`](equilibrium.md) — verifying that the mechanism produces the intended equilibrium
+- [`/s4h-game-theory-auction`](auction.md) — specialised mechanism design for competitive bidding and allocation
+- [`/s4h-social-incentive-analysis`](../social/incentive-analysis.md) — the social and political dimensions of incentive redesign

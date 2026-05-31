@@ -1,8 +1,8 @@
-# `/writing-report`
+# `/s4h-writing-report`
 
 > *The reader needs the answer. The writer wants to show the work. These are different documents.*
 
-**Category:** [Writing](README.md) · **Command:** `/writing-report`
+**Category:** [Writing](README.md) · **Command:** `/s4h-writing-report`
 
 ---
 
@@ -28,7 +28,7 @@ Audits business reports, briefing documents, and information reports against fiv
 
 **Don't use this when the problem is the analysis, not the writing.** If the report's findings are vague because the underlying analysis is vague, writing improvement won't fix it. A well-structured report with vague findings is still a vague report. Fix the analysis, then fix the report.
 
-The nearest neighbor: [`/writing-executive-summary`](executive-summary.md) — which produces a one-page brief for senior audiences. For most business reports, an executive summary is not optional — it is the primary reading experience for the audience that needs to act. Use `/writing-report` to audit the full document; use `/writing-executive-summary` to produce the brief above it.
+The nearest neighbor: [`/s4h-writing-executive-summary`](executive-summary.md) — which produces a one-page brief for senior audiences. For most business reports, an executive summary is not optional — it is the primary reading experience for the audience that needs to act. Use `/s4h-writing-report` to audit the full document; use `/s4h-writing-executive-summary` to produce the brief above it.
 
 ---
 
@@ -128,6 +128,6 @@ Impact: Board reaches the answer on page 2. Decision-relevant material is comple
 
 ## Related skills
 
-- [`/writing-executive-summary`](executive-summary.md) — Produce the one-page brief that the board reads; the full report becomes the reference document
-- [`/writing-audience-calibration`](audience-calibration.md) — The board's specific role and decision context shapes every structural choice
-- [`/writing-restructure`](restructure.md) — When the report's problems are purely structural
+- [`/s4h-writing-executive-summary`](executive-summary.md) — Produce the one-page brief that the board reads; the full report becomes the reference document
+- [`/s4h-writing-audience-calibration`](audience-calibration.md) — The board's specific role and decision context shapes every structural choice
+- [`/s4h-writing-restructure`](restructure.md) — When the report's problems are purely structural

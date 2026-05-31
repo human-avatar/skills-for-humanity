@@ -2,7 +2,7 @@
 
 > Don't ask people to hold more than working memory allows — redesign the system so they don't have to.
 
-**Trigger:** `/cognition-cognitive-load`
+**Trigger:** `/s4h-cognition-cognitive-load`
 
 ---
 
@@ -75,6 +75,6 @@ This reduces the acute working memory demand from 7+ simultaneous items to appro
 
 ## Related skills
 
-- [`/cognition-attention`](attention.md) — address whether sustained engagement is possible before optimising what happens within sessions
-- [`/communication-clarity-audit`](../communication/clarity-audit.md) — apply cognitive load principles to a specific communication or document
-- [`/aesthetic-simplicity-analysis`](../aesthetic/simplicity-analysis.md) — examine whether complexity is being carried unnecessarily in a design or artefact
+- [`/s4h-cognition-attention`](attention.md) — address whether sustained engagement is possible before optimising what happens within sessions
+- [`/s4h-communication-clarity-audit`](../communication/clarity-audit.md) — apply cognitive load principles to a specific communication or document
+- [`/s4h-aesthetic-simplicity-analysis`](../aesthetic/simplicity-analysis.md) — examine whether complexity is being carried unnecessarily in a design or artefact

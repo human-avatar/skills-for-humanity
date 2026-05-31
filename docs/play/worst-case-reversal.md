@@ -2,7 +2,7 @@
 
 > Deliberately designs the worst possible version, then reverses each failure mode into a design principle.
 
-**Trigger:** `/play-worst-case-reversal`
+**Trigger:** `/s4h-play-worst-case-reversal`
 
 ---
 

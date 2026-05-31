@@ -2,7 +2,7 @@
 
 > Identifies the current frame around a situation and generates alternative frames that reveal different truths.
 
-**Trigger:** `/narrative-frame-analysis`
+**Trigger:** `/s4h-narrative-frame-analysis`
 
 ---
 

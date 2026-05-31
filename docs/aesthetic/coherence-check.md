@@ -2,7 +2,7 @@
 
 > Tests whether the parts form a unified whole — finds the jarring inconsistencies that accumulate when work lacks a shared vision.
 
-**Trigger:** `/aesthetic-coherence-check`
+**Trigger:** `/s4h-aesthetic-coherence-check`
 
 ---
 

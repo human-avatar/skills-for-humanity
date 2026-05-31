@@ -2,7 +2,7 @@
 
 > Anchors estimates in historical base rates before adjusting for specific factors — correcting the most common forecasting error.
 
-**Trigger:** `/probability-base-rate-anchoring`
+**Trigger:** `/s4h-probability-base-rate-anchoring`
 
 ---
 

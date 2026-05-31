@@ -2,7 +2,7 @@
 
 > Structured parallel thinking from six distinct angles — the complete picture before committing.
 
-**Trigger:** `/creativity-six-hats`
+**Trigger:** `/s4h-creativity-six-hats`
 
 ---
 
