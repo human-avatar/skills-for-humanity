@@ -224,7 +224,7 @@ async function install() {
   // Done
   log();
   log(`${bold}Done.${reset} Restart Claude Code, then:`);
-  log(`  ${cyan}/s4h-think${reset}      ${dim}— route to the right skill${reset}`);
+  log(`  ${cyan}/s4h${reset}      ${dim}— route to the right skill${reset}`);
   log(`  ${cyan}/s4h-ethics${reset}     ${dim}— ethical analysis${reset}`);
   log(`  ${cyan}/s4h-logic${reset}      ${dim}— validate and pressure-test reasoning${reset}`);
   log(`  ${cyan}/s4h-creativity${reset} ${dim}— de Bono suite + brainstorm${reset}`);

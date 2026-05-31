@@ -1,5 +1,5 @@
 ---
-name: s4h-think
+name: s4h
 description: "Master orchestration skill. Takes any situation in plain English, identifies the underlying goal, designs a multi-skill reasoning workflow, and executes it sequentially — feeding each skill's output into the next. Use when you say 'help me think through this', 'I need to figure out what to do', 'where do I start', or any time you want structured thinking applied end-to-end rather than routed to a single tool."
 ---
 

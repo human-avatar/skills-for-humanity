@@ -45,7 +45,7 @@ Run again to update. Restart Claude Code when done.
 ## Use
 
 ```
-/s4h-think
+/s4h
 ```
 
 Describe your situation. Routes to the right methodology automatically. You don't need to know which skill fits — that's the point.
