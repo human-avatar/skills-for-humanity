@@ -1,58 +1,124 @@
 <div align="center">
 <br>
 
-# `s4h` skills-for-humanity
+# `s4h` · skills-for-humanity
 
-<br>
+**The methods layer for AI reasoning.**
 
-**Structured reasoning methodologies from history's most rigorous thinkers, packaged as Claude Code skills.**
-
-<br>
-
-[![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)
+[![npm](https://img.shields.io/npm/v/@human-avatar/skills-for-humanity?style=flat-square&color=black&label=npm)](https://www.npmjs.com/package/@human-avatar/skills-for-humanity)&nbsp;&nbsp;![](https://img.shields.io/badge/Claude_Code-compatible-black?style=flat-square)&nbsp;&nbsp;![](https://img.shields.io/badge/34_domains_·_200%2B_methods-black?style=flat-square)
 
 <br>
 </div>
 
-| | Skills |
+```text
+  knowledge   ·   what it knows    ·   training
+  tools       ·   what it can do   ·   MCP · APIs
+  methods     ·   how it thinks    ·   s4h        ◄── the missing layer
+```
+
+Models gave AI **knowledge**. MCP gave it **tools**. `s4h` adds the missing layer — **methods**: history's most rigorous thinking, rebuilt as procedures Claude *runs*.
+
+---
+
+### Prompt vs. method
+
+| Ask a raw model | Run the method |
 |---|---|
-| **Think Sharper** | `/s4h-logic`<br>`/s4h-probability`<br>`/s4h-decision`<br>`/s4h-constraint`<br>`/s4h-game-theory`<br>`/s4h-epistemology`<br>`/s4h-investigation`<br>`/s4h-economics`<br>`/s4h-information`<br>`/s4h-cognition` |
-| **Think Differently** | `/s4h-creativity`<br>`/s4h-analogy`<br>`/s4h-play`<br>`/s4h-evolution`<br>`/s4h-design` |
-| **Think About People** | `/s4h-communication`<br>`/s4h-social`<br>`/s4h-emotional`<br>`/s4h-ethics`<br>`/s4h-identity`<br>`/s4h-narrative`<br>`/s4h-psychology`<br>`/s4h-mindset`<br>`/s4h-writing`<br>`/s4h-linguistics` |
-| **Think in Time & Systems** | `/s4h-systems`<br>`/s4h-temporal`<br>`/s4h-historical`<br>`/s4h-resource`<br>`/s4h-strategy`<br>`/s4h-network`<br>`/s4h-ecology` |
-| **See More Clearly** | `/s4h-aesthetic`<br>`/s4h-sensory` |
+| *"Should I leave my stable role for the startup?"* | `/s4h-decision-reversibility-analysis` |
+| One balanced-sounding pass, shaped entirely by how you framed it. | Classifies the decision by reversibility → finds the **closing window** → applies the rigor that class warrants. |
+
+Same model. A different *quality* of thought.
 
 ---
 
-Each skill is a complete procedure: a defined problem type, a sequence of moves, a structured output. Not a concept to apply — a method to run.
+### The library
 
-**Lineage:** [de Bono](https://en.wikipedia.org/wiki/Edward_de_Bono) · [Meadows](https://en.wikipedia.org/wiki/Donella_Meadows) · [Altshuller](https://en.wikipedia.org/wiki/Genrich_Altshuller) · [Minto](https://en.wikipedia.org/wiki/Barbara_Minto) · [Goldratt](https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt) · [Tetlock](https://en.wikipedia.org/wiki/Philip_E._Tetlock) · [Klein](https://en.wikipedia.org/wiki/Gary_Klein) · [Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill) · [Kant](https://en.wikipedia.org/wiki/Immanuel_Kant) · [Aristotle](https://en.wikipedia.org/wiki/Aristotle) · [Noddings](https://en.wikipedia.org/wiki/Nel_Noddings) · [Rawls](https://en.wikipedia.org/wiki/John_Rawls) · [Sun Tzu](https://en.wikipedia.org/wiki/Sun_Tzu) · [Clausewitz](https://en.wikipedia.org/wiki/Carl_von_Clausewitz) · [Musashi](https://en.wikipedia.org/wiki/Miyamoto_Musashi) · [Nash](https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.) · [Axelrod](https://en.wikipedia.org/wiki/Robert_Axelrod) · [Vickrey](https://en.wikipedia.org/wiki/William_Vickrey) · [Shapley](https://en.wikipedia.org/wiki/Lloyd_Shapley) · [Spence](https://en.wikipedia.org/wiki/Michael_Spence) · [Marshall](https://en.wikipedia.org/wiki/Alfred_Marshall) · [Coase](https://en.wikipedia.org/wiki/Ronald_Coase) · [Ostrom](https://en.wikipedia.org/wiki/Elinor_Ostrom) · [Granovetter](https://en.wikipedia.org/wiki/Mark_Granovetter) · [Barab%C3%A1si](https://en.wikipedia.org/wiki/Albert-L%C3%A1szl%C3%B3_Barab%C3%A1si) · [Shannon](https://en.wikipedia.org/wiki/Claude_Shannon) · [Norman](https://en.wikipedia.org/wiki/Don_Norman) · [Lakoff](https://en.wikipedia.org/wiki/George_Lakoff) · [Grice](https://en.wikipedia.org/wiki/Paul_Grice) · [Kahneman](https://en.wikipedia.org/wiki/Daniel_Kahneman) · [Tansley](https://en.wikipedia.org/wiki/Arthur_Tansley) · [Dawkins](https://en.wikipedia.org/wiki/Richard_Dawkins)
+`5 clusters · 34 domains · 200+ methods`
+
+| | |
+|---|---|
+| **Think Sharper** | `/logic` `/probability` `/decision` `/constraint` `/game-theory` `/epistemology` `/investigation` `/economics` `/information` `/cognition` |
+| **Think Differently** | `/creativity` `/analogy` `/play` `/evolution` `/design` |
+| **Think About People** | `/communication` `/social` `/emotional` `/ethics` `/identity` `/narrative` `/psychology` `/mindset` `/writing` `/linguistics` |
+| **Think in Time & Systems** | `/systems` `/temporal` `/historical` `/resource` `/strategy` `/network` `/ecology` |
+| **See More Clearly** | `/aesthetic` `/sensory` |
+
+<sub>Commands are prefixed `s4h-` — e.g. `/s4h-decision`. Each domain routes to 4–20 individual methods.</sub>
 
 ---
 
-## Install
+### Why a methods layer matters
+
+- **Repeatable** — the same rigor on any problem, not whatever got improvised.
+- **Inspectable** — you see the moves, not a black box.
+- **Composable** — methods chain: a decision feeds a premortem feeds an incentive map.
+- **Democratized** — the toolkit of history's finest thinkers, on demand.
+
+---
+
+### Install & use
 
 ```bash
 npx @human-avatar/skills-for-humanity
 ```
 
-Run again to update. Restart Claude Code when done.
-
----
-
-## Use
-
-```
+```text
 /s4h
 ```
 
-Describe your situation. Routes to the right methodology automatically. You don't need to know which skill fits — that's the point.
+Describe your situation — it routes to the method. You never need to know which one. Every skill states its read and asks how deep to go before it runs; correct the framing anytime.
 
-Every skill pauses before running: states its read, confirms what it's actually analysing, and asks how deep to go. Correct the framing at any point — the analysis follows the corrected read, not the original one.
+<sub>**Lineage** · de Bono · Meadows · Altshuller · Minto · Goldratt · Tetlock · Klein · Mill · Kant · Aristotle · Noddings · Rawls · Sun Tzu · Clausewitz · Musashi · Nash · Axelrod · Vickrey · Shapley · Spence · Marshall · Coase · Ostrom · Granovetter · Barabási · Shannon · Norman · Lakoff · Grice · Kahneman · Tansley · Dawkins</sub>
 
 ---
 
-## Use cases
+<details>
+<summary><strong>See it think</strong> — worked examples</summary>
+
+<br>
+
+#### Why social media makes discourse worse despite everyone wanting better
+Platforms want healthier discourse. Users say they want it. It keeps getting worse. `/s4h-systems-feedback-mapping` finds the reinforcing loop: engagement-optimised feeds reward content that provokes reaction, which selects for users who engage with provocation, which trains the algorithm to serve more of it. The stated goal and the actual incentive structure point in opposite directions. No individual decision made it this way — the system produced it.
+
+#### The ethics and game theory of automating 40 jobs
+Your company is considering automating a function that currently employs 40 people. `/s4h-ethics-council` runs five frameworks and surfaces a genuine conflict: utilitarian logic favours the automation, Kantian reasoning flags that treating displaced workers as means rather than ends requires more than an efficiency argument. `/s4h-game-theory-mechanism-design` then helps design a transition that aligns incentives — rather than announcing a decision and managing the fallout.
+
+#### Why a new pricing model keeps failing despite making economic sense
+The economics look clear: the new pricing model captures more value, aligns incentives, and is objectively fairer. It keeps getting rejected. `/s4h-economics-incentive-mapping` finds the problem: the people who must approve it face short-term losses even though the organisation wins long-term. `/s4h-economics-coordination` then diagnoses the collective action failure — each approver is waiting for someone else to absorb the transition cost first.
+
+#### Why a product keeps winning technically and losing commercially
+Engineers ship a product that outperforms competitors on every measurable dimension. It keeps underperforming in the market. `/s4h-design-user-needs` finds the gap: the features being optimised are the ones engineers care about, not the ones that determine adoption decisions. `/s4h-cognition-mental-models` then surfaces the mental model users bring to the product — and shows the product is being built against a different model than the one users actually hold.
+
+#### Why a platform grows explosively then stalls at the same threshold
+A consumer app hit 100,000 users fast, then plateaued. Growth tactics aren't working. `/s4h-network-effects` diagnoses the type of network effect at play — local, not global — which means the platform reaches saturation within clusters long before it reaches market saturation. `/s4h-network-weak-ties` then identifies the bridge connections that could carry growth across cluster boundaries.
+
+#### What a startup's fundraising pitch is actually communicating
+A founder's pitch deck is clear and well-structured. Investors keep passing without giving substantive reasons. `/s4h-linguistics-framing` finds the issue: the deck frames the company as solving a problem investors already think is solved, which pre-loads skepticism before a single number is scrutinised. The facts haven't changed — the frame has been working against the argument the whole time.
+
+#### The political landscape through game theory
+The current political climate feels like everyone is acting against their own interests. `/s4h-game-theory-iterated` maps the repeated-game structure: parties face short-term defection incentives even when cooperation would benefit everyone long-run, and a shrinking shadow of the future (declining expected gains from future cooperation) explains why moderation keeps losing even when most people say they want it. The equilibrium is stable — not because of irrationality, but because of it.
+
+#### Whether the current wave of nationalism is unprecedented
+The political nationalism of the 2020s feels like something new. `/s4h-historical-cycle-detection` finds four structural analogues — late-19th-century nativist movements, 1930s economic retrenchment, post-colonial identity politics, 1970s stagflation politics — and maps where the current situation matches the pattern and where it doesn't. More useful than "this has happened before" or "this time is different."
+
+#### A career pivot with a closing window
+You're considering leaving a stable senior role for an early-stage company. The question feels like yes or no. `/s4h-strategy-positioning` maps how your options change if you wait two years versus going now. `/s4h-decision-reversibility-analysis` finds the move is partially reversible in the medium term — but with a specific window that closes as you get further from hands-on execution. The pairing surfaces a time constraint neither skill would have found alone.
+
+#### Whether a dominant tech company's position is actually durable
+The company looks unassailable: massive market share, capital, talent. `/s4h-ecology-keystone-species` maps the dependencies — which other players rely on it and which the platform itself relies on — and finds two suppliers with quietly disproportionate leverage. `/s4h-ecology-succession` then models what the ecosystem looks like in the next developmental stage, and whether the current dominant player is positioned for it or optimised for conditions that are already passing.
+
+#### How a species analogy reveals the flaw in a market entry strategy
+A company plans to enter a mature market by doing what the market leader does, but cheaper. `/s4h-evolution-fitness-landscape` maps the landscape: the incumbent occupies a local optimum that is genuinely hard to displace incrementally — competing on the same dimensions means fighting on the incumbent's terms. The analysis points toward a different peak entirely: a niche the incumbent has structurally abandoned.
+
+#### The hidden cost in every information-rich environment
+A team drowns in data but keeps making the same avoidable mistakes. `/s4h-information-signal-noise` finds that the most decision-relevant signals are buried in low-frequency, low-urgency reports that nobody reads — while high-frequency, high-urgency signals (email, Slack, dashboards) carry almost no information about the actual problem. The team isn't uninformed; it's overloaded with noise while the signal sits unread.
+
+</details>
+
+<details>
+<summary><strong>Where to reach for what</strong></summary>
+
+<br>
 
 **Decisions** — `/s4h-decision` for structure, `/s4h-decision-premortem-analysis` to stress-test before committing, `/s4h-constraint-hardness-testing` to separate real obstacles from assumed ones.
 
@@ -66,10 +132,10 @@ Every skill pauses before running: states its read, confirms what it's actually 
 
 **Investigation** — `/s4h-investigation-triangulation` for independent corroboration, `/s4h-investigation-source-trace` to trace a claim to its origin, `/s4h-investigation-counter-hypothesis` to pressure-test your explanation.
 
----
+</details>
 
 <details>
-<summary><strong>Skills reference</strong></summary>
+<summary><strong>Full skills reference</strong></summary>
 
 ### Think Sharper
 
@@ -393,53 +459,12 @@ Every skill pauses before running: states its read, confirms what it's actually 
 - [`/s4h-sensory-signal-detection`](docs/sensory/signal-detection.md) — Separates meaningful signal from background noise — finding what actually matters among everything present.
 - [`/s4h-sensory-structured-observation`](docs/sensory/structured-observation.md) — Applies disciplined observation to a situation — suspending interpretation to see what's actually there before deciding what it means.
 
-
 </details>
 
----
-
-## Examples
-
-#### The political landscape through game theory
-The current political climate feels like everyone is acting against their own interests. `/s4h-game-theory-iterated` maps the repeated-game structure: parties face short-term defection incentives even when cooperation would benefit everyone long-run, and a shrinking shadow of the future (declining expected gains from future cooperation) explains why moderation keeps losing even when most people say they want it. The equilibrium is stable — not because of irrationality, but because of it.
-
-#### Why social media makes discourse worse despite everyone wanting better
-Platforms want healthier discourse. Users say they want it. It keeps getting worse. `/s4h-systems-feedback-mapping` finds the reinforcing loop: engagement-optimised feeds reward content that provokes reaction, which selects for users who engage with provocation, which trains the algorithm to serve more of it. The stated goal and the actual incentive structure point in opposite directions. No individual decision made it this way — the system produced it.
-
-#### The ethics and game theory of automating 40 jobs
-Your company is considering automating a function that currently employs 40 people. `/s4h-ethics-council` runs five frameworks and surfaces a genuine conflict: utilitarian logic favours the automation, Kantian reasoning flags that treating displaced workers as means rather than ends requires more than an efficiency argument. `/s4h-game-theory-mechanism-design` then helps design a transition that aligns incentives — rather than announcing a decision and managing the fallout.
-
-#### Whether the current wave of nationalism is unprecedented
-The political nationalism of the 2020s feels like something new. `/s4h-historical-cycle-detection` finds four structural analogues — late-19th-century nativist movements, 1930s economic retrenchment, post-colonial identity politics, 1970s stagflation politics — and maps where the current situation matches the pattern and where it doesn't. More useful than "this has happened before" or "this time is different."
-
-#### A career pivot with a closing window
-You're considering leaving a stable senior role for an early-stage company. The question feels like yes or no. `/s4h-strategy-positioning` maps how your options change if you wait two years versus going now. `/s4h-decision-reversibility-analysis` finds the move is partially reversible in the medium term — but with a specific window that closes as you get further from hands-on execution. The pairing surfaces a time constraint neither skill would have found alone.
-
-#### Why a new pricing model keeps failing despite making economic sense
-The economics look clear: the new pricing model captures more value, aligns incentives, and is objectively fairer. It keeps getting rejected. `/s4h-economics-incentive-mapping` finds the problem: the people who must approve it face short-term losses even though the organisation wins long-term. `/s4h-economics-coordination` then diagnoses the collective action failure — each approver is waiting for someone else to absorb the transition cost first.
-
-#### What a startup's fundraising pitch is actually communicating
-A founder's pitch deck is clear and well-structured. Investors keep passing without giving substantive reasons. `/s4h-linguistics-framing` finds the issue: the deck frames the company as solving a problem investors already think is solved, which pre-loads skepticism before a single number is scrutinised. The facts haven't changed — the frame has been working against the argument the whole time.
-
-#### Why a platform grows explosively then stalls at the same threshold
-A consumer app hit 100,000 users fast, then plateaued. Growth tactics aren't working. `/s4h-network-effects` diagnoses the type of network effect at play — local, not global — which means the platform reaches saturation within clusters long before it reaches market saturation. `/s4h-network-weak-ties` then identifies the bridge connections that could carry growth across cluster boundaries.
-
-#### Whether a dominant tech company's position is actually durable
-The company looks unassailable: massive market share, capital, talent. `/s4h-ecology-keystone-species` maps the dependencies — which other players rely on it and which the platform itself relies on — and finds two suppliers with quietly disproportionate leverage. `/s4h-ecology-succession` then models what the ecosystem looks like in the next developmental stage, and whether the current dominant player is positioned for it or optimised for conditions that are already passing.
-
-#### Why a product keeps winning technically and losing commercially
-Engineers ship a product that outperforms competitors on every measurable dimension. It keeps underperforming in the market. `/s4h-design-user-needs` finds the gap: the features being optimised are the ones engineers care about, not the ones that determine adoption decisions. `/s4h-cognition-mental-models` then surfaces the mental model users bring to the product — and shows the product is being built against a different model than the one users actually hold.
-
-#### How a species analogy reveals the flaw in a market entry strategy
-A company plans to enter a mature market by doing what the market leader does, but cheaper. `/s4h-evolution-fitness-landscape` maps the landscape: the incumbent occupies a local optimum that is genuinely hard to displace incrementally — competing on the same dimensions means fighting on the incumbent's terms. The analysis points toward a different peak entirely: a niche the incumbent has structurally abandoned.
-
-#### The hidden cost in every information-rich environment
-A team drowns in data but keeps making the same avoidable mistakes. `/s4h-information-signal-noise` finds that the most decision-relevant signals are buried in low-frequency, low-urgency reports that nobody reads — while high-frequency, high-urgency signals (email, Slack, dashboards) carry almost no information about the actual problem. The team isn't uninformed; it's overloaded with noise while the signal sits unread.
-
----
-
 <details>
-<summary>Quick examples — one per skill</summary>
+<summary><strong>Quick examples</strong> — one per domain</summary>
+
+<br>
 
 #### `/s4h-logic`
 You believe working from home makes you more productive because you get more done on those days. `/s4h-logic-check` finds the flaw: you only work from home when you have focused work scheduled anyway — the variable you think is causing the effect is just correlated with it.
@@ -544,3 +569,4 @@ Your apartment feels wrong but you can't articulate why. `/s4h-aesthetic-coheren
 You've read the same paragraph four times and nothing is sticking. `/s4h-sensory-signal-detection` asks what's actually present in your environment right now that you've stopped registering — and finds three things competing for the same attention channel.
 
 </details>
+</content>
